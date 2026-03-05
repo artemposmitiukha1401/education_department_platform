@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+body {
+  background-color: #06090f;
+  overflow: hidden;
+}
+
+/* Starfield */
+#stars-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 1.8rem 3rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(6, 9, 15, 0.97) 0%,
+    rgba(6, 9, 15, 0.6) 70%,
+    transparent 100%
+  );
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 2.6rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.92);
+  text-align: center;
+}
+
+header .tagline {
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  color: rgba(255, 255, 255, 0.28);
+  text-transform: uppercase;
+}
+
+/* Canvas */
+#canvas-container {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+}
+
+canvas#net {
+  width: 100%;
+  height: 100%;
+  cursor: default;
+}
+
+canvas#net:active {
+  cursor: grabbing;
+}
+
+/* Tooltip */
+#tooltip {
+  position: fixed;
+  z-index: 200;
+  pointer-events: none;
+  opacity: 0;
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease;
+  transform: translateY(4px);
+}
+
+#tooltip.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tooltip-inner {
+  background: rgba(8, 12, 22, 0.94);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 0.9rem 1.3rem;
+  backdrop-filter: blur(24px);
+  box-shadow:
+    0 4px 24px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(255, 255, 255, 0.04);
+  min-width: 155px;
+  text-align: center;
+}
+
+.tooltip-name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 0.2rem;
+}
+
+.tooltip-count {
+  font-size: 0.68rem;
+  letter-spacing: 0.16em;
+  color: rgba(255, 255, 255, 0.38);
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.tooltip-btn {
+  display: inline-block;
+  padding: 0.32rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.18s ease;
+  background: transparent;
+  cursor: pointer;
+}
+
+.tooltip-btn:hover {
+  background: white;
+  color: #06090f;
+  border-color: white;
+}
+
+/* Hint */
+#hint {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  font-size: 0.62rem;
+  letter-spacing: 0.22em;
+  color: rgba(255, 255, 255, 0.18);
+  text-transform: uppercase;
+  white-space: nowrap;
+  animation: fadeHint 4s ease 2.5s forwards;
+}
+
+@keyframes fadeHint {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

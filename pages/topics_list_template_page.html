@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Теорія та Теми</title>
+    <link rel="stylesheet" href="../assets/styles/topics_page.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" class="back-btn">< До списку предметів</a>
+      <h1 id="subject-title">Завантаження...</h1>
+    </header>
+
+    <main id="topics-list"></main>
+
+    <template id="topic-template">
+      <div class="topic-item">
+        <h3 class="topic-name"></h3>
+        <a class="view-packages-btn" href="">Виконати завдання</a>
+      </div>
+    </template>
+
+    <script src="../assets/scripts/load_theory.js"></script>
+  </body>
+</html>
