@@ -12,7 +12,6 @@ body {
   overflow: hidden;
 }
 
-/* Starfield */
 #stars-canvas {
   position: fixed;
   inset: 0;
@@ -20,14 +19,13 @@ body {
   pointer-events: none;
 }
 
-/* Header */
 header {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 100;
-  padding: 1.8rem 3rem 1.2rem;
+  padding: 1.75rem 3rem 1.25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -43,20 +41,19 @@ header {
 header h1 {
   font-weight: 400;
   font-size: 2.6rem;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.22rem;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.92);
   text-align: center;
 }
 
 header .tagline {
-  font-size: 0.68rem;
-  letter-spacing: 0.28em;
+  font-size: 0.7rem;
+  letter-spacing: 0.28rem;
   color: rgba(255, 255, 255, 0.28);
   text-transform: uppercase;
 }
 
-/* Canvas */
 #canvas-container {
   position: fixed;
   inset: 0;
@@ -73,16 +70,15 @@ canvas#net:active {
   cursor: grabbing;
 }
 
-/* Tooltip */
 #tooltip {
   position: fixed;
   z-index: 200;
   pointer-events: none;
   opacity: 0;
   transition:
-    opacity 0.18s ease,
-    transform 0.18s ease;
-  transform: translateY(4px);
+    opacity 0.2s ease,
+    transform 0.2s ease;
+  transform: translateY(0.25rem);
 }
 
 #tooltip.visible {
@@ -93,26 +89,26 @@ canvas#net:active {
 .tooltip-inner {
   background: rgba(8, 12, 22, 0.94);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
+  border-radius: 0.75rem;
   padding: 0.9rem 1.3rem;
-  backdrop-filter: blur(24px);
+  backdrop-filter: blur(1.5rem);
   box-shadow:
-    0 4px 24px rgba(0, 0, 0, 0.5),
+    0 0.25rem 1.5rem rgba(0, 0, 0, 0.5),
     0 0 0 1px rgba(255, 255, 255, 0.04);
-  min-width: 155px;
+  min-width: 9.75rem;
   text-align: center;
 }
 
 .tooltip-name {
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.95);
   margin-bottom: 0.2rem;
 }
 
 .tooltip-count {
-  font-size: 0.68rem;
-  letter-spacing: 0.16em;
+  font-size: 0.7rem;
+  letter-spacing: 0.16rem;
   color: rgba(255, 255, 255, 0.38);
   text-transform: uppercase;
   margin-bottom: 0.75rem;
@@ -120,15 +116,15 @@ canvas#net:active {
 
 .tooltip-btn {
   display: inline-block;
-  padding: 0.32rem 1rem;
+  padding: 0.3rem 1rem;
   border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 50px;
+  border-radius: 3rem;
   color: rgba(255, 255, 255, 0.9);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
+  font-size: 0.7rem;
+  letter-spacing: 0.12rem;
   text-decoration: none;
   text-transform: uppercase;
-  transition: all 0.18s ease;
+  transition: all 0.2s ease;
   background: transparent;
   cursor: pointer;
 }
@@ -139,15 +135,14 @@ canvas#net:active {
   border-color: white;
 }
 
-/* Hint */
 #hint {
   position: fixed;
   bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
-  font-size: 0.62rem;
-  letter-spacing: 0.22em;
+  font-size: 0.65rem;
+  letter-spacing: 0.22rem;
   color: rgba(255, 255, 255, 0.18);
   text-transform: uppercase;
   white-space: nowrap;

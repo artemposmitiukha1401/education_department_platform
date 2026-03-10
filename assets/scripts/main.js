@@ -1,4 +1,3 @@
-// ─── CONFIG ────────────────────────────────────────────────────────────────
 const SUBJECTS = [
   {
     id: 1,
@@ -54,7 +53,6 @@ const SUBJECTS = [
   },
 ];
 
-// ─── STARS ─────────────────────────────────────────────────────────────────
 const starsCanvas = document.getElementById("stars-canvas");
 const stx = starsCanvas.getContext("2d");
 let stars = [];
@@ -89,7 +87,6 @@ function drawStars(t) {
   });
 }
 
-// ─── PHYSICS NODES ─────────────────────────────────────────────────────────
 const canvas = document.getElementById("net");
 const ctx = canvas.getContext("2d");
 
@@ -98,7 +95,6 @@ let nodes = [];
 let dragging = null;
 let mouse = { x: 0, y: 0 };
 let hovered = null;
-let animId;
 
 const RADIUS = 80;
 const SPRING_LEN = 260;
@@ -117,8 +113,8 @@ function resize() {
 }
 
 function initNodes() {
-  const cx = W / 2,
-    cy = H / 2;
+  const cx = W / 2;
+  const cy = H / 2;
   const angles = [Math.PI * 1.3, Math.PI * 0.3, Math.PI * 0.85, Math.PI * 1.75];
   const dist = 220;
   nodes = SUBJECTS.map((s, i) => ({
@@ -141,13 +137,13 @@ function initNodes() {
 function physics() {
   for (let i = 0; i < nodes.length; i++) {
     for (let j = i + 1; j < nodes.length; j++) {
-      const a = nodes[i],
-        b = nodes[j];
-      const dx = b.x - a.x,
-        dy = b.y - a.y;
+      const a = nodes[i];
+      const b = nodes[j];
+      const dx = b.x - a.x;
+      const dy = b.y - a.y;
       const dist = Math.sqrt(dx * dx + dy * dy) || 0.1;
-      const nx = dx / dist,
-        ny = dy / dist;
+      const nx = dx / dist;
+      const ny = dy / dist;
 
       const springF = (dist - SPRING_LEN) * SPRING_K;
       a.vx += nx * springF;
@@ -192,14 +188,13 @@ function physics() {
   });
 }
 
-// ─── CONNECTIONS ───────────────────────────────────────────────────────────
 function drawConnections() {
   for (let i = 0; i < nodes.length; i++) {
     for (let j = i + 1; j < nodes.length; j++) {
-      const a = nodes[i],
-        b = nodes[j];
-      const dx = b.x - a.x,
-        dy = b.y - a.y;
+      const a = nodes[i];
+      const b = nodes[j];
+      const dx = b.x - a.x;
+      const dy = b.y - a.y;
       const dist = Math.sqrt(dx * dx + dy * dy);
       const alpha = Math.max(0, 1 - dist / 520);
       const isHighlighted = a === hovered || b === hovered;
@@ -221,7 +216,6 @@ function drawConnections() {
       ctx.lineWidth = isHighlighted ? 2 : 1;
       ctx.stroke();
 
-      // midpoint dot
       ctx.beginPath();
       ctx.arc((a.x + b.x) / 2, (a.y + b.y) / 2, 2, 0, Math.PI * 2);
       ctx.fillStyle = `rgba(255,255,255,${alpha * 0.18})`;
@@ -230,16 +224,13 @@ function drawConnections() {
   }
 }
 
-// ─── NODE DRAWING ──────────────────────────────────────────────────────────
 function drawNode(n, t) {
   const isHov = n === hovered;
-  const isDrag = n === dragging;
   const pulse = Math.sin(t * 0.001 + n.pulse) * 0.5 + 0.5;
   const r = RADIUS + (isHov ? 10 : 0) + pulse * 2;
 
   ctx.save();
 
-  // 1. Wide ambient glow
   const glowR = r * 2.2;
   const glow = ctx.createRadialGradient(n.x, n.y, r * 0.3, n.x, n.y, glowR);
   glow.addColorStop(0, hexAlpha(n.accentColor, 0.2 + pulse * 0.08));
@@ -250,23 +241,19 @@ function drawNode(n, t) {
   ctx.fillStyle = glow;
   ctx.fill();
 
-  // 2. Clip to circle
   ctx.beginPath();
   ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
   ctx.clip();
 
-  // 3. Bold flat fill — e-school solid card color
   ctx.fillStyle = n.cardColor;
   ctx.fill();
 
-  // 4. Very subtle image texture
   if (n.imgLoaded) {
     ctx.globalAlpha = 0.1;
     ctx.drawImage(n.imgLoaded, n.x - r, n.y - r, r * 2, r * 2);
     ctx.globalAlpha = 1;
   }
 
-  // 5. Top-left accent wedge
   ctx.beginPath();
   ctx.moveTo(n.x - r, n.y - r);
   ctx.lineTo(n.x - r + r * 0.85, n.y - r);
@@ -275,7 +262,6 @@ function drawNode(n, t) {
   ctx.fillStyle = hexAlpha(n.accentColor, 0.25);
   ctx.fill();
 
-  // 6. Bottom-right shadow wedge
   ctx.beginPath();
   ctx.moveTo(n.x + r, n.y + r);
   ctx.lineTo(n.x + r - r * 0.75, n.y + r);
@@ -284,7 +270,6 @@ function drawNode(n, t) {
   ctx.fillStyle = "rgba(0,0,0,0.22)";
   ctx.fill();
 
-  // 7. Edge vignette for depth
   const vignette = ctx.createRadialGradient(n.x, n.y, r * 0.35, n.x, n.y, r);
   vignette.addColorStop(0, "rgba(0,0,0,0)");
   vignette.addColorStop(1, "rgba(0,0,0,0.32)");
@@ -293,7 +278,6 @@ function drawNode(n, t) {
 
   ctx.restore();
 
-  // 8. Border ring
   ctx.beginPath();
   ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
   ctx.strokeStyle = isHov
@@ -302,7 +286,6 @@ function drawNode(n, t) {
   ctx.lineWidth = isHov ? 3 : 1.5;
   ctx.stroke();
 
-  // 9. Hover pulse rings
   if (isHov) {
     ctx.beginPath();
     ctx.arc(n.x, n.y, r + 8 + pulse * 7, 0, Math.PI * 2);
@@ -317,7 +300,6 @@ function drawNode(n, t) {
     ctx.stroke();
   }
 
-  // 10. Icon badge — top-right
   const badgeX = n.x + r * 0.52;
   const badgeY = n.y - r * 0.54;
   const badgeR = r * 0.24;
@@ -338,7 +320,6 @@ function drawNode(n, t) {
   ctx.fillText(n.icon, badgeX, badgeY);
   ctx.restore();
 
-  // 11. Subject name — bold white, e-school style
   ctx.save();
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
@@ -360,7 +341,6 @@ function drawNode(n, t) {
     });
   }
 
-  // 12. Topic count pill — always visible
   const pillY = n.y + r * 0.52;
   const pillText = `${n.topics} ${topicWord(n.topics)}`;
   const pillW = r * 0.72;
@@ -381,7 +361,6 @@ function drawNode(n, t) {
   ctx.restore();
 }
 
-// ─── UTILS ─────────────────────────────────────────────────────────────────
 function roundRect(ctx, x, y, w, h, r) {
   ctx.beginPath();
   ctx.moveTo(x + r, y);
@@ -409,29 +388,25 @@ function hexAlpha(hex, a) {
   return `rgba(${r},${g},${b},${a})`;
 }
 
-// ─── RENDER LOOP ───────────────────────────────────────────────────────────
 function render(t) {
-  animId = requestAnimationFrame(render);
-  ctx.clearRect(0, 0, W, H); // W/H are logical px; ctx transform handles DPR
-
+  requestAnimationFrame(render);
+  ctx.clearRect(0, 0, W, H);
   drawStars(t);
   physics();
   drawConnections();
   nodes.forEach((n) => drawNode(n, t));
 }
 
-// ─── INTERACTION ───────────────────────────────────────────────────────────
 function getNodeAt(x, y) {
   for (let i = nodes.length - 1; i >= 0; i--) {
     const n = nodes[i];
-    const dx = x - n.x,
-      dy = y - n.y;
+    const dx = x - n.x;
+    const dy = y - n.y;
     if (dx * dx + dy * dy < (RADIUS + 12) ** 2) return n;
   }
   return null;
 }
 
-// Track where the pointer went DOWN so we can measure true drag distance
 let mouseDownPos = { x: 0, y: 0 };
 
 canvas.addEventListener("mousedown", (e) => {
@@ -464,16 +439,12 @@ canvas.addEventListener("mouseup", (e) => {
     const n = dragging;
     dragging = null;
     canvas.style.cursor = hovered ? "pointer" : "grab";
-    // Use distance from mousedown, not from node center
     const dx = e.clientX - mouseDownPos.x;
     const dy = e.clientY - mouseDownPos.y;
-    if (Math.abs(dx) < 8 && Math.abs(dy) < 8) {
-      window.location.href = n.href;
-    }
+    if (Math.abs(dx) < 8 && Math.abs(dy) < 8) window.location.href = n.href;
   }
 });
 
-// Also handle plain click as fallback — simplest & most reliable
 canvas.addEventListener("click", (e) => {
   const n = getNodeAt(e.clientX, e.clientY);
   if (n) window.location.href = n.href;
@@ -515,15 +486,13 @@ canvas.addEventListener("touchend", (e) => {
     const lastT = e.changedTouches[0];
     const dx = lastT.clientX - touchStartPos.x;
     const dy = lastT.clientY - touchStartPos.y;
-    if (Math.abs(dx) < 12 && Math.abs(dy) < 12) {
+    if (Math.abs(dx) < 12 && Math.abs(dy) < 12)
       window.location.href = touchNode.href;
-    }
   }
   dragging = null;
   touchNode = null;
 });
 
-// ─── INIT ──────────────────────────────────────────────────────────────────
 window.addEventListener("resize", () => {
   resize();
   initNodes();

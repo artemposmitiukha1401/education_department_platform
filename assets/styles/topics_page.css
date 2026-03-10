@@ -10,7 +10,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  padding: 2.5rem 3rem 1.8rem;
+  padding: 2.5rem 3rem 1.75rem;
   background: transparent;
 }
 
@@ -26,7 +26,7 @@ header {
   margin-inline: auto;
   border-radius: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  padding-bottom: 1.2rem;
+  padding-bottom: 1.25rem;
 }
 
 #topics-list {
@@ -38,33 +38,33 @@ header {
 }
 
 .topic-item {
-  width: clamp(280px, 50vw, 520px);
+  width: clamp(17.5rem, 50vw, 32.5rem);
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
   background: rgba(8, 12, 22, 0.72);
   border: 1px solid rgba(255, 255, 255, 0.09);
   padding: 1.1rem 1.4rem;
-  border-radius: 12px;
-  backdrop-filter: blur(24px);
+  border-radius: 0.75rem;
+  backdrop-filter: blur(1.5rem);
   box-shadow:
-    0 4px 24px rgba(0, 0, 0, 0.4),
+    0 0.25rem 1.5rem rgba(0, 0, 0, 0.4),
     0 0 0 1px rgba(255, 255, 255, 0.03);
   transition:
-    border-color 0.18s ease,
-    box-shadow 0.18s ease;
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .topic-item:hover {
   border-color: rgba(255, 255, 255, 0.2);
   box-shadow:
-    0 6px 32px rgba(0, 0, 0, 0.55),
+    0 0.4rem 2rem rgba(0, 0, 0, 0.55),
     0 0 0 1px rgba(255, 255, 255, 0.06);
 }
 
 .topic-name {
   color: rgba(255, 255, 255, 0.95);
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.04em;
 }
@@ -78,8 +78,8 @@ header {
   margin: 1rem;
   display: inline-flex;
   align-items: center;
-  gap: 0.45rem;
-  transition: color 0.18s ease;
+  gap: 0.5rem;
+  transition: color 0.2s ease;
 }
 
 .back-btn:hover {
@@ -88,15 +88,15 @@ header {
 
 .view-packages-btn {
   display: inline-block;
-  padding: 0.32rem 1rem;
+  padding: 0.3rem 1rem;
   border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 50px;
+  border-radius: 3rem;
   color: rgba(255, 255, 255, 0.9);
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   letter-spacing: 0.12em;
   text-decoration: none;
   text-transform: uppercase;
-  transition: all 0.18s ease;
+  transition: all 0.2s ease;
   background: transparent;
   text-align: center;
   width: fit-content;

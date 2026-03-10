@@ -1,9 +1,113 @@
 <!doctype html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tasks</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/styles/packages_page.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <a href="javascript:history.back()" class="back-btn">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path d="M19 12H5M12 5l-7 7 7 7" />
+        </svg>
+        Назад
+      </a>
+      <div class="header-divider"></div>
+      <span id="topic-title">Завантаження</span>
+      <span class="task-counter" id="task-counter" style="display: none"></span>
+    </header>
+
+    <main>
+      <div id="score-banner">
+        <div class="score-label">Твій бал</div>
+        <div class="score-value" id="score-value">0 / 0</div>
+      </div>
+
+      <div id="loading">
+        <div class="spinner"></div>
+        <p>Завантаження завдань...</p>
+      </div>
+
+      <div id="error-msg">Проблеми із інтерентом або файлом завдань.</div>
+      <div id="empty-msg">Немає завдань за цією темою.</div>
+
+      <div id="tasks-container"></div>
+    </main>
+
+    <template id="tpl-multiple">
+      <div class="task-card">
+        <div class="task-header">
+          <span class="task-num"></span>
+          <span class="task-type-badge badge-multiple">Тест</span>
+          <p class="question-text"></p>
+        </div>
+        <img class="question-image" alt="Зображення питання" hidden />
+        <div class="options-grid"></div>
+        <p class="feedback"></p>
+      </div>
+    </template>
+
+    <template id="tpl-option-btn">
+      <button class="option-btn"></button>
+    </template>
+
+    <template id="tpl-manual">
+      <div class="task-card">
+        <div class="task-header">
+          <span class="task-num"></span>
+          <span class="task-type-badge badge-manual">Ввести відповідь</span>
+          <p class="question-text"></p>
+        </div>
+        <img class="question-image" alt="Зображення питання" hidden />
+        <div class="manual-wrap">
+          <input
+            class="manual-input"
+            type="text"
+            placeholder="Введіть відповідь..."
+          />
+          <button class="check-btn">Перевірити</button>
+        </div>
+        <p class="feedback"></p>
+      </div>
+    </template>
+
+    <template id="tpl-match">
+      <div class="task-card">
+        <div class="task-header">
+          <span class="task-num"></span>
+          <span class="task-type-badge badge-match"
+            >Встановіть відповідність</span
+          >
+          <p class="question-text"></p>
+        </div>
+        <img class="question-image" alt="Зображення питання" hidden />
+        <div class="match-rows"></div>
+        <button class="check-btn">Перевірити відповіді</button>
+        <p class="feedback"></p>
+      </div>
+    </template>
+
+    <template id="tpl-match-row">
+      <div class="match-row">
+        <span class="match-left-label"></span>
+        <span class="match-arrow">→</span>
+        <select class="match-select">
+          <option value="">— оберіть —</option>
+        </select>
+      </div>
+    </template>
+
+    <script src="../assets/scripts/load_tasks.js"></script>
+  </body>
 </html>
