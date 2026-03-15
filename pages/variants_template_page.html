@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Варіанти</title>
+    <link rel="stylesheet" href="../assets/styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/styles/variants_page.css" />
+  </head>
+  <body>
+    <header>
+      <a href="javascript:history.back()" class="back-btn">< Назад</a>
+      <h1 id="topic-title">Завантаження...</h1>
+    </header>
+    <main>
+      <div id="loading">
+        <div class="spinner"></div>
+        <p>Завантаження варіантів...</p>
+      </div>
+      <div id="error-msg"></div>
+      <div id="empty-msg">Немає варіантів за цією темою.</div>
+      <div id="variants-container"></div>
+    </main>
+
+    <template id="variant-card-template">
+      <a class="variant-card" href="">
+        <div class="variant-info">
+          <span class="variant-name"></span>
+          <span class="variant-count"></span>
+        </div>
+        <span class="variant-go-btn">Розпочати</span>
+      </a>
+    </template>
+
+    <script src="../assets/scripts/load_variants.js"></script>
+  </body>
+</html>

@@ -34,7 +34,7 @@ body {
   color: var(--text-primary);
   min-height: 100vh;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 body > * {
@@ -169,7 +169,7 @@ main {
 }
 
 .task-card {
-  background: var(--glass-bg);
+  background: rgba(13, 20, 35, 0.72);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius);
   backdrop-filter: blur(1.5rem);

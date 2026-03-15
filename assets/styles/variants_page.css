@@ -1,9 +1,9 @@
-@import url("./style.css");
-
 * {
   color: white;
 }
-
+body {
+  overflow-y: scroll;
+}
 header {
   position: static;
   display: flex;
@@ -14,7 +14,7 @@ header {
   background: transparent;
 }
 
-#subject-title {
+#topic-title {
   font-size: 2.6rem;
   font-weight: 400;
   letter-spacing: 0.22em;
@@ -29,46 +29,6 @@ header {
   padding-bottom: 1.25rem;
 }
 
-#topics-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.85rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.topic-item {
-  width: clamp(17.5rem, 50vw, 32.5rem);
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
-  background: rgba(13, 20, 35, 0.72);
-  border: 1px solid rgba(255, 255, 255, 0.09);
-  padding: 1.1rem 1.4rem;
-  border-radius: 0.75rem;
-  backdrop-filter: blur(1.5rem);
-  box-shadow:
-    0 0.25rem 1.5rem rgba(0, 0, 0, 0.4),
-    0 0 0 1px rgba(255, 255, 255, 0.03);
-  transition:
-    border-color 0.2s ease,
-    box-shadow 0.2s ease;
-}
-
-.topic-item:hover {
-  border-color: rgba(255, 255, 255, 0.2);
-  box-shadow:
-    0 0.4rem 2rem rgba(0, 0, 0, 0.55),
-    0 0 0 1px rgba(255, 255, 255, 0.06);
-}
-
-.topic-name {
-  color: rgba(255, 255, 255, 0.95);
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-}
-
 .back-btn {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.35);
@@ -81,12 +41,104 @@ header {
   gap: 0.5rem;
   transition: color 0.2s ease;
 }
-
 .back-btn:hover {
   color: rgba(255, 255, 255, 0.75);
 }
 
-.view-packages-btn {
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem 4rem;
+}
+
+#loading,
+#error-msg,
+#empty-msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 4rem 0;
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+}
+#error-msg,
+#empty-msg {
+  display: none;
+}
+
+.spinner {
+  width: 24px;
+  height: 24px;
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  border-top-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#variants-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  align-items: center;
+  width: 100%;
+}
+
+.variant-card {
+  width: clamp(17.5rem, 50vw, 32.5rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  background: rgba(13, 20, 35, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  padding: 1.1rem 1.4rem;
+  border-radius: 0.75rem;
+  backdrop-filter: blur(1.5rem);
+  box-shadow:
+    0 0.25rem 1.5rem rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(255, 255, 255, 0.03);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+  text-decoration: none;
+}
+.variant-card:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow:
+    0 0.4rem 2rem rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(255, 255, 255, 0.06);
+}
+
+.variant-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.variant-name {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.variant-count {
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+}
+
+.variant-go-btn {
   display: inline-block;
   padding: 0.3rem 1rem;
   border: 1px solid rgba(255, 255, 255, 0.25);
@@ -94,17 +146,14 @@ header {
   color: rgba(255, 255, 255, 0.9);
   font-size: 0.7rem;
   letter-spacing: 0.12em;
-  text-decoration: none;
   text-transform: uppercase;
   transition: all 0.2s ease;
   background: transparent;
-  text-align: center;
-  width: fit-content;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
-
-.view-packages-btn:hover {
+.variant-go-btn:hover {
   background: white;
   color: #06090f;
   border-color: white;
-  transform: none;
 }

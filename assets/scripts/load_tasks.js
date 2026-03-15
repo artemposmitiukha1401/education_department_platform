@@ -2,9 +2,60 @@ const SHEET_URL =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKQlU54jBPSIHMy7NKA_DXZaATMT1vzUZ9nlGxGTF67Nld9R2DKo2UT89grSNejqZF88Wm01Nwy-j_/pub?output=csv";
 const TOPICS_URL = "../assets/data/subjects_topics.json";
 
+const RESULTS_KEY = "quiz_results";
+
 let totalAnswered = 0;
 let correctAnswered = 0;
 let totalTasks = 0;
+let sessionMeta = {
+  topicId: null,
+  variantId: null,
+  topicName: null,
+  startTime: null,
+};
+
+// ─── LocalStorage helpers ────────────────────────────────────────────────────
+
+function loadResults() {
+  try {
+    return JSON.parse(localStorage.getItem(RESULTS_KEY)) || [];
+  } catch {
+    return [];
+  }
+}
+
+function saveResult(entry) {
+  const results = loadResults();
+  results.unshift(entry); // newest first
+  try {
+    localStorage.setItem(RESULTS_KEY, JSON.stringify(results));
+  } catch (e) {
+    // Storage quota exceeded – drop the oldest entry and retry once
+    if (results.length > 1) {
+      results.pop();
+      try {
+        localStorage.setItem(RESULTS_KEY, JSON.stringify(results));
+      } catch {}
+    }
+  }
+}
+
+function buildResultEntry() {
+  const durationSec = Math.round((Date.now() - sessionMeta.startTime) / 1000);
+  return {
+    id: Date.now(),
+    topicId: sessionMeta.topicId,
+    variantId: sessionMeta.variantId || null,
+    topicName: sessionMeta.topicName,
+    score: correctAnswered,
+    total: totalTasks,
+    percent: Math.round((correctAnswered / totalTasks) * 100),
+    durationSec,
+    timestamp: new Date().toISOString(),
+  };
+}
+
+// ─── DOM helpers ─────────────────────────────────────────────────────────────
 
 function cloneTemplate(id) {
   return document.getElementById(id).content.cloneNode(true).firstElementChild;
@@ -50,11 +101,17 @@ function splitCSVRow(row) {
   return result;
 }
 
+// ─── Progress & scoring ──────────────────────────────────────────────────────
+
 function updateProgress() {
   document.getElementById("task-counter").textContent =
     `${totalAnswered} / ${totalTasks}`;
 
   if (totalAnswered === totalTasks && totalTasks > 0) {
+    // ── Save result to localStorage ──
+    const entry = buildResultEntry();
+    saveResult(entry);
+
     const banner = document.getElementById("score-banner");
     document.getElementById("score-value").textContent =
       `${correctAnswered} / ${totalTasks}`;
@@ -81,6 +138,8 @@ function resolveCard(card, isCorrect, correctAnswer) {
   showFeedback(card.querySelector(".feedback"), isCorrect, correctAnswer);
   markCard(card, isCorrect);
 }
+
+// ─── Card renderers ──────────────────────────────────────────────────────────
 
 function initCard(templateId, task, index) {
   const card = cloneTemplate(templateId);
@@ -191,8 +250,13 @@ const RENDERERS = {
   match: renderMatch,
 };
 
+// ─── Bootstrap ───────────────────────────────────────────────────────────────
+
 async function loadTasks() {
-  const topicId = new URLSearchParams(window.location.search).get("topic_id");
+  const params = new URLSearchParams(window.location.search);
+  const topicId = params.get("topic_id");
+  const variantId = params.get("variant_id");
+
   const titleEl = document.getElementById("topic-title");
   const loading = document.getElementById("loading");
   const errorMsg = document.getElementById("error-msg");
@@ -215,10 +279,26 @@ async function loadTasks() {
       csvRes.text(),
       topicsRes.json(),
     ]);
-    const tasks = parseCSV(csv).filter((t) => t.topic_id === topicId);
+
+    let tasks = parseCSV(csv).filter((t) => t.topic_id === topicId);
+    if (variantId) {
+      tasks = tasks.filter((t) => t.variant_id === variantId);
+    }
 
     loading.style.display = "none";
-    titleEl.textContent = getTopicName(topicsData, topicId);
+
+    const topicName = getTopicName(topicsData, topicId);
+    titleEl.textContent = variantId
+      ? `${topicName} — Варіант ${variantId}`
+      : topicName;
+
+    // ── Store session metadata for result saving ──
+    sessionMeta = {
+      topicId,
+      variantId: variantId || null,
+      topicName: titleEl.textContent,
+      startTime: Date.now(),
+    };
 
     if (tasks.length === 0) {
       document.getElementById("empty-msg").style.display = "block";

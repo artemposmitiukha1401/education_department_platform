@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Результати тестів</title>
+    <link rel="stylesheet" href="../assets/styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/styles/results_page.css" />
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" class="back-btn">&#8249; До списку предметів</a>
+      <h1 id="page-title">Результати</h1>
+    </header>
+
+    <main id="results-list"></main>
+
+    <div id="empty-state">
+      <p>Результатів поки немає<br />Пройдіть тест — і він з'явиться тут</p>
+    </div>
+
+    <template id="tpl-result-card">
+      <div class="result-card">
+        <div class="card-ring"></div>
+        <div class="card-body">
+          <div class="card-topic"></div>
+          <div class="card-meta">
+            <span class="meta-date"></span>
+            <span class="meta-variant" hidden></span>
+            <span class="meta-duration" hidden></span>
+          </div>
+        </div>
+        <div class="card-score">
+          <div class="score-num">
+            <span class="score-correct"></span><span class="score-total"></span>
+          </div>
+          <div class="score-lbl">правильних</div>
+        </div>
+      </div>
+    </template>
+
+    <script src="../assets/scripts/load_results.js"></script>
+  </body>
+</html>

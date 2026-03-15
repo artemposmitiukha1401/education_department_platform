@@ -9,7 +9,6 @@
 
 body {
   background-color: #06090f;
-  overflow: hidden;
 }
 
 #stars-canvas {
@@ -156,4 +155,29 @@ canvas#net:active {
   100% {
     opacity: 0;
   }
+}
+a {
+  z-index: 999;
+}
+a.results-link {
+  position: fixed;
+  bottom: 2rem;
+  right: 2.5rem;
+  z-index: 200;
+  display: inline-block;
+  padding: 0.3rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 3rem;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.65rem;
+  letter-spacing: 0.22em;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: transparent;
+  transition: all 0.2s ease;
+}
+a.results-link:hover {
+  background: white;
+  color: #06090f;
+  border-color: white;
 }
