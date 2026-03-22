@@ -1,3 +1,4 @@
+@import url("./packages_page.css");
 * {
   color: white;
 }
@@ -28,18 +29,17 @@ header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   padding-bottom: 1.25rem;
 }
-
 .back-btn {
+  align-self: flex-start;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.35);
+  color: var(--text-faint);
   font-size: 0.65rem;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
-  margin: 1rem;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  transition: color 0.2s ease;
+  transition: color var(--transition);
 }
 .back-btn:hover {
   color: rgba(255, 255, 255, 0.75);
