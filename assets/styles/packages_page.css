@@ -1,4 +1,5 @@
 @import url("./style.css");
+@import url("./variants_page.css");
 
 *,
 *::before,
@@ -49,23 +50,6 @@ header {
   gap: 0.5rem;
   padding: 2.5rem 3rem 0;
   background: transparent;
-}
-
-.back-btn {
-  align-self: flex-start;
-  text-decoration: none;
-  color: var(--text-faint);
-  font-size: 1rem;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  transition: color var(--transition);
-}
-
-.back-btn:hover {
-  color: rgba(255, 255, 255, 0.75);
 }
 
 .back-btn svg {

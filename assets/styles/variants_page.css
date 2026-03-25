@@ -32,17 +32,22 @@ header {
 .back-btn {
   align-self: flex-start;
   text-decoration: none;
-  color: var(--text-faint);
+  color: white;
+  padding: 0.3rem 1rem;
   font-size: 1rem;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  transition: color var(--transition);
+  border: 1px solid white;
+  border-radius: 3rem;
+  transition: all 0.2s ease;
 }
 .back-btn:hover {
-  color: rgba(255, 255, 255, 0.75);
+  background: white;
+  color: #06090f;
+  border-color: white;
 }
 
 main {

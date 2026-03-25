@@ -1,4 +1,5 @@
 @import url("./style.css");
+@import url("./results_page.css");
 
 * {
   color: white;
@@ -67,23 +68,6 @@ header {
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.04em;
-}
-
-.back-btn {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.35);
-  font-size: 1rem;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  margin: 1rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  transition: color 0.2s ease;
-}
-
-.back-btn:hover {
-  color: rgba(255, 255, 255, 0.75);
 }
 
 .view-packages-btn {
