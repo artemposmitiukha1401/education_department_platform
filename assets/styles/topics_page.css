@@ -70,13 +70,14 @@ header {
   letter-spacing: 0.04em;
 }
 
-.view-packages-btn {
+.view-packages-btn,
+.variant-go-btn {
   display: inline-block;
-  padding: 0.3rem 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0.5rem 1rem;
+  border: 1px solid white;
   border-radius: 3rem;
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 0.7rem;
+  color: white;
+  font-size: 0.8rem;
   letter-spacing: 0.12em;
   text-decoration: none;
   text-transform: uppercase;
@@ -86,7 +87,8 @@ header {
   width: fit-content;
 }
 
-.view-packages-btn:hover {
+.view-packages-btn:hover,
+.variant-go-btn:hover {
   background: white;
   color: #06090f;
   border-color: white;

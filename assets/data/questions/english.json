@@ -1,0 +1,1427 @@
+[
+  {
+    "topic_id": "401",
+    "id": 1,
+    "type": "multiple",
+    "question": "According to the text 'The Foundation of Well-being', what is the primary factor in shaping a person's individuality?",
+    "options": [
+      "A) The number of friends they have.",
+      "B) The family environment.",
+      "C) The size of their house.",
+      "D) Their physical activity."
+    ],
+    "answer": "B) The family environment.",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "401",
+    "id": 2,
+    "type": "multiple",
+    "question": "How do shared traditions like Sunday brunches help a family?",
+    "options": [
+      "A) They make the house look better.",
+      "B) They help avoid physical exercise.",
+      "C) They assist in settling disputes early.",
+      "D) They change a person's personality traits."
+    ],
+    "answer": "C) They assist in settling disputes early.",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "401",
+    "id": 3,
+    "type": "multiple",
+    "question": "What defines a 'reliable friend' according to the author of 'The Foundation of Well-being'?",
+    "options": [
+      "A) Someone who lives in the same apartment block.",
+      "B) Someone who shares the same tradition.",
+      "C) Someone who supports you during difficult times.",
+      "D) Someone who has a minimalist interior."
+    ],
+    "answer": "C) Someone who supports you during difficult times.",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "401",
+    "id": 4,
+    "type": "multiple",
+    "question": "What does the author suggest about the relationship between a home and its owner?",
+    "options": [
+      "A) People who live in detached houses are more successful.",
+      "B) Living in a city flat helps people to be more organized.",
+      "C) The style of one's home can reveal their personal qualities.",
+      "D) Only spacious houses can provide a true sense of sanctuary."
+    ],
+    "answer": "C) The style of one's home can reveal their personal qualities.",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "401",
+    "id": 5,
+    "type": "multiple",
+    "question": "What is described as the 'blueprint' for a person's future social behaviour?",
+    "options": [
+      "A) The influence of a minimalist interior.",
+      "B) The choice between a house and a flat.",
+      "C) Connections and interactions within the family.",
+      "D) Shared personality traits with close friends."
+    ],
+    "answer": "C) Connections and interactions within the family.",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "401",
+    "id": 6,
+    "type": "multiple",
+    "question": "Mark: 'I live in a small studio flat in the city centre… Every morning, I go for a 5 km run.' Which description fits Mark?",
+    "options": [
+      "A Solving Family Disputes",
+      "B The Benefits of a Healthy Diet",
+      "C Privacy and Personal Style",
+      "D Physical Activity in Urban Living",
+      "E Arguments About Fitness",
+      "F The Value of Reliable Friendship",
+      "G High-Tech Housing"
+    ],
+    "answer": "D Physical Activity in Urban Living",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "401",
+    "id": 7,
+    "type": "multiple",
+    "question": "Sarah: 'My family is huge… We always solve conflicts by talking things through at our weekly Sunday dinner.' Which description fits Sarah?",
+    "options": [
+      "A Solving Family Disputes",
+      "B The Benefits of a Healthy Diet",
+      "C Privacy and Personal Style",
+      "D Physical Activity in Urban Living",
+      "F The Value of Reliable Friendship"
+    ],
+    "answer": "A Solving Family Disputes",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "401",
+    "id": 8,
+    "type": "multiple",
+    "question": "Elena: 'I'm quite introverted… My apartment is decorated in a minimalist style.' Which description fits Elena?",
+    "options": [
+      "A Solving Family Disputes",
+      "B The Benefits of a Healthy Diet",
+      "C Privacy and Personal Style",
+      "D Physical Activity in Urban Living",
+      "F The Value of Reliable Friendship"
+    ],
+    "answer": "C Privacy and Personal Style",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "401",
+    "id": 9,
+    "type": "multiple",
+    "question": "David: 'I believe that what you eat defines how you feel. I've recently cut out all processed sugar.' Which description fits David?",
+    "options": [
+      "A Solving Family Disputes",
+      "B The Benefits of a Healthy Diet",
+      "C Privacy and Personal Style",
+      "D Physical Activity in Urban Living",
+      "F The Value of Reliable Friendship"
+    ],
+    "answer": "B The Benefits of a Healthy Diet",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "401",
+    "id": 10,
+    "type": "multiple",
+    "question": "Alex: 'I've known my best friend since primary school. He is the person I call first when things go wrong.' Which description fits Alex?",
+    "options": [
+      "A Solving Family Disputes",
+      "B The Benefits of a Healthy Diet",
+      "C Privacy and Personal Style",
+      "D Physical Activity in Urban Living",
+      "F The Value of Reliable Friendship"
+    ],
+    "answer": "F The Value of Reliable Friendship",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "401",
+    "id": 11,
+    "type": "multiple",
+    "question": "'Ages and Values'. Gap 1: 'people are born with certain fixed personality traits (1) _____.' Choose the best option.",
+    "options": [
+      "A both of which enable us to find common ground",
+      "B that determine their behaviour throughout their entire lives",
+      "C to meet social expectations",
+      "D whose behaviour seems outrageously rebellious",
+      "E to avoid responsibility and live life to the fullest",
+      "F viewing boredom as one of our worst enemies",
+      "H feeling miserable at one moment and jumping for joy the other"
+    ],
+    "answer": "B that determine their behaviour throughout their entire lives",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "401",
+    "id": 12,
+    "type": "multiple",
+    "question": "Gap 2: 'we tend to pursue different goals… (2) _____'",
+    "options": [
+      "A both of which enable us to find common ground",
+      "C to meet social expectations",
+      "E to avoid responsibility and live life to the fullest",
+      "F viewing boredom as one of our worst enemies",
+      "H feeling miserable at one moment"
+    ],
+    "answer": "F viewing boredom as one of our worst enemies",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "401",
+    "id": 13,
+    "type": "multiple",
+    "question": "Gap 3: 'we often go from one extreme to the other, (3) _____'",
+    "options": [
+      "A both of which",
+      "C to meet social expectations",
+      "E to avoid responsibility",
+      "G both of which cause even more confusion and embarrassment",
+      "H feeling miserable at one moment and jumping for joy"
+    ],
+    "answer": "H feeling miserable at one moment and jumping for joy",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "401",
+    "id": 14,
+    "type": "multiple",
+    "question": "Gap 4: 'we face a variety of life challenges… (4) _____'",
+    "options": [
+      "A both of which enable us to find common ground",
+      "C to meet social expectations",
+      "D whose behaviour seems outrageously rebellious and stubborn",
+      "E to avoid responsibility",
+      "G both of which cause even more confusion"
+    ],
+    "answer": "D whose behaviour seems outrageously rebellious and stubborn",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "401",
+    "id": 15,
+    "type": "multiple",
+    "question": "Gap 5: 'more mature and broad-minded (5) _____'",
+    "options": [
+      "A both of which",
+      "C to meet social expectations",
+      "D whose behaviour seems rebellious",
+      "E to avoid responsibility",
+      "G both of which cause confusion"
+    ],
+    "answer": "C to meet social expectations",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "401",
+    "id": 16,
+    "type": "multiple",
+    "question": "Gap 6: 'we acquire that precious wisdom and patience (6) _____'",
+    "options": [
+      "A both of which enable us to find common ground with others more easily",
+      "C to meet social expectations",
+      "E to avoid responsibility",
+      "G both of which cause confusion",
+      "H feeling miserable"
+    ],
+    "answer": "A both of which enable us to find common ground with others more easily",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "401",
+    "id": 17,
+    "type": "multiple",
+    "question": "Gap 7: 'teenagers are encouraged to volunteer and support (7) ______'",
+    "options": ["A elderly", "B the elderly", "C elder", "D the elder"],
+    "answer": "B the elderly",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "401",
+    "id": 18,
+    "type": "multiple",
+    "question": "Gap 8: 'Spending time with older people can be (8) ______ than simply scrolling through social media'",
+    "options": [
+      "A much better",
+      "B more better",
+      "C very better",
+      "D most better"
+    ],
+    "answer": "A much better",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "401",
+    "id": 19,
+    "type": "multiple",
+    "question": "Gap 9: 'Some students believe that helping others is (9) ______ than hanging out with friends'",
+    "options": [
+      "A less interesting",
+      "B little interesting",
+      "C the least interesting",
+      "D not interesting"
+    ],
+    "answer": "A less interesting",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "401",
+    "id": 20,
+    "type": "multiple",
+    "question": "Gap 10: 'the more you communicate with different generations, (10) ______ you become'",
+    "options": ["A the smarter", "B smarter", "C more smart", "D the smartest"],
+    "answer": "A the smarter",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "401",
+    "id": 21,
+    "type": "multiple",
+    "question": "Gap 11: 'a (11) ______ local charity that supports families in need'",
+    "options": [
+      "A well known",
+      "B well-known",
+      "C well knowing",
+      "D good-known"
+    ],
+    "answer": "B well-known",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "401",
+    "id": 22,
+    "type": "multiple",
+    "question": "Which property advertisement states that there is a strict no-pets policy?",
+    "options": [
+      "A ad about Kensington house",
+      "B ad about Edgware Road flat",
+      "C ad about St John's Wood room",
+      "D ad about Notting Hill studio",
+      "E ad about Bayswater villa"
+    ],
+    "answer": "A ad about Kensington house",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "401",
+    "id": 23,
+    "type": "multiple",
+    "question": "Which advertisement mentions that the property is conveniently located near an underground station?",
+    "options": [
+      "A Kensington house",
+      "B Edgware Road flat",
+      "C St John's Wood room",
+      "D Notting Hill studio",
+      "E Bayswater villa"
+    ],
+    "answer": "B Edgware Road flat",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "401",
+    "id": 24,
+    "type": "multiple",
+    "question": "Which advertisement describes requirements placed on the new resident (age, occupation, non-smoker)?",
+    "options": [
+      "A Kensington house",
+      "B Edgware Road flat",
+      "C St John's Wood room",
+      "D Notting Hill studio",
+      "E Bayswater villa"
+    ],
+    "answer": "C St John's Wood room",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "401",
+    "id": 25,
+    "type": "multiple",
+    "question": "Which advertisement mentions access to a shared outdoor / roof garden?",
+    "options": [
+      "A Kensington house",
+      "B Edgware Road flat",
+      "C St John's Wood room",
+      "D Notting Hill studio",
+      "E Bayswater villa"
+    ],
+    "answer": "D Notting Hill studio",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "401",
+    "id": 26,
+    "type": "multiple",
+    "question": "Which advertisement mentions an in-home entertainment facility (cinema room / gym)?",
+    "options": [
+      "A Kensington house",
+      "B Edgware Road flat",
+      "C St John's Wood room",
+      "D Notting Hill studio",
+      "E Bayswater villa"
+    ],
+    "answer": "E Bayswater villa",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "401",
+    "id": 27,
+    "type": "multiple",
+    "question": "'House with Chimaeras'. Gap 6: 'there are a few (6)__________ who prefer standing out'",
+    "options": ["A builders", "B artists", "C architects", "D architectors"],
+    "answer": "C architects",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "401",
+    "id": 28,
+    "type": "multiple",
+    "question": "Gap 7: The house is located in the (7)__________ of Kyiv",
+    "options": ["A heart", "B suburbs", "C countryside", "D outskirts"],
+    "answer": "A heart",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "401",
+    "id": 29,
+    "type": "multiple",
+    "question": "Gap 8: mythological sculptural ornaments on the (8)___________",
+    "options": ["A outside", "B roof", "C porch", "D lawn"],
+    "answer": "B roof",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "401",
+    "id": 30,
+    "type": "multiple",
+    "question": "Gap 9: 'The house was (9)__________ in accordance with the movement of the sun'",
+    "options": ["A decorated", "B designed", "C equipped", "D maintained"],
+    "answer": "B designed",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "401",
+    "id": 31,
+    "type": "multiple",
+    "question": "Gap 10: From one side the house looks (10)__________ but inside it is grand",
+    "options": ["A damp", "B run-down", "C functional", "D picturesque"],
+    "answer": "D picturesque",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "401",
+    "id": 32,
+    "type": "multiple",
+    "question": "Tom: 'I have a twin brother… While I prefer staying at home, he is always the life of the party.' Which description fits Tom's brother?",
+    "options": [
+      "A a relative who provides emotional support and wisdom",
+      "B a family member with high academic expectations",
+      "C a sibling who is more sociable and energetic",
+      "D a relative who travels a lot for work",
+      "E a person who takes care of others because of their age",
+      "F a living space that changed but became more comfortable",
+      "G a cousin who is very good at sports"
+    ],
+    "answer": "C a sibling who is more sociable and energetic",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "401",
+    "id": 33,
+    "type": "multiple",
+    "question": "Anna: 'My grandmother is the kindest person I know. She always listens and gives the best advice.' Which description fits?",
+    "options": [
+      "A a relative who provides emotional support and wisdom",
+      "B a family member with high academic expectations",
+      "C a sibling who is more sociable",
+      "E a person who takes care of others",
+      "F a living space that changed"
+    ],
+    "answer": "A a relative who provides emotional support and wisdom",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "401",
+    "id": 34,
+    "type": "multiple",
+    "question": "Kate: 'I'm the oldest child… I have to be the most responsible.' Which description fits Kate?",
+    "options": [
+      "A a relative who provides emotional support",
+      "B a family member with high academic expectations",
+      "C a sibling who is more sociable",
+      "E a person who takes care of others because of their age",
+      "F a living space that changed"
+    ],
+    "answer": "E a person who takes care of others because of their age",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "401",
+    "id": 35,
+    "type": "multiple",
+    "question": "Peter: 'My father is stricter than my mother. He wants me to get the highest marks.' Which description fits Peter's father?",
+    "options": [
+      "A a relative who provides emotional support",
+      "B a family member with high academic expectations",
+      "C a sibling who is more sociable",
+      "E a person who takes care of others",
+      "F a living space that changed"
+    ],
+    "answer": "B a family member with high academic expectations",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "401",
+    "id": 36,
+    "type": "multiple",
+    "question": "Lucy: 'I live with my aunt. Our flat is smaller… but it feels much cozier.' Which description fits?",
+    "options": [
+      "A a relative who provides emotional support",
+      "B high academic expectations",
+      "C a sibling who is more sociable",
+      "E takes care of others",
+      "F a living space that changed but became more comfortable"
+    ],
+    "answer": "F a living space that changed but became more comfortable",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "401",
+    "id": 37,
+    "type": "multiple",
+    "question": "'The Modern Family Portrait'. Gap 6: 'the environment where we grow up is (6) ______'",
+    "options": [
+      "A more adventurous and independent",
+      "B the most responsible person in the house",
+      "C more talkative than her quiet brother",
+      "D the safest and coziest sanctuary",
+      "E the most important factor in shaping a person",
+      "F better than staying alone all day",
+      "G the most effective way",
+      "H more expensive than a studio flat"
+    ],
+    "answer": "E the most important factor in shaping a person",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "401",
+    "id": 38,
+    "type": "multiple",
+    "question": "Gap 7: 'children raised in relaxed households tend to be (7) ______'",
+    "options": [
+      "A more adventurous and independent",
+      "B the most responsible",
+      "C more talkative",
+      "D the safest sanctuary",
+      "E most important factor",
+      "F better than staying alone",
+      "G the most effective way",
+      "H more expensive"
+    ],
+    "answer": "A more adventurous and independent",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "401",
+    "id": 39,
+    "type": "multiple",
+    "question": "Gap 8: 'an older brother might be the (8) ______'",
+    "options": [
+      "A more adventurous",
+      "B the most responsible person in the house",
+      "C more talkative",
+      "D the safest sanctuary",
+      "E most important factor",
+      "G the most effective way"
+    ],
+    "answer": "B the most responsible person in the house",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "401",
+    "id": 40,
+    "type": "multiple",
+    "question": "Gap 9: 'if she is (9) ______ than her quiet brother'",
+    "options": [
+      "A more adventurous",
+      "B most responsible",
+      "C more talkative than her quiet brother",
+      "D safest sanctuary",
+      "G most effective way"
+    ],
+    "answer": "C more talkative than her quiet brother",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "401",
+    "id": 41,
+    "type": "multiple",
+    "question": "Gap 10: 'having a weekly dinner is (10) ______ to resolve hidden conflicts'",
+    "options": [
+      "A more adventurous",
+      "B most responsible",
+      "D safest sanctuary",
+      "F better than staying alone",
+      "G the most effective way"
+    ],
+    "answer": "G the most effective way",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "401",
+    "id": 42,
+    "type": "multiple",
+    "question": "Gap 11: 'making their home (11) ______'",
+    "options": [
+      "A more adventurous",
+      "B most responsible",
+      "D the safest and coziest sanctuary",
+      "F better than staying alone",
+      "H more expensive"
+    ],
+    "answer": "D the safest and coziest sanctuary",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "401",
+    "id": 43,
+    "type": "multiple",
+    "question": "Gap 1: 'My friend Sarah lives in a (1) ______ cottage in the countryside.' Choose the correct adjective order.",
+    "options": [
+      "A lovely small old",
+      "B small lovely old",
+      "C old small lovely",
+      "D lovely old small"
+    ],
+    "answer": "A lovely small old",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "401",
+    "id": 44,
+    "type": "multiple",
+    "question": "Gap 2: 'It is (2) ______ than any apartment I've ever seen in the city.'",
+    "options": ["A more quiet", "B quieter", "C quietest", "D the quietest"],
+    "answer": "B quieter",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "401",
+    "id": 45,
+    "type": "multiple",
+    "question": "Gap 3: 'Sarah is very (3) ______; she always helps me when I have problems.'",
+    "options": ["A selfish", "B moody", "C reliable", "D arrogant"],
+    "answer": "C reliable",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "401",
+    "id": 46,
+    "type": "multiple",
+    "question": "Gap 4: 'Last summer I bought a (4) ______ sofa for my room.'",
+    "options": [
+      "A comfortable big leather",
+      "B big comfortable leather",
+      "C leather big comfortable",
+      "D big leather comfortable"
+    ],
+    "answer": "B big comfortable leather",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "401",
+    "id": 47,
+    "type": "multiple",
+    "question": "Gap 5: 'It was (5) ______ item in the shop.'",
+    "options": [
+      "A expensiviest",
+      "B the most expensive",
+      "C more expensive",
+      "D expensive"
+    ],
+    "answer": "B the most expensive",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "401",
+    "id": 48,
+    "type": "multiple",
+    "question": "Choose the right event for description 6 (family outdoor gathering with games and food).",
+    "options": [
+      "A Real Estate Fair",
+      "B School Meeting",
+      "C Parenting Workshop",
+      "D Fashion Show",
+      "E Interior Design Exhibition",
+      "F Family Day",
+      "G Family Festival"
+    ],
+    "answer": "F Family Day",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "401",
+    "id": 49,
+    "type": "multiple",
+    "question": "Choose the right event for description 7 (exhibition of properties for sale or rent).",
+    "options": [
+      "A Real Estate Fair",
+      "B School Meeting",
+      "C Parenting Workshop",
+      "D Fashion Show",
+      "E Interior Design Exhibition",
+      "F Family Day",
+      "G Family Festival"
+    ],
+    "answer": "A Real Estate Fair",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "401",
+    "id": 50,
+    "type": "multiple",
+    "question": "Choose the right event for description 8 (runway show of the latest clothing collections).",
+    "options": [
+      "A Real Estate Fair",
+      "B School Meeting",
+      "C Parenting Workshop",
+      "D Fashion Show",
+      "E Interior Design Exhibition",
+      "F Family Day",
+      "G Family Festival"
+    ],
+    "answer": "D Fashion Show",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "401",
+    "id": 51,
+    "type": "multiple",
+    "question": "Choose the right event for description 9 (large outdoor celebration with music and culture).",
+    "options": [
+      "A Real Estate Fair",
+      "B School Meeting",
+      "C Parenting Workshop",
+      "D Fashion Show",
+      "E Interior Design Exhibition",
+      "F Family Day",
+      "G Family Festival"
+    ],
+    "answer": "G Family Festival",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "401",
+    "id": 52,
+    "type": "multiple",
+    "question": "Choose the right event for description 10 (session for parents about raising children).",
+    "options": [
+      "A Real Estate Fair",
+      "B School Meeting",
+      "C Parenting Workshop",
+      "D Fashion Show",
+      "E Interior Design Exhibition",
+      "F Family Day",
+      "G Family Festival"
+    ],
+    "answer": "C Parenting Workshop",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "402",
+    "id": 153,
+    "type": "multiple",
+    "question": "Read the text 'The best tips for studying'. Choose from (A–H) the one that best fits gap (1): 'Far from (1) _______, the latest study hacks have put forward a number of study techniques for those who think they've tried everything.'",
+    "options": [
+      "A) that you want is to be interrupted in full flow",
+      "B) because they might just come up in the exam",
+      "C) that you need to learn a lesson by heart",
+      "D) which will optimise your reading efficiency",
+      "E) suggesting you walk away from your problems",
+      "F) which will make it easier to recall when needed",
+      "G) reading your study material to yourself",
+      "H) because you do not get easily distracted when studying"
+    ],
+    "answer": "E) suggesting you walk away from your problems",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "402",
+    "id": 154,
+    "type": "multiple",
+    "question": "Read the text 'The best tips for studying'. Choose from (A–H) the one that best fits gap (2): 'Another popular study hack is to read out loud instead of (2) _______.'",
+    "options": [
+      "A) that you want is to be interrupted in full flow",
+      "B) because they might just come up in the exam",
+      "C) that you need to learn a lesson by heart",
+      "D) which will optimise your reading efficiency",
+      "E) suggesting you walk away from your problems",
+      "F) which will make it easier to recall when needed",
+      "G) reading your study material to yourself",
+      "H) because you do not get easily distracted when studying"
+    ],
+    "answer": "G) reading your study material to yourself",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "402",
+    "id": 155,
+    "type": "multiple",
+    "question": "Read the text 'The best tips for studying'. Choose from (A–H) the one that best fits gap (3): 'Arial, Verdana and Calibri are three such fonts (3) _______.'",
+    "options": [
+      "A) that you want is to be interrupted in full flow",
+      "B) because they might just come up in the exam",
+      "C) that you need to learn a lesson by heart",
+      "D) which will optimise your reading efficiency",
+      "E) suggesting you walk away from your problems",
+      "F) which will make it easier to recall when needed",
+      "G) reading your study material to yourself",
+      "H) because you do not get easily distracted when studying"
+    ],
+    "answer": "D) which will optimise your reading efficiency",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "402",
+    "id": 156,
+    "type": "multiple",
+    "question": "Read the text 'The best tips for studying'. Choose from (A–H) the one that best fits gap (4): 'The last thing (4) _______.'",
+    "options": [
+      "A) that you want is to be interrupted in full flow",
+      "B) because they might just come up in the exam",
+      "C) that you need to learn a lesson by heart",
+      "D) which will optimise your reading efficiency",
+      "E) suggesting you walk away from your problems",
+      "F) which will make it easier to recall when needed",
+      "G) reading your study material to yourself",
+      "H) because you do not get easily distracted when studying"
+    ],
+    "answer": "A) that you want is to be interrupted in full flow",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "402",
+    "id": 157,
+    "type": "multiple",
+    "question": "Read the text 'The best tips for studying'. Choose from (A–H) the one that best fits gap (5): 'The mind will associate each location with the material that was learnt there, (5) _______.'",
+    "options": [
+      "A) that you want is to be interrupted in full flow",
+      "B) because they might just come up in the exam",
+      "C) that you need to learn a lesson by heart",
+      "D) which will optimise your reading efficiency",
+      "E) suggesting you walk away from your problems",
+      "F) which will make it easier to recall when needed",
+      "G) reading your study material to yourself",
+      "H) because you do not get easily distracted when studying"
+    ],
+    "answer": "F) which will make it easier to recall when needed",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "402",
+    "id": 158,
+    "type": "multiple",
+    "question": "Read the text 'The best tips for studying'. Choose from (A–H) the one that best fits gap (6): 'Welcome any questions and make a note of them (6) _______.'",
+    "options": [
+      "A) that you want is to be interrupted in full flow",
+      "B) because they might just come up in the exam",
+      "C) that you need to learn a lesson by heart",
+      "D) which will optimise your reading efficiency",
+      "E) suggesting you walk away from your problems",
+      "F) which will make it easier to recall when needed",
+      "G) reading your study material to yourself",
+      "H) because you do not get easily distracted when studying"
+    ],
+    "answer": "B) because they might just come up in the exam",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "402",
+    "id": 159,
+    "type": "multiple",
+    "question": "Read the text about Robert Rosenthal. Choose the correct answer for gap (7): 'Robert Rosenthal is a Professor of Psychology whose (7) _______ showed that students try to live up to teachers' expectations.'",
+    "options": ["A) studies", "B) classes", "C) careers", "D) exams"],
+    "answer": "A) studies",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "402",
+    "id": 160,
+    "type": "multiple",
+    "question": "Read the text about Robert Rosenthal. Choose the correct answer for gap (8): 'students try to live up to teachers' (8) _______.'",
+    "options": [
+      "A) improvements",
+      "B) expectations",
+      "C) enrolments",
+      "D) certificates"
+    ],
+    "answer": "B) expectations",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "402",
+    "id": 161,
+    "type": "multiple",
+    "question": "Read the text about Robert Rosenthal. Choose the correct answer for gap (9): 'a certain group of students in their class were expected to make greater (9) _______ compared to the other students.'",
+    "options": [
+      "A) concentration",
+      "B) method",
+      "C) progress",
+      "D) attendance"
+    ],
+    "answer": "C) progress",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "402",
+    "id": 162,
+    "type": "multiple",
+    "question": "Read the text about Robert Rosenthal. Choose the correct answer for gap (10): 'what the teachers believed (10) _______ the students' progress.'",
+    "options": ["A) submitted", "B) influenced", "C) attended", "D) applied"],
+    "answer": "B) influenced",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "402",
+    "id": 163,
+    "type": "multiple",
+    "question": "Read the text about Robert Rosenthal. Choose the correct answer for gap (11): 'Rosenthal's (11) _______ was not limited to the classroom.'",
+    "options": [
+      "A) assignment",
+      "B) knowledge",
+      "C) assessment",
+      "D) research"
+    ],
+    "answer": "D) research",
+    "variant_id": "1"
+  },
+  {
+    "topic_id": "402",
+    "id": 164,
+    "type": "multiple",
+    "question": "Read the job vacancy advertisements (Test 2, Task 1). Which of the advertisements (1) matches the following: choose from A–H.",
+    "options": [
+      "A) mentions the training offered to all new staff",
+      "B) warns that there are rules for what you can wear",
+      "C) states that there are different positions available",
+      "D) suggests the chance of getting promoted in the future",
+      "E) states that the pay is open to discussion",
+      "F) asks for references from previous employers",
+      "G) warns that the job is very demanding",
+      "H) mentions running errands outside the workplace"
+    ],
+    "answer": "E) states that the pay is open to discussion",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "402",
+    "id": 165,
+    "type": "multiple",
+    "question": "Read the job vacancy advertisements (Test 2, Task 1). Which of the advertisements (2) matches the following: choose from A–H.",
+    "options": [
+      "A) mentions the training offered to all new staff",
+      "B) warns that there are rules for what you can wear",
+      "C) states that there are different positions available",
+      "D) suggests the chance of getting promoted in the future",
+      "E) states that the pay is open to discussion",
+      "F) asks for references from previous employers",
+      "G) warns that the job is very demanding",
+      "H) mentions running errands outside the workplace"
+    ],
+    "answer": "A) mentions the training offered to all new staff",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "402",
+    "id": 166,
+    "type": "multiple",
+    "question": "Read the job vacancy advertisements (Test 2, Task 1). Which of the advertisements (3) matches the following: choose from A–H.",
+    "options": [
+      "A) mentions the training offered to all new staff",
+      "B) warns that there are rules for what you can wear",
+      "C) states that there are different positions available",
+      "D) suggests the chance of getting promoted in the future",
+      "E) states that the pay is open to discussion",
+      "F) asks for references from previous employers",
+      "G) warns that the job is very demanding",
+      "H) mentions running errands outside the workplace"
+    ],
+    "answer": "G) warns that the job is very demanding",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "402",
+    "id": 167,
+    "type": "multiple",
+    "question": "Read the job vacancy advertisements (Test 2, Task 1). Which of the advertisements (4) matches the following: choose from A–H.",
+    "options": [
+      "A) mentions the training offered to all new staff",
+      "B) warns that there are rules for what you can wear",
+      "C) states that there are different positions available",
+      "D) suggests the chance of getting promoted in the future",
+      "E) states that the pay is open to discussion",
+      "F) asks for references from previous employers",
+      "G) warns that the job is very demanding",
+      "H) mentions running errands outside the workplace"
+    ],
+    "answer": "D) suggests the chance of getting promoted in the future",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "402",
+    "id": 168,
+    "type": "multiple",
+    "question": "Read the job vacancy advertisements (Test 2, Task 1). Which of the advertisements (5) matches the following: choose from A–H.",
+    "options": [
+      "A) mentions the training offered to all new staff",
+      "B) warns that there are rules for what you can wear",
+      "C) states that there are different positions available",
+      "D) suggests the chance of getting promoted in the future",
+      "E) states that the pay is open to discussion",
+      "F) asks for references from previous employers",
+      "G) warns that the job is very demanding",
+      "H) mentions running errands outside the workplace"
+    ],
+    "answer": "C) states that there are different positions available",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "402",
+    "id": 169,
+    "type": "multiple",
+    "question": "Read the text 'Careers in the Modern Workplace'. Choose the correct answer for gap (6): 'At first, people often have to work very (6) ______ to gain experience and prove their abilities.'",
+    "options": ["A) hard", "B) hardly", "C) harder", "D) hardest"],
+    "answer": "A) hard",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "402",
+    "id": 170,
+    "type": "multiple",
+    "question": "Read the text 'Careers in the Modern Workplace'. Choose the correct answer for gap (7): 'In many companies, employees also need to travel (7) ______ to meet clients and partners.'",
+    "options": [
+      "A) quickly to other cities on business",
+      "B) other cities quickly on business",
+      "C) on business quickly to other cities",
+      "D) quickly on business other cities"
+    ],
+    "answer": "A) quickly to other cities on business",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "402",
+    "id": 171,
+    "type": "multiple",
+    "question": "Read the text 'Careers in the Modern Workplace'. Choose the correct answer for gap (8): 'when a candidate enters the interview room, their voice should (8) ______ confident and clear.'",
+    "options": ["A) sounded", "B) soundly", "C) sounding", "D) sound"],
+    "answer": "D) sound",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "402",
+    "id": 172,
+    "type": "multiple",
+    "question": "Read the text 'Careers in the Modern Workplace'. Choose the correct answer for gap (9): 'Some workers stay in the office (9) ______ to finish important projects.'",
+    "options": ["A) late", "B) lately", "C) latest", "D) laterly"],
+    "answer": "A) late",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "402",
+    "id": 173,
+    "type": "multiple",
+    "question": "Read the text 'Careers in the Modern Workplace'. Choose the correct answer for gap (10): 'Others prefer to organise their work well and complete tasks (10) ______.'",
+    "options": [
+      "A) carefully during the day at the office",
+      "B) carefully at the office during day",
+      "C) during the day carefully at the office",
+      "D) at the office carefully during the day"
+    ],
+    "answer": "A) carefully during the day at the office",
+    "variant_id": "2"
+  },
+  {
+    "topic_id": "402",
+    "id": 174,
+    "type": "multiple",
+    "question": "Read the text 'Nothing ventured, nothing gained' (Test 3). What is TRUE about the Dragons' Den television series?",
+    "options": [
+      "A) Most contestants get rejected.",
+      "B) Each contestant has to present their ideas in five minutes.",
+      "C) Funding is given to contestants whose ideas are approved by the judges.",
+      "D) All contestants receive some money to do research on a product."
+    ],
+    "answer": "C) Funding is given to contestants whose ideas are approved by the judges.",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "402",
+    "id": 175,
+    "type": "multiple",
+    "question": "Read the text 'Nothing ventured, nothing gained' (Test 3). When did Shaun Pulfrey realise that the Dragons' Den judges would not finance his product?",
+    "options": [
+      "A) while he was presenting the product",
+      "B) when one of the judges denied her hair was coloured",
+      "C) after a comment made by another contestant",
+      "D) when they asked him a question he could not answer"
+    ],
+    "answer": "B) when one of the judges denied her hair was coloured",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "402",
+    "id": 176,
+    "type": "multiple",
+    "question": "Read the text 'Nothing ventured, nothing gained' (Test 3). What do we learn in paragraph 3 about Shaun Pulfrey's product that the Dragons' Den judges rejected?",
+    "options": [
+      "A) It is the most successful product of his company.",
+      "B) It is sold in 600 shops all over Europe.",
+      "C) It is popular with famous people.",
+      "D) It sells more on his website than in shops."
+    ],
+    "answer": "C) It is popular with famous people.",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "402",
+    "id": 177,
+    "type": "multiple",
+    "question": "Read the text 'Nothing ventured, nothing gained' (Test 3). Why did the judges at Dragons' Den reject Rob Law's suitcase?",
+    "options": [
+      "A) They found it was poorly designed and badly made.",
+      "B) They thought the public wouldn't like it.",
+      "C) They wanted to make a show.",
+      "D) They believed it was too expensive."
+    ],
+    "answer": "A) They found it was poorly designed and badly made.",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "402",
+    "id": 178,
+    "type": "multiple",
+    "question": "Read the text 'Nothing ventured, nothing gained' (Test 3). Which of the following is stated about Rob Law's company in paragraph 5?",
+    "options": [
+      "A) It has expanded to include products for both kids and adults.",
+      "B) It sells four million products every year.",
+      "C) It made a record of sales in 2006.",
+      "D) It sells products internationally."
+    ],
+    "answer": "D) It sells products internationally.",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "402",
+    "id": 179,
+    "type": "multiple",
+    "question": "Read the text 'A Career at Home' (Test 3). Choose the correct answer for gap (6): 'she was a (6) _____ lawyer and was moving up the career ladder.'",
+    "options": [
+      "A) stressful",
+      "B) satisfying",
+      "C) successful",
+      "D) resourceful"
+    ],
+    "answer": "C) successful",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "402",
+    "id": 180,
+    "type": "multiple",
+    "question": "Read the text 'A Career at Home' (Test 3). Choose the correct answer for gap (7): 'she could not go on working and taking (7) _____ of her daughter at the same time.'",
+    "options": ["A) attention", "B) care", "C) worry", "D) responsibility"],
+    "answer": "B) care",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "402",
+    "id": 181,
+    "type": "multiple",
+    "question": "Read the text 'A Career at Home' (Test 3). Choose the correct answer for gap (8): 'Her husband suggested getting a nanny, but she insisted on (8) _____ her career.'",
+    "options": [
+      "A) applying for",
+      "B) handing in",
+      "C) taking over",
+      "D) giving up"
+    ],
+    "answer": "D) giving up",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "402",
+    "id": 182,
+    "type": "multiple",
+    "question": "Read the text 'A Career at Home' (Test 3). Choose the correct answer for gap (9): 'Jodie gives her full attention to raising her family, which is a full-time (9) _____.'",
+    "options": ["A) job", "B) work", "C) occupation", "D) employment"],
+    "answer": "A) job",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "402",
+    "id": 183,
+    "type": "multiple",
+    "question": "Read the text 'A Career at Home' (Test 3). Choose the correct answer for gap (10): 'since she left her job, she hasn't looked (10) _____ and is enjoying every minute of motherhood.'",
+    "options": ["A) down", "B) back", "C) over", "D) up"],
+    "answer": "B) back",
+    "variant_id": "3"
+  },
+  {
+    "topic_id": "402",
+    "id": 184,
+    "type": "multiple",
+    "question": "Test 4, Task 1. Choose the correct term (A–G) for definition (1): 'This is a place where students live and study throughout the school term. It often has strict rules but helps to build strong discipline.'",
+    "options": [
+      "A) Vocational school",
+      "B) Accountant",
+      "C) Boarding school",
+      "D) Voluntary work",
+      "E) Temporary job",
+      "F) Surgeon",
+      "G) Full-time career"
+    ],
+    "answer": "C) Boarding school",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "402",
+    "id": 185,
+    "type": "multiple",
+    "question": "Test 4, Task 1. Choose the correct term (A–G) for definition (2): 'A job that usually lasts for a short period, for example, only during the summer holidays or to replace an employee who is on sick leave.'",
+    "options": [
+      "A) Vocational school",
+      "B) Accountant",
+      "C) Boarding school",
+      "D) Voluntary work",
+      "E) Temporary job",
+      "F) Surgeon",
+      "G) Full-time career"
+    ],
+    "answer": "E) Temporary job",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "402",
+    "id": 186,
+    "type": "multiple",
+    "question": "Test 4, Task 1. Choose the correct term (A–G) for definition (3): 'This type of school focuses on teaching students practical skills for specific jobs like a mechanic, a tailor, or a chef.'",
+    "options": [
+      "A) Vocational school",
+      "B) Accountant",
+      "C) Boarding school",
+      "D) Voluntary work",
+      "E) Temporary job",
+      "F) Surgeon",
+      "G) Full-time career"
+    ],
+    "answer": "A) Vocational school",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "402",
+    "id": 187,
+    "type": "multiple",
+    "question": "Test 4, Task 1. Choose the correct term (A–G) for definition (4): 'When you don't receive any salary for your work, but you gain valuable experience and help people or the environment.'",
+    "options": [
+      "A) Vocational school",
+      "B) Accountant",
+      "C) Boarding school",
+      "D) Voluntary work",
+      "E) Temporary job",
+      "F) Surgeon",
+      "G) Full-time career"
+    ],
+    "answer": "D) Voluntary work",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "402",
+    "id": 188,
+    "type": "multiple",
+    "question": "Test 4, Task 1. Choose the correct term (A–G) for definition (5): 'A professional who is responsible for keeping financial records, calculating taxes, and managing the company's budget.'",
+    "options": [
+      "A) Vocational school",
+      "B) Accountant",
+      "C) Boarding school",
+      "D) Voluntary work",
+      "E) Temporary job",
+      "F) Surgeon",
+      "G) Full-time career"
+    ],
+    "answer": "B) Accountant",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "402",
+    "id": 189,
+    "type": "multiple",
+    "question": "Test 4, Task 2. Choose the correct item for gap (6): 'In the modern world, technology is changing (6) ______ fast.'",
+    "options": [
+      "A) unbelievable",
+      "B) unbelievably",
+      "C) more unbelievable",
+      "D) unbelieving"
+    ],
+    "answer": "B) unbelievably",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "402",
+    "id": 190,
+    "type": "multiple",
+    "question": "Test 4, Task 2. Choose the correct item for gap (7): 'Scientists are working (7) ______ to develop AI that can think like humans.'",
+    "options": ["A) hardly", "B) harder", "C) hard", "D) hardest"],
+    "answer": "C) hard",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "402",
+    "id": 191,
+    "type": "multiple",
+    "question": "Test 4, Task 2. Choose the correct item for gap (8): 'While some people look at these changes (8) ______, others are concerned about privacy.'",
+    "options": [
+      "A) optimistic",
+      "B) optimism",
+      "C) optimistically",
+      "D) more optimistic"
+    ],
+    "answer": "C) optimistically",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "402",
+    "id": 192,
+    "type": "multiple",
+    "question": "Test 4, Task 2. Choose the correct item for gap (9): 'To stay safe online, you should (9) ______ check your security settings.'",
+    "options": ["A) regular", "B) regulate", "C) regulation", "D) regularly"],
+    "answer": "D) regularly",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "402",
+    "id": 193,
+    "type": "multiple",
+    "question": "Test 4, Task 2. Choose the correct item for gap (10): 'It is also important to treat others (10) ______ in digital spaces.'",
+    "options": ["A) polite", "B) politely", "C) politeness", "D) impolite"],
+    "answer": "B) politely",
+    "variant_id": "4"
+  },
+  {
+    "topic_id": "402",
+    "id": 194,
+    "type": "multiple",
+    "question": "Test 5, Task 1. Read the texts. Which description (A–F) matches Text 1 'The Vocational Route'?",
+    "options": [
+      "A) A job that involves physical intervention to treat patients",
+      "B) An educational institution where students reside",
+      "C) A way to get professional skills for a specific trade",
+      "D) A well-paid office position with a strict schedule",
+      "E) Working for experience rather than money",
+      "F) Volunteering for joy"
+    ],
+    "answer": "C) A way to get professional skills for a specific trade",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "402",
+    "id": 195,
+    "type": "multiple",
+    "question": "Test 5, Task 1. Read the texts. Which description (A–F) matches Text 2 'The Boarding School Experience'?",
+    "options": [
+      "A) A job that involves physical intervention to treat patients",
+      "B) An educational institution where students reside",
+      "C) A way to get professional skills for a specific trade",
+      "D) A well-paid office position with a strict schedule",
+      "E) Working for experience rather than money",
+      "F) Volunteering for joy"
+    ],
+    "answer": "B) An educational institution where students reside",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "402",
+    "id": 196,
+    "type": "multiple",
+    "question": "Test 5, Task 1. Read the texts. Which description (A–F) matches Text 3 'The Life of a Surgeon'?",
+    "options": [
+      "A) A job that involves physical intervention to treat patients",
+      "B) An educational institution where students reside",
+      "C) A way to get professional skills for a specific trade",
+      "D) A well-paid office position with a strict schedule",
+      "E) Working for experience rather than money",
+      "F) Volunteering for joy"
+    ],
+    "answer": "A) A job that involves physical intervention to treat patients",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "402",
+    "id": 197,
+    "type": "multiple",
+    "question": "Test 5, Task 1. Read the texts. Which description (A–F) matches Text 4 'Voluntary Work'?",
+    "options": [
+      "A) A job that involves physical intervention to treat patients",
+      "B) An educational institution where students reside",
+      "C) A way to get professional skills for a specific trade",
+      "D) A well-paid office position with a strict schedule",
+      "E) Working for experience rather than money",
+      "F) Volunteering for joy"
+    ],
+    "answer": "E) Working for experience rather than money",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "402",
+    "id": 198,
+    "type": "multiple",
+    "question": "Test 5, Task 2. Choose the correct item for gap (6): 'people want to find a job that is both interesting and (6) ______.'",
+    "options": ["A) rewarding", "B) temporary", "C) brief", "D) physical"],
+    "answer": "A) rewarding",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "402",
+    "id": 199,
+    "type": "multiple",
+    "question": "Test 5, Task 2. Choose the correct item for gap (7): 'others want work that is (7) ______ and brings satisfaction.'",
+    "options": ["A) permanent", "B) demanding", "C) mental", "D) badly-paid"],
+    "answer": "B) demanding",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "402",
+    "id": 200,
+    "type": "multiple",
+    "question": "Test 5, Task 2. Choose the correct item for gap (8): 'Some professions require a lot of (8) ______ work, for example, construction or farming.'",
+    "options": ["A) mental", "B) physical", "C) successful", "D) promising"],
+    "answer": "B) physical",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "402",
+    "id": 201,
+    "type": "multiple",
+    "question": "Test 5, Task 2. Choose the correct item for gap (9): 'Other jobs are mostly (9) ______, such as teaching or programming.'",
+    "options": ["A) physical", "B) permanent", "C) mental", "D) badly-paid"],
+    "answer": "C) mental",
+    "variant_id": "5"
+  },
+  {
+    "topic_id": "402",
+    "id": 202,
+    "type": "multiple",
+    "question": "Test 5, Task 2. Choose the correct item for gap (10): 'It is also important to choose a career that is (10) ______ and gives opportunities for growth.'",
+    "options": ["A) promising", "B) brief", "C) badly-paid", "D) nine-to-five"],
+    "answer": "A) promising",
+    "variant_id": "5"
+  }
+]

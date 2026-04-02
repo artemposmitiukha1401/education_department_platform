@@ -27,7 +27,6 @@ async function loadTheoryData() {
       currentSubject.topics.forEach((topic) => {
         const clone = template.content.cloneNode(true);
         clone.querySelector(".topic-name").innerText = topic.name;
-        // Now links to variants page instead of packages directly
         clone.querySelector(".view-packages-btn").href =
           `variants_template_page.html?topic_id=${topic.id}`;
         container.appendChild(clone);

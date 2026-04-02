@@ -3,28 +3,65 @@
     "id": 1,
     "subject_name": "Математика",
     "topics": [
-      { "id": 101, "name": "Числа і вирази" },
-      { "id": 102, "name": "Рівняння, нерівності і їх системи" },
-      { "id": 103, "name": "Функції" },
+      {
+        "id": 101,
+        "name": "Числа і вирази",
+        "english_name": "numbers_and_expressions"
+      },
+      {
+        "id": 102,
+        "name": "Рівняння, нерівності і їх системи",
+        "english_name": "equations_inequalities_systems"
+      },
+      { "id": 103, "name": "Функції", "english_name": "functions" },
       {
         "id": 104,
-        "name": "Ймовірність випадкової події, вибіркові характеристики"
+        "name": "Ймовірність випадкової події, вибіркові характеристики",
+        "english_name": "probability_statistics"
       },
-      { "id": 105, "name": "Планіметрія" },
-      { "id": 106, "name": "Стереометрія" }
+      { "id": 105, "name": "Планіметрія", "english_name": "planimetry" },
+      { "id": 106, "name": "Стереометрія", "english_name": "stereometry" }
     ]
   },
   {
     "id": 2,
     "subject_name": "Українська мова",
     "topics": [
-      { "id": 201, "name": "Загальна морфологія" },
-      { "id": 202, "name": "Члена речення. Односкладне речення" },
-      { "id": 203, "name": "Просте речення" },
-      { "id": 204, "name": "Складне речення" },
-      { "id": 205, "name": "Іменник. Прикметник. Числівник" },
-      { "id": 206, "name": "Складні випадки правопису" },
-      { "id": 207, "name": "Лексикологія. Фразеологія. Іншомовні слова" }
+      {
+        "id": 201,
+        "name": "Загальна морфологія",
+        "english_name": "general_morphology"
+      },
+      {
+        "id": 202,
+        "name": "Члена речення. Односкладне речення",
+        "english_name": "sentence_members_one_part_sentences"
+      },
+      {
+        "id": 203,
+        "name": "Просте речення",
+        "english_name": "simple_sentence"
+      },
+      {
+        "id": 204,
+        "name": "Складне речення",
+        "english_name": "complex_sentence"
+      },
+      {
+        "id": 205,
+        "name": "Іменник. Прикметник. Числівник",
+        "english_name": "noun_adjective_numeral"
+      },
+      {
+        "id": 206,
+        "name": "Складні випадки правопису",
+        "english_name": "complex_spelling_cases"
+      },
+      {
+        "id": 207,
+        "name": "Лексикологія. Фразеологія. Іншомовні слова",
+        "english_name": "lexicology_phraseology_loanwords"
+      }
     ]
   },
   {
@@ -33,7 +70,8 @@
     "topics": [
       {
         "id": 301,
-        "name": "Від стародавньої історії до княжої доби України"
+        "name": "Від стародавньої історії до княжої доби України",
+        "english_name": "ancient_to_princely_era"
       }
     ]
   },
@@ -43,31 +81,53 @@
     "topics": [
       {
         "id": 401,
-        "name": "Я, моя родина, мої друзі та стиль життя. Прикметники (Adjective)"
+        "name": "Я, моя родина, мої друзі та стиль життя. Прикметники (Adjective)",
+        "english_name": "family_lifestyle_adjective"
       },
       {
         "id": 402,
-        "name": "Шкільне життя. Робота і професії. Прислівник (Adverb)"
+        "name": "Шкільне життя. Робота і професії. Прислівник (Adverb)",
+        "english_name": "school_work_adverb"
       },
-      { "id": 403, "name": "Одяг. Покупки. Речення (Clause)" },
-      { "id": 404, "name": "Харчування. Сполучник (Conjunction)" },
+      {
+        "id": 403,
+        "name": "Одяг. Покупки. Речення (Clause)",
+        "english_name": "clothes_shopping_clause"
+      },
+      {
+        "id": 404,
+        "name": "Харчування. Сполучник (Conjunction)",
+        "english_name": "food_conjunction"
+      },
       {
         "id": 405,
-        "name": "Відпочинок і дозвілля. Подорожі. Модальність (Modality)"
+        "name": "Відпочинок і дозвілля. Подорожі. Модальність (Modality)",
+        "english_name": "leisure_travel_modality"
       },
       {
         "id": 406,
-        "name": "Види та жанри мистецтва, кіно й актори, картини та художники, музика"
+        "name": "Види та жанри мистецтва, кіно й актори, картини та художники, музика",
+        "english_name": "arts_cinema_music"
       },
-      { "id": 407, "name": "Спорт. Охорона здоров’я. Іменник (Noun)" },
-      { "id": 408, "name": "Погода і природа. Прийменник (Preposition)" },
+      {
+        "id": 407,
+        "name": "Спорт. Охорона здоров'я. Іменник (Noun)",
+        "english_name": "sport_health_noun"
+      },
+      {
+        "id": 408,
+        "name": "Погода і природа. Прийменник (Preposition)",
+        "english_name": "weather_nature_preposition"
+      },
       {
         "id": 409,
-        "name": "Україна. Україна у світі. Країна, мови якої вивчаються. Свята і традиції. Займенник (Pronoun)"
+        "name": "Україна. Україна у світі. Країна, мови якої вивчаються. Свята і традиції. Займенник (Pronoun)",
+        "english_name": "ukraine_world_holidays_pronoun"
       },
       {
         "id": 410,
-        "name": "ЗМІ, телебачення, інтернет. Наука й технології, сучасні пристрої у повсякденному житті"
+        "name": "ЗМІ, телебачення, інтернет. Наука й технології, сучасні пристрої у повсякденному житті",
+        "english_name": "media_technology_devices"
       }
     ]
   }

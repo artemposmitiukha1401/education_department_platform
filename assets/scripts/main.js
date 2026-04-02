@@ -433,7 +433,6 @@ canvas.addEventListener("mousemove", (e) => {
     canvas.style.cursor = h ? "pointer" : "grab";
   }
 });
-
 canvas.addEventListener("mouseup", (e) => {
   if (dragging) {
     const n = dragging;
@@ -443,11 +442,6 @@ canvas.addEventListener("mouseup", (e) => {
     const dy = e.clientY - mouseDownPos.y;
     if (Math.abs(dx) < 8 && Math.abs(dy) < 8) window.location.href = n.href;
   }
-});
-
-canvas.addEventListener("click", (e) => {
-  const n = getNodeAt(e.clientX, e.clientY);
-  if (n) window.location.href = n.href;
 });
 
 let touchNode = null;

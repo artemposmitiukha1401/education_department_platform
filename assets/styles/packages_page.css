@@ -59,7 +59,7 @@ header {
 }
 
 #topic-title {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-weight: 700;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -71,7 +71,7 @@ header {
 }
 
 .task-counter {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   letter-spacing: 0.2rem;
   color: var(--text-dim);
   text-transform: uppercase;
@@ -79,9 +79,9 @@ header {
 }
 
 main {
-  max-width: 37.5rem;
+  max-width: 46rem;
   margin: 0 auto;
-  padding: 2rem 1.25rem 4rem;
+  padding: 2.5rem 1.5rem 5rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -90,7 +90,7 @@ main {
 #tasks-container {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.25rem;
 }
 
 #score-banner {
@@ -99,13 +99,13 @@ main {
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: var(--radius);
   backdrop-filter: blur(1.5rem);
-  padding: 1.5rem 2rem;
+  padding: 2rem 2.5rem;
   text-align: center;
   box-shadow: 0 0.25rem 1.5rem rgba(0, 0, 0, 0.4);
 }
 
 .score-label {
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   letter-spacing: 0.25rem;
   text-transform: uppercase;
   color: var(--text-dim);
@@ -113,7 +113,7 @@ main {
 }
 
 .score-value {
-  font-size: 2rem;
+  font-size: 2.4rem;
   font-weight: 700;
   color: var(--text-primary);
   letter-spacing: 0.05rem;
@@ -125,7 +125,7 @@ main {
   text-align: center;
   padding: 3rem 1rem;
   color: var(--text-dim);
-  font-size: 0.9rem;
+  font-size: 1rem;
   letter-spacing: 0.05rem;
   display: none;
 }
@@ -160,10 +160,10 @@ main {
   box-shadow:
     0 0.25rem 1.5rem rgba(0, 0, 0, 0.4),
     0 0 0 1px rgba(255, 255, 255, 0.03);
-  padding: 1.5rem;
+  padding: 2rem 2rem;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.25rem;
   animation: fadeUp 0.4s ease both;
   transition:
     border-color var(--transition),
@@ -204,7 +204,7 @@ main {
 }
 
 .task-num {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.2rem;
   color: var(--text-faint);
@@ -214,10 +214,10 @@ main {
 }
 
 .task-type-badge {
-  font-size: 0.55rem;
+  font-size: 0.65rem;
   letter-spacing: 0.175rem;
   text-transform: uppercase;
-  padding: 0.25rem 0.65rem;
+  padding: 0.3rem 0.75rem;
   border-radius: 1.25rem;
   border: 1px solid;
   flex-shrink: 0;
@@ -240,9 +240,9 @@ main {
 
 .question-text {
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.7;
   color: var(--text-primary);
   margin-top: 0.25rem;
 }
@@ -257,7 +257,7 @@ main {
 .options-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
+  gap: 0.625rem;
 }
 
 @media (max-width: 26.25rem) {
@@ -271,19 +271,19 @@ main {
   border: 1px solid var(--border-subtle);
   border-radius: 0.5rem;
   color: var(--text-primary);
-  font-size: 0.85rem;
-  padding: 0.65rem 0.9rem;
+  font-size: 1rem;
+  padding: 0.85rem 1.1rem;
   cursor: pointer;
   text-align: left;
   transition:
     background var(--transition),
     border-color var(--transition);
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .option-btn:hover:not(:disabled) {
   background: rgba(255, 255, 255, 0.08);
-  border-color: var(--border-hover);
+  border-color: white;
 }
 
 .option-btn:disabled {
@@ -304,7 +304,7 @@ main {
 
 .manual-wrap {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.625rem;
 }
 
 .manual-input {
@@ -313,8 +313,8 @@ main {
   border: 1px solid var(--border-subtle);
   border-radius: 0.5rem;
   color: var(--text-primary);
-  font-size: 0.9rem;
-  padding: 0.625rem 0.9rem;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
   outline: none;
   transition: border-color var(--transition);
 }
@@ -336,10 +336,10 @@ main {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 0.5rem;
   color: rgba(255, 255, 255, 0.9);
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   letter-spacing: 0.14rem;
   text-transform: uppercase;
-  padding: 0.625rem 1.1rem;
+  padding: 0.75rem 1.25rem;
   cursor: pointer;
   transition:
     background var(--transition),
@@ -362,25 +362,25 @@ main {
 .match-rows {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.625rem;
 }
 
 .match-row {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.875rem;
 }
 
 .match-left-label {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--text-primary);
-  min-width: 5.625rem;
+  min-width: 6.25rem;
   flex-shrink: 0;
 }
 
 .match-arrow {
   color: var(--text-faint);
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   flex-shrink: 0;
 }
 
@@ -390,8 +390,8 @@ main {
   border: 1px solid var(--border-subtle);
   border-radius: 0.5rem;
   color: var(--text-primary);
-  font-size: 0.85rem;
-  padding: 0.55rem 0.8rem;
+  font-size: 1rem;
+  padding: 0.65rem 0.9rem;
   outline: none;
   cursor: pointer;
   transition: border-color var(--transition);
@@ -424,7 +424,7 @@ main {
 
 .feedback {
   display: none;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   letter-spacing: 0.06rem;
   text-transform: uppercase;
   padding: 0.4rem 0;

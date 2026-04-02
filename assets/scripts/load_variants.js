@@ -1,37 +1,32 @@
-const SHEET_URL =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vQKQlU54jBPSIHMy7NKA_DXZaATMT1vzUZ9nlGxGTF67Nld9R2DKo2UT89grSNejqZF88Wm01Nwy-j_/pub?output=csv";
+// ─── Configuration ───────────────────────────────────────────────────────────
+const SUBJECT_DATA_URLS = [
+  "../assets/data/questions/math.json",
+  "../assets/data/questions/history.json",
+  "../assets/data/questions/english.json",
+  "../assets/data/questions/ukrainian.json",
+];
 const TOPICS_URL = "../assets/data/subjects_topics.json";
 
-function parseCSV(csv) {
-  const lines = csv.trim().split("\n");
-  const headers = splitCSVRow(lines[0]);
-  return lines.slice(1).map((line) => {
-    const values = splitCSVRow(line);
-    return headers.reduce((obj, h, i) => {
-      obj[h.trim()] = (values[i] ?? "").trim();
-      return obj;
-    }, {});
-  });
-}
+// ─── Data Loading Logic (JSON-based) ────────────────────────────────────────
+async function loadAllQuestions() {
+  const results = await Promise.allSettled(
+    SUBJECT_DATA_URLS.map((url) =>
+      fetch(url).then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status} for ${url}`);
+        return r.json();
+      }),
+    ),
+  );
 
-function splitCSVRow(row) {
-  const result = [];
-  let cur = "",
-    inQuote = false;
-  for (const c of row) {
-    if (c === '"') {
-      inQuote = !inQuote;
-      continue;
+  const allQuestions = [];
+  results.forEach((result, i) => {
+    if (result.status === "fulfilled") {
+      allQuestions.push(...result.value);
+    } else {
+      console.warn(`Could not load subject file #${i + 1}:`, result.reason);
     }
-    if (c === "," && !inQuote) {
-      result.push(cur);
-      cur = "";
-      continue;
-    }
-    cur += c;
-  }
-  result.push(cur);
-  return result;
+  });
+  return allQuestions;
 }
 
 function getTopicName(topicsData, topicId) {
@@ -42,24 +37,15 @@ function getTopicName(topicsData, topicId) {
   return `Тема ${topicId}`;
 }
 
-async function fetchWithRetry(url, attempts = 3, delayMs = 800) {
-  for (let i = 0; i < attempts; i++) {
-    try {
-      const res = await fetch(url);
-      if (res.ok) return res;
-    } catch {}
-    if (i < attempts - 1) await new Promise((r) => setTimeout(r, delayMs));
-  }
-  throw new Error(`Failed to fetch: ${url}`);
-}
-
 function cloneTemplate(id) {
   return document.getElementById(id).content.cloneNode(true).firstElementChild;
 }
 
+// ─── Main Controller ─────────────────────────────────────────────────────────
 async function loadVariants() {
   const params = new URLSearchParams(window.location.search);
   const topicId = params.get("topic_id");
+
   const titleEl = document.getElementById("topic-title");
   const loading = document.getElementById("loading");
   const errorMsg = document.getElementById("error-msg");
@@ -67,30 +53,33 @@ async function loadVariants() {
   const container = document.getElementById("variants-container");
 
   if (!topicId) {
-    titleEl.textContent = "Помилка: відсутній topic_id у URL";
+    titleEl.textContent = "Помилка: відсутній topic_id";
     loading.style.display = "none";
     errorMsg.style.display = "block";
     return;
   }
 
   try {
-    const [csvRes, topicsRes] = await Promise.all([
-      fetchWithRetry(SHEET_URL),
-      fetchWithRetry(TOPICS_URL),
-    ]);
-    const [csv, topicsData] = await Promise.all([
-      csvRes.text(),
-      topicsRes.json(),
+    // 1. Fetch JSON data instead of CSV
+    const [allQuestions, topicsData] = await Promise.all([
+      loadAllQuestions(),
+      fetch(TOPICS_URL).then((r) => r.json()),
     ]);
 
-    const allTasks = parseCSV(csv).filter((t) => t.topic_id === topicId);
+    // 2. Filter tasks for this topic and map variants
+    const topicTasks = allQuestions.filter(
+      (q) => String(q.topic_id) === String(topicId),
+    );
+
     const variantMap = new Map();
-    for (const task of allTasks) {
+    topicTasks.forEach((task) => {
       const vid = task.variant_id;
-      if (!vid) continue;
-      variantMap.set(vid, (variantMap.get(vid) ?? 0) + 1);
-    }
+      if (vid) {
+        variantMap.set(vid, (variantMap.get(vid) ?? 0) + 1);
+      }
+    });
 
+    // 3. UI Updates
     loading.style.display = "none";
     titleEl.textContent = getTopicName(topicsData, topicId);
 
@@ -99,44 +88,34 @@ async function loadVariants() {
       return;
     }
 
-    const sorted = [...variantMap.entries()].sort(([a], [b]) => {
+    // 4. Sort variants (Numeric if possible, else alphabetical)
+    const sortedVariants = [...variantMap.entries()].sort(([a], [b]) => {
       const na = parseInt(a),
         nb = parseInt(b);
-      if (!isNaN(na) && !isNaN(nb)) return na - nb;
-      return a.localeCompare(b);
+      return !isNaN(na) && !isNaN(nb) ? na - nb : a.localeCompare(b);
     });
 
-    sorted.forEach(([variantId, count]) => {
+    // 5. Render cards
+    sortedVariants.forEach(([variantId, count]) => {
       const card = cloneTemplate("variant-card-template");
+      // Links to the template page with both IDs
       card.href = `packages_template_page.html?topic_id=${topicId}&variant_id=${variantId}`;
+
       card.querySelector(".variant-name").textContent = `Варіант ${variantId}`;
       card.querySelector(".variant-count").textContent = `${count} завдань`;
       container.appendChild(card);
     });
   } catch (err) {
+    console.error("Load variants error:", err);
     loading.style.display = "none";
     titleEl.textContent = "Помилка завантаження";
+    errorMsg.style.display = "block";
 
+    // Simple retry logic
     const retryBtn = document.createElement("button");
     retryBtn.textContent = "Спробувати знову";
-    retryBtn.style.cssText = `
-      display: block; margin: 1rem auto 0;
-      padding: 0.3rem 1.2rem;
-      border: 1px solid rgba(255,255,255,0.25);
-      border-radius: 3rem;
-      background: transparent;
-      color: rgba(255,255,255,0.7);
-      font-family: 'Didact Gothic', sans-serif;
-      font-size: 0.7rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      cursor: pointer;
-    `;
-    retryBtn.addEventListener("click", () => location.reload());
-
-    errorMsg.textContent = "Проблема із завантаженням даних.";
+    retryBtn.onclick = () => location.reload();
     errorMsg.appendChild(retryBtn);
-    errorMsg.style.display = "block";
   }
 }
 

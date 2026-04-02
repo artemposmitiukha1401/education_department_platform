@@ -1,4 +1,5 @@
 @import url("./packages_page.css");
+@import url("./topics_page.css");
 * {
   color: white;
 }
@@ -33,6 +34,7 @@ header {
   align-self: flex-start;
   text-decoration: none;
   color: white;
+  margin: 0;
   padding: 0.3rem 1rem;
   font-size: 1rem;
   letter-spacing: 0.2rem;
@@ -143,6 +145,7 @@ main {
   letter-spacing: 0.08em;
 }
 
+/* 
 .variant-go-btn {
   display: inline-block;
   padding: 0.3rem 1rem;
@@ -161,4 +164,4 @@ main {
   background: white;
   color: #06090f;
   border-color: white;
-}
+} */
