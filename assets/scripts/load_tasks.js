@@ -1,6 +1,4 @@
 // ─── Data sources ────────────────────────────────────────────────────────────
-// One JSON file per subject. Add/remove entries here as subjects change.
-// Each file is an array of question objects (see questions_subject_1.json).
 const SUBJECT_DATA_URLS = [
   "../assets/data/questions/math.json",
   "../assets/data/questions/history.json",
@@ -11,7 +9,6 @@ const SUBJECT_DATA_URLS = [
 const TOPICS_URL = "../assets/data/subjects_topics.json";
 const RESULTS_KEY = "quiz_results";
 
-// ─── Session state ───────────────────────────────────────────────────────────
 let totalAnswered = 0;
 let correctAnswered = 0;
 let totalTasks = 0;
@@ -22,7 +19,6 @@ let sessionMeta = {
   startTime: null,
 };
 
-// ─── Result persistence ──────────────────────────────────────────────────────
 function loadResults() {
   try {
     return JSON.parse(localStorage.getItem(RESULTS_KEY)) || [];
@@ -61,7 +57,6 @@ function buildResultEntry() {
   };
 }
 
-// ─── DOM helpers ─────────────────────────────────────────────────────────────
 function cloneTemplate(id) {
   return document.getElementById(id).content.cloneNode(true).firstElementChild;
 }
@@ -74,24 +69,16 @@ function getTopicName(topicsData, topicId) {
   return `Тема ${topicId}`;
 }
 
-// ─── Data loading ─────────────────────────────────────────────────────────────
-/**
- * Loads all subject JSON files in parallel and merges them into one flat array.
- * Files that fail to load are skipped with a console warning so a single
- * missing file doesn't break the whole quiz.
- *
- * Expected question object shape:
- * {
- *   id:         number,
- *   topic_id:   number | string,
- *   variant_id: number | string | null,
- *   type:       "multiple" | "manual" | "match",
- *   question:   string,
- *   image_url:  string,          // "" when none
- *   options:    string[],        // [] for manual; "left:right" pairs for match
- *   answer:     string
- * }
- */
+function normalizeAnswerToken(str) {
+  return String(str).replace(/[).]/g, "").trim().toLowerCase();
+}
+
+function isOptionMatched(optStr, answer) {
+  const optNorm = normalizeAnswerToken(optStr);
+  const ansNorm = normalizeAnswerToken(answer);
+  return optNorm === ansNorm || optNorm.startsWith(ansNorm + " ");
+}
+
 async function loadAllQuestions() {
   const results = await Promise.allSettled(
     SUBJECT_DATA_URLS.map((url) =>
@@ -114,10 +101,6 @@ async function loadAllQuestions() {
   return allQuestions;
 }
 
-/**
- * Filters the merged question list by topic_id (required) and
- * optionally by variant_id.
- */
 function filterQuestions(allQuestions, topicId, variantId) {
   let tasks = allQuestions.filter(
     (q) => String(q.topic_id) === String(topicId),
@@ -128,7 +111,6 @@ function filterQuestions(allQuestions, topicId, variantId) {
   return tasks;
 }
 
-// ─── Progress & scoring ──────────────────────────────────────────────────────
 function updateProgress() {
   document.getElementById("task-counter").textContent =
     `${totalAnswered} / ${totalTasks}`;
@@ -164,11 +146,10 @@ function resolveCard(card, isCorrect, correctAnswer) {
   markCard(card, isCorrect);
 }
 
-// ─── Card renderers ──────────────────────────────────────────────────────────
 function initCard(templateId, task, index) {
   const card = cloneTemplate(templateId);
   card.querySelector(".task-num").textContent = index + 1;
-  card.querySelector(".question-text").textContent = task.question;
+  card.querySelector(".question-text").innerHTML = task.question || "";
 
   if (task.image_url) {
     const img = card.querySelector(".question-image");
@@ -179,57 +160,100 @@ function initCard(templateId, task, index) {
   return card;
 }
 
-/**
- * Multiple-choice card.
- * task.options — array of option strings, e.g. ["А) 15", "Б) -15", ...]
- * task.answer  — the correct option string, e.g. "Б"
- *
- * Matching is done by checking whether the option string starts with / equals
- * the answer, so both "Б" and "Б) -15" work as answer values.
- */
 function renderMultiple(task, index) {
   const card = initCard("tpl-multiple", task, index);
   const grid = card.querySelector(".options-grid");
-  const answer = String(task.answer).trim();
 
+  let answers = [];
+
+  if (Array.isArray(task.answer)) {
+    answers = task.answer.map((a) => String(a).trim()).filter(Boolean);
+  } else {
+    answers = String(task.answer)
+      .split(/[,;]/)
+      .map((a) => a.trim())
+      .filter(Boolean);
+  }
+
+  const selected = new Set();
+  if (!task.options || task.options.length === 0) {
+    const note = document.createElement("p");
+    note.style.cssText =
+      "font-size:0.9rem;color:var(--text-dim);font-style:italic;";
+    note.textContent = "Відповідь: " + task.answer;
+    card.querySelector(".options-grid").replaceWith(note);
+    return card;
+  }
   task.options.forEach((opt) => {
     const optStr = String(opt).trim();
     const btn = cloneTemplate("tpl-option-btn");
     btn.textContent = optStr;
     btn.dataset.opt = optStr;
+    btn.type = "button";
 
     btn.addEventListener("click", () => {
-      const isCorrect =
-        optStr === answer ||
-        optStr.startsWith(answer + ")") ||
-        optStr.startsWith(answer + " ");
+      if (btn.disabled) return;
 
-      grid.querySelectorAll(".option-btn").forEach((b) => {
-        b.disabled = true;
-        const bVal = b.dataset.opt;
-        if (
-          bVal === answer ||
-          bVal.startsWith(answer + ")") ||
-          bVal.startsWith(answer + " ")
-        ) {
-          b.classList.add("correct");
-        }
-      });
-
-      if (!isCorrect) btn.classList.add("wrong");
-      resolveCard(card, isCorrect, task.answer);
+      if (btn.classList.contains("selected-option")) {
+        btn.classList.remove("selected-option");
+        selected.delete(optStr);
+      } else {
+        btn.classList.add("selected-option");
+        selected.add(optStr);
+      }
     });
 
     grid.appendChild(btn);
   });
 
+  const checkBtn = document.createElement("button");
+  checkBtn.type = "button";
+  checkBtn.className = "check-btn";
+  checkBtn.textContent = "Перевірити";
+  grid.after(checkBtn);
+
+  checkBtn.addEventListener("click", () => {
+    if (selected.size === 0) return;
+
+    const buttons = [...grid.querySelectorAll(".option-btn")];
+
+    const correctOptions = buttons
+      .filter((b) => answers.some((ans) => isOptionMatched(b.dataset.opt, ans)))
+      .map((b) => b.dataset.opt);
+
+    const selectedOptions = [...selected];
+
+    const isCorrect =
+      selectedOptions.length === correctOptions.length &&
+      selectedOptions.every((opt) => correctOptions.includes(opt));
+
+    buttons.forEach((b) => {
+      b.disabled = true;
+
+      if (correctOptions.includes(b.dataset.opt)) {
+        b.classList.add("correct");
+      }
+
+      if (
+        selected.has(b.dataset.opt) &&
+        !correctOptions.includes(b.dataset.opt)
+      ) {
+        b.classList.add("wrong");
+      }
+    });
+
+    checkBtn.disabled = true;
+
+    const answerText = Array.isArray(task.answer)
+      ? task.answer.join(", ")
+      : String(task.answer);
+
+    resolveCard(card, isCorrect, answerText);
+  });
+
   return card;
 }
 
-/**
- * Manual (free-text) card.
- * task.answer — the expected string (case-insensitive comparison).
- */
 function renderManual(task, index) {
   const card = initCard("tpl-manual", task, index);
   const input = card.querySelector(".manual-input");
@@ -253,37 +277,35 @@ function renderManual(task, index) {
   return card;
 }
 
-/**
- * Matching card.
- * task.options — array of "left:right" pair strings, e.g. ["1:Б", "2:Д", "3:А"]
- * task.answer  — human-readable correct answer shown in feedback (string)
- */
 function renderMatch(task, index) {
   const card = initCard("tpl-match", task, index);
   const rowsContainer = card.querySelector(".match-rows");
-
-  // Парсим правильные ответы из строки типа "1-Д; 2-Г; 3-В"
+  // AFTER
   const answerMap = {};
-  String(task.answer)
-    .split(";")
-    .map((part) => part.trim())
-    .forEach((part) => {
-      const [left, right] = part.split("-").map((s) => s.trim());
+  const rawAnswer = String(task.answer).trim();
+
+  if (/^\d/.test(rawAnswer)) {
+    rawAnswer.split(";").forEach((part) => {
+      const [left, right] = part
+        .trim()
+        .split("-")
+        .map((s) => s.trim());
       if (left && right) answerMap[left] = right;
     });
-
-  // Варианты справа берём из options:
-  // ["А [проміжок А]", "Б [проміжок Б]", ...]
+  } else {
+    [...rawAnswer].forEach((letter, i) => {
+      answerMap[String(i + 1)] = letter.trim();
+    });
+  }
   const rightOptions = task.options.map((opt) => {
     const text = String(opt).trim();
-    const match = text.match(/^([А-ЯІЇЄҐA-Z])\s+/u);
+    const match = text.match(/^([А-ЯІЇЄҐA-Z0-9])(?:[\).\s]+)/u);
     return {
       key: match ? match[1] : text,
       label: text,
     };
   });
 
-  // Левые элементы берём из answer, например 1,2,3
   const leftItems = Object.keys(answerMap).sort(
     (a, b) => Number(a) - Number(b),
   );
@@ -302,8 +324,8 @@ function renderMatch(task, index) {
 
     rightOptions.forEach((opt) => {
       const optionEl = document.createElement("option");
-      optionEl.value = opt.key; // например "А"
-      optionEl.textContent = opt.label; // например "А [проміжок А]"
+      optionEl.value = opt.key;
+      optionEl.textContent = opt.label;
       select.appendChild(optionEl);
     });
 
@@ -338,7 +360,6 @@ const RENDERERS = {
   match: renderMatch,
 };
 
-// ─── Bootstrap ───────────────────────────────────────────────────────────────
 async function loadTasks() {
   const params = new URLSearchParams(window.location.search);
   const topicId = params.get("topic_id");

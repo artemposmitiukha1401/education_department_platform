@@ -2,7 +2,7 @@
 @import url("./results_page.css");
 
 * {
-  color: white;
+  color: rgba(0, 0, 0, 0.92);
 }
 
 header {
@@ -20,13 +20,13 @@ header {
   font-weight: 400;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.92);
+  color: rgba(0, 0, 0, 0.92);
   text-align: center;
   background: transparent;
   width: fit-content;
   margin-inline: auto;
   border-radius: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
   padding-bottom: 1.25rem;
 }
 
@@ -43,28 +43,28 @@ header {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
-  background: rgba(13, 20, 35, 0.72);
-  border: 1px solid rgba(255, 255, 255, 0.09);
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.1rem 1.4rem;
   border-radius: 0.75rem;
   backdrop-filter: blur(1.5rem);
   box-shadow:
-    0 0.25rem 1.5rem rgba(0, 0, 0, 0.4),
-    0 0 0 1px rgba(255, 255, 255, 0.03);
+    0 0.25rem 1.5rem rgba(0, 0, 0, 0.1),
+    0 0 0 1px rgba(0, 0, 0, 0.03);
   transition:
     border-color 0.2s ease,
     box-shadow 0.2s ease;
 }
 
 .topic-item:hover {
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(0, 0, 0, 0.28);
   box-shadow:
-    0 0.4rem 2rem rgba(0, 0, 0, 0.55),
-    0 0 0 1px rgba(255, 255, 255, 0.06);
+    0 0.4rem 2rem rgba(0, 0, 0, 0.16),
+    0 0 0 1px rgba(0, 0, 0, 0.06);
 }
 
 .topic-name {
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(0, 0, 0, 0.92);
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -74,9 +74,9 @@ header {
 .variant-go-btn {
   display: inline-block;
   padding: 0.5rem 1rem;
-  border: 1px solid white;
+  border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 3rem;
-  color: white;
+  color: rgba(0, 0, 0, 0.85);
   font-size: 0.8rem;
   letter-spacing: 0.12em;
   text-decoration: none;
@@ -89,8 +89,8 @@ header {
 
 .view-packages-btn:hover,
 .variant-go-btn:hover {
-  background: white;
-  color: #06090f;
-  border-color: white;
+  background: rgba(0, 0, 0, 0.88);
+  color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.88);
   transform: none;
 }

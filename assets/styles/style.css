@@ -1,23 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Didact Gothic", sans-serif;
 }
-
 body {
   background-color: #06090f;
 }
-
 #stars-canvas {
   position: fixed;
   inset: 0;
   z-index: 0;
   pointer-events: none;
 }
-
 header {
   position: fixed;
   top: 0;
@@ -36,7 +32,6 @@ header {
     transparent 100%
   );
 }
-
 header h1 {
   font-weight: 400;
   font-size: 2.6rem;
@@ -45,30 +40,25 @@ header h1 {
   color: rgba(255, 255, 255, 0.92);
   text-align: center;
 }
-
 header .tagline {
   font-size: 1.5rem;
   letter-spacing: 0.28rem;
   color: rgba(255, 255, 255, 0.797);
   text-transform: uppercase;
 }
-
 #canvas-container {
   position: fixed;
   inset: 0;
   z-index: 1;
 }
-
 canvas#net {
   width: 100%;
   height: 100%;
   cursor: default;
 }
-
 canvas#net:active {
   cursor: grabbing;
 }
-
 #tooltip {
   position: fixed;
   z-index: 200;
@@ -79,12 +69,10 @@ canvas#net:active {
     transform 0.2s ease;
   transform: translateY(0.25rem);
 }
-
 #tooltip.visible {
   opacity: 1;
   transform: translateY(0);
 }
-
 .tooltip-inner {
   background: rgba(8, 12, 22, 0.94);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -97,14 +85,12 @@ canvas#net:active {
   min-width: 9.75rem;
   text-align: center;
 }
-
 .tooltip-name {
   font-size: 1rem;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.95);
   margin-bottom: 0.2rem;
 }
-
 .tooltip-count {
   font-size: 0.7rem;
   letter-spacing: 0.16rem;
@@ -112,7 +98,6 @@ canvas#net:active {
   text-transform: uppercase;
   margin-bottom: 0.75rem;
 }
-
 .tooltip-btn {
   display: inline-block;
   padding: 0.3rem 1rem;
@@ -127,13 +112,11 @@ canvas#net:active {
   background: transparent;
   cursor: pointer;
 }
-
 .tooltip-btn:hover {
   background: white;
   color: #06090f;
   border-color: white;
 }
-
 #hint {
   position: fixed;
   bottom: 2rem;
@@ -147,7 +130,6 @@ canvas#net:active {
   white-space: nowrap;
   animation: fadeHint 4s ease 2.5s forwards;
 }
-
 @keyframes fadeHint {
   0% {
     opacity: 1;
@@ -180,4 +162,25 @@ a.results-link:hover {
   background: white;
   color: #06090f;
   border-color: white;
+}
+
+.back-btn {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.45);
+  border-radius: 3rem;
+  transition: all 0.2s ease;
+  background: transparent;
+}
+.back-btn:hover {
+  background: rgba(0, 0, 0, 0.88);
+  color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.88);
 }

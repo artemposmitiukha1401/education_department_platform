@@ -10,17 +10,17 @@
 }
 
 :root {
-  --bg-deep: #06090f;
-  --bg-mid: #0b1020;
-  --glass-bg: rgba(8, 12, 22, 0.72);
-  --border-subtle: rgba(255, 255, 255, 0.09);
-  --border-hover: rgba(255, 255, 255, 0.2);
-  --text-primary: rgba(255, 255, 255, 0.92);
-  --text-dim: rgba(255, 255, 255, 0.45);
-  --text-faint: rgba(255, 255, 255, 0.25);
-  --accent-green: #4ade80;
-  --accent-red: #f87171;
-  --accent-blue: rgba(147, 197, 253, 0.85);
+  --bg-deep: #ffffff;
+  --bg-mid: #f5f5f5;
+  --glass-bg: rgba(255, 255, 255, 0.9);
+  --border-subtle: rgba(0, 0, 0, 0.1);
+  --border-hover: rgba(0, 0, 0, 0.3);
+  --text-primary: rgba(0, 0, 0, 0.9);
+  --text-dim: rgba(0, 0, 0, 0.45);
+  --text-faint: rgba(0, 0, 0, 0.28);
+  --accent-green: #1a7a45;
+  --accent-red: #c0392b;
+  --accent-blue: rgba(30, 90, 180, 0.85);
   --radius: 0.75rem;
   --transition: 0.2s ease;
 }
@@ -28,7 +28,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   font-weight: 400;
   background-color: var(--bg-deep);
@@ -96,12 +95,12 @@ main {
 #score-banner {
   display: none;
   background: var(--glass-bg);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: var(--radius);
   backdrop-filter: blur(1.5rem);
   padding: 2rem 2.5rem;
   text-align: center;
-  box-shadow: 0 0.25rem 1.5rem rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.25rem 1.5rem rgba(0, 0, 0, 0.08);
 }
 
 .score-label {
@@ -140,8 +139,8 @@ main {
 .spinner {
   width: 1.75rem;
   height: 1.75rem;
-  border: 0.125rem solid rgba(255, 255, 255, 0.08);
-  border-top-color: rgba(255, 255, 255, 0.4);
+  border: 0.125rem solid rgba(0, 0, 0, 0.1);
+  border-top-color: rgba(60, 50, 30, 0.45);
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
 }
@@ -153,13 +152,13 @@ main {
 }
 
 .task-card {
-  background: rgba(13, 20, 35, 0.72);
+  background: rgba(255, 255, 255, 0.9);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius);
   backdrop-filter: blur(1.5rem);
   box-shadow:
-    0 0.25rem 1.5rem rgba(0, 0, 0, 0.4),
-    0 0 0 1px rgba(255, 255, 255, 0.03);
+    0 0.25rem 1.5rem rgba(0, 0, 0, 0.07),
+    0 0 0 1px rgba(0, 0, 0, 0.03);
   padding: 2rem 2rem;
   display: flex;
   flex-direction: column;
@@ -173,16 +172,16 @@ main {
 .task-card:hover {
   border-color: var(--border-hover);
   box-shadow:
-    0 0.4rem 2rem rgba(0, 0, 0, 0.55),
-    0 0 0 1px rgba(255, 255, 255, 0.06);
+    0 0.4rem 2rem rgba(0, 0, 0, 0.1),
+    0 0 0 1px rgba(60, 50, 30, 0.06);
 }
 
 .task-card.answered-correct {
-  border-color: rgba(74, 222, 128, 0.25);
+  border-color: rgba(26, 122, 69, 0.3);
 }
 
 .task-card.answered-wrong {
-  border-color: rgba(248, 113, 113, 0.22);
+  border-color: rgba(192, 57, 43, 0.25);
 }
 
 @keyframes fadeUp {
@@ -224,18 +223,18 @@ main {
 }
 
 .badge-multiple {
-  color: var(--accent-blue);
-  border-color: rgba(147, 197, 253, 0.25);
+  color: rgba(30, 90, 180, 0.85);
+  border-color: rgba(30, 90, 180, 0.22);
 }
 
 .badge-manual {
-  color: rgba(216, 180, 254, 0.85);
-  border-color: rgba(216, 180, 254, 0.22);
+  color: rgba(120, 60, 160, 0.85);
+  border-color: rgba(120, 60, 160, 0.22);
 }
 
 .badge-match {
-  color: rgba(253, 224, 71, 0.8);
-  border-color: rgba(253, 224, 71, 0.2);
+  color: rgba(160, 110, 10, 0.85);
+  border-color: rgba(160, 110, 10, 0.22);
 }
 
 .question-text {
@@ -267,7 +266,7 @@ main {
 }
 
 .option-btn {
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(0, 0, 0, 0.04);
   border: 1px solid var(--border-subtle);
   border-radius: 0.5rem;
   color: var(--text-primary);
@@ -282,8 +281,8 @@ main {
 }
 
 .option-btn:hover:not(:disabled) {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: white;
+  background: rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.55);
 }
 
 .option-btn:disabled {
@@ -291,14 +290,14 @@ main {
 }
 
 .option-btn.correct {
-  background: rgba(74, 222, 128, 0.1);
-  border-color: rgba(74, 222, 128, 0.35);
+  background: rgba(26, 122, 69, 0.08);
+  border-color: rgba(26, 122, 69, 0.35);
   color: var(--accent-green);
 }
 
 .option-btn.wrong {
-  background: rgba(248, 113, 113, 0.1);
-  border-color: rgba(248, 113, 113, 0.3);
+  background: rgba(192, 57, 43, 0.07);
+  border-color: rgba(192, 57, 43, 0.3);
   color: var(--accent-red);
 }
 
@@ -309,7 +308,7 @@ main {
 
 .manual-input {
   flex: 1;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(0, 0, 0, 0.04);
   border: 1px solid var(--border-subtle);
   border-radius: 0.5rem;
   color: var(--text-primary);
@@ -324,7 +323,7 @@ main {
 }
 
 .manual-input:focus {
-  border-color: rgba(255, 255, 255, 0.28);
+  border-color: rgba(0, 0, 0, 0.32);
 }
 
 .manual-input:disabled {
@@ -333,9 +332,9 @@ main {
 
 .check-btn {
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 0.5rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 0.85);
   font-size: 0.8rem;
   letter-spacing: 0.14rem;
   text-transform: uppercase;
@@ -349,9 +348,9 @@ main {
 }
 
 .check-btn:hover:not(:disabled) {
-  background: white;
-  color: #06090f;
-  border-color: white;
+  background: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.9);
 }
 
 .check-btn:disabled {
@@ -386,7 +385,7 @@ main {
 
 .match-select {
   flex: 1;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(0, 0, 0, 0.04);
   border: 1px solid var(--border-subtle);
   border-radius: 0.5rem;
   color: var(--text-primary);
@@ -399,21 +398,21 @@ main {
 }
 
 .match-select:focus {
-  border-color: rgba(255, 255, 255, 0.28);
+  border-color: rgba(0, 0, 0, 0.32);
 }
 
 .match-select option {
-  background: #0b1020;
-  color: white;
+  background: #f5f5f5;
+  color: rgba(28, 22, 12, 0.92);
 }
 
 .match-select.correct-select {
-  border-color: rgba(74, 222, 128, 0.35);
+  border-color: rgba(26, 122, 69, 0.35);
   color: var(--accent-green);
 }
 
 .match-select.wrong-select {
-  border-color: rgba(248, 113, 113, 0.3);
+  border-color: rgba(192, 57, 43, 0.3);
   color: var(--accent-red);
 }
 
@@ -440,4 +439,8 @@ main {
 
 .wrong-fb {
   color: var(--accent-red);
+}
+.selected-option {
+  outline: 2px solid #6b46c1;
+  background: rgba(107, 70, 193, 0.08);
 }

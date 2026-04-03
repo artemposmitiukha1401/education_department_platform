@@ -72,6 +72,21 @@
         "id": 301,
         "name": "Від стародавньої історії до княжої доби України",
         "english_name": "ancient_to_princely_era"
+      },
+      {
+        "id": 302,
+        "name": "Українські землі з 1340 по 1648 рр.",
+        "english_name": "ukrainian_lands_1340_1648"
+      },
+      {
+        "id": 303,
+        "name": "Гетьманщина з середини XVII століття до 1687 року",
+        "english_name": "hetmanate_mid_17th_to_1687"
+      },
+      {
+        "id": 304,
+        "name": "Українські землі з 1687 року до кінця XVII століття",
+        "english_name": "ukrainian_lands_1687_to_1700"
       }
     ]
   },

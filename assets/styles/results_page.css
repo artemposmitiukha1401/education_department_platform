@@ -1,7 +1,11 @@
 @import url("./style.css");
 
 * {
-  color: white;
+  color: rgba(0, 0, 0, 0.92);
+}
+
+body {
+  background-color: #ffffff;
 }
 
 header {
@@ -19,19 +23,19 @@ header {
   font-weight: 400;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.92);
+  color: rgba(0, 0, 0, 0.92);
   text-align: center;
   background: transparent;
   width: fit-content;
   margin-inline: auto;
   border-radius: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
   padding-bottom: 1rem;
 }
 
 .back-btn {
   text-decoration: none;
-  color: white;
+  color: rgba(0, 0, 0, 0.88);
   font-size: 1rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -41,14 +45,14 @@ header {
   gap: 0.5rem;
   padding: 0.3rem 1rem;
   transition: color 0.2s ease;
-  border: 1px solid white;
+  border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 3rem;
   transition: all 0.2s ease;
 }
 .back-btn:hover {
-  background: white;
-  color: #06090f;
-  border-color: white;
+  background: rgba(0, 0, 0, 0.88);
+  color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.88);
 }
 
 #results-list {
@@ -65,24 +69,24 @@ header {
   display: flex;
   align-items: center;
   gap: 1.25rem;
-  background: rgba(13, 20, 35, 0.72);
-  border: 1px solid rgba(255, 255, 255, 0.09);
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem 1.5rem;
   border-radius: 0.75rem;
   backdrop-filter: blur(1.5rem);
   box-shadow:
-    0 4px 24px rgba(0, 0, 0, 0.4),
-    0 0 0 1px rgba(255, 255, 255, 0.03);
+    0 4px 24px rgba(0, 0, 0, 0.1),
+    0 0 0 1px rgba(0, 0, 0, 0.03);
   transition:
     border-color 0.2s ease,
     box-shadow 0.2s ease;
   animation: fadeUp 0.3s ease both;
 }
 .result-card:hover {
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(0, 0, 0, 0.28);
   box-shadow:
-    0 8px 32px rgba(0, 0, 0, 0.55),
-    0 0 0 1px rgba(255, 255, 255, 0.06);
+    0 8px 32px rgba(0, 0, 0, 0.16),
+    0 0 0 1px rgba(0, 0, 0, 0.06);
 }
 
 @keyframes fadeUp {
@@ -103,7 +107,7 @@ header {
 }
 .ring-bg {
   fill: none;
-  stroke: rgba(255, 255, 255, 0.07);
+  stroke: rgba(0, 0, 0, 0.1);
   stroke-width: 4;
 }
 .ring-arc {
@@ -116,7 +120,7 @@ header {
 .ring-text {
   font-family: "Didact Gothic", sans-serif;
   font-size: 10px;
-  fill: rgba(255, 255, 255, 0.8);
+  fill: rgba(0, 0, 0, 0.75);
   dominant-baseline: middle;
   text-anchor: middle;
 }
@@ -133,7 +137,7 @@ header {
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(0, 0, 0, 0.92);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -146,7 +150,7 @@ header {
   font-size: 0.75rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.32);
+  color: rgba(0, 0, 0, 0.36);
 }
 
 .card-badge {
@@ -156,17 +160,17 @@ header {
 .badge-fraction {
   font-size: 1.25rem;
   letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.88);
+  color: rgba(0, 0, 0, 0.82);
 }
 .badge-fraction span {
-  color: rgba(255, 255, 255, 0.28);
+  color: rgba(0, 0, 0, 0.28);
   font-size: 0.85em;
 }
 .badge-label {
   font-size: 0.7rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.28);
+  color: rgba(0, 0, 0, 0.3);
   margin-top: 0.1rem;
 }
 
@@ -174,7 +178,7 @@ header {
   display: none;
   text-align: center;
   padding: 5rem 1rem;
-  color: rgba(255, 255, 255, 0.28);
+  color: rgba(0, 0, 0, 0.3);
   font-size: 0.85rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -190,7 +194,7 @@ header {
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.55);
   backdrop-filter: blur(6px);
   z-index: 100;
   align-items: center;
@@ -201,14 +205,14 @@ header {
 }
 
 .dialog {
-  background: rgba(10, 15, 26, 0.97);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(0, 0, 0, 0.14);
   border-radius: 0.75rem;
   padding: 2rem 2.25rem;
   max-width: 22rem;
   width: 90%;
   text-align: center;
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2);
 }
 
 .dialog h2 {
@@ -216,13 +220,13 @@ header {
   font-weight: 400;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(0, 0, 0, 0.82);
   margin-bottom: 0.75rem;
 }
 
 .dialog p {
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.32);
+  color: rgba(0, 0, 0, 0.4);
   line-height: 1.75;
   letter-spacing: 0.03em;
   margin-bottom: 1.5rem;
@@ -243,20 +247,20 @@ header {
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.2s ease;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   background: transparent;
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(0, 0, 0, 0.45);
 }
 .dialog-btn:hover {
-  border-color: rgba(255, 255, 255, 0.4);
-  color: rgba(255, 255, 255, 0.85);
+  border-color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.85);
 }
 .dialog-btn.danger {
-  border-color: rgba(255, 100, 100, 0.3);
-  color: rgba(255, 130, 130, 0.7);
+  border-color: rgba(192, 57, 43, 0.3);
+  color: rgba(192, 57, 43, 0.7);
 }
 .dialog-btn.danger:hover {
-  background: rgba(255, 100, 100, 0.08);
-  border-color: rgba(255, 100, 100, 0.55);
-  color: rgba(255, 160, 160, 0.95);
+  background: rgba(192, 57, 43, 0.07);
+  border-color: rgba(192, 57, 43, 0.5);
+  color: rgba(192, 57, 43, 0.9);
 }
