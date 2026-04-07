@@ -416,7 +416,14 @@ main {
 .match-select:focus {
   border-color: rgba(0, 0, 0, 0.32);
 }
-
+a.results-link{
+  color: black;
+  border-color: black;
+}
+a.results-link:hover{
+  background-color: black;
+  color: white;
+}
 .match-select option {
   background: #f5f5f5;
   color: rgba(28, 22, 12, 0.92);

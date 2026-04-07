@@ -87,6 +87,11 @@
         "id": 304,
         "name": "Українські землі з 1687 року до кінця XVII століття",
         "english_name": "ukrainian_lands_1687_to_1700"
+      },
+      {
+        "id": 305,
+        "name": "Українські землі в XIX ст.",
+        "english_name": "ukrainian_lands_xix"
       }
     ]
   },
