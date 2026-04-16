@@ -19,13 +19,33 @@ async function loadAllQuestions() {
   );
 
   const allQuestions = [];
+
   results.forEach((result, i) => {
-    if (result.status === "fulfilled") {
-      allQuestions.push(...result.value);
-    } else {
+    if (result.status !== "fulfilled") {
       console.warn(`Could not load subject file #${i + 1}:`, result.reason);
+      return;
     }
+
+    const data = result.value;
+data.forEach((entry) => {
+  if ("question" in entry) {
+    allQuestions.push(entry);
+    return;
+  }
+
+  if (Array.isArray(entry.questions)) {
+    entry.questions.forEach((q) => {
+      allQuestions.push({
+        topic_id: entry.topic_id,
+        variant_id: entry.variant_id,
+        text: entry.text || "",
+        ...q,
+      });
+    });
+  }
+});
   });
+
   return allQuestions;
 }
 
@@ -67,9 +87,10 @@ async function loadVariants() {
     ]);
 
     // 2. Filter tasks for this topic and map variants
+    // After
     const topicTasks = allQuestions.filter(
-      (q) => String(q.topic_id) === String(topicId),
-    );
+  (q) => String(q.topic_id) === String(topicId) && "question" in q,
+  );
 
     const variantMap = new Map();
     topicTasks.forEach((task) => {
@@ -79,7 +100,7 @@ async function loadVariants() {
       }
     });
 
-    // 3. UI Updates
+    
     loading.style.display = "none";
     titleEl.textContent = getTopicName(topicsData, topicId);
 
@@ -88,17 +109,17 @@ async function loadVariants() {
       return;
     }
 
-    // 4. Sort variants (Numeric if possible, else alphabetical)
+    
     const sortedVariants = [...variantMap.entries()].sort(([a], [b]) => {
       const na = parseInt(a),
         nb = parseInt(b);
       return !isNaN(na) && !isNaN(nb) ? na - nb : a.localeCompare(b);
     });
 
-    // 5. Render cards
+    
     sortedVariants.forEach(([variantId, count]) => {
       const card = cloneTemplate("variant-card-template");
-      // Links to the template page with both IDs
+    
       card.href = `packages_template_page.html?topic_id=${topicId}&variant_id=${variantId}`;
 
       card.querySelector(".variant-name").textContent = `Варіант ${variantId}`;
@@ -111,7 +132,7 @@ async function loadVariants() {
     titleEl.textContent = "Помилка завантаження";
     errorMsg.style.display = "block";
 
-    // Simple retry logic
+    
     const retryBtn = document.createElement("button");
     retryBtn.textContent = "Спробувати знову";
     retryBtn.onclick = () => location.reload();

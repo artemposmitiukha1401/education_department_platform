@@ -1830,5 +1830,1811 @@
     "image_url": "math_images/topic_103/variant_5/12.png",
     "options": [],
     "answer": "12"
+  },
+  {
+    "id": 181,
+    "topic_id": "104",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_1/1.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+  {
+    "id": 182,
+    "topic_id": "104",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_1/2.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Д"
+  },
+  {
+    "id": 183,
+    "topic_id": "104",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "На вершину гори ведуть 5 доріг. Скільки всього є варіантів вибору маршруту підйому на вершину гори однією дорогою, а спуску – іншою?",
+    "image_url": "",
+    "options": ["А 5", "Б 9", "В 10", "Г 20", "Д 25"],
+    "answer": "Г"
+  },
+  {
+    "id": 184,
+    "topic_id": "104",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_1/3.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "В"
+  },
+  {
+    "id": 185,
+    "topic_id": "104",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_1/4.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Д"
+  },
+  {
+    "id": 186,
+    "topic_id": "104",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "Скільки існує трицифрових чисел, усі цифри яких непарні та різні?",
+    "image_url": "",
+    "options": ["А 120", "Б 240", "В 60", "Г 200", "Д 57"],
+    "answer": "В"
+  },
+  {
+    "id": 187,
+    "topic_id": "104",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_1/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Д; 2-Г; 3-Б"
+  },
+  {
+    "id": 188,
+    "topic_id": "104",
+    "variant_id": "1",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_1/6.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Д; 2-В; 3-А"
+  },
+  {
+    "id": 189,
+    "topic_id": "104",
+    "variant_id": "1",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_1/7.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Д; 2-Г; 3-А"
+  },
+  {
+    "id": 190,
+    "topic_id": "104",
+    "variant_id": "1",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_1/8.png",
+    "options": [],
+    "answer": "20"
+  },
+  {
+    "id": 191,
+    "topic_id": "104",
+    "variant_id": "1",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_1/9.png",
+    "options": [],
+    "answer": "20"
+  },
+  {
+    "id": 192,
+    "topic_id": "104",
+    "variant_id": "1",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_1/10.png",
+    "options": [],
+    "answer": "42"
+  },
+  {
+    "id": 193,
+    "topic_id": "104",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_2/1.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "В"
+  },
+  {
+    "id": 194,
+    "topic_id": "104",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_2/2.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+  {
+    "id": 195,
+    "topic_id": "104",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "Студент на першому курсі повинен вибрати одну з трьох іноземних мов, яку вивчатиме, та одну з п'яти спортивних секцій, що відвідуватиме. Скільки всього існує варіантів вибору студентом іноземної мови та спортивної секції?",
+    "image_url": "",
+    "options": ["А 5", "Б 8", "В 10", "Г 15", "Д 28"],
+    "answer": "Г"
+  },
+  {
+    "id": 196,
+    "topic_id": "104",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_2/3.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "В"
+  },
+  {
+    "id": 197,
+    "topic_id": "104",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_2/4.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Д"
+  },
+  {
+    "id": 198,
+    "topic_id": "104",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "До складу української Прем'єр-ліги з футболу входять 16 команд. Упродовж сезону кожні дві команди грають між собою 2 матчі. Скільки всього матчів буде зіграно за сезон?",
+    "image_url": "",
+    "options": ["А 120", "Б 128", "В 200", "Г 240", "Д 256"],
+    "answer": "Г"
+  },
+  {
+    "id": 199,
+    "topic_id": "104",
+    "variant_id": "2",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_2/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Д; 2-Г; 3-А"
+  },
+  {
+    "id": 200,
+    "topic_id": "104",
+    "variant_id": "2",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_2/6.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Д; 2-А; 3-Г"
+  },
+  {
+    "id": 201,
+    "topic_id": "104",
+    "variant_id": "2",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_2/7.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Д; 2-Б; 3-В"
+  },
+  {
+    "id": 202,
+    "topic_id": "104",
+    "variant_id": "2",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_2/8.png",
+    "options": [],
+    "answer": "144"
+  },
+  {
+    "id": 203,
+    "topic_id": "104",
+    "variant_id": "2",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_2/9.png",
+    "options": [],
+    "answer": "1800"
+  },
+  {
+    "id": 204,
+    "topic_id": "104",
+    "variant_id": "2",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_2/10.png",
+    "options": [],
+    "answer": "500"
+  },
+  {
+    "id": 205,
+    "topic_id": "104",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_3/1.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "В"
+  },
+  {
+    "id": 207,
+    "topic_id": "104",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_3/2.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Д"
+  },
+  {
+    "id": 208,
+    "topic_id": "104",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_3/3.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+  {
+    "id": 209,
+    "topic_id": "104",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_3/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+  {
+    "id": 209,
+    "topic_id": "104",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_3/4.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+  {
+    "id": 210,
+    "topic_id": "104",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_3/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+  {
+    "id": 211,
+    "topic_id": "104",
+    "variant_id": "3",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_3/6.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Г; 2-А; 3-В"
+  },
+  {
+    "id": 212,
+    "topic_id": "104",
+    "variant_id": "3",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_3/7.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-А; 2-Б; 3-Д"
+  },
+  {
+    "id": 213,
+    "topic_id": "104",
+    "variant_id": "3",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_3/8.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Г; 2-А; 3-Б"
+  },
+  {
+    "id": 214,
+    "topic_id": "104",
+    "variant_id": "3",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_3/9.png",
+    "options": [],
+    "answer": "384"
+  },
+  {
+    "id": 215,
+    "topic_id": "104",
+    "variant_id": "3",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_3/10.png",
+    "options": [],
+    "answer": "0,65"
+  },
+  {
+    "id": 215,
+    "topic_id": "104",
+    "variant_id": "3",
+    "type": "manual",
+    "question": " Олег пише смс-повідомлення з трьох речень. У кінці кожного з них він прикріпить один із п’ятнадцяти веселих смайликів. Скільки всього є способів вибору таких смайликів для прикріплення, якщо всі смайлики в повідомленні мають бути різними?",
+    "image_url": "",
+    "options": [],
+    "answer": "2730"
+  },
+  {
+    "id": 216,
+    "topic_id": "104",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "Задано цифри 2; 3; 4; 5; 6. Знайдіть кількість непарних п’ятицифрових чисел, які можна скласти із цих цифр, використовуючи кожну цифру тільки один раз.",
+    "image_url": "",
+    "options": ["А 24", "Б 48", "В 72", "Г 120", "Д 240"],
+    "answer": "Б"
+  },
+  {
+    "id": 217,
+    "topic_id": "104",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "Скількома способами можна вибрати 2 блокноти і 3 ручки з 5 різних блокнотів і 8 різних ручок?",
+    "image_url": "",
+    "options": ["А 240", "Б 560", "В 720", "Г 490", "Д 370"],
+    "answer": "Б"
+  },
+  {
+    "id": 218,
+    "topic_id": "104",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "У футбольній команді з 11 гравців треба обрати капітана та його заступника. Скількома способами можна це зробити?",
+    "image_url": "",
+    "options": ["А 110", "Б 11!", "В 121", "Г 200", "Д 570"],
+    "answer": "А"
+  },
+  {
+    "id": 219,
+    "topic_id": "104",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_4/1.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Д"
+  },
+  {
+    "id": 220,
+    "topic_id": "104",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_4/2.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+  {
+    "id": 221,
+    "topic_id": "104",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_4/3.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+  {
+    "id": 222,
+    "topic_id": "104",
+    "variant_id": "4",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_4/4.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Д; 2-В; 3-А"
+  },
+  {
+    "id": 223,
+    "topic_id": "104",
+    "variant_id": "4",
+    "type": "match",
+    "question": "Дано вибірку: 𝟐, 𝟓, 𝟑, 𝟐, 𝟕, 𝟏𝟎, 𝟒. Установіть відповідність між характеристикою вибірки (1-4) та її значенням (А-Д)<br>Характеристика:<br>1. Мода,<br> 2. Медіана,<br> 3. Розмах",
+    "image_url": "",
+    "options": ["А 3", "Б 4", "В 4,7", "Г 2", "Д 8"],
+    "answer": "1-Г; 2-Б; 3-Д"
+  },
+  {
+    "id": 224,
+    "topic_id": "104",
+    "variant_id": "4",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_4/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-А; 2-Б; 3-В"
+  },
+  {
+    "id": 225,
+    "topic_id": "104",
+    "variant_id": "4",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_4/6.png",
+    "options": [],
+    "answer": "5"
+  },
+  {
+    "id": 226,
+    "topic_id": "104",
+    "variant_id": "4",
+    "type": "manual",
+    "question": "Михайло отримав з математики в першому семестрі такі оцінки: «8», «7», «9», «8». Яку кількість оцінок «10» протягом цього семестру треба отримати Михайлові з математики, щоб середнє арифметичне всіх отриманих у першому семестрі оцінок із цього предмета дорівнювало 9,5? Уважайте, що інших оцінок із математики, окрім «10», Михайло не отримуватиме.",
+    "image_url": "",
+    "options": [],
+    "answer": "12"
+  },
+  {
+    "id": 227,
+    "topic_id": "104",
+    "variant_id": "4",
+    "type": "manual",
+    "question": "Редактор стрічки новин вирішує, у якій послідовності розмістити 6 різни новин: 2 політичні, 3 суспільні й 1 спортивну. Скільки всього є різних послідовностей розміщення цих 6 новин у стрічці за умови, що політичні новини мають передувати іншим, а спортивна новина – бути останньою? Уважайте, що кожну із цих 6 новин у стрічці не повторюють.",
+    "image_url": "",
+    "options": [],
+    "answer": "12"
+  },
+  {
+    "id": 228,
+    "topic_id": "104",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_5/1.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+  {
+    "id": 229,
+    "topic_id": "104",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_5/2.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+  {
+    "id": 230,
+    "topic_id": "104",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_5/3.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+  {
+    "id": 231,
+    "topic_id": "104",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "Туристична група складається з 16 осіб. Скількома способами з них можна сформувати групу з 3 туристів для екскурсії?",
+    "image_url": "",
+    "options": ["А 2400", "Б 7200", "В 1200", "Г 560", "Д 380"],
+    "answer": "Г"
+  },
+  {
+    "id": 232,
+    "topic_id": "104",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_5/4.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "В"
+  },
+   {
+    "id": 233,
+    "topic_id": "104",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_5/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "В"
+  },
+   {
+    "id": 234,
+    "topic_id": "104",
+    "variant_id": "5",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_5/6.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-В; 2-А; 3-Б"
+  },
+   {
+    "id": 235,
+    "topic_id": "104",
+    "variant_id": "5",
+    "type": "match",
+    "question": "Установіть відповідність між центральною тенденцією вибірки (1-3) та її значенням (А-Г): <br>1. Середнє значення вибірки: 12; 17; 11; 13; 14; 15; 15; 16; 13; 13<br>2. Мода вибірки: 12; 17; 11; 13; 14; 15; 15; 16; 13; 13<br>3. Медіана вибірки: 12; 17; 11; 13; 14; 15; 15; 16, 13, 13",
+    "image_url": "",
+    "options": ["А 13", "Б 13,5", "В 13,7", "Г 13,9", "Д 13,2"],
+    "answer": "1-Г; 2-А; 3-Б"
+  },
+   {
+    "id": 236,
+    "topic_id": "104",
+    "variant_id": "5",
+    "type": "match",
+    "question": "З усіх натуральних чисел, більших за 9 і менших за 20, навмання вибирають одне число. Установіть відповідність між подією (1-4) та ймовірністю її появи (А-Д)",
+    "image_url": "math_images/topic_104/variant_5/7.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Г; 2-Д; 3-А"
+  },
+   {
+    "id": 237,
+    "topic_id": "104",
+    "variant_id": "5",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_5/8.png",
+    "options": [],
+    "answer": "2520"
+  },
+   {
+    "id": 238,
+    "topic_id": "104",
+    "variant_id": "5",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_5/9.png",
+    "options": [],
+    "answer": "21"
+  },
+   {
+    "id": 239,
+    "topic_id": "104",
+    "variant_id": "5",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_104/variant_5/10.png",
+    "options": [],
+    "answer": "25"
+  },
+   {
+    "id": 240,
+    "topic_id": "105",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/1.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "В"
+  },
+   {
+    "id": 241,
+    "topic_id": "105",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/2.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+   {
+    "id": 242,
+    "topic_id": "105",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/3.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+   {
+    "id": 243,
+    "topic_id": "105",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/4.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+   {
+    "id": 244,
+    "topic_id": "105",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+   {
+    "id": 245,
+    "topic_id": "105",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/6.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+   {
+    "id": 246,
+    "topic_id": "105",
+    "variant_id": "1",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/7.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-В; 2-Д; 3-Г"
+  },
+   {
+    "id": 247,
+    "topic_id": "105",
+    "variant_id": "1",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/8.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-В; 2-А; 3-Г"
+  },
+   {
+    "id": 248,
+    "topic_id": "105",
+    "variant_id": "1",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/9.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-А; 2-Д; 3-Б"
+  },
+   {
+    "id": 249,
+    "topic_id": "105",
+    "variant_id": "1",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/10.png",
+    "options": [],
+    "answer": "672"
+  },
+   {
+    "id": 250,
+    "topic_id": "105",
+    "variant_id": "1",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/11.png",
+    "options": [],
+    "answer": "30"
+  },
+   {
+    "id": 251,
+    "topic_id": "105",
+    "variant_id": "1",
+    "type": "manual",
+    "question": "Одна зі сторін трикутника дорівнює 7 см, кут між двома іншими сторонами - 60 градусів,  а їх різниця дорівнює 5 см. Знайдіть (у см) периметр трикутника.",
+    "image_url": "",
+    "options": [],
+    "answer": "30"
+  },
+   {
+    "id": 252,
+    "topic_id": "105",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_2/1.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "В"
+  },
+   {
+    "id": 253,
+    "topic_id": "105",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_2/2.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Д"
+  },
+   {
+    "id": 254,
+    "topic_id": "105",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_/3.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Д"
+  },
+   {
+    "id": 255,
+    "topic_id": "105",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_2/4.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Д"
+  },
+   {
+    "id": 256,
+    "topic_id": "105",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_2/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "В"
+  },
+   {
+    "id": 257,
+    "topic_id": "105",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_2/6.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+   {
+    "id": 258,
+    "topic_id": "105",
+    "variant_id": "2",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/7.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-А; 2-Б; 3-В"
+  },
+   {
+    "id": 259,
+    "topic_id": "105",
+    "variant_id": "2",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/8.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Г; 2-Б; 3-Д"
+  },
+   {
+    "id": 260,
+    "topic_id": "105",
+    "variant_id": "2",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/9.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-А; 2-В; 3-Г"
+  },
+   {
+    "id": 261,
+    "topic_id": "105",
+    "variant_id": "2",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/10.png",
+    "options": [],
+    "answer": "96"
+  },
+   {
+    "id": 262,
+    "topic_id": "105",
+    "variant_id": "2",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/11.png",
+    "options": [],
+    "answer": "40"
+  },
+   {
+    "id": 263,
+    "topic_id": "105",
+    "variant_id": "2",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_1/12.png",
+    "options": [],
+    "answer": "24"
+  },
+   {
+    "id": 264,
+    "topic_id": "105",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_3/1.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+   {
+    "id": 265,
+    "topic_id": "105",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_3/2.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+   {
+    "id": 266,
+    "topic_id": "105",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_3/3.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "В"
+  },
+   {
+    "id": 267,
+    "topic_id": "105",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_3/4.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "В"
+  },
+   {
+    "id": 268,
+    "topic_id": "105",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_3/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "В"
+  },
+   {
+    "id": 269,
+    "topic_id": "105",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_3/6.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+   {
+    "id": 270,
+    "topic_id": "105",
+    "variant_id": "3",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_3/7.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Г; 2-Б; 3-Д"
+  },
+   {
+    "id": 271,
+    "topic_id": "105",
+    "variant_id": "3",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_3/8.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Г; 2-А; 3-Б"
+  },
+   {
+    "id": 272,
+    "topic_id": "105",
+    "variant_id": "3",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_3/9.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Д; 2-А; 3-В"
+  },
+   {
+    "id": 273,
+    "topic_id": "105",
+    "variant_id": "3",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_3/10.png",
+    "options": [],
+    "answer": "14"
+  },
+   {
+    "id": 274,
+    "topic_id": "105",
+    "variant_id": "3",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_3/11.png",
+    "options": [],
+    "answer": "58"
+  },
+   {
+    "id": 275,
+    "topic_id": "105",
+    "variant_id": "3",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_3/12.png",
+    "options": [],
+    "answer": "336"
+  },
+  {
+    "id": 276,
+    "topic_id": "105",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_4/1.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+   {
+    "id": 277,
+    "topic_id": "105",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_4/2.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+   {
+    "id": 278,
+    "topic_id": "105",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_4/3.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "В"
+  },
+   {
+    "id": 279,
+    "topic_id": "105",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_4/4.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Д"
+  },
+   {
+    "id": 280,
+    "topic_id": "105",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_4/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+   {
+    "id": 281,
+    "topic_id": "105",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_4/6.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+   {
+    "id": 282,
+    "topic_id": "105",
+    "variant_id": "4",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_4/7.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Г; 2-А; 3-В"
+  },
+   {
+    "id": 283,
+    "topic_id": "105",
+    "variant_id": "4",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_4/8.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-В; 2-Д; 3-Г"
+  },
+   {
+    "id": 284,
+    "topic_id": "105",
+    "variant_id": "4",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_4/9.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Г; 2-А; 3-В"
+  },
+   {
+    "id": 285,
+    "topic_id": "105",
+    "variant_id": "4",
+    "type": "manual",
+    "question": "Діагональ рівнобічної трапеції перпендикулярна до бічної сторони. Висота трапеції, проведена з вершини тупого кута трапеції, ділить більшу основу на відрізки 2 см і 8 см. Знайдіть площу трапеції (у см2)",
+    "image_url": "",
+    "options": [],
+    "answer": "32"
+  },
+   {
+    "id": 286,
+    "topic_id": "105",
+    "variant_id": "4",
+    "type": "manual",
+    "question": "Кути ромба відносяться як 1:2, а його менша діагональ дорівнює 8 см. Знайдіть (у см) периметр ромба.",
+    "image_url": "",
+    "options": [],
+    "answer": "32"
+  },
+   {
+    "id": 287,
+    "topic_id": "105",
+    "variant_id": "4",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_4/10.png",
+    "options": [],
+    "answer": "120"
+  },
+  {
+    "id": 288,
+    "topic_id": "105",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_5/1.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+   {
+    "id": 289,
+    "topic_id": "105",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_5/2.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "В"
+  },
+   {
+    "id": 290,
+    "topic_id": "105",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_5/3.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+   {
+    "id": 291,
+    "topic_id": "105",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_5/4.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+   {
+    "id": 292,
+    "topic_id": "105",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_5/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+   {
+    "id": 293,
+    "topic_id": "105",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_5/6.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Д"
+  },
+   {
+    "id": 294,
+    "topic_id": "105",
+    "variant_id": "5",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_5/7.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Д; 2-Б; 3-В"
+  },
+   {
+    "id": 295,
+    "topic_id": "105",
+    "variant_id": "5",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_5/8.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Г; 2-В; 3-Б"
+  },
+   {
+    "id": 296,
+    "topic_id": "105",
+    "variant_id": "5",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_105/variant_5/9.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Д; 2-В; 3-Г"
+  },
+   {
+    "id": 297,
+    "topic_id": "105",
+    "variant_id": "5",
+    "type": "manual",
+    "question": " Периметр прямокутного трикутника дорівнює 30 см, а один з його катетів – 12 см. Знайдіть (у см) гіпотенузу трикутника.",
+    "image_url": "",
+    "options": [],
+    "answer": "13"
+  },
+   {
+    "id": 298,
+    "topic_id": "105",
+    "variant_id": "5",
+    "type": "manual",
+    "question": "У рівнобічній трапеції діагоналі взаємно перпендикулярні. Обчисліть площу трапеції, якщо її середня лінія дорівнює 6.",
+    "image_url": "",
+    "options": [],
+    "answer": "36"
+  },
+   {
+    "id": 299,
+    "topic_id": "105",
+    "variant_id": "5",
+    "type": "manual",
+    "question": "Периметр паралелограма дорівнює 90. Обчисліть площу паралелограма, якщо його висоти дорівнюють 9 і 18.",
+    "image_url": "",
+    "options": [],
+    "answer": "270"
+   },
+   
+  {
+    "id": 300,
+    "topic_id": "106",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_1/1.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+  {
+    "id": 301,
+    "topic_id": "106",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_1/2.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Д"
+  },
+  {
+    "id": 302,
+    "topic_id": "106",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_1/3.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+  {
+    "id": 303,
+    "topic_id": "106",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_1/4.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+  {
+    "id": 304,
+    "topic_id": "106",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_1/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+  {
+    "id": 305,
+    "topic_id": "106",
+    "variant_id": "1",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_1/6.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+  {
+    "id": 306,
+    "topic_id": "106",
+    "variant_id": "1",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_1/7.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Д; 2-А; 3-В"
+  },
+  {
+    "id": 307,
+    "topic_id": "106",
+    "variant_id": "1",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_1/8.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Б; 2-А; 3-Д"
+  },
+  {
+    "id": 308,
+    "topic_id": "106",
+    "variant_id": "1",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_1/9.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Б; 2-Г; 3-Д"
+  },
+  {
+    "id": 309,
+    "topic_id": "106",
+    "variant_id": "1",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_1/10.png",
+    "options": [],
+    "answer": "48"
+  },
+  {
+    "id": 310,
+    "topic_id": "106",
+    "variant_id": "1",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_1/11.png",
+    "options": [],
+    "answer": "180"
+  },
+  {
+    "id": 311,
+    "topic_id": "106",
+    "variant_id": "1",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_1/12.png",
+    "options": [],
+    "answer": "324"
+  },
+
+  {
+    "id": 312,
+    "topic_id": "106",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_2/1.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+  {
+    "id": 313,
+    "topic_id": "106",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_2/2.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+  {
+    "id": 314,
+    "topic_id": "106",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_2/3.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+  {
+    "id": 315,
+    "topic_id": "106",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_2/4.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+  {
+    "id": 316,
+    "topic_id": "106",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_2/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+  {
+    "id": 317,
+    "topic_id": "106",
+    "variant_id": "2",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_2/6.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+  {
+    "id": 318,
+    "topic_id": "106",
+    "variant_id": "2",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_2/7.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-А; 2-Д; 3-В"
+  },
+  {
+    "id": 319,
+    "topic_id": "106",
+    "variant_id": "2",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_2/8.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Г; 2-Б; 3-А"
+  },
+  {
+    "id": 320,
+    "topic_id": "106",
+    "variant_id": "2",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_2/9.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Б; 2-А; 3-Г"
+  },
+  {
+    "id": 321,
+    "topic_id": "106",
+    "variant_id": "2",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_2/10.png",
+    "options": [],
+    "answer": "4"
+  },
+  {
+    "id": 322,
+    "topic_id": "106",
+    "variant_id": "2",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_2/11.png",
+    "options": [],
+    "answer": "144"
+  },
+  {
+    "id": 323,
+    "topic_id": "106",
+    "variant_id": "2",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_2/12.png",
+    "options": [],
+    "answer": "64"
+  },
+
+  {
+    "id": 324,
+    "topic_id": "106",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_3/1.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+  {
+    "id": 325,
+    "topic_id": "106",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_3/2.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+  {
+    "id": 326,
+    "topic_id": "106",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_3/3.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+  {
+    "id": 327,
+    "topic_id": "106",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_3/4.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+  {
+    "id": 328,
+    "topic_id": "106",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_3/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+  {
+    "id": 329,
+    "topic_id": "106",
+    "variant_id": "3",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_3/6.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+  {
+    "id": 330,
+    "topic_id": "106",
+    "variant_id": "3",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_3/7.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Д; 2-В; 3-Б"
+  },
+  {
+    "id": 331,
+    "topic_id": "106",
+    "variant_id": "3",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_3/8.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-В; 2-Б; 3-А"
+  },
+  {
+    "id": 332,
+    "topic_id": "106",
+    "variant_id": "3",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_3/9.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-В; 2-Г; 3-А"
+  },
+  {
+    "id": 333,
+    "topic_id": "106",
+    "variant_id": "3",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_3/10.png",
+    "options": [],
+    "answer": "729"
+  },
+  {
+    "id": 334,
+    "topic_id": "106",
+    "variant_id": "3",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_3/11.png",
+    "options": [],
+    "answer": "2187"
+  },
+  {
+    "id": 335,
+    "topic_id": "106",
+    "variant_id": "3",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_3/12.png",
+    "options": [],
+    "answer": "920"
+  },
+
+  {
+    "id": 336,
+    "topic_id": "106",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_4/1.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+  {
+    "id": 337,
+    "topic_id": "106",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_4/2.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "В"
+  },
+  {
+    "id": 338,
+    "topic_id": "106",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_4/3.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+  {
+    "id": 339,
+    "topic_id": "106",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_4/4.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Д"
+  },
+  {
+    "id": 340,
+    "topic_id": "106",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_4/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+  {
+    "id": 341,
+    "topic_id": "106",
+    "variant_id": "4",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_4/6.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Д"
+  },
+  {
+    "id": 342,
+    "topic_id": "106",
+    "variant_id": "4",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_4/7.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-В; 2-Г; 3-А"
+  },
+  {
+    "id": 343,
+    "topic_id": "106",
+    "variant_id": "4",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_4/8.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Д; 2-Б; 3-А"
+  },
+  {
+    "id": 344,
+    "topic_id": "106",
+    "variant_id": "4",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_4/9.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-В; 2-Б; 3-Д"
+  },
+  {
+    "id": 345,
+    "topic_id": "106",
+    "variant_id": "4",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_4/10.png",
+    "options": [],
+    "answer": "72"
+  },
+  {
+    "id": 346,
+    "topic_id": "106",
+    "variant_id": "4",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_4/11.png",
+    "options": [],
+    "answer": "108"
+  },
+  {
+    "id": 347,
+    "topic_id": "106",
+    "variant_id": "4",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_4/12.png",
+    "options": [],
+    "answer": "1152"
+  },
+
+  {
+    "id": 348,
+    "topic_id": "106",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_5/1.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+  {
+    "id": 349,
+    "topic_id": "106",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_5/2.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Г"
+  },
+  {
+    "id": 350,
+    "topic_id": "106",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_5/3.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+  {
+    "id": 351,
+    "topic_id": "106",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_5/4.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "А"
+  },
+  {
+    "id": 352,
+    "topic_id": "106",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_5/5.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Б"
+  },
+  {
+    "id": 353,
+    "topic_id": "106",
+    "variant_id": "5",
+    "type": "multiple",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_5/6.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "Д"
+  },
+  {
+    "id": 354,
+    "topic_id": "106",
+    "variant_id": "5",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_5/7.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-А; 2-Г; 3-Б"
+  },
+  {
+    "id": 355,
+    "topic_id": "106",
+    "variant_id": "5",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_5/8.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-Б; 2-Д; 3-А"
+  },
+  {
+    "id": 356,
+    "topic_id": "106",
+    "variant_id": "5",
+    "type": "match",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_5/9.png",
+    "options": ["А", "Б", "В", "Г", "Д"],
+    "answer": "1-А; 2-Г; 3-В"
+  },
+  {
+    "id": 357,
+    "topic_id": "106",
+    "variant_id": "5",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_5/10.png",
+    "options": [],
+    "answer": "243"
+  },
+  {
+    "id": 358,
+    "topic_id": "106",  
+    "variant_id": "5",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_5/11.png",
+    "options": [],
+    "answer": "400"
+  },
+  {
+    "id": 359,
+    "topic_id": "106",
+    "variant_id": "5",
+    "type": "manual",
+    "question": "",
+    "image_url": "math_images/topic_106/variant_5/12.png",
+    "options": [],
+    "answer": "1920"
   }
 ]
+

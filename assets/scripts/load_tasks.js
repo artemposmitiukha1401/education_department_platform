@@ -90,12 +90,34 @@ async function loadAllQuestions() {
   );
 
   const allQuestions = [];
+
   results.forEach((result, i) => {
-    if (result.status === "fulfilled") {
-      allQuestions.push(...result.value);
-    } else {
+    if (result.status !== "fulfilled") {
       console.warn(`Could not load subject file #${i + 1}:`, result.reason);
+      return;
     }
+
+    const data = result.value;
+
+    data.forEach((entry) => {
+    
+      if ("question" in entry) {
+        allQuestions.push(entry);
+        return;
+      }
+
+
+      if (Array.isArray(entry.questions)) {
+        entry.questions.forEach((q) => {
+          allQuestions.push({
+            topic_id: entry.topic_id,
+            variant_id: entry.variant_id,
+            text: entry.text || "",
+            ...q,
+          });
+        });
+      }
+    });
   });
 
   return allQuestions;
@@ -145,11 +167,20 @@ function resolveCard(card, isCorrect, correctAnswer) {
   showFeedback(card.querySelector(".feedback"), isCorrect, correctAnswer);
   markCard(card, isCorrect);
 }
-
 function initCard(templateId, task, index) {
   const card = cloneTemplate(templateId);
   card.querySelector(".task-num").textContent = index + 1;
-  card.querySelector(".question-text").innerHTML = task.question || "";
+
+  const questionEl = card.querySelector(".question-text");
+
+  if (task.text) {
+    const textBlock = document.createElement("div");
+    textBlock.className = "task-shared-text";
+    textBlock.innerHTML = String(task.text).replace(/\n/g, "<br>");
+    questionEl.before(textBlock);
+  }
+
+  questionEl.innerHTML = task.question || "";
 
   if (task.image_url) {
     const img = card.querySelector(".question-image");
@@ -166,16 +197,18 @@ function renderMultiple(task, index) {
 
   let answers = [];
 
+  // Если answer массив — используем как есть.
+  // Если строка — считаем это одним ответом целиком.
+  // Разбивать по ; или , нужно только если это реально несколько ответов,
+  // но для вашего формата multiple это ломает проверку.
   if (Array.isArray(task.answer)) {
     answers = task.answer.map((a) => String(a).trim()).filter(Boolean);
-  } else {
-    answers = String(task.answer)
-      .split(/[,;]/)
-      .map((a) => a.trim())
-      .filter(Boolean);
+  } else if (typeof task.answer === "string") {
+    answers = [task.answer.trim()];
   }
 
   const selected = new Set();
+
   if (!task.options || task.options.length === 0) {
     const note = document.createElement("p");
     note.style.cssText =
@@ -184,6 +217,7 @@ function renderMultiple(task, index) {
     card.querySelector(".options-grid").replaceWith(note);
     return card;
   }
+
   task.options.forEach((opt) => {
     const optStr = String(opt).trim();
     const btn = cloneTemplate("tpl-option-btn");
@@ -194,13 +228,14 @@ function renderMultiple(task, index) {
     btn.addEventListener("click", () => {
       if (btn.disabled) return;
 
-      if (btn.classList.contains("selected-option")) {
-        btn.classList.remove("selected-option");
-        selected.delete(optStr);
-      } else {
-        btn.classList.add("selected-option");
-        selected.add(optStr);
-      }
+      // Для вопросов с одним правильным ответом оставляем только один выбранный
+      grid.querySelectorAll(".option-btn").forEach((b) => {
+        b.classList.remove("selected-option");
+      });
+      selected.clear();
+
+      btn.classList.add("selected-option");
+      selected.add(optStr);
     });
 
     grid.appendChild(btn);
