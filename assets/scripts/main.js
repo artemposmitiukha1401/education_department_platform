@@ -3,7 +3,6 @@ const SUBJECTS = [
     id: 1,
     name: "Математика",
     img: "math.jpg",
-    topics: 4,
     glow: "#4a8fff",
     core: "#1a3a6b",
     href: "./pages/topics_list_template_page.html?id=1",
@@ -16,7 +15,6 @@ const SUBJECTS = [
     id: 2,
     name: "Українська мова",
     img: "ukrainian.jpg",
-    topics: 5,
     glow: "#9b5de5",
     core: "#2d1a4a",
     href: "./pages/topics_list_template_page.html?id=2",
@@ -27,9 +25,8 @@ const SUBJECTS = [
   },
   {
     id: 3,
-    name: "Історія",
+    name: "Історія Укаїни",
     img: "history.jpg",
-    topics: 6,
     glow: "#ff6b6b",
     core: "#4a1a1a",
     href: "./pages/topics_list_template_page.html?id=3",
@@ -42,7 +39,6 @@ const SUBJECTS = [
     id: 5,
     name: "Англійська мова",
     img: "english.jpg",
-    topics: 4,
     glow: "#2ec4b6",
     core: "#1a3a3a",
     href: "./pages/topics_list_template_page.html?id=5",
@@ -341,23 +337,6 @@ function drawNode(n, t) {
     });
   }
 
-  const pillY = n.y + r * 0.52;
-  const pillText = `${n.topics} ${topicWord(n.topics)}`;
-  const pillW = r * 0.72;
-  const pillH = r * 0.27;
-
-  ctx.shadowBlur = 0;
-  roundRect(ctx, n.x - pillW / 2, pillY - pillH / 2, pillW, pillH, pillH / 2);
-  ctx.fillStyle = hexAlpha(n.accentColor, isHov ? 0.55 : 0.28);
-  ctx.fill();
-  ctx.strokeStyle = hexAlpha(n.accentColor, 0.65);
-  ctx.lineWidth = 0.8;
-  ctx.stroke();
-
-  ctx.font = `400 ${r * 0.13}px 'Didact Gothic', sans-serif`;
-  ctx.fillStyle = isHov ? "rgba(255,255,255,0.97)" : n.lightColor;
-  ctx.fillText(pillText, n.x, pillY);
-
   ctx.restore();
 }
 
@@ -373,12 +352,6 @@ function roundRect(ctx, x, y, w, h, r) {
   ctx.lineTo(x, y + r);
   ctx.quadraticCurveTo(x, y, x + r, y);
   ctx.closePath();
-}
-
-function topicWord(n) {
-  if (n === 1) return "тема";
-  if (n >= 2 && n <= 4) return "теми";
-  return "тем";
 }
 
 function hexAlpha(hex, a) {
