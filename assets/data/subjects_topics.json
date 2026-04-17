@@ -128,31 +128,6 @@
         "id": 405,
         "name": "Відпочинок і дозвілля. Подорожі. Модальність (Modality)",
         "english_name": "leisure_travel_modality"
-      },
-      {
-        "id": 406,
-        "name": "Види та жанри мистецтва, кіно й актори, картини та художники, музика",
-        "english_name": "arts_cinema_music"
-      },
-      {
-        "id": 407,
-        "name": "Спорт. Охорона здоров'я. Іменник (Noun)",
-        "english_name": "sport_health_noun"
-      },
-      {
-        "id": 408,
-        "name": "Погода і природа. Прийменник (Preposition)",
-        "english_name": "weather_nature_preposition"
-      },
-      {
-        "id": 409,
-        "name": "Україна. Україна у світі. Країна, мови якої вивчаються. Свята і традиції. Займенник (Pronoun)",
-        "english_name": "ukraine_world_holidays_pronoun"
-      },
-      {
-        "id": 410,
-        "name": "ЗМІ, телебачення, інтернет. Наука й технології, сучасні пристрої у повсякденному житті",
-        "english_name": "media_technology_devices"
       }
     ]
   }
