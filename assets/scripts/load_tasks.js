@@ -19,6 +19,234 @@ let sessionMeta = {
   startTime: null,
 };
 
+function createLightbox() {
+  if (document.getElementById("img-lightbox")) return;
+
+  const overlay = document.createElement("div");
+  overlay.id = "img-lightbox";
+  overlay.style.cssText = `
+    display: none; position: fixed; inset: 0; z-index: 9999;
+    background: rgba(0,0,0,0.8); align-items: center; justify-content: center;
+    cursor: zoom-out;
+  `;
+
+  const img = document.createElement("img");
+  img.id = "img-lightbox-img";
+  img.style.cssText = `
+  width: 90vw; 
+  height: 90vh;
+  object-fit: contain;
+    border-radius: 8px; cursor: default;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.6);
+  `;
+
+  const closeBtn = document.createElement("button");
+  closeBtn.id = "img-lightbox-close";
+  closeBtn.innerHTML = "&#x2715;";
+  closeBtn.style.cssText = `
+    position: fixed; top: 20px; right: 24px; z-index: 10000;
+    background: rgba(255,255,255,0.15); border: 1.5px solid rgba(255,255,255,0.4);
+    color: #fff; font-size: 22px; line-height: 1; width: 44px; height: 44px;
+    border-radius: 3rem; cursor: pointer; display: flex;
+    align-items: center; justify-content: center;
+    transition: background 0.15s;
+  `;
+  closeBtn.addEventListener("mouseenter", () => {
+    closeBtn.style.background = "rgba(255,255,255,0.3)";
+  });
+  closeBtn.addEventListener("mouseleave", () => {
+    closeBtn.style.background = "rgba(255,255,255,0.15)";
+  });
+
+  overlay.appendChild(img);
+  document.body.appendChild(overlay);
+  document.body.appendChild(closeBtn);
+  closeBtn.style.display = "none";
+
+  function openLightbox(src) {
+    img.src = src;
+    overlay.style.display = "flex";
+    closeBtn.style.display = "flex";
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeLightbox() {
+    overlay.style.display = "none";
+    closeBtn.style.display = "none";
+    document.body.style.overflow = "";
+  }
+
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) closeLightbox();
+  });
+
+  img.addEventListener("click", (e) => e.stopPropagation());
+
+  closeBtn.addEventListener("click", closeLightbox);
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeLightbox();
+  });
+
+  return openLightbox;
+}
+function createCustomSelect(options, leftKey) {
+  const wrap = document.createElement("div");
+  wrap.className = "custom-select-wrap";
+  wrap.dataset.left = leftKey;
+  wrap.dataset.value = "";
+
+  const trigger = document.createElement("div");
+  trigger.className = "custom-select-trigger";
+  trigger.setAttribute("tabindex", "0");
+  trigger.innerHTML = `
+    <span class="trigger-text placeholder">?</span>
+    <svg class="trigger-arrow" viewBox="0 0 16 16" fill="none"
+         stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <polyline points="4 6 8 10 12 6"/>
+    </svg>`;
+
+  // Dropdown is portaled to <body>
+  const dropdown = document.createElement("div");
+  dropdown.className = "custom-select-dropdown";
+  dropdown.setAttribute("role", "listbox");
+  document.body.appendChild(dropdown);
+
+  // Placeholder option
+  const placeholderOpt = document.createElement("div");
+  placeholderOpt.className = "custom-option placeholder-opt";
+  placeholderOpt.textContent = "Оберіть відповідь...";
+  placeholderOpt.dataset.value = "";
+  dropdown.appendChild(placeholderOpt);
+
+  options.forEach((opt) => {
+    const el = document.createElement("div");
+    el.className = "custom-option";
+    el.textContent = opt.label;
+    el.dataset.value = opt.key;
+    el.setAttribute("role", "option");
+    dropdown.appendChild(el);
+  });
+
+  wrap.appendChild(trigger);
+
+  // ── Position dropdown under trigger ──────────────────────────────────────
+
+  function positionDropdown() {
+    const rect = trigger.getBoundingClientRect();
+    dropdown.style.position = "fixed";
+    dropdown.style.top = `${rect.bottom + 4}px`;
+    dropdown.style.left = `${rect.left}px`;
+    dropdown.style.width = `${rect.width}px`;
+  }
+
+  // ── Open / close ──────────────────────────────────────────────────────────
+
+  function open() {
+    closeAll();
+    positionDropdown();
+    trigger.classList.add("open");
+    dropdown.classList.add("open");
+    dropdown._owner = wrap;
+  }
+
+  function close() {
+    trigger.classList.remove("open");
+    dropdown.classList.remove("open");
+  }
+
+  function closeAll() {
+    document.querySelectorAll(".custom-select-dropdown.open").forEach((d) => {
+      d.classList.remove("open");
+      if (d._owner) {
+        d._owner
+          .querySelector(".custom-select-trigger")
+          ?.classList.remove("open");
+      }
+    });
+  }
+
+  trigger.addEventListener("click", (e) => {
+    e.stopPropagation();
+    dropdown.classList.contains("open") ? close() : open();
+  });
+
+  trigger.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      open();
+    }
+    if (e.key === "Escape") close();
+  });
+
+  // Reposition on scroll/resize while open
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (dropdown.classList.contains("open")) positionDropdown();
+    },
+    true,
+  );
+  window.addEventListener("resize", () => {
+    if (dropdown.classList.contains("open")) positionDropdown();
+  });
+
+  // ── Option selection ──────────────────────────────────────────────────────
+
+  // mousedown prevents losing focus on trigger before click fires
+  dropdown.addEventListener("mousedown", (e) => e.preventDefault());
+
+  dropdown.addEventListener("click", (e) => {
+    const opt = e.target.closest(".custom-option");
+    if (!opt) return;
+
+    const val = opt.dataset.value;
+    wrap.dataset.value = val;
+
+    dropdown
+      .querySelectorAll(".custom-option")
+      .forEach((o) => o.classList.remove("selected"));
+    if (val) opt.classList.add("selected");
+
+    const textEl = trigger.querySelector(".trigger-text");
+    if (val) {
+      const match = options.find((o) => o.key === val);
+      textEl.textContent = match ? match.label : val;
+      textEl.classList.remove("placeholder");
+    } else {
+      textEl.textContent = "?";
+      textEl.classList.add("placeholder");
+    }
+
+    close();
+  });
+
+  // Close when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!wrap.contains(e.target) && !dropdown.contains(e.target)) {
+      close();
+    }
+  });
+
+  // Cleanup portal node if the wrap is removed from DOM
+  const observer = new MutationObserver(() => {
+    if (!document.body.contains(wrap)) {
+      dropdown.remove();
+      observer.disconnect();
+    }
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
+
+  return wrap;
+}
+// Close any open dropdown when clicking outside
+document.addEventListener("click", () => {
+  document.querySelectorAll(".custom-select-dropdown.open").forEach((d) => {
+    d.classList.remove("open");
+    d.previousElementSibling.classList.remove("open");
+  });
+});
+
 function loadResults() {
   try {
     return JSON.parse(localStorage.getItem(RESULTS_KEY)) || [];
@@ -37,7 +265,7 @@ function saveResult(entry) {
       results.pop();
       try {
         localStorage.setItem(RESULTS_KEY, JSON.stringify(results));
-      } catch {}
+      } catch { }
     }
   }
 }
@@ -100,12 +328,10 @@ async function loadAllQuestions() {
     const data = result.value;
 
     data.forEach((entry) => {
-    
       if ("question" in entry) {
         allQuestions.push(entry);
         return;
       }
-
 
       if (Array.isArray(entry.questions)) {
         entry.questions.forEach((q) => {
@@ -186,6 +412,24 @@ function initCard(templateId, task, index) {
     const img = card.querySelector(".question-image");
     img.src = "../assets/data/" + task.image_url;
     img.hidden = false;
+
+    // Зробити зображення клікабельним
+    img.style.cursor = "zoom-in";
+    img.title = "Натисніть для збільшення";
+    img.addEventListener("click", () => {
+      const openLightbox = createLightbox();
+      if (openLightbox) openLightbox(img.src);
+      else {
+        // лайтбокс вже існує — перевідкрити через overlay
+        const overlay = document.getElementById("img-lightbox");
+        const lbImg = document.getElementById("img-lightbox-img");
+        const closeBtn = document.getElementById("img-lightbox-close");
+        lbImg.src = img.src;
+        overlay.style.display = "flex";
+        closeBtn.style.display = "flex";
+        document.body.style.overflow = "hidden";
+      }
+    });
   }
 
   return card;
@@ -311,11 +555,10 @@ function renderManual(task, index) {
 
   return card;
 }
-
 function renderMatch(task, index) {
   const card = initCard("tpl-match", task, index);
   const rowsContainer = card.querySelector(".match-rows");
-  // AFTER
+
   const answerMap = {};
   const rawAnswer = String(task.answer).trim();
 
@@ -332,13 +575,11 @@ function renderMatch(task, index) {
       answerMap[String(i + 1)] = letter.trim();
     });
   }
+
   const rightOptions = task.options.map((opt) => {
     const text = String(opt).trim();
     const match = text.match(/^([А-ЯІЇЄҐA-Z0-9])(?:[\).\s]+)/u);
-    return {
-      key: match ? match[1] : text,
-      label: text,
-    };
+    return { key: match ? match[1] : text, label: text };
   });
 
   const leftItems = Object.keys(answerMap).sort(
@@ -349,38 +590,44 @@ function renderMatch(task, index) {
     const row = cloneTemplate("tpl-match-row");
     row.querySelector(".match-left-label").textContent = left;
 
-    const select = row.querySelector(".match-select");
-    select.dataset.left = left;
+    const oldSelect = row.querySelector(".match-select");
+    const customSelect = createCustomSelect(rightOptions, left);
 
-    const defaultOpt = document.createElement("option");
-    defaultOpt.value = "";
-    defaultOpt.textContent = "?";
-    select.appendChild(defaultOpt);
-
-    rightOptions.forEach((opt) => {
-      const optionEl = document.createElement("option");
-      optionEl.value = opt.key;
-      optionEl.textContent = opt.label;
-      select.appendChild(optionEl);
-    });
+    if (oldSelect) {
+      oldSelect.replaceWith(customSelect);
+    } else {
+      row.appendChild(customSelect);
+    }
 
     rowsContainer.appendChild(row);
   });
 
   const checkBtn = card.querySelector(".check-btn");
+
   checkBtn.addEventListener("click", () => {
-    const selects = card.querySelectorAll(".match-select");
+    const wraps = card.querySelectorAll(".custom-select-wrap");
+    let allFilled = true;
     let allCorrect = true;
 
-    selects.forEach((sel) => {
-      const expected = answerMap[sel.dataset.left];
-      const isOk = sel.value === expected;
+    wraps.forEach((wrap) => {
+      const left = wrap.dataset.left;
+      const val = wrap.dataset.value || "";
+      const expected = answerMap[left];
+      const trigger = wrap.querySelector(".custom-select-trigger");
 
-      if (!isOk) allCorrect = false;
+      if (!val) {
+        allFilled = false;
+        return;
+      }
 
-      sel.classList.add(isOk ? "correct-select" : "wrong-select");
-      sel.disabled = true;
+      const ok = val === expected;
+      if (!ok) allCorrect = false;
+
+      trigger.classList.add(ok ? "correct-select" : "wrong-select");
+      trigger.classList.add("disabled");
     });
+
+    if (!allFilled) return;
 
     checkBtn.disabled = true;
     resolveCard(card, allCorrect, task.answer || "усі відповідності правильні");
@@ -399,6 +646,7 @@ async function loadTasks() {
   const params = new URLSearchParams(window.location.search);
   const topicId = params.get("topic_id");
   const variantId = params.get("variant_id");
+  createLightbox();
 
   const titleEl = document.getElementById("topic-title");
   const loading = document.getElementById("loading");

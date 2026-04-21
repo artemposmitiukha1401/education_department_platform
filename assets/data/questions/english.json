@@ -69,12 +69,12 @@
   {
     "topic_id": "401",
     "variant_id": "1",
-    "text": "Read the texts below. Match choices (A–G) to (6–10). There are two choices you do not need to use.\n\nWho describes:\n\n6. Mark: \"I live in a small studio flat in the city centre. It's a bit cramped, but I've made it cozy with numerous plants. Every morning, I go for a 5 km run before work because staying active is my top priority.\"\n\n7. Sarah: \"My family is huge! I have three brothers and two sisters. We often have minor arguments about house chores, but we always solve conflicts by talking things through at our weekly Sunday dinners.\"\n\n8. Elena: \"I'm quite an introverted person, so I value my individuality. My apartment is decorated in a minimalist style, which reflects my organized character. I prefer quiet evenings reading over noisy parties.\"\n\n9. David: \"I believe that what you eat defines how you feel. I've recently cut out all processed sugar and junk food from my diet. Since then, my energy levels have skyrocketed, and I feel much more positive throughout the day.\"\n\n10. Alex: \"I've known my best friend since primary school. We don't always agree on everything, but he is the person I call first when things go wrong. True loyalty is about being there during the darkest hours, not just the bright ones.\"",
+    "text": "Read the texts below. Match choices (A–G) to (6–10). There are two choices you do not need to use.\n\nWho describes ________.\n\n6. Mark: \"I live in a small studio flat in the city centre. It's a bit cramped, but I've made it cozy with numerous plants. Every morning, I go for a 5 km run before work because staying active is my top priority.\"\n\n7. Sarah: \"My family is huge! I have three brothers and two sisters. We often have minor arguments about house chores, but we always solve conflicts by talking things through at our weekly Sunday dinners.\"\n\n8. Elena: \"I'm quite an introverted person, so I value my individuality. My apartment is decorated in a minimalist style, which reflects my organized character. I prefer quiet evenings reading over noisy parties.\"\n\n9. David: \"I believe that what you eat defines how you feel. I've recently cut out all processed sugar and junk food from my diet. Since then, my energy levels have skyrocketed, and I feel much more positive throughout the day.\"\n\n10. Alex: \"I've known my best friend since primary school. We don't always agree on everything, but he is the person I call first when things go wrong. True loyalty is about being there during the darkest hours, not just the bright ones.\"",
     "questions": [
       {
         "id": 6,
         "type": "multiple",
-        "question": "6. Mark: \"I live in a small studio flat in the city centre. It's a bit cramped, but I've made it cozy with numerous plants. Every morning, I go for a 5 km run before work because staying active is my top priority.\"\n\nWho describes:",
+        "question": "<strong>6.</strong> Mark: \"I live in a small studio flat in the city centre. It's a bit cramped, but I've made it cozy with numerous plants. Every morning, I go for a 5 km run before work because staying active is my top priority.\"",
         "options": [
           "A) Solving Family Disputes",
           "B) The Benefits of a Healthy Diet",
@@ -89,7 +89,7 @@
       {
         "id": 7,
         "type": "multiple",
-        "question": "7. Sarah: \"My family is huge! I have three brothers and two sisters. We often have minor arguments about house chores, but we always solve conflicts by talking things through at our weekly Sunday dinners.\"\n\nWho describes:",
+        "question": "<strong>7.</strong> Sarah: \"My family is huge! I have three brothers and two sisters. We often have minor arguments about house chores, but we always solve conflicts by talking things through at our weekly Sunday dinners.\"",
         "options": [
           "A) Solving Family Disputes",
           "B) The Benefits of a Healthy Diet",
@@ -104,7 +104,7 @@
       {
         "id": 8,
         "type": "multiple",
-        "question": "8. Elena: \"I'm quite an introverted person, so I value my individuality. My apartment is decorated in a minimalist style, which reflects my organized character. I prefer quiet evenings reading over noisy parties.\"\n\nWho describes:",
+        "question": "<strong>8.</strong> Elena: \"I'm quite an introverted person, so I value my individuality. My apartment is decorated in a minimalist style, which reflects my organized character. I prefer quiet evenings reading over noisy parties.\"",
         "options": [
           "A) Solving Family Disputes",
           "B) The Benefits of a Healthy Diet",
@@ -119,7 +119,7 @@
       {
         "id": 9,
         "type": "multiple",
-        "question": "9. David: \"I believe that what you eat defines how you feel. I've recently cut out all processed sugar and junk food from my diet. Since then, my energy levels have skyrocketed, and I feel much more positive throughout the day.\"\n\nWho describes:",
+        "question": "<strong>9.</strong> David: \"I believe that what you eat defines how you feel. I've recently cut out all processed sugar and junk food from my diet. Since then, my energy levels have skyrocketed, and I feel much more positive throughout the day.\"",
         "options": [
           "A) Solving Family Disputes",
           "B) The Benefits of a Healthy Diet",
@@ -134,7 +134,7 @@
       {
         "id": 10,
         "type": "multiple",
-        "question": "10. Alex: \"I've known my best friend since primary school. We don't always agree on everything, but he is the person I call first when things go wrong. True loyalty is about being there during the darkest hours, not just the bright ones.\"\n\nWho describes:",
+        "question": "<strong>10.</strong> Alex: \"I've known my best friend since primary school. We don't always agree on everything, but he is the person I call first when things go wrong. True loyalty is about being there during the darkest hours, not just the bright ones.\"",
         "options": [
           "A) Solving Family Disputes",
           "B) The Benefits of a Healthy Diet",
@@ -156,7 +156,7 @@
       {
         "id": 11,
         "type": "multiple",
-        "question": "There is a commonly held opinion that people are born with certain fixed personality traits (1) _____________. Others claim that our character is shaped till we turn thirty. However, the most recent research has shown that our personal growth is a lifelong process.",
+        "question": "There is a commonly held opinion that people are born with certain fixed personality traits <strong>(1)</strong> _____________. Others claim that our character is shaped till we turn thirty. However, the most recent research has shown that our personal growth is a lifelong process.",
         "options": [
           "A) both of which enable us to find common ground with others more easily",
           "B) that determine their behaviour and reactions throughout their entire lives",
@@ -172,7 +172,7 @@
       {
         "id": 12,
         "type": "multiple",
-        "question": "For example, we are most vulnerable as kids, expecting warmth, care, and love from people around us. And among other things, we have a strong need for entertainment, joy and excitement, (2) ____________.",
+        "question": "For example, we are most vulnerable as kids, expecting warmth, care, and love from people around us. And among other things, we have a strong need for entertainment, joy and excitement, <strong>(2)</strong> ____________.",
         "options": [
           "A) both of which enable us to find common ground with others more easily",
           "B) that determine their behaviour and reactions throughout their entire lives",
@@ -188,7 +188,7 @@
       {
         "id": 13,
         "type": "multiple",
-        "question": "As we grow older and get into our teens, friendship and romantic relationships become the main focus. Everything we do is triggered by passion. We often go from one extreme to the other, (3) ____________.",
+        "question": "As we grow older and get into our teens, friendship and romantic relationships become the main focus. Everything we do is triggered by passion. We often go from one extreme to the other, <strong>(3)</strong> ____________.",
         "options": [
           "A) both of which enable us to find common ground with others more easily",
           "B) that determine their behaviour and reactions throughout their entire lives",
@@ -204,7 +204,7 @@
       {
         "id": 14,
         "type": "multiple",
-        "question": "At this age, most teenagers, (4) __________, just try to assert their independence and personal views this way.",
+        "question": "At this age, most teenagers, <strong>(4)</strong> __________, just try to assert their independence and personal views this way.",
         "options": [
           "A) both of which enable us to find common ground with others more easily",
           "B) that determine their behaviour and reactions throughout their entire lives",
@@ -220,7 +220,7 @@
       {
         "id": 15,
         "type": "multiple",
-        "question": "Marital status and career begin to matter to us more than ever, and we are doing our best (5) __________.",
+        "question": "Marital status and career begin to matter to us more than ever, and we are doing our best <strong>(5)</strong> __________.",
         "options": [
           "A) both of which enable us to find common ground with others more easily",
           "B) that determine their behaviour and reactions throughout their entire lives",
@@ -236,7 +236,7 @@
       {
         "id": 16,
         "type": "multiple",
-        "question": "And finally, nearing retirement, we acquire that precious wisdom and patience (6) __________. What is more, we finally slow down and start to see the true value of things in our lives.",
+        "question": "And finally, nearing retirement, we acquire that precious wisdom and patience <strong>(6)</strong> __________. What is more, we finally slow down and start to see the true value of things in our lives.",
         "options": [
           "A) both of which enable us to find common ground with others more easily",
           "B) that determine their behaviour and reactions throughout their entire lives",
@@ -259,19 +259,14 @@
       {
         "id": 17,
         "type": "multiple",
-        "question": "In many communities, teenagers are encouraged to volunteer and support (7) ______.",
-        "options": [
-          "A) elderly",
-          "B) the elderly",
-          "C) elder",
-          "D) the elder"
-        ],
+        "question": "In many communities, teenagers are encouraged to volunteer and support <strong>(7)</strong> ______.",
+        "options": ["A) elderly", "B) the elderly", "C) elder", "D) the elder"],
         "answer": "B) the elderly"
       },
       {
         "id": 18,
         "type": "multiple",
-        "question": "Spending time with older people or people with physical difficulties can be (8) ______ than simply scrolling through social media.",
+        "question": "Spending time with older people or people with physical difficulties can be <strong>(8)</strong> ______ than simply scrolling through social media.",
         "options": [
           "A) much better",
           "B) more better",
@@ -283,7 +278,7 @@
       {
         "id": 19,
         "type": "multiple",
-        "question": "Some students believe that helping others is (9) ______ than hanging out with friends.",
+        "question": "Some students believe that helping others is <strong>(9)</strong> ______ than hanging out with friends.",
         "options": [
           "A) less interesting",
           "B) little interesting",
@@ -295,7 +290,7 @@
       {
         "id": 20,
         "type": "multiple",
-        "question": "However, experience shows that the more you communicate with different generations, (10) ______ you become.",
+        "question": "However, experience shows that the more you communicate with different generations, <strong>(10)</strong> ______ you become.",
         "options": [
           "A) the smarter",
           "B) smarter",
@@ -307,7 +302,7 @@
       {
         "id": 21,
         "type": "multiple",
-        "question": "Last year, a group of students organised a project for a (11) ______ local charity that supports families in need.",
+        "question": "Last year, a group of students organised a project for a <strong>(11)</strong> ______ local charity that supports families in need.",
         "options": [
           "A) well known",
           "B) well-known",
@@ -321,12 +316,12 @@
   {
     "topic_id": "401",
     "variant_id": "3",
-    "text": "Read the texts below. Match choices (A–H) to (1–5). There are three choices you do not need to use.\n\nPROPERTY TO RENT\n\n1. Kensington house — A spacious three-bedroom house with private garden, within walking distance of the wide variety of shops, bars and restaurants on Kensington High Street. The house also features a large dining room furnished with antique pieces and a sizeable kitchen with brand-new, stainless steel appliances. There is a strict no-pets policy for this property. The monthly rent is £5,300 and a deposit of £7,800 is required in advance.\n\n2. Edgware Road flat — A well-planned, one-bedroom flat on Edgware Road, conveniently located in close proximity to Edgware Road underground station. The building benefits from a card entry system and an in-house launderette. Extra storage space and parking are also available at additional cost. This open-plan flat comes equipped with a fully fitted kitchen. All bills and Internet are included. The rent is £440 per week.\n\n3. St John's Wood room — Large airy room. Rent for £1,000 per month. The room on offer is the largest in the flat and comes furnished with a large chest of drawers and single bed. The tenant will share the bathroom with one other flatmate. The ideal tenant is a professional male or female non-smoker aged 20–40 years old. Potential tenants must supply at least two references.\n\n4. Notting Hill studio — Fantastic studio in Notting Hill, ideally located in a quiet residential area, on the fifth floor of a block of flats. This bright studio comes unfurnished, with wood floors and underfloor heating. There is access to a roof garden, where you can relax with a book or have a friendly chat with a neighbour. Available now. No deposit required.\n\n5. Bayswater villa — FOR SALE. Luxurious, modern, two-storey villa in Bayswater. It is a perfect family home with four bedrooms and five bathrooms. It also features a gym with an indoor swimming pool, a glamorous cinema room, a private garden, and a garage. The villa is conveniently situated near schools and a shopping area. The property price is £3,500,000.",
+    "text": "Read the texts below. Match choices (A–H) to (1–5). There are three choices you do not need to use.\n\nWhich of the advertisements __________?\n\nPROPERTY TO RENT\n\n1. Kensington house — A spacious three-bedroom house with private garden, within walking distance of the wide variety of shops, bars and restaurants on Kensington High Street. The house also features a large dining room furnished with antique pieces and a sizeable kitchen with brand-new, stainless steel appliances. There is a strict no-pets policy for this property. The monthly rent is £5,300 and a deposit of £7,800 is required in advance.\n\n2. Edgware Road flat — A well-planned, one-bedroom flat on Edgware Road, conveniently located in close proximity to Edgware Road underground station. The building benefits from a card entry system and an in-house launderette. Extra storage space and parking are also available at additional cost. This open-plan flat comes equipped with a fully fitted kitchen. All bills and Internet are included. The rent is £440 per week.\n\n3. St John's Wood room — Large airy room. Rent for £1,000 per month. The room on offer is the largest in the flat and comes furnished with a large chest of drawers and single bed. The tenant will share the bathroom with one other flatmate. The ideal tenant is a professional male or female non-smoker aged 20–40 years old. Potential tenants must supply at least two references.\n\n4. Notting Hill studio — Fantastic studio in Notting Hill, ideally located in a quiet residential area, on the fifth floor of a block of flats. This bright studio comes unfurnished, with wood floors and underfloor heating. There is access to a roof garden, where you can relax with a book or have a friendly chat with a neighbour. Available now. No deposit required.\n\n5. Bayswater villa — FOR SALE. Luxurious, modern, two-storey villa in Bayswater. It is a perfect family home with four bedrooms and five bathrooms. It also features a gym with an indoor swimming pool, a glamorous cinema room, a private garden, and a garage. The villa is conveniently situated near schools and a shopping area. The property price is £3,500,000.",
     "questions": [
       {
         "id": 22,
         "type": "multiple",
-        "question": "1. A spacious three-bedroom house with private garden, within walking distance of the wide variety of shops, bars and restaurants on Kensington High Street. The house also features a large dining room furnished with antique pieces and a sizeable kitchen which boasts brand-new, stainless steel appliances. There is a strict no-pets policy for this property. The monthly rent is £5,300 and a deposit of £7,800 is required in advance.\n\nWhich of the advertisements __________?",
+        "question": "<strong>1.</strong> A spacious three-bedroom house with private garden, within walking distance of the wide variety of shops, bars and restaurants on Kensington High Street. The house also features a large dining room furnished with antique pieces and a sizeable kitchen which boasts brand-new, stainless steel appliances. There is a strict no-pets policy for this property. The monthly rent is £5,300 and a deposit of £7,800 is required in advance.",
         "options": [
           "A) states that public transport is easily accessible",
           "B) describes the requirements placed on the new resident",
@@ -342,7 +337,7 @@
       {
         "id": 23,
         "type": "multiple",
-        "question": "2. A well-planned, one-bedroom flat on Edgware Road, conveniently located in close proximity to Edgware Road underground station. The building benefits from a card entry system and an in-house launderette. Extra storage space and parking are also available at additional cost. This open-plan flat comes equipped with a fully fitted kitchen. All bills and Internet are included. The rent is £440 per week.\n\nWhich of the advertisements __________?",
+        "question": "<strong>2.</strong> A well-planned, one-bedroom flat on Edgware Road, conveniently located in close proximity to Edgware Road underground station. The building benefits from a card entry system and an in-house launderette. Extra storage space and parking are also available at additional cost. This open-plan flat comes equipped with a fully fitted kitchen. All bills and Internet are included. The rent is £440 per week.",
         "options": [
           "A) states that public transport is easily accessible",
           "B) describes the requirements placed on the new resident",
@@ -358,7 +353,7 @@
       {
         "id": 24,
         "type": "multiple",
-        "question": "3. Large airy room. Rent for £1,000 per month. The room on offer is the largest in the flat and comes furnished with a large chest of drawers and single bed. The tenant will share the bathroom with one other flatmate. The ideal tenant is a professional male or female non-smoker aged 20–40 years old. Potential tenants must supply at least two references.\n\nWhich of the advertisements __________?",
+        "question": "<strong>3.</strong> Large airy room. Rent for £1,000 per month. The room on offer is the largest in the flat and comes furnished with a large chest of drawers and single bed. The tenant will share the bathroom with one other flatmate. The ideal tenant is a professional male or female non-smoker aged 20–40 years old. Potential tenants must supply at least two references.",
         "options": [
           "A) states that public transport is easily accessible",
           "B) describes the requirements placed on the new resident",
@@ -374,7 +369,7 @@
       {
         "id": 25,
         "type": "multiple",
-        "question": "4. Fantastic studio in Notting Hill, ideally located in a quiet residential area, on the fifth floor of a block of flats. This bright studio comes unfurnished, with wood floors and underfloor heating. There is access to a roof garden, where you can relax with a book or have a friendly chat with a neighbour. Available now. No deposit required.\n\nWhich of the advertisements __________?",
+        "question": "<strong>4.</strong> Fantastic studio in Notting Hill, ideally located in a quiet residential area, on the fifth floor of a block of flats. This bright studio comes unfurnished, with wood floors and underfloor heating. There is access to a roof garden, where you can relax with a book or have a friendly chat with a neighbour. Available now. No deposit required.",
         "options": [
           "A) states that public transport is easily accessible",
           "B) describes the requirements placed on the new resident",
@@ -390,7 +385,7 @@
       {
         "id": 26,
         "type": "multiple",
-        "question": "5. FOR SALE. Luxurious, modern, two-storey villa in Bayswater. It is a perfect family home with four bedrooms and five bathrooms. It also features a gym with an indoor swimming pool, a glamorous cinema room, a private garden, and a garage. The villa is conveniently situated near schools and a shopping area. The property price is £3,500,000.\n\nWhich of the advertisements __________?",
+        "question": "<strong>5.</strong> FOR SALE. Luxurious, modern, two-storey villa in Bayswater. It is a perfect family home with four bedrooms and five bathrooms. It also features a gym with an indoor swimming pool, a glamorous cinema room, a private garden, and a garage. The villa is conveniently situated near schools and a shopping area. The property price is £3,500,000.",
         "options": [
           "A) states that public transport is easily accessible",
           "B) describes the requirements placed on the new resident",
@@ -413,7 +408,7 @@
       {
         "id": 27,
         "type": "multiple",
-        "question": "Though most homes are designed to fit properly into the urban style, there are a few (6)__________ who prefer standing out.",
+        "question": "Though most homes are designed to fit properly into the urban style, there are a few <strong>(6)</strong>__________ who prefer standing out.",
         "options": [
           "A) builders",
           "B) artists",
@@ -425,31 +420,21 @@
       {
         "id": 28,
         "type": "multiple",
-        "question": "One of them was Vladyslav Horodetskyi, with his famous House with Chimaeras built on a very steep hill in the (7) __________ of Kyiv, within walking distance of the capital's main street — Khreshchatyk.",
-        "options": [
-          "A) heart",
-          "B) suburbs",
-          "C) countryside",
-          "D) outskirts"
-        ],
+        "question": "One of them was Vladyslav Horodetskyi, with his famous House with Chimaeras built on a very steep hill in the <strong>(7)</strong> __________ of Kyiv, within walking distance of the capital's main street — Khreshchatyk.",
+        "options": ["A) heart", "B) suburbs", "C) countryside", "D) outskirts"],
         "answer": "A) heart"
       },
       {
         "id": 29,
         "type": "multiple",
-        "question": "The building received its name because of mythological sculptural ornaments and hunting trophies on the (8) ___________ which look down on us from above.",
-        "options": [
-          "A) outside",
-          "B) roof",
-          "C) porch",
-          "D) lawn"
-        ],
+        "question": "The building received its name because of mythological sculptural ornaments and hunting trophies on the <strong>(8)</strong> ___________ which look down on us from above.",
+        "options": ["A) outside", "B) roof", "C) porch", "D) lawn"],
         "answer": "B) roof"
       },
       {
         "id": 30,
         "type": "multiple",
-        "question": "The house was (9)__________ in accordance with the movement of the sun across the sky.",
+        "question": "The house was <strong>(9)</strong>__________ in accordance with the movement of the sun across the sky.",
         "options": [
           "A) decorated",
           "B) designed",
@@ -461,7 +446,7 @@
       {
         "id": 31,
         "type": "multiple",
-        "question": "And on the balcony, the owners could admire the (10)__________ view of the sunset.",
+        "question": "And on the balcony, the owners could admire the <strong>(10)</strong>__________ view of the sunset.",
         "options": [
           "A) damp",
           "B) run-down",
@@ -475,12 +460,12 @@
   {
     "topic_id": "401",
     "variant_id": "4",
-    "text": "Read the texts below. Match choices (A–G) to (1–5). There are two choices you do not need to use.\n\n1. Tom: \"I have a twin brother, but we are completely different. He is much more outgoing than I am. While I prefer staying at home with a book, he is always the life of the party.\"\n\n2. Anna: \"My grandmother is the kindest person I know. She always listens to my problems and gives the best advice. Even though she is older, she is still very active and loves gardening.\"\n\n3. Kate: \"I'm the oldest child in my family, so I have to be the most responsible. My younger sister is a bit lazy, but she is definitely prettier and more stylish than I am.\"\n\n4. Peter: \"My father is stricter than my mother. He wants me to get the highest marks in all subjects. However, he is also very fair and always supports my hobbies.\"\n\n5. Lucy: \"I live with my aunt. Our flat is smaller than my previous house, but it feels much cozier. She is a minimalist and hates having too many things around.\"",
+    "text": "Read the texts below. Match choices (A–G) to (1–5). There are two choices you do not need to use.\n\nWhich person describes ________.\n\n1. Tom: \"I have a twin brother, but we are completely different. He is much more outgoing than I am. While I prefer staying at home with a book, he is always the life of the party.\"\n\n2. Anna: \"My grandmother is the kindest person I know. She always listens to my problems and gives the best advice. Even though she is older, she is still very active and loves gardening.\"\n\n3. Kate: \"I'm the oldest child in my family, so I have to be the most responsible. My younger sister is a bit lazy, but she is definitely prettier and more stylish than I am.\"\n\n4. Peter: \"My father is stricter than my mother. He wants me to get the highest marks in all subjects. However, he is also very fair and always supports my hobbies.\"\n\n5. Lucy: \"I live with my aunt. Our flat is smaller than my previous house, but it feels much cozier. She is a minimalist and hates having too many things around.\"",
     "questions": [
       {
         "id": 32,
         "type": "multiple",
-        "question": "1. Tom: \"I have a twin brother, but we are completely different. He is much more outgoing than I am. While I prefer staying at home with a book, he is always the life of the party.\"\n\nWhich person describes...",
+        "question": "<strong>1.</strong> Tom: \"I have a twin brother, but we are completely different. He is much more outgoing than I am. While I prefer staying at home with a book, he is always the life of the party.\"",
         "options": [
           "A) a relative who provides emotional support and wisdom",
           "B) a family member with high academic expectations",
@@ -495,7 +480,7 @@
       {
         "id": 33,
         "type": "multiple",
-        "question": "2. Anna: \"My grandmother is the kindest person I know. She always listens to my problems and gives the best advice. Even though she is older, she is still very active and loves gardening.\"\n\nWhich person describes...",
+        "question": "<strong>2.</strong> Anna: \"My grandmother is the kindest person I know. She always listens to my problems and gives the best advice. Even though she is older, she is still very active and loves gardening.\"",
         "options": [
           "A) a relative who provides emotional support and wisdom",
           "B) a family member with high academic expectations",
@@ -510,7 +495,7 @@
       {
         "id": 34,
         "type": "multiple",
-        "question": "3. Kate: \"I'm the oldest child in my family, so I have to be the most responsible. My younger sister is a bit lazy, but she is definitely prettier and more stylish than I am.\"\n\nWhich person describes...",
+        "question": "<strong>3.</strong> Kate: \"I'm the oldest child in my family, so I have to be the most responsible. My younger sister is a bit lazy, but she is definitely prettier and more stylish than I am.\"",
         "options": [
           "A) a relative who provides emotional support and wisdom",
           "B) a family member with high academic expectations",
@@ -525,7 +510,7 @@
       {
         "id": 35,
         "type": "multiple",
-        "question": "4. Peter: \"My father is stricter than my mother. He wants me to get the highest marks in all subjects. However, he is also very fair and always supports my hobbies.\"\n\nWhich person describes...",
+        "question": "<strong>4.</strong> Peter: \"My father is stricter than my mother. He wants me to get the highest marks in all subjects. However, he is also very fair and always supports my hobbies.\"",
         "options": [
           "A) a relative who provides emotional support and wisdom",
           "B) a family member with high academic expectations",
@@ -540,7 +525,7 @@
       {
         "id": 36,
         "type": "multiple",
-        "question": "5. Lucy: \"I live with my aunt. Our flat is smaller than my previous house, but it feels much cozier. She is a minimalist and hates having too many things around.\"\n\nWhich person describes...",
+        "question": "<strong>5.</strong> Lucy: \"I live with my aunt. Our flat is smaller than my previous house, but it feels much cozier. She is a minimalist and hates having too many things around.\"",
         "options": [
           "A) a relative who provides emotional support and wisdom",
           "B) a family member with high academic expectations",
@@ -562,7 +547,7 @@
       {
         "id": 37,
         "type": "multiple",
-        "question": "Family life today is quite different from what it was fifty years ago. Psychologists say that the environment where we grow up is (6) ______.",
+        "question": "Family life today is quite different from what it was fifty years ago. Psychologists say that the environment where we grow up is <strong>(6)</strong> ______.",
         "options": [
           "A) more adventurous and independent",
           "B) the most responsible person in the house",
@@ -578,7 +563,7 @@
       {
         "id": 38,
         "type": "multiple",
-        "question": "While some children are raised by strict parents, others enjoy more freedom, which can make their character (7) ______.",
+        "question": "While some children are raised by strict parents, others enjoy more freedom, which can make their character <strong>(7)</strong> ______.",
         "options": [
           "A) more adventurous and independent",
           "B) the most responsible person in the house",
@@ -594,7 +579,7 @@
       {
         "id": 39,
         "type": "multiple",
-        "question": "In many households, siblings play a vital role. For example, an older brother might be the (8) ______, taking care of his younger sister.",
+        "question": "In many households, siblings play a vital role. For example, an older brother might be the <strong>(8)</strong> ______, taking care of his younger sister.",
         "options": [
           "A) more adventurous and independent",
           "B) the most responsible person in the house",
@@ -610,7 +595,7 @@
       {
         "id": 40,
         "type": "multiple",
-        "question": "Even if they have different personalities—for instance, if she is much (9) ______—they still find ways to connect.",
+        "question": "Even if they have different personalities—for instance, if she is much <strong>(9)</strong> ______—they still find ways to connect.",
         "options": [
           "A) more adventurous and independent",
           "B) the most responsible person in the house",
@@ -626,7 +611,7 @@
       {
         "id": 41,
         "type": "multiple",
-        "question": "Shared traditions are another key element. Many families believe that having a weekly dinner is (10) ______ to resolve hidden conflicts.",
+        "question": "Shared traditions are another key element. Many families believe that having a weekly dinner is <strong>(10)</strong> ______ to resolve hidden conflicts.",
         "options": [
           "A) more adventurous and independent",
           "B) the most responsible person in the house",
@@ -642,7 +627,7 @@
       {
         "id": 42,
         "type": "multiple",
-        "question": "These moments help family members feel closer, making their home the (11) ______ in a busy world.",
+        "question": "These moments help family members feel closer, making their home the <strong>(11)</strong> ______ in a busy world.",
         "options": [
           "A) more adventurous and independent",
           "B) the most responsible person in the house",
@@ -665,7 +650,7 @@
       {
         "id": 43,
         "type": "multiple",
-        "question": "My friend Sarah lives in a (1) ______ cottage in the countryside.",
+        "question": "My friend Sarah lives in a <strong>(1)</strong> ______ cottage in the countryside.",
         "options": [
           "A) lovely small old",
           "B) small lovely old",
@@ -677,7 +662,7 @@
       {
         "id": 44,
         "type": "multiple",
-        "question": "It is (2) ______ than any apartment I've ever seen in the city.",
+        "question": "It is <strong>(2)</strong> ______ than any apartment I've ever seen in the city.",
         "options": [
           "A) more quiet",
           "B) quieter",
@@ -689,19 +674,14 @@
       {
         "id": 45,
         "type": "multiple",
-        "question": "Sarah is very (3) ______; she always helps me when I have problems.",
-        "options": [
-          "A) selfish",
-          "B) moody",
-          "C) reliable",
-          "D) arrogant"
-        ],
+        "question": "Sarah is very <strong>(3)</strong> ______; she always helps me when I have problems.",
+        "options": ["A) selfish", "B) moody", "C) reliable", "D) arrogant"],
         "answer": "C) reliable"
       },
       {
         "id": 46,
         "type": "multiple",
-        "question": "Last week, she bought a (4) ______ sofa for her living room.",
+        "question": "Last week, she bought a <strong>(4)</strong> ______ sofa for her living room.",
         "options": [
           "A) comfortable big leather",
           "B) big comfortable leather",
@@ -713,7 +693,7 @@
       {
         "id": 47,
         "type": "multiple",
-        "question": "It's (5) ______ piece of furniture in the house.",
+        "question": "It's <strong>(5)</strong> ______ piece of furniture in the house.",
         "options": [
           "A) expensiviest",
           "B) the most expensive",
@@ -727,12 +707,12 @@
   {
     "topic_id": "401",
     "variant_id": "5",
-    "text": "Choose the right event according to the advertisement (6–10) to (A–G). There are two choices you do not need to use.\n\nA) Real Estate Fair\nB) School Meeting\nC) Parenting Workshop\nD) Fashion Show\nE) Interior Design Exhibition\nF) Family Day\nG) Family Festival\n\n[Image for each advertisement will be added separately.]",
+    "text": "Choose the right event according to the advertisement (6–10) to (A–G). There are two choices you do not need to use.",
     "questions": [
       {
         "id": 48,
         "type": "multiple",
-        "question": "Advertisement 6. Choose the right event from the options below.",
+        "question": "Which of the advertisements is about?<br>6.",
         "image_url": "english_images/topic_401/1.png",
         "options": [
           "A) Real Estate Fair",
@@ -748,8 +728,8 @@
       {
         "id": 49,
         "type": "multiple",
-        "question": "Advertisement 7. Choose the right event from the options below.",
-        "image_url": "english_images/topic_401/1.png",
+        "question": "7.",
+        "image_url": "english_images/topic_401/2.png",
         "options": [
           "A) Real Estate Fair",
           "B) School Meeting",
@@ -764,8 +744,8 @@
       {
         "id": 50,
         "type": "multiple",
-        "question": "Advertisement 8. Choose the right event from the options below.",
-        "image_url": "english_images/topic_401/1.png",
+        "question": "8.",
+        "image_url": "english_images/topic_401/3.png",
         "options": [
           "A) Real Estate Fair",
           "B) School Meeting",
@@ -780,8 +760,8 @@
       {
         "id": 51,
         "type": "multiple",
-        "question": "Advertisement 9. Choose the right event from the options below.",
-        "image_url": "english_images/topic_401/1.png",
+        "question": "9.",
+        "image_url": "english_images/topic_401/4.png",
         "options": [
           "A) Real Estate Fair",
           "B) School Meeting",
@@ -796,8 +776,8 @@
       {
         "id": 52,
         "type": "multiple",
-        "question": "Advertisement 10. Choose the right event from the options below.",
-        "image_url": "english_images/topic_401/1.png",
+        "question": "10.",
+        "image_url": "english_images/topic_401/5.png",
         "options": [
           "A) Real Estate Fair",
           "B) School Meeting",
@@ -923,12 +903,7 @@
         "id": 7,
         "type": "multiple",
         "question": "Robert Rosenthal is a Professor of Psychology whose (7) _______ showed that students try to live up to teachers’ (8) _______.",
-        "options": [
-          "A) studies",
-          "B) classes",
-          "C) careers",
-          "D) exams"
-        ],
+        "options": ["A) studies", "B) classes", "C) careers", "D) exams"],
         "answer": "A) studies"
       },
       {
@@ -984,13 +959,12 @@
   {
     "topic_id": "402",
     "variant_id": "2",
-    "text": "Read the advertisements below. Match choices (A–H) to (1–5). There are three extra choices you do not need to use.\n\nJOB VACANCIES\n\n[Advertisements 1–5 are image-based and should be added later.]",
-    "image_url": "english_images/topic_402/1.png",
+    "text": "Read the advertisements below. Match choices (A–H) to (1–5). There are three extra choices you do not need to use.",
     "questions": [
       {
         "id": 1,
         "type": "multiple",
-        "question": "Advertisement 1. Which description fits?",
+        "question": "Which of the advertisements is about?<br>1.",
         "image_url": "english_images/topic_402/1.png",
         "options": [
           "A) mentions the training offered to all new staff",
@@ -1007,8 +981,8 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "Advertisement 2. Which description fits?",
-        "image_url": "english_images/topic_402/1.png",
+        "question": "2.",
+        "image_url": "english_images/topic_402/2.png",
         "options": [
           "A) mentions the training offered to all new staff",
           "B) warns that there are rules for what you can wear",
@@ -1024,8 +998,8 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "Advertisement 3. Which description fits?",
-        "image_url": "english_images/topic_402/1.png",
+        "question": "3.",
+        "image_url": "english_images/topic_402/3.png",
         "options": [
           "A) mentions the training offered to all new staff",
           "B) warns that there are rules for what you can wear",
@@ -1041,8 +1015,8 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "Advertisement 4. Which description fits?",
-        "image_url": "english_images/topic_402/1.png",
+        "question": "4.",
+        "image_url": "english_images/topic_402/4.png",
         "options": [
           "A) mentions the training offered to all new staff",
           "B) warns that there are rules for what you can wear",
@@ -1058,8 +1032,8 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "Advertisement 5. Which description fits?",
-        "image_url": "english_images/topic_402/1.png",
+        "question": "5.",
+        "image_url": "english_images/topic_402/5.png",
         "options": [
           "A) mentions the training offered to all new staff",
           "B) warns that there are rules for what you can wear",
@@ -1083,12 +1057,7 @@
         "id": 6,
         "type": "multiple",
         "question": "At first, people often have to work very (6) ______ to gain experience and prove their abilities.",
-        "options": [
-          "A) hard",
-          "B) hardly",
-          "C) harder",
-          "D) hardest"
-        ],
+        "options": ["A) hard", "B) hardly", "C) harder", "D) hardest"],
         "answer": "A) hard"
       },
       {
@@ -1107,24 +1076,14 @@
         "id": 8,
         "type": "multiple",
         "question": "For example, when a candidate enters the interview room, their voice should (8) ______ confident and clear.",
-        "options": [
-          "A) sounded",
-          "B) soundly",
-          "C) sounding",
-          "D) sound"
-        ],
+        "options": ["A) sounded", "B) soundly", "C) sounding", "D) sound"],
         "answer": "D) sound"
       },
       {
         "id": 9,
         "type": "multiple",
         "question": "Some workers stay in the office (9) ______ to finish important projects, especially when deadlines are approaching.",
-        "options": [
-          "A) late",
-          "B) lately",
-          "C) latest",
-          "D) laterly"
-        ],
+        "options": ["A) late", "B) lately", "C) latest", "D) laterly"],
         "answer": "A) late"
       },
       {
@@ -1229,12 +1188,7 @@
         "id": 7,
         "type": "multiple",
         "question": "When she had her first child, she realised that she could not go on working and taking (7) _____ of her daughter at the same time.",
-        "options": [
-          "A) attention",
-          "B) care",
-          "C) worry",
-          "D) responsibility"
-        ],
+        "options": ["A) attention", "B) care", "C) worry", "D) responsibility"],
         "answer": "B) care"
       },
       {
@@ -1253,24 +1207,14 @@
         "id": 9,
         "type": "multiple",
         "question": "Now, Jodie gives her full attention to raising her family, which is a full-time (9) _____.",
-        "options": [
-          "A) job",
-          "B) work",
-          "C) occupation",
-          "D) employment"
-        ],
+        "options": ["A) job", "B) work", "C) occupation", "D) employment"],
         "answer": "A) job"
       },
       {
         "id": 10,
         "type": "multiple",
         "question": "She had always wondered if she would be able to cope as a full-time mother; however, since she left her job, she hasn’t looked (10) _____ and is enjoying every minute of motherhood.",
-        "options": [
-          "A) down",
-          "B) back",
-          "C) over",
-          "D) up"
-        ],
+        "options": ["A) down", "B) back", "C) over", "D) up"],
         "answer": "B) back"
       }
     ]
@@ -1378,12 +1322,7 @@
         "id": 7,
         "type": "multiple",
         "question": "Scientists are working (7) ______ to develop AI that can think like humans.",
-        "options": [
-          "A) hardly",
-          "B) harder",
-          "C) hard",
-          "D) hardest"
-        ],
+        "options": ["A) hardly", "B) harder", "C) hard", "D) hardest"],
         "answer": "C) hard"
       },
       {
@@ -1414,12 +1353,7 @@
         "id": 10,
         "type": "multiple",
         "question": "It is also important to treat others (10) ______ in digital spaces, just as you would in real life.",
-        "options": [
-          "A) polite",
-          "B) politely",
-          "C) politeness",
-          "D) impolite"
-        ],
+        "options": ["A) polite", "B) politely", "C) politeness", "D) impolite"],
         "answer": "B) politely"
       }
     ]
@@ -1496,12 +1430,7 @@
         "id": 6,
         "type": "multiple",
         "question": "Choosing a career can be difficult because people want to find a job that is both interesting and (6) ______.",
-        "options": [
-          "A) rewarding",
-          "B) temporary",
-          "C) brief",
-          "D) physical"
-        ],
+        "options": ["A) rewarding", "B) temporary", "C) brief", "D) physical"],
         "answer": "A) rewarding"
       },
       {
@@ -1557,13 +1486,12 @@
   {
     "topic_id": "403",
     "variant_id": "1",
-    "text": "Read the advertisements below. Match choices (A–H) to (1–5). There are three choices you do not need to use.\n\n[Advertisements 1–5 are image-based and can be added later.]",
-    "image_url": "english_images/topic_403/1.png",
+    "text": "Read the advertisements below. Match choices (A–H) to (1–5). There are three choices you do not need to use.",
     "questions": [
       {
         "id": 1,
         "type": "multiple",
-        "question": "Advertisement 1. Which description fits?",
+        "question": "Which of the advertisements is about?<br>1.",
         "image_url": "english_images/topic_403/1.png",
         "options": [
           "A) a DIY class",
@@ -1580,8 +1508,8 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "Advertisement 2. Which description fits?",
-        "image_url": "english_images/topic_403/1.png",
+        "question": "2.",
+        "image_url": "english_images/topic_403/2.png",
         "options": [
           "A) a DIY class",
           "B) a special online offer",
@@ -1597,8 +1525,8 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "Advertisement 3. Which description fits?",
-        "image_url": "english_images/topic_403/1.png",
+        "question": "3.",
+        "image_url": "english_images/topic_403/3.png",
         "options": [
           "A) a DIY class",
           "B) a special online offer",
@@ -1614,8 +1542,8 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "Advertisement 4. Which description fits?",
-        "image_url": "english_images/topic_403/1.png",
+        "question": "4.",
+        "image_url": "english_images/topic_403/4.png",
         "options": [
           "A) a DIY class",
           "B) a special online offer",
@@ -1631,8 +1559,8 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "Advertisement 5. Which description fits?",
-        "image_url": "english_images/topic_403/1.png",
+        "question": "5.",
+        "image_url": "english_images/topic_403/5.png",
         "options": [
           "A) a DIY class",
           "B) a special online offer",
@@ -1668,24 +1596,14 @@
         "id": 7,
         "type": "multiple",
         "question": "If you are among those people who cannot (7)___________ the emotional draw of shopping, hopefully you will think twice the next time you buy something after reading the survey results.",
-        "options": [
-          "A) afford",
-          "B) resist",
-          "C) withdraw",
-          "D) allow"
-        ],
+        "options": ["A) afford", "B) resist", "C) withdraw", "D) allow"],
         "answer": "B) resist"
       },
       {
         "id": 8,
         "type": "multiple",
         "question": "The chances are that a number of the items purchased will remain hanging in the wardrobe with little hope (8)__________ being worn in the immediate future.",
-        "options": [
-          "A) of",
-          "B) for",
-          "C) in",
-          "D) at"
-        ],
+        "options": ["A) of", "B) for", "C) in", "D) at"],
         "answer": "A) of"
       },
       {
@@ -1704,12 +1622,7 @@
         "id": 10,
         "type": "multiple",
         "question": "They are more easily attracted by specific (9)__________ products than by fashionable items, and on most occasions they (10)__________ more out of necessity than by choice.",
-        "options": [
-          "A) cost",
-          "B) pay",
-          "C) shop",
-          "D) stock"
-        ],
+        "options": ["A) cost", "B) pay", "C) shop", "D) stock"],
         "answer": "C) shop"
       }
     ]
@@ -1717,7 +1630,7 @@
   {
     "topic_id": "403",
     "variant_id": "2",
-    "text": "Read the text below. For questions (1–5) choose the correct answer (A, B, C or D).\n\nUSING A SAFETY NET\n\nIt wasn't so long ago that the majority of consumers did their shopping in local shops, despite parking and weather problems, long queues, and wobbly shopping trolleys. Even when online shopping became popular, many people still avoided it because they did not trust it enough.\n\nInitially, a virtual protection wall should be built for the computer which is to be used for online purchases. This will include installing antivirus software that will guard against identity theft. It is also recommended to use different passwords for different websites and accounts.\n\nOnline shoppers should stick to trusted sites in order to browse or find a particular product. The use of search engines should be avoided at all costs because the results which are presented could lead users to unsafe pages.\n\nBefore proceeding with any purchase, have a look for the lock. If the site is properly secured, an icon of a locked padlock will appear, typically in the status bar at the bottom of the web browser or in the address line.\n\nWhen you actually get down to making your first online purchase, don’t throw money down the drain. Keep a record of all transactions you make with your credit or debit card. This can be done by printing out the transaction or by comparing financial statements with purchases.\n\nLast but not least, after you’ve finished your shopping spree, don’t forget to sign out of your account and turn the computer off. The longer the computer is left on, the more possibility there is for a hacker to obtain your information. In fact, the matter is that while hackers may be incredibly skilled at obtaining information from computers, human error is the most probable reason you will get hacked.",
+    "text": "Read the text below. For questions (1–5) choose the correct answer (A, B, C or D).\n\nUSING A SAFETY NET\n\nIt wasn't so long ago that the majority of consumers did their shopping in local shops, despite parking and weather problems, long queues, and wobbly shopping trolleys. Even when online shopping became available, people felt uncomfortable shopping in the comfort of their own home clause they hesitated to use their credit cards and give their personal details to e-shops. Those worries are quite rightly a thing of the past, but some guidelines should be followed to ensure you don’t get more than you bargained for whilst filling your cart.<br>Initially, a virtual protection wall should be built for the computer which is to be used for online purchases. This will include installing antivirus software that will guard against entity theft. It is also imperative that you have a unique password for each website used. The same password should never be used for more than one site because if someone cracks the password for one site, then they will have access to a number of your favoured sites. Choose a password that is not common and then make it stronger by spelling it backwards, making some of the letters capitals, adding some numbers and then some special symbols such as £!*. By all means, make a note of the different passwords, but make sure they are well hidden away.<br>Online shoppers should stick to trusted sites in order to browse or find a particular product. The use of search engines should be avoided at all costs because the results which are presented could lead you to a disreputable site whose main aim is to trick you out of money or to sell you inferior quality products which are a rip-off. The spelling of the website should also be checked carefully to make sure that it is indeed the site which you intend to visit.<br>Before proceeding with any purchase, have a look for the lock. If the site is properly secured, an icon of a locked padlock will appear, typically in the status bar at the bottom of the web browser or right next to the address bar. The security of the site can also be proven by checking that the URL starts with HTTPS:// as opposed to HTTP://.<br>When you actually get down to making your first online purchase, don’t throw money down the drain. Keep a record of all transactions you make with your credit or debit card. This can be done by printing out each transaction and then checking them against your monthly credit card or bank statement. That said, it’s a good idea to check your statements online regularly so that any inaccuracies can be caught as soon as possible. The majority of credit cards provide insurance against theft or unauthorised use, so remember to contact the credit card company if you notice anything suspicious.Last but not least, after you’ve finished your shopping spree, don’t forget to sign out of your account and turn the computer off. The longer the computer is left on, the more possibility there is for someone to hack into it and steal your personal and banking details. The fact of the matter is that while hackers may be incredibly skilled at obtaining information from computers, human error is the most probable reason you will get hacked.",
     "questions": [
       {
         "id": 1,
@@ -1802,48 +1715,28 @@
         "id": 7,
         "type": "multiple",
         "question": "I particularly enjoy visiting large (7) _____ stores because they offer many different products in one place.",
-        "options": [
-          "A) department",
-          "B) corner",
-          "C) window",
-          "D) market"
-        ],
+        "options": ["A) department", "B) corner", "C) window", "D) market"],
         "answer": "A) department"
       },
       {
         "id": 8,
         "type": "multiple",
         "question": "She always reminds me to look for good (8) _____ and discounts before buying anything.",
-        "options": [
-          "A) charges",
-          "B) exchanges",
-          "C) refunds",
-          "D) bargains"
-        ],
+        "options": ["A) charges", "B) exchanges", "C) refunds", "D) bargains"],
         "answer": "D) bargains"
       },
       {
         "id": 9,
         "type": "multiple",
         "question": "However, my mum also warns me not to buy items that might be (9) _____.",
-        "options": [
-          "A) faulty",
-          "B) narrow",
-          "C) precious",
-          "D) flexible"
-        ],
+        "options": ["A) faulty", "B) narrow", "C) precious", "D) flexible"],
         "answer": "A) faulty"
       },
       {
         "id": 10,
         "type": "multiple",
         "question": "Today we are planning to go (10) _____ shopping because I need a new jacket for spring.",
-        "options": [
-          "A) clothes",
-          "B) clothing",
-          "C) cloth",
-          "D) dressed"
-        ],
+        "options": ["A) clothes", "B) clothing", "C) cloth", "D) dressed"],
         "answer": "B) clothing"
       }
     ]
@@ -1856,7 +1749,7 @@
       {
         "id": 1,
         "type": "multiple",
-        "question": "1. Some people visit this shop without planning to buy anything at first. They enjoy looking at the displays and comparing different garments before choosing something they really like. However, careful shoppers know that if they search long enough, they may eventually discover a stylish item at a surprisingly reasonable price.\n\nWhich statement fits?",
+        "question": "1. Some people visit this shop without planning to buy anything at first. They enjoy looking at the displays and comparing different garments before choosing something they really like. However, careful shoppers know that if they search long enough, they may eventually discover a stylish item at a surprisingly reasonable price.",
         "options": [
           "A) allows customers to check whether clothes suit them before purchasing them",
           "B) may leave some shoppers feeling they were unfairly overcharged",
@@ -1872,7 +1765,7 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "2. This fashionable boutique is popular with young customers who want to look impressive at special events. The clothes are modern and eye-catching, but many buyers complain that the prices are outrageous. Some say the store simply takes advantage of people who want to follow the latest craze.\n\nWhich statement fits?",
+        "question": "2. This fashionable boutique is popular with young customers who want to look impressive at special events. The clothes are modern and eye-catching, but many buyers complain that the prices are outrageous. Some say the store simply takes advantage of people who want to follow the latest craze.",
         "options": [
           "A) allows customers to check whether clothes suit them before purchasing them",
           "B) may leave some shoppers feeling they were unfairly overcharged",
@@ -1888,7 +1781,7 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "3. If you are unsure about colour, style or size, this shop is the perfect place to visit. Customers can experiment with various outfits before making a decision. Assistants are ready to bring different options so that buyers can see whether the clothes match their appearance and feel comfortable.\n\nWhich statement fits?",
+        "question": "3. If you are unsure about colour, style or size, this shop is the perfect place to visit. Customers can experiment with various outfits before making a decision. Assistants are ready to bring different options so that buyers can see whether the clothes match their appearance and feel comfortable.",
         "options": [
           "A) allows customers to check whether clothes suit them before purchasing them",
           "B) may leave some shoppers feeling they were unfairly overcharged",
@@ -1904,7 +1797,7 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "4. Every time the store receives a new collection, crowds of enthusiastic customers gather outside the doors. Fashion lovers hurry inside hoping to buy the newest designs before anyone else does. Because demand is so strong, the most popular pieces rarely stay available for long.\n\nWhich statement fits?",
+        "question": "4. Every time the store receives a new collection, crowds of enthusiastic customers gather outside the doors. Fashion lovers hurry inside hoping to buy the newest designs before anyone else does. Because demand is so strong, the most popular pieces rarely stay available for long.",
         "options": [
           "A) allows customers to check whether clothes suit them before purchasing them",
           "B) may leave some shoppers feeling they were unfairly overcharged",
@@ -1920,7 +1813,7 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "5. This shop focuses on everyday clothing that is simple and durable. The owners believe people should not spend a fortune on simple items. Many customers come here when they want something reliable that will last for years without putting pressure on their finances.\n\nWhich statement fits?",
+        "question": "5. This shop focuses on everyday clothing that is simple and durable. The owners believe people should not spend a fortune on simple items. Many customers come here when they want something reliable that will last for years without putting pressure on their finances.",
         "options": [
           "A) allows customers to check whether clothes suit them before purchasing them",
           "B) may leave some shoppers feeling they were unfairly overcharged",
@@ -1936,7 +1829,7 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "6. Buying clothes here feels safe because the store has a very fair policy for its customers. If something turns out to be damaged or unsuitable, the buyer can bring it back and receive the money they paid. This approach has helped the shop build a loyal group of regular shoppers.\n\nWhich statement fits?",
+        "question": "6. Buying clothes here feels safe because the store has a very fair policy for its customers. If something turns out to be damaged or unsuitable, the buyer can bring it back and receive the money they paid. This approach has helped the shop build a loyal group of regular shoppers.",
         "options": [
           "A) allows customers to check whether clothes suit them before purchasing them",
           "B) may leave some shoppers feeling they were unfairly overcharged",
@@ -1960,12 +1853,7 @@
         "id": 7,
         "type": "multiple",
         "question": "(7) ______ she entered the first shop when she saw a huge discount sign in the window.",
-        "options": [
-          "A) Soon",
-          "B) Hardly",
-          "C) Almost",
-          "D) Hardly had"
-        ],
+        "options": ["A) Soon", "B) Hardly", "C) Almost", "D) Hardly had"],
         "answer": "D) Hardly had"
       },
       {
@@ -1984,24 +1872,14 @@
         "id": 9,
         "type": "multiple",
         "question": "Emma almost bought one expensive designer jacket, but she decided she would only buy it (9) ______ it fitted perfectly and matched the rest of her clothes.",
-        "options": [
-          "A) unless",
-          "B) if",
-          "C) when",
-          "D) although"
-        ],
+        "options": ["A) unless", "B) if", "C) when", "D) although"],
         "answer": "B) if"
       },
       {
         "id": 10,
         "type": "multiple",
         "question": "The assistant also warned her that the store would not give refunds (10) ______ the item was faulty.",
-        "options": [
-          "A) unless",
-          "B) if",
-          "C) when",
-          "D) because"
-        ],
+        "options": ["A) unless", "B) if", "C) when", "D) because"],
         "answer": "A) unless"
       },
       {
@@ -2021,12 +1899,12 @@
   {
     "topic_id": "403",
     "variant_id": "4",
-    "text": "Read the advertisements below. Match the choices (A–G) to the descriptions (1–5). There are two extra choices you do not need to use.\n\n1. Eco-Wear Studio. Are you tired of fast fashion? Our clothes are made from 100% organic cotton. We believe in quality over quantity. If you want to save the planet while looking stylish, visit us today! We accept all major credit cards and offer a 10% discount for cash payments.\n\n2. The Vintage Vault. Looking for a bargain? We sell pre-loved designer items at a fraction of their original price. From silk scarves to leather jackets, every item is unique. Please note: we do not give refunds, so make sure to try everything on before you pay.\n\n3. Tech-Style Solutions. The future of clothing is here. Our jackets come with built-in heaters and phone chargers. They are quite expensive, but they are worth the money. We provide a two-year guarantee on all electronic components.\n\n4. Urban Rental Hub. Why buy an expensive tuxedo or a ball gown for just one night? At Urban Rental, you can borrow high-end fashion for a weekend. It’s the perfect way to look like a millionaire without spending a fortune. Return the items on Monday morning, and we’ll handle the dry cleaning!\n\n5. The Stitch & Fix Point. Don't throw away your favorite jeans just because of a small tear! Our expert tailors can repair any garment or alter its size to fit you perfectly. We also offer professional embroidery services to make your old clothes look brand new again.",
+    "text": "Read the advertisements below. Match the choices (A–G) to the descriptions (1–5). There are two extra choices you do not need to use.",
     "questions": [
       {
         "id": 1,
         "type": "multiple",
-        "question": "Advertisement 1. Which statement fits?",
+        "question": "1. Eco-Wear Studio. Are you tired of fast fashion? Our clothes are made from 100% organic cotton. We believe in quality over quantity. If you want to save the planet while looking stylish, visit us today! We accept all major credit cards and offer a 10% discount for cash payments.",
         "options": [
           "A) sells high-tech apparel.",
           "B) offers a lower price if you don't use a card.",
@@ -2041,7 +1919,7 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "Advertisement 2. Which statement fits?",
+        "question": "2. The Vintage Vault. Looking for a bargain? We sell pre-loved designer items at a fraction of their original price. From silk scarves to leather jackets, every item is unique. Please note: we do not give refunds, so make sure to try everything on before you pay.",
         "options": [
           "A) sells high-tech apparel.",
           "B) offers a lower price if you don't use a card.",
@@ -2056,7 +1934,7 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "Advertisement 3. Which statement fits?",
+        "question": "3. Tech-Style Solutions. The future of clothing is here. Our jackets come with built-in heaters and phone chargers. They are quite expensive, but they are worth the money. We provide a two-year guarantee on all electronic components.",
         "options": [
           "A) sells high-tech apparel.",
           "B) offers a lower price if you don't use a card.",
@@ -2071,7 +1949,7 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "Advertisement 4. Which statement fits?",
+        "question": "4. Urban Rental Hub. Why buy an expensive tuxedo or a ball gown for just one night? At Urban Rental, you can borrow high-end fashion for a weekend. It’s the perfect way to look like a millionaire without spending a fortune. Return the items on Monday morning, and we’ll handle the dry cleaning!",
         "options": [
           "A) sells high-tech apparel.",
           "B) offers a lower price if you don't use a card.",
@@ -2086,7 +1964,7 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "Advertisement 5. Which statement fits?",
+        "question": "5. The Stitch & Fix Point. Don't throw away your favorite jeans just because of a small tear! Our expert tailors can repair any garment or alter its size to fit you perfectly. We also offer professional embroidery services to make your old clothes look brand new again.",
         "options": [
           "A) sells high-tech apparel.",
           "B) offers a lower price if you don't use a card.",
@@ -2109,24 +1987,14 @@
         "id": 6,
         "type": "multiple",
         "question": "For instance, many often wonder (6) ______ the exam is actually as difficult as people say.",
-        "options": [
-          "A) where",
-          "B) if",
-          "C) does",
-          "D) if does"
-        ],
+        "options": ["A) where", "B) if", "C) does", "D) if does"],
         "answer": "B) if"
       },
       {
         "id": 7,
         "type": "multiple",
         "question": "The answer usually depends (7) ______ how well you know the common \"pitfalls.\"",
-        "options": [
-          "A) of",
-          "B) in",
-          "C) on",
-          "D) at"
-        ],
+        "options": ["A) of", "B) in", "C) on", "D) at"],
         "answer": "C) on"
       },
       {
@@ -2176,24 +2044,14 @@
         "id": 1,
         "type": "multiple",
         "question": "My friend is always making (1) ______ when speaking English, especially with word choices.",
-        "options": [
-          "A) mistakes",
-          "B) tasks",
-          "C) homework",
-          "D) best"
-        ],
+        "options": ["A) mistakes", "B) tasks", "C) homework", "D) best"],
         "answer": "A) mistakes"
       },
       {
         "id": 2,
         "type": "multiple",
         "question": "I told him, \"If I (2) ______ you, I would focus more on collocations.\" We decided (3) ______ together.",
-        "options": [
-          "A) am",
-          "B) was",
-          "C) were",
-          "D) would be"
-        ],
+        "options": ["A) am", "B) was", "C) were", "D) would be"],
         "answer": "C) were"
       },
       {
@@ -2212,24 +2070,14 @@
         "id": 4,
         "type": "multiple",
         "question": "While (4) ______ for our coffee, we practiced the difference between make and do.",
-        "options": [
-          "A) wait",
-          "B) waited",
-          "C) waiting",
-          "D) to wait"
-        ],
+        "options": ["A) wait", "B) waited", "C) waiting", "D) to wait"],
         "answer": "C) waiting"
       },
       {
         "id": 5,
         "type": "multiple",
         "question": "It turns out that (5) ______ homework is \"doing,\" but \"making\" a decision is the right way to say it!",
-        "options": [
-          "A) make",
-          "B) making",
-          "C) do",
-          "D) doing"
-        ],
+        "options": ["A) make", "B) making", "C) do", "D) doing"],
         "answer": "D) doing"
       }
     ]
@@ -2242,7 +2090,7 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "6. In the past, buying used garments was often seen as a sign of financial struggle. Today, however, \"thrifting\" has become a trendy way for Gen Z to find unique vintage pieces while being environmentally conscious. Online platforms for reselling clothes are booming.\n\nWhich heading fits?",
+        "question": "6. In the past, buying used garments was often seen as a sign of financial struggle. Today, however, \"thrifting\" has become a trendy way for Gen Z to find unique vintage pieces while being environmentally conscious. Online platforms for reselling clothes are booming.",
         "options": [
           "A) The cost of fast fashion",
           "B) Digital payments are winning",
@@ -2257,7 +2105,7 @@
       {
         "id": 7,
         "type": "multiple",
-        "question": "7. Most modern consumers prefer tapping their smartphones or smartwatches at the checkout rather than carrying heavy wallets. Statistics show that the use of banknotes has significantly dropped, as online banking offers more security and speed.\n\nWhich heading fits?",
+        "question": "7. Most modern consumers prefer tapping their smartphones or smartwatches at the checkout rather than carrying heavy wallets. Statistics show that the use of banknotes has significantly dropped, as online banking offers more security and speed.",
         "options": [
           "A) The cost of fast fashion",
           "B) Digital payments are winning",
@@ -2272,7 +2120,7 @@
       {
         "id": 8,
         "type": "multiple",
-        "question": "8. To avoid overspending, it’s essential to track every cent you spend. Financial experts suggest using the 50/30/20 rule: half of your income goes to needs, 30% to wants, and 20% to savings. This ensures you won't run out of cash before your next paycheck.\n\nWhich heading fits?",
+        "question": "8. To avoid overspending, it’s essential to track every cent you spend. Financial experts suggest using the 50/30/20 rule: half of your income goes to needs, 30% to wants, and 20% to savings. This ensures you won't run out of cash before your next paycheck.",
         "options": [
           "A) The cost of fast fashion",
           "B) Digital payments are winning",
@@ -2287,7 +2135,7 @@
       {
         "id": 9,
         "type": "multiple",
-        "question": "9. While it’s tempting to buy a cheap T-shirt for $5, the environmental impact is huge. These items are often made in poor working conditions and use materials that pollute water. In the long run, buying one high-quality item is better than five disposable ones.\n\nWhich heading fits?",
+        "question": "9. While it’s tempting to buy a cheap T-shirt for $5, the environmental impact is huge. These items are often made in poor working conditions and use materials that pollute water. In the long run, buying one high-quality item is better than five disposable ones.",
         "options": [
           "A) The cost of fast fashion",
           "B) Digital payments are winning",
@@ -2302,7 +2150,7 @@
       {
         "id": 10,
         "type": "multiple",
-        "question": "10. If you've bought a pair of jeans and discovered a defect, don't worry. Most stores allow you to return the item within 14 days, provided you have the receipt and the tags are still attached. The store must either exchange the product or give your money back.\n\nWhich heading fits?",
+        "question": "10. If you've bought a pair of jeans and discovered a defect, don't worry. Most stores allow you to return the item within 14 days, provided you have the receipt and the tags are still attached. The store must either exchange the product or give your money back.",
         "options": [
           "A) The cost of fast fashion",
           "B) Digital payments are winning",
@@ -2324,7 +2172,7 @@
       {
         "id": 1,
         "type": "multiple",
-        "question": "1. __________ Many modern teenagers suffer from obesity due to a sedentary lifestyle and poor eating habits. Doctors suggest that weight problems can often be prevented by following a balanced diet and avoiding junk food that is high in artificial additives.\n\nWhich heading fits?",
+        "question": "1. __________ Many modern teenagers suffer from obesity due to a sedentary lifestyle and poor eating habits. Doctors suggest that weight problems can often be prevented by following a balanced diet and avoiding junk food that is high in artificial additives.",
         "options": [
           "A) A Sweet Hazard",
           "B) Professional Tools for Your Kitchen",
@@ -2340,7 +2188,7 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "2. __________ If you want to prepare a perfect smoothie or a creamy soup, a high-quality blender is an essential kitchen appliance. Additionally, using a clean chopping board for vegetables and separate utensils for meat helps maintain food safety standards in your kitchen.\n\nWhich heading fits?",
+        "question": "2. __________ If you want to prepare a perfect smoothie or a creamy soup, a high-quality blender is an essential kitchen appliance. Additionally, using a clean chopping board for vegetables and separate utensils for meat helps maintain food safety standards in your kitchen.",
         "options": [
           "A) A Sweet Hazard",
           "B) Professional Tools for Your Kitchen",
@@ -2356,7 +2204,7 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "3. __________ While some scientists argue that GMO crops are the only way to provide enough food for the growing global population, others remain skeptical. They worry about the long-term impact of genetically modified products on human health and local ecosystems.\n\nWhich heading fits?",
+        "question": "3. __________ While some scientists argue that GMO crops are the only way to provide enough food for the growing global population, others remain skeptical. They worry about the long-term impact of genetically modified products on human health and local ecosystems.",
         "options": [
           "A) A Sweet Hazard",
           "B) Professional Tools for Your Kitchen",
@@ -2372,7 +2220,7 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "4. __________ Before ordering the main course, many customers prefer to start with a light starter. In our restaurant, we recommend a fresh celery and courgette salad, although some guests prefer a warm beetroot soup to begin their meal.\n\nWhich heading fits?",
+        "question": "4. __________ Before ordering the main course, many customers prefer to start with a light starter. In our restaurant, we recommend a fresh celery and courgette salad, although some guests prefer a warm beetroot soup to begin their meal.",
         "options": [
           "A) A Sweet Hazard",
           "B) Professional Tools for Your Kitchen",
@@ -2388,7 +2236,7 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "5. __________ Seafood can be a delicious part of your diet, but you must be careful with raw oysters or undercooked shrimp. Consuming these without proper heat treatment can lead to severe food poisoning and a high fever.\n\nWhich heading fits?",
+        "question": "5. __________ Seafood can be a delicious part of your diet, but you must be careful with raw oysters or undercooked shrimp. Consuming these without proper heat treatment can lead to severe food poisoning and a high fever.",
         "options": [
           "A) A Sweet Hazard",
           "B) Professional Tools for Your Kitchen",
@@ -2412,36 +2260,21 @@
         "id": 6,
         "type": "multiple",
         "question": "To maintain a healthy lifestyle, one should pay attention to their daily (6) ____.",
-        "options": [
-          "A) recipe",
-          "B) diet",
-          "C) course",
-          "D) starter"
-        ],
+        "options": ["A) recipe", "B) diet", "C) course", "D) starter"],
         "answer": "B) diet"
       },
       {
         "id": 7,
         "type": "multiple",
         "question": "Nutritionists often warn against consuming too much (7) ____ food, as it is usually high in additives.",
-        "options": [
-          "A) whole-grain",
-          "B) raw",
-          "C) junk",
-          "D) sparkling"
-        ],
+        "options": ["A) whole-grain", "B) raw", "C) junk", "D) sparkling"],
         "answer": "C) junk"
       },
       {
         "id": 8,
         "type": "multiple",
         "question": "Junk food is usually high in (8) ____ additives.",
-        "options": [
-          "A) natural",
-          "B) still",
-          "C) artificial",
-          "D) herbal"
-        ],
+        "options": ["A) natural", "B) still", "C) artificial", "D) herbal"],
         "answer": "C) artificial"
       },
       {
@@ -2460,12 +2293,7 @@
         "id": 10,
         "type": "multiple",
         "question": "Instead of buying juices in a (10) ____, buy a bottle of still water.",
-        "options": [
-          "A) box",
-          "B) bar",
-          "C) loaf",
-          "D) carton"
-        ],
+        "options": ["A) box", "B) bar", "C) loaf", "D) carton"],
         "answer": "D) carton"
       }
     ]
@@ -2581,7 +2409,7 @@
       {
         "id": 7,
         "type": "multiple",
-        "question": "7. __________ While some people are excited about the potential of GMO crops to provide enough food for the planet's growing population, others remain concerned about their long-term impact on human health and the environment. Scientific research continues to evaluate whether these genetically modified organisms are truly safe for daily consumption.\n\nWhich heading fits?",
+        "question": "7. __________ While some people are excited about the potential of GMO crops to provide enough food for the planet's growing population, others remain concerned about their long-term impact on human health and the environment. Scientific research continues to evaluate whether these genetically modified organisms are truly safe for daily consumption.",
         "options": [
           "A) Hidden Danger of Sweet Drinks",
           "B) Professional Kitchen Equipment",
@@ -2597,7 +2425,7 @@
       {
         "id": 8,
         "type": "multiple",
-        "question": "8. __________ Modern lifestyles often rely on pre-packaged meals that are quick to prepare. However, these products are frequently loaded with artificial additives and preservatives. Regular consumption of such items is a major factor in the rising rates of obesity and high blood pressure in many developed countries.\n\nWhich heading fits?",
+        "question": "8. __________ Modern lifestyles often rely on pre-packaged meals that are quick to prepare. However, these products are frequently loaded with artificial additives and preservatives. Regular consumption of such items is a major factor in the rising rates of obesity and high blood pressure in many developed countries.",
         "options": [
           "A) Hidden Danger of Sweet Drinks",
           "B) Professional Kitchen Equipment",
@@ -2613,7 +2441,7 @@
       {
         "id": 9,
         "type": "multiple",
-        "question": "9. __________ If you want to reduce your meat intake, consider adding more pulses to your diet. Lentils, beans, and peas are excellent sources of nutrients. They provide the body with essential energy without the high saturated fat content often found in beef or veal.\n\nWhich heading fits?",
+        "question": "9. __________ If you want to reduce your meat intake, consider adding more pulses to your diet. Lentils, beans, and peas are excellent sources of nutrients. They provide the body with essential energy without the high saturated fat content often found in beef or veal.",
         "options": [
           "A) Hidden Danger of Sweet Drinks",
           "B) Professional Kitchen Equipment",
@@ -2629,7 +2457,7 @@
       {
         "id": 10,
         "type": "multiple",
-        "question": "10. __________ Many teenagers prefer sparkling sodas or energy drinks over still water. Although these beverages might seem refreshing, they are often linked to dental issues and eating disorders. Nutritionists suggest switching to herbal teas or natural juices to maintain a healthy weight.\n\nWhich heading fits?",
+        "question": "10. __________ Many teenagers prefer sparkling sodas or energy drinks over still water. Although these beverages might seem refreshing, they are often linked to dental issues and eating disorders. Nutritionists suggest switching to herbal teas or natural juices to maintain a healthy weight.",
         "options": [
           "A) Hidden Danger of Sweet Drinks",
           "B) Professional Kitchen Equipment",
@@ -2645,7 +2473,7 @@
       {
         "id": 11,
         "type": "multiple",
-        "question": "11. __________ To prepare a gourmet meal at home, you need more than just a good recipe. Having a high-quality chopping board and a professional blender can make a huge difference. Using the right cutlery and serving dishes also helps to create a pleasant atmosphere during the main course.\n\nWhich heading fits?",
+        "question": "11. __________ To prepare a gourmet meal at home, you need more than just a good recipe. Having a high-quality chopping board and a professional blender can make a huge difference. Using the right cutlery and serving dishes also helps to create a pleasant atmosphere during the main course.",
         "options": [
           "A) Hidden Danger of Sweet Drinks",
           "B) Professional Kitchen Equipment",
@@ -2784,24 +2612,14 @@
         "id": 8,
         "type": "multiple",
         "question": "Tomatoes that are soft and may not look perfect are still (8) ____ if they are not covered in mould.",
-        "options": [
-          "A) bitter",
-          "B) rare",
-          "C) crispy",
-          "D) edible"
-        ],
+        "options": ["A) bitter", "B) rare", "C) crispy", "D) edible"],
         "answer": "D) edible"
       },
       {
         "id": 9,
         "type": "multiple",
         "question": "Of course, you shouldn’t drink milk that smells (9) ____.",
-        "options": [
-          "A) sour",
-          "B) nourishing",
-          "C) bitter",
-          "D) fresh"
-        ],
+        "options": ["A) sour", "B) nourishing", "C) bitter", "D) fresh"],
         "answer": "A) sour"
       },
       {
@@ -2820,12 +2638,7 @@
         "id": 11,
         "type": "multiple",
         "question": "You can find so many ideas online in order to use the food you have before it (11) ____.",
-        "options": [
-          "A) goes off",
-          "B) puts on",
-          "C) heats up",
-          "D) lives on"
-        ],
+        "options": ["A) goes off", "B) puts on", "C) heats up", "D) lives on"],
         "answer": "A) goes off"
       }
     ]
@@ -2833,12 +2646,12 @@
   {
     "topic_id": "404",
     "variant_id": "4",
-    "text": "Read the texts below. Match choices (A–H) to (1–5). There are three choices you do not need to use.\n\nWhich of the advertisements is about?",
+    "text": "Read the texts below. Match choices (A–H) to (1–5). There are three choices you do not need to use.",
     "questions": [
       {
         "id": 1,
         "type": "multiple",
-        "question": "Which option fits?",
+        "question": "Which of the advertisements is about?<br>1.",
         "image_url": "english_images/topic_404/1.png",
         "options": [
           "A) a community garden",
@@ -2855,8 +2668,8 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "Which option fits?",
-        "image_url": "english_images/topic_404/1.png",
+        "question": "2.",
+        "image_url": "english_images/topic_404/2.png",
         "options": [
           "A) a community garden",
           "B) a kitchen gadget",
@@ -2872,8 +2685,8 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "Which option fits?",
-        "image_url": "english_images/topic_404/1.png",
+        "question": "3.",
+        "image_url": "english_images/topic_404/3.png",
         "options": [
           "A) a community garden",
           "B) a kitchen gadget",
@@ -2889,8 +2702,8 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "Which option fits?",
-        "image_url": "english_images/topic_404/1.png",
+        "question": "4.",
+        "image_url": "english_images/topic_404/4.png",
         "options": [
           "A) a community garden",
           "B) a kitchen gadget",
@@ -2906,8 +2719,8 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "Which option fits?",
-        "image_url": "english_images/topic_404/1.png",
+        "question": "5.",
+        "image_url": "english_images/topic_404/5.png",
         "options": [
           "A) a community garden",
           "B) a kitchen gadget",
@@ -2931,36 +2744,21 @@
         "id": 6,
         "type": "multiple",
         "question": "From analysing the remains of a 5,300-year-old body found in the Italian Alps in 1991, it was understood that the man's final (6) ____ included ground wheat.",
-        "options": [
-          "A) meal",
-          "B) diet",
-          "C) menu",
-          "D) produce"
-        ],
+        "options": ["A) meal", "B) diet", "C) menu", "D) produce"],
         "answer": "A) meal"
       },
       {
         "id": 7,
         "type": "multiple",
         "question": "The Elizabethans (those who lived during the reign of Queen Elizabeth I) (7) ____ them with spices.",
-        "options": [
-          "A) stirred",
-          "B) added",
-          "C) grated",
-          "D) sprinkled"
-        ],
+        "options": ["A) stirred", "B) added", "C) grated", "D) sprinkled"],
         "answer": "D) sprinkled"
       },
       {
         "id": 8,
         "type": "multiple",
         "question": "Today, pancakes are made with flour, eggs and milk, but there are (8) ____ recipes, too.",
-        "options": [
-          "A) organic",
-          "B) proper",
-          "C) vegan",
-          "D) dairy"
-        ],
+        "options": ["A) organic", "B) proper", "C) vegan", "D) dairy"],
         "answer": "C) vegan"
       },
       {
@@ -2998,48 +2796,28 @@
         "id": 1,
         "type": "multiple",
         "question": "The hearty soup with meat and a (1) ____ of vegetables like cabbage, beets, potatoes and even beans?",
-        "options": [
-          "A) tin",
-          "B) jar",
-          "C) loaf",
-          "D) variety"
-        ],
+        "options": ["A) tin", "B) jar", "C) loaf", "D) variety"],
         "answer": "D) variety"
       },
       {
         "id": 2,
         "type": "multiple",
         "question": "You can (2) ____ find the family that dislikes this nutritious dish.",
-        "options": [
-          "A) hard",
-          "B) hardly",
-          "C) mostly",
-          "D) ever"
-        ],
+        "options": ["A) hard", "B) hardly", "C) mostly", "D) ever"],
         "answer": "B) hardly"
       },
       {
         "id": 3,
         "type": "multiple",
         "question": "Every Ukrainian woman has her own (3) ____.",
-        "options": [
-          "A) recipe",
-          "B) meal",
-          "C) cuisine",
-          "D) receipt"
-        ],
+        "options": ["A) recipe", "B) meal", "C) cuisine", "D) receipt"],
         "answer": "A) recipe"
       },
       {
         "id": 4,
         "type": "multiple",
         "question": "If you haven't cooked it yet, (4) ____ or later you will make the first try.",
-        "options": [
-          "A) earlier",
-          "B) sooner",
-          "C) never",
-          "D) better"
-        ],
+        "options": ["A) earlier", "B) sooner", "C) never", "D) better"],
         "answer": "B) sooner"
       },
       {
@@ -3065,60 +2843,35 @@
         "id": 6,
         "type": "multiple",
         "question": "Many people try to improve their diet (6) ____ they want to feel more energetic and avoid health problems.",
-        "options": [
-          "A) because",
-          "B) so",
-          "C) then",
-          "D) until"
-        ],
+        "options": ["A) because", "B) so", "C) then", "D) until"],
         "answer": "A) because"
       },
       {
         "id": 7,
         "type": "multiple",
         "question": "Some prefer cooking at home, (7) ____ others choose ready-made meals because they are short of time.",
-        "options": [
-          "A) because",
-          "B) so",
-          "C) while",
-          "D) then"
-        ],
+        "options": ["A) because", "B) so", "C) while", "D) then"],
         "answer": "C) while"
       },
       {
         "id": 8,
         "type": "multiple",
         "question": "A balanced diet should include (8) ____ fruit and vegetables, as they provide essential vitamins.",
-        "options": [
-          "A) both",
-          "B) either",
-          "C) neither",
-          "D) not only"
-        ],
+        "options": ["A) both", "B) either", "C) neither", "D) not only"],
         "answer": "A) both"
       },
       {
         "id": 9,
         "type": "multiple",
         "question": "You should choose (9) ____ fresh products or frozen ones, but avoid highly processed food.",
-        "options": [
-          "A) also",
-          "B) both",
-          "C) neither",
-          "D) either"
-        ],
+        "options": ["A) also", "B) both", "C) neither", "D) either"],
         "answer": "D) either"
       },
       {
         "id": 10,
         "type": "multiple",
         "question": "Experts say that your body starts to benefit (10) ____ you begin eating healthier meals regularly.",
-        "options": [
-          "A) as soon as",
-          "B) so",
-          "C) till",
-          "D) until"
-        ],
+        "options": ["A) as soon as", "B) so", "C) till", "D) until"],
         "answer": "A) as soon as"
       }
     ]
@@ -3131,7 +2884,7 @@
       {
         "id": 1,
         "type": "multiple",
-        "question": "Advertisement 1: The Alpine Hideaway. In which advertisement does the organizer _______?",
+        "question": "1. The Alpine Hideaway.",
         "options": [
           "A) offer a chance to acquire a new practical skill",
           "B) suggest an activity for people interested in marine life conservation",
@@ -3147,7 +2900,7 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "Advertisement 2: Gastronomy Galore. In which advertisement does the organizer _______?",
+        "question": "2. Gastronomy Galore.",
         "options": [
           "A) offer a chance to acquire a new practical skill",
           "B) suggest an activity for people interested in marine life conservation",
@@ -3163,7 +2916,7 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "Advertisement 3: Volunteering in the Veldt. In which advertisement does the organizer _______?",
+        "question": "3. Volunteering in the Veldt.",
         "options": [
           "A) offer a chance to acquire a new practical skill",
           "B) suggest an activity for people interested in marine life conservation",
@@ -3179,7 +2932,7 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "Advertisement 4: Capital History Walk. In which advertisement does the organizer _______?",
+        "question": "4. Capital History Walk.",
         "options": [
           "A) offer a chance to acquire a new practical skill",
           "B) suggest an activity for people interested in marine life conservation",
@@ -3195,7 +2948,7 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "Advertisement 5: Coastal Explorer. In which advertisement does the organizer _______?",
+        "question": "5. Coastal Explorer.",
         "options": [
           "A) offer a chance to acquire a new practical skill",
           "B) suggest an activity for people interested in marine life conservation",
@@ -3219,12 +2972,7 @@
         "id": 6,
         "type": "multiple",
         "question": "How many drivers (6)_______ in traffic have gazed up at the clouds and dreamt of (7)_______ and leaving the queues behind?",
-        "options": [
-          "A) taken",
-          "B) kept",
-          "C) stuck",
-          "D) blocked"
-        ],
+        "options": ["A) taken", "B) kept", "C) stuck", "D) blocked"],
         "answer": "C) stuck"
       },
       {
@@ -3243,36 +2991,21 @@
         "id": 8,
         "type": "multiple",
         "question": "There are those, however, who question how sky traffic could be controlled to avoid flying cars (8)_______ into each other.",
-        "options": [
-          "A) coming",
-          "B) moving",
-          "C) stopping",
-          "D) crashing"
-        ],
+        "options": ["A) coming", "B) moving", "C) stopping", "D) crashing"],
         "answer": "D) crashing"
       },
       {
         "id": 9,
         "type": "multiple",
         "question": "Many believe that space will also be a possible (9)_______ for the more daring tourist.",
-        "options": [
-          "A) terminal",
-          "B) voyage",
-          "C) destination",
-          "D) holiday"
-        ],
+        "options": ["A) terminal", "B) voyage", "C) destination", "D) holiday"],
         "answer": "C) destination"
       },
       {
         "id": 10,
         "type": "multiple",
         "question": "You might wonder what would happen if a spaceship ran (10) _______ fuel.",
-        "options": [
-          "A) down on",
-          "B) out of",
-          "C) off",
-          "D) over"
-        ],
+        "options": ["A) down on", "B) out of", "C) off", "D) over"],
         "answer": "B) out of"
       }
     ]
@@ -3401,36 +3134,21 @@
         "id": 8,
         "type": "multiple",
         "question": "According to the local laws, you (8) _______ carry an ID with you at all times, but luckily the hotel manager said a digital copy on the phone would be enough.",
-        "options": [
-          "A) may",
-          "B) have to",
-          "C) might",
-          "D) can"
-        ],
+        "options": ["A) may", "B) have to", "C) might", "D) can"],
         "answer": "B) have to"
       },
       {
         "id": 9,
         "type": "multiple",
         "question": "We (9) _______ booked the tickets online a week ago to save time, but we forgot.",
-        "options": [
-          "A) could",
-          "B) must have",
-          "C) should have",
-          "D) need to"
-        ],
+        "options": ["A) could", "B) must have", "C) should have", "D) need to"],
         "answer": "C) should have"
       },
       {
         "id": 10,
         "type": "multiple",
         "question": "They (10) _______ be VIP guests or perhaps they had a special city pass; they looked very confident.",
-        "options": [
-          "A) must",
-          "B) have to",
-          "C) ought to",
-          "D) shall"
-        ],
+        "options": ["A) must", "B) have to", "C) ought to", "D) shall"],
         "answer": "A) must"
       },
       {
@@ -3450,13 +3168,13 @@
   {
     "topic_id": "405",
     "variant_id": "3",
-    "text": "Read the texts below. Match choices (A-H) to (1-5). There are three choices you do not need to use.\n\nWhich of the advertisements is about _______?",
+    "text": "Read the texts below. Match choices (A-H) to (1-5). There are three choices you do not need to use.",
     "image_url": "",
     "questions": [
       {
         "id": 1,
         "type": "multiple",
-        "question": "Advertisement 1. Which of the advertisements is about _______?",
+        "question": "Which of the advertisements is about?<br>1.",
         "image_url": "english_images/topic_405/1.png",
         "options": [
           "A) a special offer",
@@ -3473,8 +3191,8 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "Advertisement 2. Which of the advertisements is about _______?",
-        "image_url": "english_images/topic_405/1.png",
+        "question": "2.",
+        "image_url": "english_images/topic_405/2.png",
         "options": [
           "A) a special offer",
           "B) a travel agency",
@@ -3490,8 +3208,8 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "Advertisement 3. Which of the advertisements is about _______?",
-        "image_url": "english_images/topic_405/1.png",
+        "question": "3.",
+        "image_url": "english_images/topic_405/3.png",
         "options": [
           "A) a special offer",
           "B) a travel agency",
@@ -3507,8 +3225,8 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "Advertisement 4. Which of the advertisements is about _______?",
-        "image_url": "english_images/topic_405/1.png",
+        "question": "4.",
+        "image_url": "english_images/topic_405/4.png",
         "options": [
           "A) a special offer",
           "B) a travel agency",
@@ -3524,8 +3242,8 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "Advertisement 5. Which of the advertisements is about _______?",
-        "image_url": "english_images/topic_405/1.png",
+        "question": "5.",
+        "image_url": "english_images/topic_405/5.png",
         "options": [
           "A) a special offer",
           "B) a travel agency",
@@ -3561,12 +3279,7 @@
         "id": 7,
         "type": "multiple",
         "question": "From the classic landmarks that everyone talks about to (7)_______-the-beaten-track roads that lead to the attractions and must-sees without the crowds.",
-        "options": [
-          "A) on",
-          "B) in",
-          "C) of",
-          "D) off"
-        ],
+        "options": ["A) on", "B) in", "C) of", "D) off"],
         "answer": "D) off"
       },
       {
@@ -3585,24 +3298,14 @@
         "id": 9,
         "type": "multiple",
         "question": "Book your private (9)_______ that will help you get acquainted with the city, its people and culture.",
-        "options": [
-          "A) trip",
-          "B) tour",
-          "C) journey",
-          "D) voyage"
-        ],
+        "options": ["A) trip", "B) tour", "C) journey", "D) voyage"],
         "answer": "B) tour"
       },
       {
         "id": 10,
         "type": "multiple",
         "question": "The locals know their fascinating city like the (10)_______ of their hand and will help you fall in love with it, having created the perfect itinerary for you to make this experience unforgettable.",
-        "options": [
-          "A) part",
-          "B) side",
-          "C) back",
-          "D) front"
-        ],
+        "options": ["A) part", "B) side", "C) back", "D) front"],
         "answer": "C) back"
       }
     ]
@@ -3616,24 +3319,14 @@
         "id": 1,
         "type": "multiple",
         "question": "One of my (1) _____ memorable summers was my trip down under to New Zealand and Australia when I had the opportunity to be a part of the People to People Student Exchange program.",
-        "options": [
-          "A) the more",
-          "B) the most",
-          "C) most",
-          "D) much"
-        ],
+        "options": ["A) the more", "B) the most", "C) most", "D) much"],
         "answer": "C) most"
       },
       {
         "id": 2,
         "type": "multiple",
         "question": "Our delegation's twenty-day stay (2) _____ with action-packed thrills from diving on the Great Barrier Reef to nature hikes in the tropics of New Zealand.",
-        "options": [
-          "A) fill",
-          "B) was filled",
-          "C) filling",
-          "D) has filled"
-        ],
+        "options": ["A) fill", "B) was filled", "C) filling", "D) has filled"],
         "answer": "B) was filled"
       },
       {
@@ -3652,24 +3345,14 @@
         "id": 4,
         "type": "multiple",
         "question": "I quickly felt (4) _____ home with the new friends I met from my own delegation.",
-        "options": [
-          "A) inside",
-          "B) of",
-          "C) in",
-          "D) at"
-        ],
+        "options": ["A) inside", "B) of", "C) in", "D) at"],
         "answer": "D) at"
       },
       {
         "id": 5,
         "type": "multiple",
         "question": "If you (5) _____ a chance to be involved with the People to People summer programs, I highly recommend doing it.",
-        "options": [
-          "A) got",
-          "B) will get",
-          "C) get",
-          "D) has got"
-        ],
+        "options": ["A) got", "B) will get", "C) get", "D) has got"],
         "answer": "C) get"
       }
     ]
@@ -3786,60 +3469,35 @@
         "id": 1,
         "type": "multiple",
         "question": "Last summer, my friend and I decided to (1) _______ a trip to the seaside.",
-        "options": [
-          "A) do",
-          "B) make",
-          "C) take",
-          "D) stay"
-        ],
+        "options": ["A) do", "B) make", "C) take", "D) stay"],
         "answer": "C) take"
       },
       {
         "id": 2,
         "type": "multiple",
         "question": "The (2) _______ was quite cheap, which was perfect for our budget.",
-        "options": [
-          "A) fare",
-          "B) vessel",
-          "C) boarding",
-          "D) departure"
-        ],
+        "options": ["A) fare", "B) vessel", "C) boarding", "D) departure"],
         "answer": "A) fare"
       },
       {
         "id": 3,
         "type": "multiple",
         "question": "When we arrived (3) _______ the station, we realized we had forgotten to (4) _______ a reservation at the hotel!",
-        "options": [
-          "A) in",
-          "B) at",
-          "C) to",
-          "D) on"
-        ],
+        "options": ["A) in", "B) at", "C) to", "D) on"],
         "answer": "B) at"
       },
       {
         "id": 4,
         "type": "multiple",
         "question": "When we arrived (3) _______ the station, we realized we had forgotten to (4) _______ a reservation at the hotel!",
-        "options": [
-          "A) do",
-          "B) make",
-          "C) take",
-          "D) book"
-        ],
+        "options": ["A) do", "B) make", "C) take", "D) book"],
         "answer": "B) make"
       },
       {
         "id": 5,
         "type": "multiple",
         "question": "We spent the whole week (5) _______ sightseeing and taking hundreds of photos.",
-        "options": [
-          "A) doing",
-          "B) making",
-          "C) taking",
-          "D) catching"
-        ],
+        "options": ["A) doing", "B) making", "C) taking", "D) catching"],
         "answer": "A) doing"
       }
     ]

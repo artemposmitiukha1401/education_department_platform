@@ -41,7 +41,7 @@
         "id": 203,
         "name": "Просте речення",
         "english_name": "simple_sentence"
-      },
+      },  
       {
         "id": 204,
         "name": "Складне речення",
@@ -61,6 +61,11 @@
         "id": 207,
         "name": "Лексикологія. Фразеологія. Іншомовні слова",
         "english_name": "lexicology_phraseology_loanwords"
+      },
+      {
+        "id": 208,
+        "name": "ПІДСУМКОВИЙ ТЕСТ",
+        "english_name": "final_test"
       }
     ]
   },

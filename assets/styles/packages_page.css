@@ -1,5 +1,6 @@
 @import url("./style.css");
 @import url("./variants_page.css");
+@import url("./custom_select.css");
 
 *,
 *::before,
@@ -165,6 +166,7 @@ main {
   background: rgba(255, 255, 255, 0.9);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius);
+  overflow: visible;
   backdrop-filter: blur(1.5rem);
   box-shadow:
     0 0.25rem 1.5rem rgba(0, 0, 0, 0.07),
@@ -257,13 +259,18 @@ main {
 }
 
 .question-image {
-  width: 70%;
+  width: 50%;
   border-radius: 0.5rem;
   border: 1px solid var(--border-subtle);
   object-fit: cover;
   margin-inline: auto;
 }
-
+.question-image {
+  transition: opacity 0.15s;
+}
+.question-image:hover {
+  opacity: 0.85;
+}
 .options-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
