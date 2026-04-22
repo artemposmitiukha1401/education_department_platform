@@ -441,14 +441,13 @@ function renderMultiple(task, index) {
 
   let answers = [];
 
-  // Если answer массив — используем как есть.
-  // Если строка — считаем это одним ответом целиком.
-  // Разбивать по ; или , нужно только если это реально несколько ответов,
-  // но для вашего формата multiple это ломает проверку.
   if (Array.isArray(task.answer)) {
     answers = task.answer.map((a) => String(a).trim()).filter(Boolean);
   } else if (typeof task.answer === "string") {
-    answers = [task.answer.trim()];
+    answers = task.answer
+      .split(",")
+      .map((a) => a.trim())
+      .filter(Boolean);
   }
 
   const selected = new Set();
@@ -472,14 +471,13 @@ function renderMultiple(task, index) {
     btn.addEventListener("click", () => {
       if (btn.disabled) return;
 
-      // Для вопросов с одним правильным ответом оставляем только один выбранный
-      grid.querySelectorAll(".option-btn").forEach((b) => {
-        b.classList.remove("selected-option");
-      });
-      selected.clear();
-
-      btn.classList.add("selected-option");
-      selected.add(optStr);
+      if (selected.has(optStr)) {
+        selected.delete(optStr);
+        btn.classList.remove("selected-option");
+      } else {
+        selected.add(optStr);
+        btn.classList.add("selected-option");
+      }
     });
 
     grid.appendChild(btn);
