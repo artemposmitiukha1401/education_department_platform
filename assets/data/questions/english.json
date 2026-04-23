@@ -260,7 +260,12 @@
         "id": 17,
         "type": "multiple",
         "question": "In many communities, teenagers are encouraged to volunteer and support <strong>(7)</strong> ______.",
-        "options": ["A) elderly", "B) the elderly", "C) elder", "D) the elder"],
+        "options": [
+          "A) elderly",
+          "B) the elderly",
+          "C) elder",
+          "D) the elder"
+        ],
         "answer": "B) the elderly"
       },
       {
@@ -421,14 +426,24 @@
         "id": 28,
         "type": "multiple",
         "question": "One of them was Vladyslav Horodetskyi, with his famous House with Chimaeras built on a very steep hill in the <strong>(7)</strong> __________ of Kyiv, within walking distance of the capital's main street — Khreshchatyk.",
-        "options": ["A) heart", "B) suburbs", "C) countryside", "D) outskirts"],
+        "options": [
+          "A) heart",
+          "B) suburbs",
+          "C) countryside",
+          "D) outskirts"
+        ],
         "answer": "A) heart"
       },
       {
         "id": 29,
         "type": "multiple",
         "question": "The building received its name because of mythological sculptural ornaments and hunting trophies on the <strong>(8)</strong> ___________ which look down on us from above.",
-        "options": ["A) outside", "B) roof", "C) porch", "D) lawn"],
+        "options": [
+          "A) outside",
+          "B) roof",
+          "C) porch",
+          "D) lawn"
+        ],
         "answer": "B) roof"
       },
       {
@@ -675,7 +690,12 @@
         "id": 45,
         "type": "multiple",
         "question": "Sarah is very <strong>(3)</strong> ______; she always helps me when I have problems.",
-        "options": ["A) selfish", "B) moody", "C) reliable", "D) arrogant"],
+        "options": [
+          "A) selfish",
+          "B) moody",
+          "C) reliable",
+          "D) arrogant"
+        ],
         "answer": "C) reliable"
       },
       {
@@ -712,7 +732,7 @@
       {
         "id": 48,
         "type": "multiple",
-        "question": "Which of the advertisements is about?<br>6.",
+        "question": "<strong>6.</strong>",
         "image_url": "english_images/topic_401/1.png",
         "options": [
           "A) Real Estate Fair",
@@ -794,12 +814,12 @@
   {
     "topic_id": "402",
     "variant_id": "1",
-    "text": "Read the text below. Choose from (A–H) the one that best fits each space (1–6). There are two choices you do not need to use.\n\nThe best tips for studying\n\nIf you didn’t do so well in your last exam and another one is approaching fast, don’t worry; there’s a way not to become a dropout. Far from (1) _______, the latest study hacks have put forward a number of study techniques for those who think they've tried everything. For instance, twenty minutes of exercise before an exam is said to improve your brain's performance. This offers the ideal opportunity to get your body and marks in shape.\n\nAnother popular study hack is to read out loud instead of (2) _______. Apparently you are fifty percent more likely to remember what you have read because your mind will store both what it has seen and what it has heard. It might be wise to try this one out at home though. You don’t want strangers to think that the pressure has become too intense and you’ve lost it!\n\nStudying notes on a computer, laptop or tablet has become increasingly popular in recent years, but there are some guidelines that need to be followed in order to get the most out of this type of studying. All documents should be changed to a font which is easy to read on a screen. Arial, Verdana and Calibri are three such fonts (3) _______. Also, don’t forget to download an application to block Internet usage for a certain period of time, or at least block some of the most distracting sites, especially social networks.\n\nIn the past, the ideal study environment was said to be the peace and quiet of your bedroom. Well, times have changed. An important component of modern study methods is the soundtrack that will accompany your material. Find a music genre that elevates your mood without distracting you. Strangely enough, classical music has become popular with students because of the steady rhythm and lack of lyrics. Vary the place that you choose to study as well. The mind will associate each location with the material studied there, (5) _______.\n\nSo, you think you’ve done a pretty good job revising the material you were given? Time to prove it! Not only to yourself, but also to family or friends. Find an audience that you are comfortable with and try to teach them what you have revised. Welcome any questions and make a note of them (6) _______.",
+    "text": "Read the text below. Choose from (A–H) the one that best fits each space (1–6). There are two choices you do not need to use.\n\nThe best tips for studying\n\nIf you didn't do so well in your last exam and another one is approaching fast, don't worry; there's a way not to become a dropout. Far from (1) _______, the latest study hacks have put forward a number of study techniques for those who think they've tried everything. For instance, twenty minutes of exercise before an exam is said to improve your brain's performance. This offers the ideal opportunity to get your body and marks in shape.\n\nAnother popular study hack is to read out loud instead of (2) _______. Apparently you are fifty percent more likely to remember what you have read because your mind will store both what it has seen and what it has heard. It might be wise to try this one out at home though. You don't want strangers to think that the pressure has become too intense and you've lost it!\n\nStudying notes on a computer, laptop or tablet has become increasingly popular in recent years, but there are some guidelines that need to be followed in order to get the most out of this type of studying. All documents should be changed to a font which is easy to read on a screen. Arial, Verdana and Calibri are three such fonts (3) _______. Also, don't forget to download an application to block Internet usage for a certain period of time, or at least block some of the most distracting sites, especially social networks.\n\nIn the past, the ideal study environment was said to be the peace and quiet of your bedroom. Well, times have changed. An important component of modern study methods is the soundtrack that will accompany your material. Find a music genre that elevates your mood without distracting you. Strangely enough, classical music has become popular with students because of the steady rhythm and lack of lyrics. Vary the place that you choose to study as well. The mind will associate each location with the material studied there, (5) _______.\n\nSo, you think you've done a pretty good job revising the material you were given? Time to prove it! Not only to yourself, but also to family or friends. Find an audience that you are comfortable with and try to teach them what you have revised. Welcome any questions and make a note of them (6) _______.",
     "questions": [
       {
         "id": 1,
         "type": "multiple",
-        "question": "If you didn’t do so well in your last exam and another one is approaching fast, don’t worry; there’s a way not to become a dropout. Far from (1) _______, the latest study hacks have put forward a number of study techniques for those who think they've tried everything. For instance, twenty minutes of exercise before an exam is said to improve your brain's performance. This offers the ideal opportunity to get your body and marks in shape.",
+        "question": "If you didn't do so well in your last exam and another one is approaching fast, don't worry; there's a way not to become a dropout. Far from <strong>(1) _______</strong>, the latest study hacks have put forward a number of study techniques for those who think they've tried everything.",
         "options": [
           "A) that you want is to be interrupted in full flow",
           "B) because they might just come up in the exam",
@@ -815,7 +835,7 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "Another popular study hack is to read out loud instead of (2) _______. Apparently you are fifty percent more likely to remember what you have read because your mind will store both what it has seen and what it has heard. It might be wise to try this one out at home though. You don’t want strangers to think that the pressure has become too intense and you’ve lost it!",
+        "question": "Another popular study hack is to read out loud instead of <strong>(2) _______</strong>. Apparently you are fifty percent more likely to remember what you have read because your mind will store both what it has seen and what it has heard.",
         "options": [
           "A) that you want is to be interrupted in full flow",
           "B) because they might just come up in the exam",
@@ -831,7 +851,7 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "Studying notes on a computer, laptop or tablet has become increasingly popular in recent years, but there are some guidelines that need to be followed in order to get the most out of this type of studying. All documents should be changed to a font which is easy to read on a screen. Arial, Verdana and Calibri are three such fonts (3) _______. Also, don’t forget to download an application to block Internet usage for a certain period of time, or at least block some of the most distracting sites, especially social networks.",
+        "question": "Arial, Verdana and Calibri are three such fonts <strong>(3) _______</strong>. Also, don't forget to download an application to block Internet usage for a certain period of time.",
         "options": [
           "A) that you want is to be interrupted in full flow",
           "B) because they might just come up in the exam",
@@ -847,7 +867,7 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "It might be wise to try this one out at home though. The last thing (4) _______.",
+        "question": "It might be wise to try this one out at home though. The last thing <strong>(4) _______</strong>.",
         "options": [
           "A) that you want is to be interrupted in full flow",
           "B) because they might just come up in the exam",
@@ -863,7 +883,7 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "In the past, the ideal study environment was said to be the peace and quiet of your bedroom. Well, times have changed. An important component of modern study methods is the soundtrack that will accompany your material. Find a music genre that elevates your mood without distracting you. Strangely enough, classical music has become popular with students because of the steady rhythm and lack of lyrics. Vary the place that you choose to study as well. The mind will associate each location with the material studied there, (5) _______.",
+        "question": "Vary the place that you choose to study as well. The mind will associate each location with the material studied there, <strong>(5) _______</strong>.",
         "options": [
           "A) that you want is to be interrupted in full flow",
           "B) because they might just come up in the exam",
@@ -879,7 +899,7 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "So, you think you’ve done a pretty good job revising the material you were given? Time to prove it! Not only to yourself, but also to family or friends. Find an audience that you are comfortable with and try to teach them what you have revised. Welcome any questions and make a note of them (6) _______.",
+        "question": "Welcome any questions and make a note of them <strong>(6) _______</strong>.",
         "options": [
           "A) that you want is to be interrupted in full flow",
           "B) because they might just come up in the exam",
@@ -897,19 +917,24 @@
   {
     "topic_id": "402",
     "variant_id": "1",
-    "text": "Read the text below. For questions (7–11) choose the correct answer (A, B, C or D).\n\nRobert Rosenthal is a Professor of Psychology whose (7) _______ showed that students try to live up to teachers’ (8) _______. In his studies, all the teachers in a school were told that a certain group of students in their class were expected to make greater (9) _______ compared to the other students. In fact, the names of the students in each class were chosen at random. In all classes, and particularly for the younger children, what the teachers believed (10) _______ the students’ progress. Rosenthal’s (11) _______ was not limited to the classroom; he also studied the effects of nonverbal communication in doctor-patient and manager-employee situations.",
+    "text": "Read the text below. For questions (7–11) choose the correct answer (A, B, C or D).\n\nRobert Rosenthal is a Professor of Psychology whose (7) _______ showed that students try to live up to teachers' (8) _______. In his studies, all the teachers in a school were told that a certain group of students in their class were expected to make greater (9) _______ compared to the other students. In fact, the names of the students in each class were chosen at random. In all classes, and particularly for the younger children, what the teachers believed (10) _______ the students' progress. Rosenthal's (11) _______ was not limited to the classroom; he also studied the effects of nonverbal communication in doctor-patient and manager-employee situations.",
     "questions": [
       {
         "id": 7,
         "type": "multiple",
-        "question": "Robert Rosenthal is a Professor of Psychology whose (7) _______ showed that students try to live up to teachers’ (8) _______.",
-        "options": ["A) studies", "B) classes", "C) careers", "D) exams"],
+        "question": "Robert Rosenthal is a Professor of Psychology whose <strong>(7)</strong> _______ showed that students try to live up to teachers' (8) _______.",
+        "options": [
+          "A) studies",
+          "B) classes",
+          "C) careers",
+          "D) exams"
+        ],
         "answer": "A) studies"
       },
       {
         "id": 8,
         "type": "multiple",
-        "question": "Robert Rosenthal is a Professor of Psychology whose (7) _______ showed that students try to live up to teachers’ (8) _______.",
+        "question": "Robert Rosenthal is a Professor of Psychology whose (7) _______ showed that students try to live up to teachers' <strong>(8)</strong> _______.",
         "options": [
           "A) improvements",
           "B) expectations",
@@ -921,7 +946,7 @@
       {
         "id": 9,
         "type": "multiple",
-        "question": "In his studies, all the teachers in a school were told that a certain group of students in their class were expected to make greater (9) _______ compared to the other students.",
+        "question": "In his studies, all the teachers in a school were told that a certain group of students in their class were expected to make greater <strong>(9)</strong> _______ compared to the other students.",
         "options": [
           "A) concentration",
           "B) method",
@@ -933,7 +958,7 @@
       {
         "id": 10,
         "type": "multiple",
-        "question": "In all classes, and particularly for the younger children, what the teachers believed (10) _______ the students’ progress.",
+        "question": "In all classes, and particularly for the younger children, what the teachers believed <strong>(10)</strong> _______ the students' progress.",
         "options": [
           "A) submitted",
           "B) influenced",
@@ -945,7 +970,7 @@
       {
         "id": 11,
         "type": "multiple",
-        "question": "Rosenthal’s (11) _______ was not limited to the classroom; he also studied the effects of nonverbal communication in doctor-patient and manager-employee situations.",
+        "question": "Rosenthal's <strong>(11)</strong> _______ was not limited to the classroom; he also studied the effects of nonverbal communication in doctor-patient and manager-employee situations.",
         "options": [
           "A) assignment",
           "B) knowledge",
@@ -964,7 +989,7 @@
       {
         "id": 1,
         "type": "multiple",
-        "question": "Which of the advertisements is about?<br>1.",
+        "question": "<strong>1.</strong>",
         "image_url": "english_images/topic_402/1.png",
         "options": [
           "A) mentions the training offered to all new staff",
@@ -1056,14 +1081,19 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "At first, people often have to work very (6) ______ to gain experience and prove their abilities.",
-        "options": ["A) hard", "B) hardly", "C) harder", "D) hardest"],
+        "question": "At first, people often have to work very <strong>(6)</strong> ______ to gain experience and prove their abilities.",
+        "options": [
+          "A) hard",
+          "B) hardly",
+          "C) harder",
+          "D) hardest"
+        ],
         "answer": "A) hard"
       },
       {
         "id": 7,
         "type": "multiple",
-        "question": "In many companies, employees also need to travel (7) ______ to meet clients and partners.",
+        "question": "In many companies, employees also need to travel <strong>(7)</strong> ______ to meet clients and partners.",
         "options": [
           "A) quickly to other cities on business",
           "B) other cities quickly on business",
@@ -1075,21 +1105,31 @@
       {
         "id": 8,
         "type": "multiple",
-        "question": "For example, when a candidate enters the interview room, their voice should (8) ______ confident and clear.",
-        "options": ["A) sounded", "B) soundly", "C) sounding", "D) sound"],
+        "question": "For example, when a candidate enters the interview room, their voice should <strong>(8)</strong> ______ confident and clear.",
+        "options": [
+          "A) sounded",
+          "B) soundly",
+          "C) sounding",
+          "D) sound"
+        ],
         "answer": "D) sound"
       },
       {
         "id": 9,
         "type": "multiple",
-        "question": "Some workers stay in the office (9) ______ to finish important projects, especially when deadlines are approaching.",
-        "options": ["A) late", "B) lately", "C) latest", "D) laterly"],
+        "question": "Some workers stay in the office <strong>(9)</strong> ______ to finish important projects, especially when deadlines are approaching.",
+        "options": [
+          "A) late",
+          "B) lately",
+          "C) latest",
+          "D) laterly"
+        ],
         "answer": "A) late"
       },
       {
         "id": 10,
         "type": "multiple",
-        "question": "Others prefer to organise their work well and complete tasks (10) ______.",
+        "question": "Others prefer to organise their work well and complete tasks <strong>(10)</strong> ______.",
         "options": [
           "A) carefully during the day at the office",
           "B) carefully at the office during day",
@@ -1103,12 +1143,12 @@
   {
     "topic_id": "402",
     "variant_id": "3",
-    "text": "Read the text below. For questions (1–5) choose the correct answer (A, B, C or D).\n\nNothing ventured, nothing gained\n\nDragons’ Den is a television series in which up-and-coming entrepreneurs have three minutes to present their ideas to five multi-millionaire judges. If the contestants can convince the judges that their idea is usable and profitable, they will receive funding to further develop their product. However, a rejection in front of an audience of millions, while discouraging, need not be the end of the road.\n\nLondon hairdresser Shaun Pulfrey appeared on Dragons’ Den in 2007 with high hopes of attracting investment for his innovation, which aims to smooth knotted hair easily. Everything seemed to be going well during the presentation. Then came the questions. Pulfrey commented on one of the female judges colouring her hair in order to highlight the usefulness of his product. When the judge denied having coloured hair, Pulfrey lost all hope. The judges unanimously turned down his request for funding.\n\nThe turning point came in 2008 when a leading UK pharmacy chain started stocking the product in 600 of its shops across the country. This came at the same time as an increase in demand from the company’s website. Now, many celebrities are fans of the product and the future is looking bright for Pulfrey’s company.\n\nAnother contestant, Rob Law, entered the Dragons' Den in search of a cash boost for his line of ride-on children’s suitcases. However, during inspection of the product, a judge managed to pull off the strap and went on to ridicule Law’s invention for being poorly designed and badly made. The idea was branded as a failure by the judges.\n\nSince 2006, over 4 million ride-on suitcases have been sold in more than 100 countries worldwide.",
+    "text": "Read the text below. For questions (1–5) choose the correct answer (A, B, C or D).\n\nNothing ventured, nothing gained\n\nDragons' Den is a television series in which up-and-coming entrepreneurs have three minutes to present their ideas to five multi-millionaire judges. If the contestants can convince the judges that their idea is usable and profitable, they will receive funding to further develop their product. However, a rejection in front of an audience of millions, while discouraging, need not be the end of the road.\n\nLondon hairdresser Shaun Pulfrey appeared on Dragons' Den in 2007 with high hopes of attracting investment for his innovation, which aims to smooth knotted hair easily. Everything seemed to be going well during the presentation. Then came the questions. Pulfrey commented on one of the female judges colouring her hair in order to highlight the usefulness of his product. When the judge denied having coloured hair, Pulfrey lost all hope. The judges unanimously turned down his request for funding.\n\nThe turning point came in 2008 when a leading UK pharmacy chain started stocking the product in 600 of its shops across the country. This came at the same time as an increase in demand from the company's website. Now, many celebrities are fans of the product and the future is looking bright for Pulfrey's company.\n\nAnother contestant, Rob Law, entered the Dragons' Den in search of a cash boost for his line of ride-on children's suitcases. However, during inspection of the product, a judge managed to pull off the strap and went on to ridicule Law's invention for being poorly designed and badly made. The idea was branded as a failure by the judges.\n\nSince 2006, over 4 million ride-on suitcases have been sold in more than 100 countries worldwide.",
     "questions": [
       {
         "id": 1,
         "type": "multiple",
-        "question": "What is TRUE about the Dragons’ Den television series?",
+        "question": "What is TRUE about the Dragons' Den television series?",
         "options": [
           "A) Most contestants get rejected.",
           "B) Each contestant has to present their ideas in five minutes.",
@@ -1120,7 +1160,7 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "When did Shaun Pulfrey realise that the Dragons’ Den judges would not finance his product?",
+        "question": "When did Shaun Pulfrey realise that the Dragons' Den judges would not finance his product?",
         "options": [
           "A) while he was presenting the product",
           "B) when one of the judges denied her hair was coloured",
@@ -1132,7 +1172,7 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "What do we learn in paragraph 3 about Shaun Pulfrey’s product?",
+        "question": "What do we learn in paragraph 3 about Shaun Pulfrey's product?",
         "options": [
           "A) It is the most successful product of his company.",
           "B) It is sold in 600 shops all over Europe.",
@@ -1144,10 +1184,10 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "Why did the judges at Dragons’ Den reject Rob Law’s suitcase?",
+        "question": "Why did the judges at Dragons' Den reject Rob Law's suitcase?",
         "options": [
           "A) They found it was poorly designed and badly made.",
-          "B) They thought the public wouldn’t like it.",
+          "B) They thought the public wouldn't like it.",
           "C) They wanted to make a show.",
           "D) They believed it was too expensive."
         ],
@@ -1156,7 +1196,7 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "Which of the following is stated about Rob Law’s company?",
+        "question": "Which of the following is stated about Rob Law's company?",
         "options": [
           "A) It has expanded to include products for both kids and adults.",
           "B) It sells four million products every year.",
@@ -1170,12 +1210,12 @@
   {
     "topic_id": "402",
     "variant_id": "3",
-    "text": "Read the text below. For questions (6–10) choose the correct answer (A, B, C or D).\n\nA CAREER AT HOME\n\nJodie Sutter is thirty-eight and married with two daughters. Four and a half years ago, she decided to abandon her career to become a full-time mother.\n\nIt wasn’t an easy decision for Jodie to make as she was a (6) _____ lawyer and was moving up the career ladder. However, her job was very demanding, and so was her husband’s.\n\nWhen she had her first child, she realised that she could not go on working and taking (7) _____ of her daughter at the same time. Her husband suggested getting a nanny, but she insisted on (8) _____ her career.\n\nNow, Jodie gives her full attention to raising her family, which is a full-time (9) _____. She had always wondered if she would be able to cope as a full-time mother; however, since she left her job, she hasn’t looked (10) _____ and is enjoying every minute of motherhood.",
+    "text": "Read the text below. For questions (6–10) choose the correct answer (A, B, C or D).\n\nA CAREER AT HOME\n\nJodie Sutter is thirty-eight and married with two daughters. Four and a half years ago, she decided to abandon her career to become a full-time mother.\n\nIt wasn't an easy decision for Jodie to make as she was a (6) _____ lawyer and was moving up the career ladder. However, her job was very demanding, and so was her husband's.\n\nWhen she had her first child, she realised that she could not go on working and taking (7) _____ of her daughter at the same time. Her husband suggested getting a nanny, but she insisted on (8) _____ her career.\n\nNow, Jodie gives her full attention to raising her family, which is a full-time (9) _____. She had always wondered if she would be able to cope as a full-time mother; however, since she left her job, she hasn't looked (10) _____ and is enjoying every minute of motherhood.",
     "questions": [
       {
         "id": 6,
         "type": "multiple",
-        "question": "It wasn’t an easy decision for Jodie to make as she was a (6) _____ lawyer and was moving up the career ladder.",
+        "question": "It wasn't an easy decision for Jodie to make as she was a <strong>(6)</strong> _____ lawyer and was moving up the career ladder.",
         "options": [
           "A) stressful",
           "B) satisfying",
@@ -1187,14 +1227,19 @@
       {
         "id": 7,
         "type": "multiple",
-        "question": "When she had her first child, she realised that she could not go on working and taking (7) _____ of her daughter at the same time.",
-        "options": ["A) attention", "B) care", "C) worry", "D) responsibility"],
+        "question": "When she had her first child, she realised that she could not go on working and taking <strong>(7)</strong> _____ of her daughter at the same time.",
+        "options": [
+          "A) attention",
+          "B) care",
+          "C) worry",
+          "D) responsibility"
+        ],
         "answer": "B) care"
       },
       {
         "id": 8,
         "type": "multiple",
-        "question": "Her husband suggested getting a nanny, but she insisted on (8) _____ her career.",
+        "question": "Her husband suggested getting a nanny, but she insisted on <strong>(8)</strong> _____ her career.",
         "options": [
           "A) applying for",
           "B) handing in",
@@ -1206,15 +1251,25 @@
       {
         "id": 9,
         "type": "multiple",
-        "question": "Now, Jodie gives her full attention to raising her family, which is a full-time (9) _____.",
-        "options": ["A) job", "B) work", "C) occupation", "D) employment"],
+        "question": "Now, Jodie gives her full attention to raising her family, which is a full-time <strong>(9)</strong> _____.",
+        "options": [
+          "A) job",
+          "B) work",
+          "C) occupation",
+          "D) employment"
+        ],
         "answer": "A) job"
       },
       {
         "id": 10,
         "type": "multiple",
-        "question": "She had always wondered if she would be able to cope as a full-time mother; however, since she left her job, she hasn’t looked (10) _____ and is enjoying every minute of motherhood.",
-        "options": ["A) down", "B) back", "C) over", "D) up"],
+        "question": "She had always wondered if she would be able to cope as a full-time mother; however, since she left her job, she hasn't looked <strong>(10)</strong> _____ and is enjoying every minute of motherhood.",
+        "options": [
+          "A) down",
+          "B) back",
+          "C) over",
+          "D) up"
+        ],
         "answer": "B) back"
       }
     ]
@@ -1309,7 +1364,7 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "In the modern world, technology is changing (6) ______ fast.",
+        "question": "In the modern world, technology is changing <strong>(6)</strong> ______ fast.",
         "options": [
           "A) unbelievable",
           "B) unbelievably",
@@ -1321,14 +1376,19 @@
       {
         "id": 7,
         "type": "multiple",
-        "question": "Scientists are working (7) ______ to develop AI that can think like humans.",
-        "options": ["A) hardly", "B) harder", "C) hard", "D) hardest"],
+        "question": "Scientists are working <strong>(7)</strong> ______ to develop AI that can think like humans.",
+        "options": [
+          "A) hardly",
+          "B) harder",
+          "C) hard",
+          "D) hardest"
+        ],
         "answer": "C) hard"
       },
       {
         "id": 8,
         "type": "multiple",
-        "question": "While some people look at these changes (8) ______, others are concerned about privacy.",
+        "question": "While some people look at these changes <strong>(8)</strong> ______, others are concerned about privacy.",
         "options": [
           "A) optimistic",
           "B) optimism",
@@ -1340,7 +1400,7 @@
       {
         "id": 9,
         "type": "multiple",
-        "question": "To stay safe online, you should (9) ______ check your security settings.",
+        "question": "To stay safe online, you should <strong>(9)</strong> ______ check your security settings.",
         "options": [
           "A) regular",
           "B) regulate",
@@ -1352,8 +1412,13 @@
       {
         "id": 10,
         "type": "multiple",
-        "question": "It is also important to treat others (10) ______ in digital spaces, just as you would in real life.",
-        "options": ["A) polite", "B) politely", "C) politeness", "D) impolite"],
+        "question": "It is also important to treat others <strong>(10)</strong> ______ in digital spaces, just as you would in real life.",
+        "options": [
+          "A) polite",
+          "B) politely",
+          "C) politeness",
+          "D) impolite"
+        ],
         "answer": "B) politely"
       }
     ]
@@ -1361,12 +1426,12 @@
   {
     "topic_id": "402",
     "variant_id": "5",
-    "text": "Read the texts below. Match choices (A–F) to (1–4). There are two choices you do not need to use.\n\n1. The Vocational Route. Many students in Ukraine and the UK choose to enter a vocational school after the 9th grade. Instead of focusing only on academic subjects like literature or history, they gain practical skills in fields like mechanics, cooking, or nursing. This path allows them to enter the job market earlier.\n\n2. The Boarding School Experience. Studying at a boarding school is quite unique. Students don't go home after lessons; they live in dormitories on campus. This environment helps develop independence and strong friendships, though some pupils might feel homesick at first.\n\n3. The Life of a Surgeon. Being a surgeon is one of the most demanding careers. It requires years of education and a high level of responsibility. These medical professionals perform complex operations and must remain calm under pressure, as people's lives are in their hands.\n\n4. Voluntary Work. If you want to gain experience but don't have a degree yet, consider voluntary work. Although it is unpaid, it is highly rewarding. It shows future employers that you are proactive and care about helping society.",
+    "text": "Read the texts below. Match choices (A–F) to (1–4). There are two choices you do not need to use.\n\n1. The Vocational Route. Many students in Ukraine and the UK choose to enter a vocational school after the 9th grade. Instead of focusing only on academic subjects like literature or history, they gain practical skills in fields like mechanics, cooking, or nursing. This path allows them to enter the job market earlier.\n\n2. The Boarding School Experience. Studying at a boarding school is quite unique. Students don't go home after lessons; they live in dormitories on campus. This environment helps develop independence and strong friendships, though some pupils might feel homesick at first.\n\n3. The Life of a Surgeon. Being a surgeon is one of the most demanding careers. It requires years of education and a high level of responsibility. These medical professionals perform complex operations and must remain calm under pressure, as people's lives are in their hands.\n\n4. Voluntary Work. If you want to gain experience but don't have a degree yet, consider voluntary work. Although it is unpaid, it is highly rewarding. It shows future employers that you are proactive and care about helping society.\n\nWhich text mentions...?",
     "questions": [
       {
         "id": 1,
         "type": "multiple",
-        "question": "Which text mentions a way to get professional skills for a specific trade?",
+        "question": "<strong>1.</strong> The Vocational Route. Many students in Ukraine and the UK choose to enter a vocational school after the 9th grade. Instead of focusing only on academic subjects like literature or history, they gain practical skills in fields like mechanics, cooking, or nursing. This path allows them to enter the job market earlier.",
         "options": [
           "A) A job that involves physical intervention to treat patients.",
           "B) An educational institution where students reside.",
@@ -1380,7 +1445,7 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "Which text mentions an educational institution where students reside?",
+        "question": "<strong>2.</strong> The Boarding School Experience. Studying at a boarding school is quite unique. Students don't go home after lessons; they live in dormitories on campus. This environment helps develop independence and strong friendships, though some pupils might feel homesick at first.",
         "options": [
           "A) A job that involves physical intervention to treat patients.",
           "B) An educational institution where students reside.",
@@ -1394,7 +1459,7 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "Which text mentions a job that involves physical intervention to treat patients?",
+        "question": "<strong>3.</strong> The Life of a Surgeon. Being a surgeon is one of the most demanding careers. It requires years of education and a high level of responsibility. These medical professionals perform complex operations and must remain calm under pressure, as people's lives are in their hands.",
         "options": [
           "A) A job that involves physical intervention to treat patients.",
           "B) An educational institution where students reside.",
@@ -1408,7 +1473,7 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "Which text mentions working for experience rather than money?",
+        "question": "<strong>4.</strong> Voluntary Work. If you want to gain experience but don't have a degree yet, consider voluntary work. Although it is unpaid, it is highly rewarding. It shows future employers that you are proactive and care about helping society.",
         "options": [
           "A) A job that involves physical intervention to treat patients.",
           "B) An educational institution where students reside.",
@@ -1429,14 +1494,19 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "Choosing a career can be difficult because people want to find a job that is both interesting and (6) ______.",
-        "options": ["A) rewarding", "B) temporary", "C) brief", "D) physical"],
+        "question": "Choosing a career can be difficult because people want to find a job that is both interesting and <strong>(6)</strong> ______.",
+        "options": [
+          "A) rewarding",
+          "B) temporary",
+          "C) brief",
+          "D) physical"
+        ],
         "answer": "A) rewarding"
       },
       {
         "id": 7,
         "type": "multiple",
-        "question": "Some prefer jobs that are well-paid, while others want work that is (7) ______ and brings satisfaction.",
+        "question": "Some prefer jobs that are well-paid, while others want work that is <strong>(7)</strong> ______ and brings satisfaction.",
         "options": [
           "A) permanent",
           "B) demanding",
@@ -1448,7 +1518,7 @@
       {
         "id": 8,
         "type": "multiple",
-        "question": "Some professions require a lot of (8) ______ work, for example, construction or farming.",
+        "question": "Some professions require a lot of <strong>(8)</strong> ______ work, for example, construction or farming.",
         "options": [
           "A) mental",
           "B) physical",
@@ -1460,7 +1530,7 @@
       {
         "id": 9,
         "type": "multiple",
-        "question": "Other jobs are mostly (9) ______, such as teaching or programming.",
+        "question": "Other jobs are mostly <strong>(9)</strong> ______, such as teaching or programming.",
         "options": [
           "A) physical",
           "B) permanent",
@@ -1472,7 +1542,7 @@
       {
         "id": 10,
         "type": "multiple",
-        "question": "It is also important to choose a career that is (10) ______ and gives opportunities for growth.",
+        "question": "It is also important to choose a career that is <strong>(10)</strong> ______ and gives opportunities for growth.",
         "options": [
           "A) promising",
           "B) brief",
@@ -1491,7 +1561,7 @@
       {
         "id": 1,
         "type": "multiple",
-        "question": "Which of the advertisements is about?<br>1.",
+        "question": "<strong>1.</strong>",
         "image_url": "english_images/topic_403/1.png",
         "options": [
           "A) a DIY class",
@@ -1583,7 +1653,7 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "A recent survey has stated that the majority of women buy clothes and accessories simply for the emotional excitement of the (6)__________.",
+        "question": "A recent survey has stated that the majority of women buy clothes and accessories simply for the emotional excitement of the <strong>(6)</strong>__________.",
         "options": [
           "A) queue",
           "B) investment",
@@ -1595,21 +1665,31 @@
       {
         "id": 7,
         "type": "multiple",
-        "question": "If you are among those people who cannot (7)___________ the emotional draw of shopping, hopefully you will think twice the next time you buy something after reading the survey results.",
-        "options": ["A) afford", "B) resist", "C) withdraw", "D) allow"],
+        "question": "If you are among those people who cannot <strong>(7)</strong>___________ the emotional draw of shopping, hopefully you will think twice the next time you buy something after reading the survey results.",
+        "options": [
+          "A) afford",
+          "B) resist",
+          "C) withdraw",
+          "D) allow"
+        ],
         "answer": "B) resist"
       },
       {
         "id": 8,
         "type": "multiple",
-        "question": "The chances are that a number of the items purchased will remain hanging in the wardrobe with little hope (8)__________ being worn in the immediate future.",
-        "options": ["A) of", "B) for", "C) in", "D) at"],
+        "question": "The chances are that a number of the items purchased will remain hanging in the wardrobe with little hope <strong>(8)</strong>__________ being worn in the immediate future.",
+        "options": [
+          "A) of",
+          "B) for",
+          "C) in",
+          "D) at"
+        ],
         "answer": "A) of"
       },
       {
         "id": 9,
         "type": "multiple",
-        "question": "They are more easily attracted by specific (9)__________ products than by fashionable items, and on most occasions they (10)__________ more out of necessity than by choice.",
+        "question": "They are more easily attracted by specific <strong>(9)</strong>__________ products than by fashionable items, and on most occasions they (10)__________ more out of necessity than by choice.",
         "options": [
           "A) target group",
           "B) word of mouth",
@@ -1621,8 +1701,13 @@
       {
         "id": 10,
         "type": "multiple",
-        "question": "They are more easily attracted by specific (9)__________ products than by fashionable items, and on most occasions they (10)__________ more out of necessity than by choice.",
-        "options": ["A) cost", "B) pay", "C) shop", "D) stock"],
+        "question": "They are more easily attracted by specific (9)__________ products than by fashionable items, and on most occasions they <strong>(10)</strong>__________ more out of necessity than by choice.",
+        "options": [
+          "A) cost",
+          "B) pay",
+          "C) shop",
+          "D) stock"
+        ],
         "answer": "C) shop"
       }
     ]
@@ -1630,14 +1715,14 @@
   {
     "topic_id": "403",
     "variant_id": "2",
-    "text": "Read the text below. For questions (1–5) choose the correct answer (A, B, C or D).\n\nUSING A SAFETY NET\n\nIt wasn't so long ago that the majority of consumers did their shopping in local shops, despite parking and weather problems, long queues, and wobbly shopping trolleys. Even when online shopping became available, people felt uncomfortable shopping in the comfort of their own home clause they hesitated to use their credit cards and give their personal details to e-shops. Those worries are quite rightly a thing of the past, but some guidelines should be followed to ensure you don’t get more than you bargained for whilst filling your cart.<br>Initially, a virtual protection wall should be built for the computer which is to be used for online purchases. This will include installing antivirus software that will guard against entity theft. It is also imperative that you have a unique password for each website used. The same password should never be used for more than one site because if someone cracks the password for one site, then they will have access to a number of your favoured sites. Choose a password that is not common and then make it stronger by spelling it backwards, making some of the letters capitals, adding some numbers and then some special symbols such as £!*. By all means, make a note of the different passwords, but make sure they are well hidden away.<br>Online shoppers should stick to trusted sites in order to browse or find a particular product. The use of search engines should be avoided at all costs because the results which are presented could lead you to a disreputable site whose main aim is to trick you out of money or to sell you inferior quality products which are a rip-off. The spelling of the website should also be checked carefully to make sure that it is indeed the site which you intend to visit.<br>Before proceeding with any purchase, have a look for the lock. If the site is properly secured, an icon of a locked padlock will appear, typically in the status bar at the bottom of the web browser or right next to the address bar. The security of the site can also be proven by checking that the URL starts with HTTPS:// as opposed to HTTP://.<br>When you actually get down to making your first online purchase, don’t throw money down the drain. Keep a record of all transactions you make with your credit or debit card. This can be done by printing out each transaction and then checking them against your monthly credit card or bank statement. That said, it’s a good idea to check your statements online regularly so that any inaccuracies can be caught as soon as possible. The majority of credit cards provide insurance against theft or unauthorised use, so remember to contact the credit card company if you notice anything suspicious.Last but not least, after you’ve finished your shopping spree, don’t forget to sign out of your account and turn the computer off. The longer the computer is left on, the more possibility there is for someone to hack into it and steal your personal and banking details. The fact of the matter is that while hackers may be incredibly skilled at obtaining information from computers, human error is the most probable reason you will get hacked.",
+    "text": "Read the text below. For questions (1–5) choose the correct answer (A, B, C or D).\n\nUSING A SAFETY NET\n\nIt wasn't so long ago that the majority of consumers did their shopping in local shops, despite parking and weather problems, long queues, and wobbly shopping trolleys. Even when online shopping became available, people felt uncomfortable shopping in the comfort of their own home clause they hesitated to use their credit cards and give their personal details to e-shops. Those worries are quite rightly a thing of the past, but some guidelines should be followed to ensure you don't get more than you bargained for whilst filling your cart.\nInitially, a virtual protection wall should be built for the computer which is to be used for online purchases. This will include installing antivirus software that will guard against entity theft. It is also imperative that you have a unique password for each website used. The same password should never be used for more than one site because if someone cracks the password for one site, then they will have access to a number of your favoured sites. Choose a password that is not common and then make it stronger by spelling it backwards, making some of the letters capitals, adding some numbers and then some special symbols such as £!*. By all means, make a note of the different passwords, but make sure they are well hidden away.\nOnline shoppers should stick to trusted sites in order to browse or find a particular product. The use of search engines should be avoided at all costs because the results which are presented could lead you to a disreputable site whose main aim is to trick you out of money or to sell you inferior quality products which are a rip-off. The spelling of the website should also be checked carefully to make sure that it is indeed the site which you intend to visit.\nBefore proceeding with any purchase, have a look for the lock. If the site is properly secured, an icon of a locked padlock will appear, typically in the status bar at the bottom of the web browser or right next to the address bar. The security of the site can also be proven by checking that the URL starts with HTTPS:// as opposed to HTTP://.\nWhen you actually get down to making your first online purchase, don't throw money down the drain. Keep a record of all transactions you make with your credit or debit card. This can be done by printing out each transaction and then checking them against your monthly credit card or bank statement. That said, it's a good idea to check your statements online regularly so that any inaccuracies can be caught as soon as possible. The majority of credit cards provide insurance against theft or unauthorised use, so remember to contact the credit card company if you notice anything suspicious.Last but not least, after you've finished your shopping spree, don't forget to sign out of your account and turn the computer off. The longer the computer is left on, the more possibility there is for someone to hack into it and steal your personal and banking details. The fact of the matter is that while hackers may be incredibly skilled at obtaining information from computers, human error is the most probable reason you will get hacked.",
     "questions": [
       {
         "id": 1,
         "type": "multiple",
-        "question": "Why wasn’t online shopping so popular in the past?",
+        "question": "Why wasn't online shopping so popular in the past?",
         "options": [
-          "A) Consumers didn’t feel comfortable sitting down while shopping.",
+          "A) Consumers didn't feel comfortable sitting down while shopping.",
           "B) There was a lack of trust between consumers and online shops.",
           "C) There were no guidelines for potential consumers to follow.",
           "D) Consumers could find more bargains if they visited the shops."
@@ -1697,12 +1782,12 @@
   {
     "topic_id": "403",
     "variant_id": "2",
-    "text": "Read the text below. For questions (6–10) choose the correct answer (A, B, C or D).\n\nA shopping trip with Mum\n\nOnce a month, I go shopping with my mum. However, it isn’t always easy because we usually go on a Saturday and the shops are very crowded. My mum thinks I’m a (6) _____ because I simply love buying things. When I see something nice, especially clothes, I often feel tempted to buy it immediately.\n\nI particularly enjoy visiting large (7) _____ stores because they offer many different products in one place. You can easily find everything from fashionable jackets and shoes to everyday items.\n\nShopping with my mum has taught me to spend money wisely. She always reminds me to look for good (8) _____ and discounts before buying anything. Sometimes we are lucky and manage to find stylish clothes at very low prices.\n\nHowever, my mum also warns me not to buy items that might be (9) _____. Even if something looks attractive and cheap, it may be damaged or of poor quality.\n\nToday we are planning to go (10) _____ shopping because I need a new jacket for spring.",
+    "text": "Read the text below. For questions (6–10) choose the correct answer (A, B, C or D).\n\nA shopping trip with Mum\n\nOnce a month, I go shopping with my mum. However, it isn't always easy because we usually go on a Saturday and the shops are very crowded. My mum thinks I'm a (6) _____ because I simply love buying things. When I see something nice, especially clothes, I often feel tempted to buy it immediately.\n\nI particularly enjoy visiting large (7) _____ stores because they offer many different products in one place. You can easily find everything from fashionable jackets and shoes to everyday items.\n\nShopping with my mum has taught me to spend money wisely. She always reminds me to look for good (8) _____ and discounts before buying anything. Sometimes we are lucky and manage to find stylish clothes at very low prices.\n\nHowever, my mum also warns me not to buy items that might be (9) _____. Even if something looks attractive and cheap, it may be damaged or of poor quality.\n\nToday we are planning to go (10) _____ shopping because I need a new jacket for spring.",
     "questions": [
       {
         "id": 6,
         "type": "multiple",
-        "question": "My mum thinks I’m a (6) _____ because I simply love buying things.",
+        "question": "My mum thinks I'm a <strong>(6)</strong> _____ because I simply love buying things.",
         "options": [
           "A) assistant",
           "B) customer",
@@ -1714,29 +1799,49 @@
       {
         "id": 7,
         "type": "multiple",
-        "question": "I particularly enjoy visiting large (7) _____ stores because they offer many different products in one place.",
-        "options": ["A) department", "B) corner", "C) window", "D) market"],
+        "question": "I particularly enjoy visiting large <strong>(7)</strong> _____ stores because they offer many different products in one place.",
+        "options": [
+          "A) department",
+          "B) corner",
+          "C) window",
+          "D) market"
+        ],
         "answer": "A) department"
       },
       {
         "id": 8,
         "type": "multiple",
-        "question": "She always reminds me to look for good (8) _____ and discounts before buying anything.",
-        "options": ["A) charges", "B) exchanges", "C) refunds", "D) bargains"],
+        "question": "She always reminds me to look for good <strong>(8)</strong> _____ and discounts before buying anything.",
+        "options": [
+          "A) charges",
+          "B) exchanges",
+          "C) refunds",
+          "D) bargains"
+        ],
         "answer": "D) bargains"
       },
       {
         "id": 9,
         "type": "multiple",
-        "question": "However, my mum also warns me not to buy items that might be (9) _____.",
-        "options": ["A) faulty", "B) narrow", "C) precious", "D) flexible"],
+        "question": "However, my mum also warns me not to buy items that might be <strong>(9)</strong> _____.",
+        "options": [
+          "A) faulty",
+          "B) narrow",
+          "C) precious",
+          "D) flexible"
+        ],
         "answer": "A) faulty"
       },
       {
         "id": 10,
         "type": "multiple",
-        "question": "Today we are planning to go (10) _____ shopping because I need a new jacket for spring.",
-        "options": ["A) clothes", "B) clothing", "C) cloth", "D) dressed"],
+        "question": "Today we are planning to go <strong>(10)</strong> _____ shopping because I need a new jacket for spring.",
+        "options": [
+          "A) clothes",
+          "B) clothing",
+          "C) cloth",
+          "D) dressed"
+        ],
         "answer": "B) clothing"
       }
     ]
@@ -1749,7 +1854,7 @@
       {
         "id": 1,
         "type": "multiple",
-        "question": "1. Some people visit this shop without planning to buy anything at first. They enjoy looking at the displays and comparing different garments before choosing something they really like. However, careful shoppers know that if they search long enough, they may eventually discover a stylish item at a surprisingly reasonable price.",
+        "question": "<strong>1.</strong> Some people visit this shop without planning to buy anything at first. They enjoy looking at the displays and comparing different garments before choosing something they really like. However, careful shoppers know that if they search long enough, they may eventually discover a stylish item at a surprisingly reasonable price.",
         "options": [
           "A) allows customers to check whether clothes suit them before purchasing them",
           "B) may leave some shoppers feeling they were unfairly overcharged",
@@ -1765,7 +1870,7 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "2. This fashionable boutique is popular with young customers who want to look impressive at special events. The clothes are modern and eye-catching, but many buyers complain that the prices are outrageous. Some say the store simply takes advantage of people who want to follow the latest craze.",
+        "question": "<strong>2.</strong> This fashionable boutique is popular with young customers who want to look impressive at special events. The clothes are modern and eye-catching, but many buyers complain that the prices are outrageous. Some say the store simply takes advantage of people who want to follow the latest craze.",
         "options": [
           "A) allows customers to check whether clothes suit them before purchasing them",
           "B) may leave some shoppers feeling they were unfairly overcharged",
@@ -1781,7 +1886,7 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "3. If you are unsure about colour, style or size, this shop is the perfect place to visit. Customers can experiment with various outfits before making a decision. Assistants are ready to bring different options so that buyers can see whether the clothes match their appearance and feel comfortable.",
+        "question": "<strong>3.</strong> If you are unsure about colour, style or size, this shop is the perfect place to visit. Customers can experiment with various outfits before making a decision. Assistants are ready to bring different options so that buyers can see whether the clothes match their appearance and feel comfortable.",
         "options": [
           "A) allows customers to check whether clothes suit them before purchasing them",
           "B) may leave some shoppers feeling they were unfairly overcharged",
@@ -1797,7 +1902,7 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "4. Every time the store receives a new collection, crowds of enthusiastic customers gather outside the doors. Fashion lovers hurry inside hoping to buy the newest designs before anyone else does. Because demand is so strong, the most popular pieces rarely stay available for long.",
+        "question": "<strong>4.</strong> Every time the store receives a new collection, crowds of enthusiastic customers gather outside the doors. Fashion lovers hurry inside hoping to buy the newest designs before anyone else does. Because demand is so strong, the most popular pieces rarely stay available for long.",
         "options": [
           "A) allows customers to check whether clothes suit them before purchasing them",
           "B) may leave some shoppers feeling they were unfairly overcharged",
@@ -1813,7 +1918,7 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "5. This shop focuses on everyday clothing that is simple and durable. The owners believe people should not spend a fortune on simple items. Many customers come here when they want something reliable that will last for years without putting pressure on their finances.",
+        "question": "<strong>5.</strong> This shop focuses on everyday clothing that is simple and durable. The owners believe people should not spend a fortune on simple items. Many customers come here when they want something reliable that will last for years without putting pressure on their finances.",
         "options": [
           "A) allows customers to check whether clothes suit them before purchasing them",
           "B) may leave some shoppers feeling they were unfairly overcharged",
@@ -1829,7 +1934,7 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "6. Buying clothes here feels safe because the store has a very fair policy for its customers. If something turns out to be damaged or unsuitable, the buyer can bring it back and receive the money they paid. This approach has helped the shop build a loyal group of regular shoppers.",
+        "question": "<strong>6.</strong> Buying clothes here feels safe because the store has a very fair policy for its customers. If something turns out to be damaged or unsuitable, the buyer can bring it back and receive the money they paid. This approach has helped the shop build a loyal group of regular shoppers.",
         "options": [
           "A) allows customers to check whether clothes suit them before purchasing them",
           "B) may leave some shoppers feeling they were unfairly overcharged",
@@ -1847,19 +1952,24 @@
   {
     "topic_id": "403",
     "variant_id": "3",
-    "text": "Read the text below. For questions (7–11) choose the correct answer (A, B, C or D).\n\nSmart Shopping\n\nLast weekend Emma went to a large shopping centre to look for a new jacket. (7) ______ she entered the first shop when she saw a huge discount sign in the window.\n\nInside, she saw several fashionable jackets, but she wasn’t sure which one to choose. She asked the shop assistant (8) ______.\n\nEmma almost bought one expensive designer jacket, but she decided she would only buy it (9) ______ it fitted perfectly and matched the rest of her clothes.\n\nThe assistant also warned her that the store would not give refunds (10) ______ the item was faulty.\n\n(11) ______ several jackets, Emma finally chose one that suited her perfectly and was good value for money.",
+    "text": "Read the text below. For questions (7–11) choose the correct answer (A, B, C or D).\n\nSmart Shopping\n\nLast weekend Emma went to a large shopping centre to look for a new jacket. (7) ______ she entered the first shop when she saw a huge discount sign in the window.\n\nInside, she saw several fashionable jackets, but she wasn't sure which one to choose. She asked the shop assistant (8) ______.\n\nEmma almost bought one expensive designer jacket, but she decided she would only buy it (9) ______ it fitted perfectly and matched the rest of her clothes.\n\nThe assistant also warned her that the store would not give refunds (10) ______ the item was faulty.\n\n(11) ______ several jackets, Emma finally chose one that suited her perfectly and was good value for money.",
     "questions": [
       {
         "id": 7,
         "type": "multiple",
-        "question": "(7) ______ she entered the first shop when she saw a huge discount sign in the window.",
-        "options": ["A) Soon", "B) Hardly", "C) Almost", "D) Hardly had"],
+        "question": "<strong>(7)</strong> ______ she entered the first shop when she saw a huge discount sign in the window.",
+        "options": [
+          "A) Soon",
+          "B) Hardly",
+          "C) Almost",
+          "D) Hardly had"
+        ],
         "answer": "D) Hardly had"
       },
       {
         "id": 8,
         "type": "multiple",
-        "question": "She asked the shop assistant (8) ______.",
+        "question": "She asked the shop assistant <strong>(8)</strong> ______.",
         "options": [
           "A) where were the changing rooms",
           "B) where are the changing rooms",
@@ -1871,21 +1981,31 @@
       {
         "id": 9,
         "type": "multiple",
-        "question": "Emma almost bought one expensive designer jacket, but she decided she would only buy it (9) ______ it fitted perfectly and matched the rest of her clothes.",
-        "options": ["A) unless", "B) if", "C) when", "D) although"],
+        "question": "Emma almost bought one expensive designer jacket, but she decided she would only buy it <strong>(9)</strong> ______ it fitted perfectly and matched the rest of her clothes.",
+        "options": [
+          "A) unless",
+          "B) if",
+          "C) when",
+          "D) although"
+        ],
         "answer": "B) if"
       },
       {
         "id": 10,
         "type": "multiple",
-        "question": "The assistant also warned her that the store would not give refunds (10) ______ the item was faulty.",
-        "options": ["A) unless", "B) if", "C) when", "D) because"],
+        "question": "The assistant also warned her that the store would not give refunds <strong>(10)</strong> ______ the item was faulty.",
+        "options": [
+          "A) unless",
+          "B) if",
+          "C) when",
+          "D) because"
+        ],
         "answer": "A) unless"
       },
       {
         "id": 11,
         "type": "multiple",
-        "question": "(11) ______ several jackets, Emma finally chose one that suited her perfectly and was good value for money.",
+        "question": "<strong>(11)</strong> ______ several jackets, Emma finally chose one that suited her perfectly and was good value for money.",
         "options": [
           "A) Trying on",
           "B) Tried on",
@@ -1899,12 +2019,12 @@
   {
     "topic_id": "403",
     "variant_id": "4",
-    "text": "Read the advertisements below. Match the choices (A–G) to the descriptions (1–5). There are two extra choices you do not need to use.",
+    "text": "Read the advertisements below. Match the choices (A–G) to the descriptions (1–5). There are two extra choices you do not need to use.\n\n1. Eco-Wear Studio. Are you tired of fast fashion? Our clothes are made from 100% organic cotton. We believe in quality over quantity. If you want to save the planet while looking stylish, visit us today! We accept all major credit cards and offer a 10% discount for cash payments.\n\n2. The Vintage Vault. Looking for a bargain? We sell pre-loved designer items at a fraction of their original price. From silk scarves to leather jackets, every item is unique. Please note: we do not give refunds, so make sure to try everything on before you pay.\n\n3. Tech-Style Solutions. The future of clothing is here. Our jackets come with built-in heaters and phone chargers. They are quite expensive, but they are worth the money. We provide a two-year guarantee on all electronic components.\n\n4. Urban Rental Hub. Why buy an expensive tuxedo or a ball gown for just one night? At Urban Rental, you can borrow high-end fashion for a weekend. It's the perfect way to look like a millionaire without spending a fortune. Return the items on Monday morning, and we'll handle the dry cleaning!\n\n5. The Stitch & Fix Point. Don't throw away your favorite jeans just because of a small tear! Our expert tailors can repair any garment or alter its size to fit you perfectly. We also offer professional embroidery services to make your old clothes look brand new again.",
     "questions": [
       {
         "id": 1,
         "type": "multiple",
-        "question": "1. Eco-Wear Studio. Are you tired of fast fashion? Our clothes are made from 100% organic cotton. We believe in quality over quantity. If you want to save the planet while looking stylish, visit us today! We accept all major credit cards and offer a 10% discount for cash payments.",
+        "question": "<strong>1.</strong> Eco-Wear Studio. Are you tired of fast fashion? Our clothes are made from 100% organic cotton. We believe in quality over quantity. If you want to save the planet while looking stylish, visit us today! We accept all major credit cards and offer a 10% discount for cash payments.",
         "options": [
           "A) sells high-tech apparel.",
           "B) offers a lower price if you don't use a card.",
@@ -1919,7 +2039,7 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "2. The Vintage Vault. Looking for a bargain? We sell pre-loved designer items at a fraction of their original price. From silk scarves to leather jackets, every item is unique. Please note: we do not give refunds, so make sure to try everything on before you pay.",
+        "question": "<strong>2.</strong> The Vintage Vault. Looking for a bargain? We sell pre-loved designer items at a fraction of their original price. From silk scarves to leather jackets, every item is unique. Please note: we do not give refunds, so make sure to try everything on before you pay.",
         "options": [
           "A) sells high-tech apparel.",
           "B) offers a lower price if you don't use a card.",
@@ -1934,7 +2054,7 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "3. Tech-Style Solutions. The future of clothing is here. Our jackets come with built-in heaters and phone chargers. They are quite expensive, but they are worth the money. We provide a two-year guarantee on all electronic components.",
+        "question": "<strong>3.</strong> Tech-Style Solutions. The future of clothing is here. Our jackets come with built-in heaters and phone chargers. They are quite expensive, but they are worth the money. We provide a two-year guarantee on all electronic components.",
         "options": [
           "A) sells high-tech apparel.",
           "B) offers a lower price if you don't use a card.",
@@ -1949,7 +2069,7 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "4. Urban Rental Hub. Why buy an expensive tuxedo or a ball gown for just one night? At Urban Rental, you can borrow high-end fashion for a weekend. It’s the perfect way to look like a millionaire without spending a fortune. Return the items on Monday morning, and we’ll handle the dry cleaning!",
+        "question": "<strong>4.</strong> Urban Rental Hub. Why buy an expensive tuxedo or a ball gown for just one night? At Urban Rental, you can borrow high-end fashion for a weekend. It's the perfect way to look like a millionaire without spending a fortune. Return the items on Monday morning, and we'll handle the dry cleaning!",
         "options": [
           "A) sells high-tech apparel.",
           "B) offers a lower price if you don't use a card.",
@@ -1964,7 +2084,7 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "5. The Stitch & Fix Point. Don't throw away your favorite jeans just because of a small tear! Our expert tailors can repair any garment or alter its size to fit you perfectly. We also offer professional embroidery services to make your old clothes look brand new again.",
+        "question": "<strong>5.</strong> The Stitch & Fix Point. Don't throw away your favorite jeans just because of a small tear! Our expert tailors can repair any garment or alter its size to fit you perfectly. We also offer professional embroidery services to make your old clothes look brand new again.",
         "options": [
           "A) sells high-tech apparel.",
           "B) offers a lower price if you don't use a card.",
@@ -1986,25 +2106,35 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "For instance, many often wonder (6) ______ the exam is actually as difficult as people say.",
-        "options": ["A) where", "B) if", "C) does", "D) if does"],
+        "question": "For instance, many often wonder <strong>(6)</strong> ______ the exam is actually as difficult as people say.",
+        "options": [
+          "A) where",
+          "B) if",
+          "C) does",
+          "D) if does"
+        ],
         "answer": "B) if"
       },
       {
         "id": 7,
         "type": "multiple",
-        "question": "The answer usually depends (7) ______ how well you know the common \"pitfalls.\"",
-        "options": ["A) of", "B) in", "C) on", "D) at"],
+        "question": "The answer usually depends <strong>(7)</strong> ______ how well you know the common \"pitfalls.\"",
+        "options": [
+          "A) of",
+          "B) in",
+          "C) on",
+          "D) at"
+        ],
         "answer": "C) on"
       },
       {
         "id": 8,
         "type": "multiple",
-        "question": "If you use words like hardly or scarcely, you (8) ______ another negative like not, because these words are already negative.",
+        "question": "If you use words like hardly or scarcely, you <strong>(8)</strong> ______ another negative like not, because these words are already negative.",
         "options": [
           "A) shouldn't use",
-          "B) don’t use",
-          "C) won’t use",
+          "B) don't use",
+          "C) won't use",
           "D) shouldn't have used"
         ],
         "answer": "A) shouldn't use"
@@ -2012,7 +2142,7 @@
       {
         "id": 9,
         "type": "multiple",
-        "question": "(9) ______ the test, many students realize they should have practiced participle clauses more.",
+        "question": "<strong>(9)</strong> ______ the test, many students realize they should have practiced participle clauses more.",
         "options": [
           "A) Finished",
           "B) Having finished",
@@ -2024,7 +2154,7 @@
       {
         "id": 10,
         "type": "multiple",
-        "question": "Remember, (10) ______ the wrong subject after a comma creates a \"dangling participle\" which is a classic error.",
+        "question": "Remember, <strong>(10)</strong> ______ the wrong subject after a comma creates a \"dangling participle\" which is a classic error.",
         "options": [
           "A) placing",
           "B) placed",
@@ -2043,21 +2173,31 @@
       {
         "id": 1,
         "type": "multiple",
-        "question": "My friend is always making (1) ______ when speaking English, especially with word choices.",
-        "options": ["A) mistakes", "B) tasks", "C) homework", "D) best"],
+        "question": "My friend is always making <strong>(1)</strong> ______ when speaking English, especially with word choices.",
+        "options": [
+          "A) mistakes",
+          "B) tasks",
+          "C) homework",
+          "D) best"
+        ],
         "answer": "A) mistakes"
       },
       {
         "id": 2,
         "type": "multiple",
-        "question": "I told him, \"If I (2) ______ you, I would focus more on collocations.\" We decided (3) ______ together.",
-        "options": ["A) am", "B) was", "C) were", "D) would be"],
+        "question": "I told him, \"If I <strong>(2)</strong> ______ you, I would focus more on collocations.\" We decided (3) ______ together.",
+        "options": [
+          "A) am",
+          "B) was",
+          "C) were",
+          "D) would be"
+        ],
         "answer": "C) were"
       },
       {
         "id": 3,
         "type": "multiple",
-        "question": "I told him, \"If I (2) ______ you, I would focus more on collocations.\" We decided (3) ______ together.",
+        "question": "I told him, \"If I (2) ______ you, I would focus more on collocations.\" We decided <strong>(3)</strong> ______ together.",
         "options": [
           "A) study",
           "B) to study",
@@ -2069,15 +2209,25 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "While (4) ______ for our coffee, we practiced the difference between make and do.",
-        "options": ["A) wait", "B) waited", "C) waiting", "D) to wait"],
+        "question": "While <strong>(4)</strong> ______ for our coffee, we practiced the difference between make and do.",
+        "options": [
+          "A) wait",
+          "B) waited",
+          "C) waiting",
+          "D) to wait"
+        ],
         "answer": "C) waiting"
       },
       {
         "id": 5,
         "type": "multiple",
-        "question": "It turns out that (5) ______ homework is \"doing,\" but \"making\" a decision is the right way to say it!",
-        "options": ["A) make", "B) making", "C) do", "D) doing"],
+        "question": "It turns out that <strong>(5)</strong> ______ homework is \"doing,\" but \"making\" a decision is the right way to say it!",
+        "options": [
+          "A) make",
+          "B) making",
+          "C) do",
+          "D) doing"
+        ],
         "answer": "D) doing"
       }
     ]
@@ -2085,12 +2235,12 @@
   {
     "topic_id": "403",
     "variant_id": "5",
-    "text": "Match the headings (A–G) to the short texts (6–10). There are two extra headings you do not need to use.\n\n6. In the past, buying used garments was often seen as a sign of financial struggle. Today, however, \"thrifting\" has become a trendy way for Gen Z to find unique vintage pieces while being environmentally conscious. Online platforms for reselling clothes are booming.\n\n7. Most modern consumers prefer tapping their smartphones or smartwatches at the checkout rather than carrying heavy wallets. Statistics show that the use of banknotes has significantly dropped, as online banking offers more security and speed.\n\n8. To avoid overspending, it’s essential to track every cent you spend. Financial experts suggest using the 50/30/20 rule: half of your income goes to needs, 30% to wants, and 20% to savings. This ensures you won't run out of cash before your next paycheck.\n\n9. While it’s tempting to buy a cheap T-shirt for $5, the environmental impact is huge. These items are often made in poor working conditions and use materials that pollute water. In the long run, buying one high-quality item is better than five disposable ones.\n\n10. If you've bought a pair of jeans and discovered a defect, don't worry. Most stores allow you to return the item within 14 days, provided you have the receipt and the tags are still attached. The store must either exchange the product or give your money back.",
+    "text": "Match the headings (A–G) to the short texts (6–10). There are two extra headings you do not need to use.\n\n6. In the past, buying used garments was often seen as a sign of financial struggle. Today, however, \"thrifting\" has become a trendy way for Gen Z to find unique vintage pieces while being environmentally conscious. Online platforms for reselling clothes are booming.\n\n7. Most modern consumers prefer tapping their smartphones or smartwatches at the checkout rather than carrying heavy wallets. Statistics show that the use of banknotes has significantly dropped, as online banking offers more security and speed.\n\n8. To avoid overspending, it's essential to track every cent you spend. Financial experts suggest using the 50/30/20 rule: half of your income goes to needs, 30% to wants, and 20% to savings. This ensures you won't run out of cash before your next paycheck.\n\n9. While it's tempting to buy a cheap T-shirt for $5, the environmental impact is huge. These items are often made in poor working conditions and use materials that pollute water. In the long run, buying one high-quality item is better than five disposable ones.\n\n10. If you've bought a pair of jeans and discovered a defect, don't worry. Most stores allow you to return the item within 14 days, provided you have the receipt and the tags are still attached. The store must either exchange the product or give your money back.",
     "questions": [
       {
         "id": 6,
         "type": "multiple",
-        "question": "6. In the past, buying used garments was often seen as a sign of financial struggle. Today, however, \"thrifting\" has become a trendy way for Gen Z to find unique vintage pieces while being environmentally conscious. Online platforms for reselling clothes are booming.",
+        "question": "<strong>6.</strong> In the past, buying used garments was often seen as a sign of financial struggle. Today, however, \"thrifting\" has become a trendy way for Gen Z to find unique vintage pieces while being environmentally conscious. Online platforms for reselling clothes are booming.",
         "options": [
           "A) The cost of fast fashion",
           "B) Digital payments are winning",
@@ -2105,7 +2255,7 @@
       {
         "id": 7,
         "type": "multiple",
-        "question": "7. Most modern consumers prefer tapping their smartphones or smartwatches at the checkout rather than carrying heavy wallets. Statistics show that the use of banknotes has significantly dropped, as online banking offers more security and speed.",
+        "question": "<strong>7.</strong> Most modern consumers prefer tapping their smartphones or smartwatches at the checkout rather than carrying heavy wallets. Statistics show that the use of banknotes has significantly dropped, as online banking offers more security and speed.",
         "options": [
           "A) The cost of fast fashion",
           "B) Digital payments are winning",
@@ -2120,7 +2270,7 @@
       {
         "id": 8,
         "type": "multiple",
-        "question": "8. To avoid overspending, it’s essential to track every cent you spend. Financial experts suggest using the 50/30/20 rule: half of your income goes to needs, 30% to wants, and 20% to savings. This ensures you won't run out of cash before your next paycheck.",
+        "question": "<strong>8.</strong> To avoid overspending, it's essential to track every cent you spend. Financial experts suggest using the 50/30/20 rule: half of your income goes to needs, 30% to wants, and 20% to savings. This ensures you won't run out of cash before your next paycheck.",
         "options": [
           "A) The cost of fast fashion",
           "B) Digital payments are winning",
@@ -2135,7 +2285,7 @@
       {
         "id": 9,
         "type": "multiple",
-        "question": "9. While it’s tempting to buy a cheap T-shirt for $5, the environmental impact is huge. These items are often made in poor working conditions and use materials that pollute water. In the long run, buying one high-quality item is better than five disposable ones.",
+        "question": "<strong>9.</strong> While it's tempting to buy a cheap T-shirt for $5, the environmental impact is huge. These items are often made in poor working conditions and use materials that pollute water. In the long run, buying one high-quality item is better than five disposable ones.",
         "options": [
           "A) The cost of fast fashion",
           "B) Digital payments are winning",
@@ -2150,7 +2300,7 @@
       {
         "id": 10,
         "type": "multiple",
-        "question": "10. If you've bought a pair of jeans and discovered a defect, don't worry. Most stores allow you to return the item within 14 days, provided you have the receipt and the tags are still attached. The store must either exchange the product or give your money back.",
+        "question": "<strong>10.</strong> If you've bought a pair of jeans and discovered a defect, don't worry. Most stores allow you to return the item within 14 days, provided you have the receipt and the tags are still attached. The store must either exchange the product or give your money back.",
         "options": [
           "A) The cost of fast fashion",
           "B) Digital payments are winning",
@@ -2167,12 +2317,12 @@
   {
     "topic_id": "404",
     "variant_id": "1",
-    "text": "Match the short texts (1–5) with the correct headings (A–H). There are three headings you do not need to use.\n\n1. __________ Many modern teenagers suffer from obesity due to a sedentary lifestyle and poor eating habits. Doctors suggest that weight problems can often be prevented by following a balanced diet and avoiding junk food that is high in artificial additives.\n\n2. __________ If you want to prepare a perfect smoothie or a creamy soup, a high-quality blender is an essential kitchen appliance. Additionally, using a clean chopping board for vegetables and separate utensils for meat helps maintain food safety standards in your kitchen.\n\n3. __________ While some scientists argue that GMO crops are the only way to provide enough food for the growing global population, others remain skeptical. They worry about the long-term impact of genetically modified products on human health and local ecosystems.\n\n4. __________ Before ordering the main course, many customers prefer to start with a light starter. In our restaurant, we recommend a fresh celery and courgette salad, although some guests prefer a warm beetroot soup to begin their meal.\n\n5. __________ Seafood can be a delicious part of your diet, but you must be careful with raw oysters or undercooked shrimp. Consuming these without proper heat treatment can lead to severe food poisoning and a high fever.",
+    "text": "Read the texts below. Match the short texts (1–5) with the correct headings (A–H). There are three headings you do not need to use.\n\n1. __________ Many modern teenagers suffer from obesity due to a sedentary lifestyle and poor eating habits. Doctors suggest that weight problems can often be prevented by following a balanced diet and avoiding junk food that is high in artificial additives.\n\n2. __________ If you want to prepare a perfect smoothie or a creamy soup, a high-quality blender is an essential kitchen appliance. Additionally, using a clean chopping board for vegetables and separate utensils for meat helps maintain food safety standards in your kitchen.\n\n3. __________ While some scientists argue that GMO crops are the only way to provide enough food for the growing global population, others remain skeptical. They worry about the long-term impact of genetically modified products on human health and local ecosystems.\n\n4. __________ Before ordering the main course, many customers prefer to start with a light starter. In our restaurant, we recommend a fresh celery and courgette salad, although some guests prefer a warm beetroot soup to begin their meal.\n\n5. __________ Seafood can be a delicious part of your diet, but you must be careful with raw oysters or undercooked shrimp. Consuming these without proper heat treatment can lead to severe food poisoning and a high fever.",
     "questions": [
       {
         "id": 1,
         "type": "multiple",
-        "question": "1. __________ Many modern teenagers suffer from obesity due to a sedentary lifestyle and poor eating habits. Doctors suggest that weight problems can often be prevented by following a balanced diet and avoiding junk food that is high in artificial additives.",
+        "question": "<strong>1.</strong> Many modern teenagers suffer from obesity due to a sedentary lifestyle and poor eating habits. Doctors suggest that weight problems can often be prevented by following a balanced diet and avoiding junk food that is high in artificial additives.",
         "options": [
           "A) A Sweet Hazard",
           "B) Professional Tools for Your Kitchen",
@@ -2188,7 +2338,7 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "2. __________ If you want to prepare a perfect smoothie or a creamy soup, a high-quality blender is an essential kitchen appliance. Additionally, using a clean chopping board for vegetables and separate utensils for meat helps maintain food safety standards in your kitchen.",
+        "question": "<strong>2.</strong> If you want to prepare a perfect smoothie or a creamy soup, a high-quality blender is an essential kitchen appliance. Additionally, using a clean chopping board for vegetables and separate utensils for meat helps maintain food safety standards in your kitchen.",
         "options": [
           "A) A Sweet Hazard",
           "B) Professional Tools for Your Kitchen",
@@ -2204,7 +2354,7 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "3. __________ While some scientists argue that GMO crops are the only way to provide enough food for the growing global population, others remain skeptical. They worry about the long-term impact of genetically modified products on human health and local ecosystems.",
+        "question": "<strong>3.</strong> While some scientists argue that GMO crops are the only way to provide enough food for the growing global population, others remain skeptical. They worry about the long-term impact of genetically modified products on human health and local ecosystems.",
         "options": [
           "A) A Sweet Hazard",
           "B) Professional Tools for Your Kitchen",
@@ -2220,7 +2370,7 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "4. __________ Before ordering the main course, many customers prefer to start with a light starter. In our restaurant, we recommend a fresh celery and courgette salad, although some guests prefer a warm beetroot soup to begin their meal.",
+        "question": "<strong>4.</strong> Before ordering the main course, many customers prefer to start with a light starter. In our restaurant, we recommend a fresh celery and courgette salad, although some guests prefer a warm beetroot soup to begin their meal.",
         "options": [
           "A) A Sweet Hazard",
           "B) Professional Tools for Your Kitchen",
@@ -2236,7 +2386,7 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "5. __________ Seafood can be a delicious part of your diet, but you must be careful with raw oysters or undercooked shrimp. Consuming these without proper heat treatment can lead to severe food poisoning and a high fever.",
+        "question": "<strong>5.</strong> Seafood can be a delicious part of your diet, but you must be careful with raw oysters or undercooked shrimp. Consuming these without proper heat treatment can lead to severe food poisoning and a high fever.",
         "options": [
           "A) A Sweet Hazard",
           "B) Professional Tools for Your Kitchen",
@@ -2259,28 +2409,43 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "To maintain a healthy lifestyle, one should pay attention to their daily (6) ____.",
-        "options": ["A) recipe", "B) diet", "C) course", "D) starter"],
+        "question": "To maintain a healthy lifestyle, one should pay attention to their daily <strong>(6)</strong> ____.",
+        "options": [
+          "A) recipe",
+          "B) diet",
+          "C) course",
+          "D) starter"
+        ],
         "answer": "B) diet"
       },
       {
         "id": 7,
         "type": "multiple",
-        "question": "Nutritionists often warn against consuming too much (7) ____ food, as it is usually high in additives.",
-        "options": ["A) whole-grain", "B) raw", "C) junk", "D) sparkling"],
+        "question": "Nutritionists often warn against consuming too much <strong>(7)</strong> ____ food, as it is usually high in additives.",
+        "options": [
+          "A) whole-grain",
+          "B) raw",
+          "C) junk",
+          "D) sparkling"
+        ],
         "answer": "C) junk"
       },
       {
         "id": 8,
         "type": "multiple",
-        "question": "Junk food is usually high in (8) ____ additives.",
-        "options": ["A) natural", "B) still", "C) artificial", "D) herbal"],
+        "question": "Junk food is usually high in <strong>(8)</strong> ____ additives.",
+        "options": [
+          "A) natural",
+          "B) still",
+          "C) artificial",
+          "D) herbal"
+        ],
         "answer": "C) artificial"
       },
       {
         "id": 9,
         "type": "multiple",
-        "question": "Regular consumption of junk food can lead to (9) ____.",
+        "question": "Regular consumption of junk food can lead to <strong>(9)</strong> ____.",
         "options": [
           "A) malnutrition",
           "B) poisoning",
@@ -2292,8 +2457,13 @@
       {
         "id": 10,
         "type": "multiple",
-        "question": "Instead of buying juices in a (10) ____, buy a bottle of still water.",
-        "options": ["A) box", "B) bar", "C) loaf", "D) carton"],
+        "question": "Instead of buying juices in a <strong>(10)</strong> ____, buy a bottle of still water.",
+        "options": [
+          "A) box",
+          "B) bar",
+          "C) loaf",
+          "D) carton"
+        ],
         "answer": "D) carton"
       }
     ]
@@ -2301,12 +2471,12 @@
   {
     "topic_id": "404",
     "variant_id": "2",
-    "text": "Read the text and choose the correct item (A, B, C, or D) for each gap (1–6).\n\nThe History of Tea\n\nTea is consumed more than any other beverage in the world; and behind this everyday drink, beyond the boxes on the tea-store shelves, lies a colourful and fascinating story that makes its way through (1) __________.\n\nLittle did Chinese Emperor Shen Nung realise in 2737 B.C., (2) __________, that the beverage he discovered would cause sensations around the world. The pleasant aroma and refreshing taste charmed him, and soon everyone in the kingdom was drinking tea.\n\nUntil the third century A.D., (3) __________ with the fresh green leaves gathered from the wild tea trees. To match supply to an increasing demand and guarantee a regular crop, farmers began to grow tea (4) __________. The Dutch and Portuguese were responsible for bringing tea from China to Europe in the early 17th century.\n\nIn the 1870s, Ceylon became a major area producing tea as an alternative to coffee crops which failed in the 1860s. The first tea plantations were established in Loolecondra Estate near Kandy, and (5) __________.\n\nTea takes you on this long journey, with innovative blends and packaging yet, (6)__________.",
+    "text": "Read the text and choose the correct item (A, B, C, or D) for each gap (1–6).\n\nThe History of Tea\n\nTea is consumed more than any other beverage in the world; and behind this everyday drink, beyond the boxes on the tea-store shelves, lies a colourful and fascinating story that makes its way through (1) __________.\n\nLittle did Chinese Emperor Shen Nung realise in 2737 B.C., (2) __________, that the beverage he discovered would cause sensations around the world. The pleasant aroma and refreshing taste charmed him, and soon everyone in the kingdom was drinking tea.\n\nUntil the third century A.D., (3) __________ with the fresh green leaves gathered from the wild tea trees. To match supply to an increasing demand and guarantee a regular crop, farmers began to grow tea (4) __________. The Dutch and Portuguese were responsible for bringing tea from China to Europe in the early 17th century.\n\nIn the 1870s, Ceylon became a major area producing tea as an alternative to coffee crops which failed in the 1860s. The first tea plantations were established in Loolecondra Estate near Kandy, and (5) __________.\n\nTea takes you on this long journey, with innovative blends and packaging yet, (6) __________.",
     "questions": [
       {
         "id": 1,
         "type": "multiple",
-        "question": "Tea is consumed more than any other beverage in the world; and behind this everyday drink, beyond the boxes on the tea-store shelves, lies a colourful and fascinating story that makes its way through (1) ____.",
+        "question": "Tea is consumed more than any other beverage in the world; and behind this everyday drink, beyond the boxes on the tea-store shelves, lies a colourful and fascinating story that makes its way through <strong>(1)</strong> ____.",
         "options": [
           "A) when dried leaves blew into his cup of hot water",
           "B) keeping the 5000-year-old traditions unbroken",
@@ -2322,7 +2492,7 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "Little did Chinese Emperor Shen Nung realise in 2737 B.C., (2) ____, that the beverage he discovered would cause sensations around the world.",
+        "question": "Little did Chinese Emperor Shen Nung realise in 2737 B.C., <strong>(2)</strong> ____, that the beverage he discovered would cause sensations around the world.",
         "options": [
           "A) when dried leaves blew into his cup of hot water",
           "B) keeping the 5000-year-old traditions unbroken",
@@ -2338,7 +2508,7 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "Until the third century A.D., (3) ____ with the fresh green leaves gathered from the wild tea trees.",
+        "question": "Until the third century A.D., <strong>(3)</strong> ____ with the fresh green leaves gathered from the wild tea trees.",
         "options": [
           "A) when dried leaves blew into his cup of hot water",
           "B) keeping the 5000-year-old traditions unbroken",
@@ -2354,7 +2524,7 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "To match supply to an increasing demand and guarantee a regular crop, farmers began to grow tea (4) ____.",
+        "question": "To match supply to an increasing demand and guarantee a regular crop, farmers began to grow tea <strong>(4)</strong> ____.",
         "options": [
           "A) when dried leaves blew into his cup of hot water",
           "B) keeping the 5000-year-old traditions unbroken",
@@ -2370,7 +2540,7 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "The first tea plantations were established in Loolecondra Estate near Kandy, and (5) ____.",
+        "question": "The first tea plantations were established in Loolecondra Estate near Kandy, and <strong>(5)</strong> ____.",
         "options": [
           "A) when dried leaves blew into his cup of hot water",
           "B) keeping the 5000-year-old traditions unbroken",
@@ -2386,7 +2556,7 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "Tea takes you on this long journey, with innovative blends and packaging yet, (6) ____.",
+        "question": "Tea takes you on this long journey, with innovative blends and packaging yet, <strong>(6)</strong> ____.",
         "options": [
           "A) when dried leaves blew into his cup of hot water",
           "B) keeping the 5000-year-old traditions unbroken",
@@ -2409,7 +2579,7 @@
       {
         "id": 7,
         "type": "multiple",
-        "question": "7. __________ While some people are excited about the potential of GMO crops to provide enough food for the planet's growing population, others remain concerned about their long-term impact on human health and the environment. Scientific research continues to evaluate whether these genetically modified organisms are truly safe for daily consumption.",
+        "question": "<strong>7.</strong> While some people are excited about the potential of GMO crops to provide enough food for the planet's growing population, others remain concerned about their long-term impact on human health and the environment. Scientific research continues to evaluate whether these genetically modified organisms are truly safe for daily consumption.",
         "options": [
           "A) Hidden Danger of Sweet Drinks",
           "B) Professional Kitchen Equipment",
@@ -2425,7 +2595,7 @@
       {
         "id": 8,
         "type": "multiple",
-        "question": "8. __________ Modern lifestyles often rely on pre-packaged meals that are quick to prepare. However, these products are frequently loaded with artificial additives and preservatives. Regular consumption of such items is a major factor in the rising rates of obesity and high blood pressure in many developed countries.",
+        "question": "<strong>8.</strong> Modern lifestyles often rely on pre-packaged meals that are quick to prepare. However, these products are frequently loaded with artificial additives and preservatives. Regular consumption of such items is a major factor in the rising rates of obesity and high blood pressure in many developed countries.",
         "options": [
           "A) Hidden Danger of Sweet Drinks",
           "B) Professional Kitchen Equipment",
@@ -2441,7 +2611,7 @@
       {
         "id": 9,
         "type": "multiple",
-        "question": "9. __________ If you want to reduce your meat intake, consider adding more pulses to your diet. Lentils, beans, and peas are excellent sources of nutrients. They provide the body with essential energy without the high saturated fat content often found in beef or veal.",
+        "question": "<strong>9.</strong> If you want to reduce your meat intake, consider adding more pulses to your diet. Lentils, beans, and peas are excellent sources of nutrients. They provide the body with essential energy without the high saturated fat content often found in beef or veal.",
         "options": [
           "A) Hidden Danger of Sweet Drinks",
           "B) Professional Kitchen Equipment",
@@ -2457,7 +2627,7 @@
       {
         "id": 10,
         "type": "multiple",
-        "question": "10. __________ Many teenagers prefer sparkling sodas or energy drinks over still water. Although these beverages might seem refreshing, they are often linked to dental issues and eating disorders. Nutritionists suggest switching to herbal teas or natural juices to maintain a healthy weight.",
+        "question": "<strong>10.</strong> Many teenagers prefer sparkling sodas or energy drinks over still water. Although these beverages might seem refreshing, they are often linked to dental issues and eating disorders. Nutritionists suggest switching to herbal teas or natural juices to maintain a healthy weight.",
         "options": [
           "A) Hidden Danger of Sweet Drinks",
           "B) Professional Kitchen Equipment",
@@ -2473,7 +2643,7 @@
       {
         "id": 11,
         "type": "multiple",
-        "question": "11. __________ To prepare a gourmet meal at home, you need more than just a good recipe. Having a high-quality chopping board and a professional blender can make a huge difference. Using the right cutlery and serving dishes also helps to create a pleasant atmosphere during the main course.",
+        "question": "<strong>11.</strong> To prepare a gourmet meal at home, you need more than just a good recipe. Having a high-quality chopping board and a professional blender can make a huge difference. Using the right cutlery and serving dishes also helps to create a pleasant atmosphere during the main course.",
         "options": [
           "A) Hidden Danger of Sweet Drinks",
           "B) Professional Kitchen Equipment",
@@ -2491,19 +2661,19 @@
   {
     "topic_id": "404",
     "variant_id": "3",
-    "text": "Read the text below. Choose from (A–H) the one which best fits each space (1–6). There are two choices you do not need to use.\n\nWhat’s for lunch?\n\nThe message from my editor was short and to the point. ‘Travel to different countries around the world and find out what school children are having for lunch.’ The task was clear, and the travel budget adequate enough not to have to worry (1) _________.\n\nFirst stop, France. How to surprise a school so that the chef doesn’t have time to change the menu to something special? I decided to knock on a few doors and take pot luck. A school on the right bank of the River Seine (2) __________ for their thirty-minute lunch, and no wonder. The food was spectacular. Freshly-made baguettes, still warm from the oven, salade de ble (a fresh salad with cucumbers, tomatoes, red onion, parsley, bulgur wheat and lime juice), beef with a mushroom sauce and carrots, Camembert cheese and apple tart. I had expected the food to be good. However, I was surprised to learn about an unusual part of the national curriculum: taste training.\n\nPupils are tested in their tasting abilities in year 4 and learn about food in a more or less scientific way. A new food has to be tried a few times before they decide whether to include it on the lunchtime menu. This explained a lot to me (3) __________. But now it was time to visit another country.\n\nSchool lunch in Japan was equally interesting, though totally different. I remembered reading a book as a child about an unusual Tokyo school on a train, where pupils were requested to bring a packed lunch (4) __________ as well as rice. This meant the meal had to include either fish or seaweed plus meat, egg or vegetables. What I liked, however, was the poetic way the request was made by the headmaster. I was curious to see what I would discover.\n\nThe school lunch I attended in a rural school in Japan was forty-five minutes long. Perhaps surprisingly long, but teachers treat it (5) __________. Pupils bring their own lunch mat, chopsticks and toothbrush to school. The meal was well-balanced and tasty, with rice, fish, vegetables, soup and milk. At the end of the meal, a pupil announced where the food had come from, and all the pupils said ‘thank you for the delicious meal’ in unison.\n\nThe pupils cleaned up after the meal, with one person taking the role of (6) __________. After a few days, it was time to pack my bags again for my next destination, Papua New Guinea.",
+    "text": "Read the text below. Choose from (A–H) the one which best fits each space (1–6). There are two choices you do not need to use.\n\nWhat's for lunch?\n\nThe message from my editor was short and to the point. 'Travel to different countries around the world and find out what school children are having for lunch.' The task was clear, and the travel budget adequate enough not to have to worry (1) _________.\n\nFirst stop, France. How to surprise a school so that the chef doesn't have time to change the menu to something special? I decided to knock on a few doors and take pot luck. A school on the right bank of the River Seine (2) __________ for their thirty-minute lunch, and no wonder. The food was spectacular. Freshly-made baguettes, still warm from the oven, salade de ble (a fresh salad with cucumbers, tomatoes, red onion, parsley, bulgur wheat and lime juice), beef with a mushroom sauce and carrots, Camembert cheese and apple tart. I had expected the food to be good. However, I was surprised to learn about an unusual part of the national curriculum: taste training.\n\nPupils are tested in their tasting abilities in year 4 and learn about food in a more or less scientific way. A new food has to be tried a few times before they decide whether to include it on the lunchtime menu. This explained a lot to me (3) __________. But now it was time to visit another country.\n\nSchool lunch in Japan was equally interesting, though totally different. I remembered reading a book as a child about an unusual Tokyo school on a train, where pupils were requested to bring a packed lunch (4) __________ as well as rice. This meant the meal had to include either fish or seaweed plus meat, egg or vegetables. What I liked, however, was the poetic way the request was made by the headmaster. I was curious to see what I would discover.\n\nThe school lunch I attended in a rural school in Japan was forty-five minutes long. Perhaps surprisingly long, but teachers treat it (5) __________. Pupils bring their own lunch mat, chopsticks and toothbrush to school. The meal was well-balanced and tasty, with rice, fish, vegetables, soup and milk. At the end of the meal, a pupil announced where the food had come from, and all the pupils said 'thank you for the delicious meal' in unison.\n\nThe pupils cleaned up after the meal, with one person taking the role of (6) __________. After a few days, it was time to pack my bags again for my next destination, Papua New Guinea.",
     "questions": [
       {
         "id": 1,
         "type": "multiple",
-        "question": "The task was clear, and the travel budget adequate enough not to have to worry (1) ____.",
+        "question": "The task was clear, and the travel budget adequate enough not to have to worry <strong>(1)</strong> ____.",
         "options": [
           "A) washing out the milk cartons for recycling",
-          "B) as part of the pupils’ education",
+          "B) as part of the pupils' education",
           "C) was nutritious, but did not smell or taste good",
           "D) about the high quality and sophisticated tastes of French food",
           "E) as the students were eating their lunch in the school restaurant",
-          "F) including ‘something from the ocean and something from the hills’",
+          "F) including 'something from the ocean and something from the hills'",
           "G) about sleepless nights in mosquito-ridden hostels",
           "H) was happy to let me join the school children"
         ],
@@ -2512,14 +2682,14 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "A school on the right bank of the River Seine (2) ____ for their thirty-minute lunch, and no wonder.",
+        "question": "A school on the right bank of the River Seine <strong>(2)</strong> ____ for their thirty-minute lunch, and no wonder.",
         "options": [
           "A) washing out the milk cartons for recycling",
-          "B) as part of the pupils’ education",
+          "B) as part of the pupils' education",
           "C) was nutritious, but did not smell or taste good",
           "D) about the high quality and sophisticated tastes of French food",
           "E) as the students were eating their lunch in the school restaurant",
-          "F) including ‘something from the ocean and something from the hills’",
+          "F) including 'something from the ocean and something from the hills'",
           "G) about sleepless nights in mosquito-ridden hostels",
           "H) was happy to let me join the school children"
         ],
@@ -2528,14 +2698,14 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "This explained a lot to me (3) ____.",
+        "question": "This explained a lot to me <strong>(3)</strong> ____.",
         "options": [
           "A) washing out the milk cartons for recycling",
-          "B) as part of the pupils’ education",
+          "B) as part of the pupils' education",
           "C) was nutritious, but did not smell or taste good",
           "D) about the high quality and sophisticated tastes of French food",
           "E) as the students were eating their lunch in the school restaurant",
-          "F) including ‘something from the ocean and something from the hills’",
+          "F) including 'something from the ocean and something from the hills'",
           "G) about sleepless nights in mosquito-ridden hostels",
           "H) was happy to let me join the school children"
         ],
@@ -2544,46 +2714,46 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "I remembered reading a book as a child about an unusual Tokyo school on a train, where pupils were requested to bring a packed lunch (4) ____ as well as rice.",
+        "question": "I remembered reading a book as a child about an unusual Tokyo school on a train, where pupils were requested to bring a packed lunch <strong>(4)</strong> ____ as well as rice.",
         "options": [
           "A) washing out the milk cartons for recycling",
-          "B) as part of the pupils’ education",
+          "B) as part of the pupils' education",
           "C) was nutritious, but did not smell or taste good",
           "D) about the high quality and sophisticated tastes of French food",
           "E) as the students were eating their lunch in the school restaurant",
-          "F) including ‘something from the ocean and something from the hills’",
+          "F) including 'something from the ocean and something from the hills'",
           "G) about sleepless nights in mosquito-ridden hostels",
           "H) was happy to let me join the school children"
         ],
-        "answer": "F) including ‘something from the ocean and something from the hills’"
+        "answer": "F) including 'something from the ocean and something from the hills'"
       },
       {
         "id": 5,
         "type": "multiple",
-        "question": "The school lunch I attended in a rural school in Japan was forty-five minutes long. Perhaps surprisingly long, but teachers treat it (5) ____.",
+        "question": "The school lunch I attended in a rural school in Japan was forty-five minutes long. Perhaps surprisingly long, but teachers treat it <strong>(5)</strong> ____.",
         "options": [
           "A) washing out the milk cartons for recycling",
-          "B) as part of the pupils’ education",
+          "B) as part of the pupils' education",
           "C) was nutritious, but did not smell or taste good",
           "D) about the high quality and sophisticated tastes of French food",
           "E) as the students were eating their lunch in the school restaurant",
-          "F) including ‘something from the ocean and something from the hills’",
+          "F) including 'something from the ocean and something from the hills'",
           "G) about sleepless nights in mosquito-ridden hostels",
           "H) was happy to let me join the school children"
         ],
-        "answer": "B) as part of the pupils’ education"
+        "answer": "B) as part of the pupils' education"
       },
       {
         "id": 6,
         "type": "multiple",
-        "question": "The pupils cleaned up after the meal, with one person taking the role of (6) ____.",
+        "question": "The pupils cleaned up after the meal, with one person taking the role of <strong>(6)</strong> ____.",
         "options": [
           "A) washing out the milk cartons for recycling",
-          "B) as part of the pupils’ education",
+          "B) as part of the pupils' education",
           "C) was nutritious, but did not smell or taste good",
           "D) about the high quality and sophisticated tastes of French food",
           "E) as the students were eating their lunch in the school restaurant",
-          "F) including ‘something from the ocean and something from the hills’",
+          "F) including 'something from the ocean and something from the hills'",
           "G) about sleepless nights in mosquito-ridden hostels",
           "H) was happy to let me join the school children"
         ],
@@ -2594,12 +2764,12 @@
   {
     "topic_id": "404",
     "variant_id": "3",
-    "text": "Read the text below. For questions (7–11) choose the correct answer (A, B, C or D).\n\nReducing food waste\n\nDid you know that the average household in the UK spends £60 a month on food that ends up in the rubbish bin? What can you do to avoid throwing away so much food?\n\nIf your bread has gone stale, you can use it to make bread and butter pudding, a traditional British (7) _________. Tomatoes that are soft and may not look perfect are still (8) __________ if they are not covered in mould. Use them to make delicious sauces and hearty soups.\n\nAbout three million glasses of milk are wasted every day. Of course, you shouldn’t drink milk that smells (9)_________. However, if you've got lots of milk that is near its expiry date, you can use it to make cheese sauce or rice pudding.\n\nThese are just a few ways to (10) _________ food waste, but you can find so many ideas online in order to use the food you have before it (11)__________.",
+    "text": "Read the text below. For questions (7–11) choose the correct answer (A, B, C or D).\n\nReducing food waste\n\nDid you know that the average household in the UK spends £60 a month on food that ends up in the rubbish bin? What can you do to avoid throwing away so much food?\n\nIf your bread has gone stale, you can use it to make bread and butter pudding, a traditional British (7) _________. Tomatoes that are soft and may not look perfect are still (8) __________ if they are not covered in mould. Use them to make delicious sauces and hearty soups.\n\nAbout three million glasses of milk are wasted every day. Of course, you shouldn't drink milk that smells (9)_________. However, if you've got lots of milk that is near its expiry date, you can use it to make cheese sauce or rice pudding.\n\nThese are just a few ways to (10) _________ food waste, but you can find so many ideas online in order to use the food you have before it (11)__________.",
     "questions": [
       {
         "id": 7,
         "type": "multiple",
-        "question": "If your bread has gone stale, you can use it to make bread and butter pudding, a traditional British (7) ____.",
+        "question": "If your bread has gone stale, you can use it to make bread and butter pudding, a traditional British <strong>(7)</strong> ____.",
         "options": [
           "A) ingredient",
           "B) supplement",
@@ -2611,21 +2781,31 @@
       {
         "id": 8,
         "type": "multiple",
-        "question": "Tomatoes that are soft and may not look perfect are still (8) ____ if they are not covered in mould.",
-        "options": ["A) bitter", "B) rare", "C) crispy", "D) edible"],
+        "question": "Tomatoes that are soft and may not look perfect are still <strong>(8)</strong> ____ if they are not covered in mould.",
+        "options": [
+          "A) bitter",
+          "B) rare",
+          "C) crispy",
+          "D) edible"
+        ],
         "answer": "D) edible"
       },
       {
         "id": 9,
         "type": "multiple",
-        "question": "Of course, you shouldn’t drink milk that smells (9) ____.",
-        "options": ["A) sour", "B) nourishing", "C) bitter", "D) fresh"],
+        "question": "Of course, you shouldn't drink milk that smells <strong>(9)</strong> ____.",
+        "options": [
+          "A) sour",
+          "B) nourishing",
+          "C) bitter",
+          "D) fresh"
+        ],
         "answer": "A) sour"
       },
       {
         "id": 10,
         "type": "multiple",
-        "question": "These are just a few ways to (10) ____ food waste.",
+        "question": "These are just a few ways to <strong>(10)</strong> ____ food waste.",
         "options": [
           "A) combine with",
           "B) be past",
@@ -2637,8 +2817,13 @@
       {
         "id": 11,
         "type": "multiple",
-        "question": "You can find so many ideas online in order to use the food you have before it (11) ____.",
-        "options": ["A) goes off", "B) puts on", "C) heats up", "D) lives on"],
+        "question": "You can find so many ideas online in order to use the food you have before it <strong>(11)</strong> ____.",
+        "options": [
+          "A) goes off",
+          "B) puts on",
+          "C) heats up",
+          "D) lives on"
+        ],
         "answer": "A) goes off"
       }
     ]
@@ -2651,7 +2836,7 @@
       {
         "id": 1,
         "type": "multiple",
-        "question": "Which of the advertisements is about?<br>1.",
+        "question": "<strong>1.</strong>",
         "image_url": "english_images/topic_404/1.png",
         "options": [
           "A) a community garden",
@@ -2743,28 +2928,43 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "From analysing the remains of a 5,300-year-old body found in the Italian Alps in 1991, it was understood that the man's final (6) ____ included ground wheat.",
-        "options": ["A) meal", "B) diet", "C) menu", "D) produce"],
+        "question": "From analysing the remains of a 5,300-year-old body found in the Italian Alps in 1991, it was understood that the man's final <strong>(6)</strong> ____ included ground wheat.",
+        "options": [
+          "A) meal",
+          "B) diet",
+          "C) menu",
+          "D) produce"
+        ],
         "answer": "A) meal"
       },
       {
         "id": 7,
         "type": "multiple",
-        "question": "The Elizabethans (those who lived during the reign of Queen Elizabeth I) (7) ____ them with spices.",
-        "options": ["A) stirred", "B) added", "C) grated", "D) sprinkled"],
+        "question": "The Elizabethans (those who lived during the reign of Queen Elizabeth I) <strong>(7)</strong> ____ them with spices.",
+        "options": [
+          "A) stirred",
+          "B) added",
+          "C) grated",
+          "D) sprinkled"
+        ],
         "answer": "D) sprinkled"
       },
       {
         "id": 8,
         "type": "multiple",
-        "question": "Today, pancakes are made with flour, eggs and milk, but there are (8) ____ recipes, too.",
-        "options": ["A) organic", "B) proper", "C) vegan", "D) dairy"],
+        "question": "Today, pancakes are made with flour, eggs and milk, but there are <strong>(8)</strong> ____ recipes, too.",
+        "options": [
+          "A) organic",
+          "B) proper",
+          "C) vegan",
+          "D) dairy"
+        ],
         "answer": "C) vegan"
       },
       {
         "id": 9,
         "type": "multiple",
-        "question": "They are eaten for breakfast, as a (9) ____ or as a dessert, and they can be sweet or savoury.",
+        "question": "They are eaten for breakfast, as a <strong>(9)</strong> ____ or as a dessert, and they can be sweet or savoury.",
         "options": [
           "A) supplement",
           "B) takeaway",
@@ -2776,7 +2976,7 @@
       {
         "id": 10,
         "type": "multiple",
-        "question": "Whatever your preference, pancakes, no doubt, make a(n) (10) ____ dish.",
+        "question": "Whatever your preference, pancakes, no doubt, make a(n) <strong>(10)</strong> ____ dish.",
         "options": [
           "A) mouth-watering",
           "B) sparkling",
@@ -2795,35 +2995,55 @@
       {
         "id": 1,
         "type": "multiple",
-        "question": "The hearty soup with meat and a (1) ____ of vegetables like cabbage, beets, potatoes and even beans?",
-        "options": ["A) tin", "B) jar", "C) loaf", "D) variety"],
+        "question": "The hearty soup with meat and a <strong>(1)</strong> ____ of vegetables like cabbage, beets, potatoes and even beans?",
+        "options": [
+          "A) tin",
+          "B) jar",
+          "C) loaf",
+          "D) variety"
+        ],
         "answer": "D) variety"
       },
       {
         "id": 2,
         "type": "multiple",
-        "question": "You can (2) ____ find the family that dislikes this nutritious dish.",
-        "options": ["A) hard", "B) hardly", "C) mostly", "D) ever"],
+        "question": "You can <strong>(2)</strong> ____ find the family that dislikes this nutritious dish.",
+        "options": [
+          "A) hard",
+          "B) hardly",
+          "C) mostly",
+          "D) ever"
+        ],
         "answer": "B) hardly"
       },
       {
         "id": 3,
         "type": "multiple",
-        "question": "Every Ukrainian woman has her own (3) ____.",
-        "options": ["A) recipe", "B) meal", "C) cuisine", "D) receipt"],
+        "question": "Every Ukrainian woman has her own <strong>(3)</strong> ____.",
+        "options": [
+          "A) recipe",
+          "B) meal",
+          "C) cuisine",
+          "D) receipt"
+        ],
         "answer": "A) recipe"
       },
       {
         "id": 4,
         "type": "multiple",
-        "question": "If you haven't cooked it yet, (4) ____ or later you will make the first try.",
-        "options": ["A) earlier", "B) sooner", "C) never", "D) better"],
+        "question": "If you haven't cooked it yet, <strong>(4)</strong> ____ or later you will make the first try.",
+        "options": [
+          "A) earlier",
+          "B) sooner",
+          "C) never",
+          "D) better"
+        ],
         "answer": "B) sooner"
       },
       {
         "id": 5,
         "type": "multiple",
-        "question": "Then you will fall in love with this (5) ____ dish with Ukrainian soul.",
+        "question": "Then you will fall in love with this <strong>(5)</strong> ____ dish with Ukrainian soul.",
         "options": [
           "A) yucky",
           "B) disgusting",
@@ -2842,36 +3062,61 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "Many people try to improve their diet (6) ____ they want to feel more energetic and avoid health problems.",
-        "options": ["A) because", "B) so", "C) then", "D) until"],
+        "question": "Many people try to improve their diet <strong>(6)</strong> ______ they want to feel more energetic and avoid health problems.",
+        "options": [
+          "A) because",
+          "B) so",
+          "C) then",
+          "D) until"
+        ],
         "answer": "A) because"
       },
       {
         "id": 7,
         "type": "multiple",
-        "question": "Some prefer cooking at home, (7) ____ others choose ready-made meals because they are short of time.",
-        "options": ["A) because", "B) so", "C) while", "D) then"],
+        "question": "Some prefer cooking at home, <strong>(7)</strong> ______ others choose ready-made meals because they are short of time.",
+        "options": [
+          "A) because",
+          "B) so",
+          "C) while",
+          "D) then"
+        ],
         "answer": "C) while"
       },
       {
         "id": 8,
         "type": "multiple",
-        "question": "A balanced diet should include (8) ____ fruit and vegetables, as they provide essential vitamins.",
-        "options": ["A) both", "B) either", "C) neither", "D) not only"],
+        "question": "A balanced diet should include <strong>(8)</strong> ______ fruit and vegetables, as they provide essential vitamins.",
+        "options": [
+          "A) both",
+          "B) either",
+          "C) neither",
+          "D) not only"
+        ],
         "answer": "A) both"
       },
       {
         "id": 9,
         "type": "multiple",
-        "question": "You should choose (9) ____ fresh products or frozen ones, but avoid highly processed food.",
-        "options": ["A) also", "B) both", "C) neither", "D) either"],
+        "question": "You should choose <strong>(9)</strong> ______ fresh products or frozen ones, but avoid highly processed food.",
+        "options": [
+          "A) also",
+          "B) both",
+          "C) neither",
+          "D) either"
+        ],
         "answer": "D) either"
       },
       {
         "id": 10,
         "type": "multiple",
-        "question": "Experts say that your body starts to benefit (10) ____ you begin eating healthier meals regularly.",
-        "options": ["A) as soon as", "B) so", "C) till", "D) until"],
+        "question": "Experts say that your body starts to benefit <strong>(10)</strong> ______ you begin eating healthier meals regularly.",
+        "options": [
+          "A) as soon as",
+          "B) so",
+          "C) till",
+          "D) until"
+        ],
         "answer": "A) as soon as"
       }
     ]
@@ -2884,7 +3129,7 @@
       {
         "id": 1,
         "type": "multiple",
-        "question": "1. The Alpine Hideaway.",
+        "question": "<strong>1. The Alpine Hideaway</strong>",
         "options": [
           "A) offer a chance to acquire a new practical skill",
           "B) suggest an activity for people interested in marine life conservation",
@@ -2900,7 +3145,7 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "2. Gastronomy Galore.",
+        "question": "<strong>2. Gastronomy Galore</strong>",
         "options": [
           "A) offer a chance to acquire a new practical skill",
           "B) suggest an activity for people interested in marine life conservation",
@@ -2916,7 +3161,7 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "3. Volunteering in the Veldt.",
+        "question": "<strong>3. Volunteering in the Veldt</strong>",
         "options": [
           "A) offer a chance to acquire a new practical skill",
           "B) suggest an activity for people interested in marine life conservation",
@@ -2932,7 +3177,7 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "4. Capital History Walk.",
+        "question": "<strong>4. Capital History Walk</strong>",
         "options": [
           "A) offer a chance to acquire a new practical skill",
           "B) suggest an activity for people interested in marine life conservation",
@@ -2948,7 +3193,7 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "5. Coastal Explorer.",
+        "question": "<strong>5. Coastal Explorer</strong>",
         "options": [
           "A) offer a chance to acquire a new practical skill",
           "B) suggest an activity for people interested in marine life conservation",
@@ -2971,14 +3216,19 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "How many drivers (6)_______ in traffic have gazed up at the clouds and dreamt of (7)_______ and leaving the queues behind?",
-        "options": ["A) taken", "B) kept", "C) stuck", "D) blocked"],
+        "question": "How many drivers <strong>(6)_______</strong> in traffic have gazed up at the clouds and dreamt of (7)_______ and leaving the queues behind?",
+        "options": [
+          "A) taken",
+          "B) kept",
+          "C) stuck",
+          "D) blocked"
+        ],
         "answer": "C) stuck"
       },
       {
         "id": 7,
         "type": "multiple",
-        "question": "How many drivers (6)_______ in traffic have gazed up at the clouds and dreamt of (7)_______ and leaving the queues behind?",
+        "question": "How many drivers (6)_______ in traffic have gazed up at the clouds and dreamt of <strong>(7)_______</strong> and leaving the queues behind?",
         "options": [
           "A) taking off",
           "B) dropping off",
@@ -2990,22 +3240,37 @@
       {
         "id": 8,
         "type": "multiple",
-        "question": "There are those, however, who question how sky traffic could be controlled to avoid flying cars (8)_______ into each other.",
-        "options": ["A) coming", "B) moving", "C) stopping", "D) crashing"],
+        "question": "There are those, however, who question how sky traffic could be controlled to avoid flying cars <strong>(8)_______</strong> into each other.",
+        "options": [
+          "A) coming",
+          "B) moving",
+          "C) stopping",
+          "D) crashing"
+        ],
         "answer": "D) crashing"
       },
       {
         "id": 9,
         "type": "multiple",
-        "question": "Many believe that space will also be a possible (9)_______ for the more daring tourist.",
-        "options": ["A) terminal", "B) voyage", "C) destination", "D) holiday"],
+        "question": "Many believe that space will also be a possible <strong>(9)_______</strong> for the more daring tourist.",
+        "options": [
+          "A) terminal",
+          "B) voyage",
+          "C) destination",
+          "D) holiday"
+        ],
         "answer": "C) destination"
       },
       {
         "id": 10,
         "type": "multiple",
-        "question": "You might wonder what would happen if a spaceship ran (10) _______ fuel.",
-        "options": ["A) down on", "B) out of", "C) off", "D) over"],
+        "question": "You might wonder what would happen if a spaceship ran <strong>(10) _______</strong> fuel.",
+        "options": [
+          "A) down on",
+          "B) out of",
+          "C) off",
+          "D) over"
+        ],
         "answer": "B) out of"
       }
     ]
@@ -3018,7 +3283,7 @@
       {
         "id": 1,
         "type": "multiple",
-        "question": "In the past, people used to rely on travel agents to (1) _______, but today technology has changed everything. Now, most travellers prefer to use mobile apps to (2) _______, ensuring they have a place to stay long before they arrive. However, even with the best apps, you should always arrive at the station early, as it is very easy to (3) _______ due to unexpected public transport delays.",
+        "question": "In the past, people used to rely on travel agents to <strong>(1) _______</strong>, but today technology has changed everything.",
         "options": [
           "A) take as many photos as possible",
           "B) experience the local culture",
@@ -3034,7 +3299,7 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "In the past, people used to rely on travel agents to (1) _______, but today technology has changed everything. Now, most travellers prefer to use mobile apps to (2) _______, ensuring they have a place to stay long before they arrive. However, even with the best apps, you should always arrive at the station early, as it is very easy to (3) _______ due to unexpected public transport delays.",
+        "question": "Now, most travellers prefer to use mobile apps to <strong>(2) _______</strong>, ensuring they have a place to stay long before they arrive.",
         "options": [
           "A) take as many photos as possible",
           "B) experience the local culture",
@@ -3050,7 +3315,7 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "In the past, people used to rely on travel agents to (1) _______, but today technology has changed everything. Now, most travellers prefer to use mobile apps to (2) _______, ensuring they have a place to stay long before they arrive. However, even with the best apps, you should always arrive at the station early, as it is very easy to (3) _______ due to unexpected public transport delays.",
+        "question": "However, even with the best apps, you should always arrive at the station early, as it is very easy to <strong>(3) _______</strong> due to unexpected public transport delays.",
         "options": [
           "A) take as many photos as possible",
           "B) experience the local culture",
@@ -3066,7 +3331,7 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "Once you reach the airport, the first thing you need to do is (4) _______, although many airlines now allow you to do this online to save time. When you finally reach your destination, don't spend all your time trying to (5) _______ for your social media; instead, try to truly (6) _______ and enjoy the local atmosphere. Remember, the best part of any journey is the feeling of freedom you get when you finally leave your daily routine behind.",
+        "question": "Once you reach the airport, the first thing you need to do is <strong>(4) _______</strong>, although many airlines now allow you to do this online to save time.",
         "options": [
           "A) take as many photos as possible",
           "B) experience the local culture",
@@ -3082,7 +3347,7 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "Once you reach the airport, the first thing you need to do is (4) _______, although many airlines now allow you to do this online to save time. When you finally reach your destination, don't spend all your time trying to (5) _______ for your social media; instead, try to truly (6) _______ and enjoy the local atmosphere. Remember, the best part of any journey is the feeling of freedom you get when you finally leave your daily routine behind.",
+        "question": "When you finally reach your destination, don't spend all your time trying to <strong>(5) _______</strong> for your social media.",
         "options": [
           "A) take as many photos as possible",
           "B) experience the local culture",
@@ -3098,7 +3363,7 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "Once you reach the airport, the first thing you need to do is (4) _______, although many airlines now allow you to do this online to save time. When you finally reach your destination, don't spend all your time trying to (5) _______ for your social media; instead, try to truly (6) _______ and enjoy the local atmosphere. Remember, the best part of any journey is the feeling of freedom you get when you finally leave your daily routine behind.",
+        "question": "Instead, try to truly <strong>(6) _______</strong> and enjoy the local atmosphere.",
         "options": [
           "A) take as many photos as possible",
           "B) experience the local culture",
@@ -3121,7 +3386,7 @@
       {
         "id": 7,
         "type": "multiple",
-        "question": "We had planned everything, but as soon as we arrived, we realized we (7) _______ more attention to the weather forecast.",
+        "question": "We had planned everything, but as soon as we arrived, we realized we <strong>(7) _______</strong> more attention to the weather forecast.",
         "options": [
           "A) should have paid",
           "B) must pay",
@@ -3133,28 +3398,43 @@
       {
         "id": 8,
         "type": "multiple",
-        "question": "According to the local laws, you (8) _______ carry an ID with you at all times, but luckily the hotel manager said a digital copy on the phone would be enough.",
-        "options": ["A) may", "B) have to", "C) might", "D) can"],
+        "question": "According to the local laws, you <strong>(8) _______</strong> carry an ID with you at all times, but luckily the hotel manager said a digital copy on the phone would be enough.",
+        "options": [
+          "A) may",
+          "B) have to",
+          "C) might",
+          "D) can"
+        ],
         "answer": "B) have to"
       },
       {
         "id": 9,
         "type": "multiple",
-        "question": "We (9) _______ booked the tickets online a week ago to save time, but we forgot.",
-        "options": ["A) could", "B) must have", "C) should have", "D) need to"],
+        "question": "We <strong>(9) _______</strong> booked the tickets online a week ago to save time, but we forgot.",
+        "options": [
+          "A) could",
+          "B) must have",
+          "C) should have",
+          "D) need to"
+        ],
         "answer": "C) should have"
       },
       {
         "id": 10,
         "type": "multiple",
-        "question": "They (10) _______ be VIP guests or perhaps they had a special city pass; they looked very confident.",
-        "options": ["A) must", "B) have to", "C) ought to", "D) shall"],
+        "question": "They <strong>(10) _______</strong> be VIP guests or perhaps they had a special city pass; they looked very confident.",
+        "options": [
+          "A) must",
+          "B) have to",
+          "C) ought to",
+          "D) shall"
+        ],
         "answer": "A) must"
       },
       {
         "id": 11,
         "type": "multiple",
-        "question": "Honestly, we (11) _______ worried so much about seeing every single landmark, as just walking through the rainy streets of London was an adventure of its own.",
+        "question": "Honestly, we <strong>(11) _______</strong> worried so much about seeing every single landmark, as just walking through the rainy streets of London was an adventure of its own.",
         "options": [
           "A) didn't need",
           "B) shouldn't",
@@ -3168,13 +3448,12 @@
   {
     "topic_id": "405",
     "variant_id": "3",
-    "text": "Read the texts below. Match choices (A-H) to (1-5). There are three choices you do not need to use.",
-    "image_url": "",
+    "text": "Read the texts below. Match choices (A-H) to (1-5). There are three choices you do not need to use.\n\nWhich of the advertisements is about _______?",
     "questions": [
       {
         "id": 1,
         "type": "multiple",
-        "question": "Which of the advertisements is about?<br>1.",
+        "question": "<strong>1.</strong>",
         "image_url": "english_images/topic_405/1.png",
         "options": [
           "A) a special offer",
@@ -3191,7 +3470,7 @@
       {
         "id": 2,
         "type": "multiple",
-        "question": "2.",
+        "question": "<strong>2.</strong>",
         "image_url": "english_images/topic_405/2.png",
         "options": [
           "A) a special offer",
@@ -3208,7 +3487,7 @@
       {
         "id": 3,
         "type": "multiple",
-        "question": "3.",
+        "question": "<strong>3.</strong>",
         "image_url": "english_images/topic_405/3.png",
         "options": [
           "A) a special offer",
@@ -3225,7 +3504,7 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "4.",
+        "question": "<strong>4.</strong>",
         "image_url": "english_images/topic_405/4.png",
         "options": [
           "A) a special offer",
@@ -3242,7 +3521,7 @@
       {
         "id": 5,
         "type": "multiple",
-        "question": "5.",
+        "question": "<strong>5.</strong>",
         "image_url": "english_images/topic_405/5.png",
         "options": [
           "A) a special offer",
@@ -3266,7 +3545,7 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "Know nothing about this tourist (6)_______?",
+        "question": "Know nothing about this tourist <strong>(6)_______</strong>?",
         "options": [
           "A) sightseeing",
           "B) destination",
@@ -3278,14 +3557,19 @@
       {
         "id": 7,
         "type": "multiple",
-        "question": "From the classic landmarks that everyone talks about to (7)_______-the-beaten-track roads that lead to the attractions and must-sees without the crowds.",
-        "options": ["A) on", "B) in", "C) of", "D) off"],
+        "question": "From the classic landmarks that everyone talks about to <strong>(7)_______</strong>-the-beaten-track roads that lead to the attractions and must-sees without the crowds.",
+        "options": [
+          "A) on",
+          "B) in",
+          "C) of",
+          "D) off"
+        ],
         "answer": "D) off"
       },
       {
         "id": 8,
         "type": "multiple",
-        "question": "(8)_______ facts, local stories, and great tips & tricks - the choice is yours!",
+        "question": "<strong>(8)_______</strong> facts, local stories, and great tips & tricks - the choice is yours!",
         "options": [
           "A) history",
           "B) historic",
@@ -3297,15 +3581,25 @@
       {
         "id": 9,
         "type": "multiple",
-        "question": "Book your private (9)_______ that will help you get acquainted with the city, its people and culture.",
-        "options": ["A) trip", "B) tour", "C) journey", "D) voyage"],
+        "question": "Book your private <strong>(9)_______</strong> that will help you get acquainted with the city, its people and culture.",
+        "options": [
+          "A) trip",
+          "B) tour",
+          "C) journey",
+          "D) voyage"
+        ],
         "answer": "B) tour"
       },
       {
         "id": 10,
         "type": "multiple",
-        "question": "The locals know their fascinating city like the (10)_______ of their hand and will help you fall in love with it, having created the perfect itinerary for you to make this experience unforgettable.",
-        "options": ["A) part", "B) side", "C) back", "D) front"],
+        "question": "The locals know their fascinating city like the <strong>(10)_______</strong> of their hand and will help you fall in love with it.",
+        "options": [
+          "A) part",
+          "B) side",
+          "C) back",
+          "D) front"
+        ],
         "answer": "C) back"
       }
     ]
@@ -3318,21 +3612,31 @@
       {
         "id": 1,
         "type": "multiple",
-        "question": "One of my (1) _____ memorable summers was my trip down under to New Zealand and Australia when I had the opportunity to be a part of the People to People Student Exchange program.",
-        "options": ["A) the more", "B) the most", "C) most", "D) much"],
+        "question": "One of my <strong>(1) _____</strong> memorable summers was my trip down under to New Zealand and Australia when I had the opportunity to be a part of the People to People Student Exchange program.",
+        "options": [
+          "A) the more",
+          "B) the most",
+          "C) most",
+          "D) much"
+        ],
         "answer": "C) most"
       },
       {
         "id": 2,
         "type": "multiple",
-        "question": "Our delegation's twenty-day stay (2) _____ with action-packed thrills from diving on the Great Barrier Reef to nature hikes in the tropics of New Zealand.",
-        "options": ["A) fill", "B) was filled", "C) filling", "D) has filled"],
+        "question": "Our delegation's twenty-day stay <strong>(2) _____</strong> with action-packed thrills from diving on the Great Barrier Reef to nature hikes in the tropics of New Zealand.",
+        "options": [
+          "A) fill",
+          "B) was filled",
+          "C) filling",
+          "D) has filled"
+        ],
         "answer": "B) was filled"
       },
       {
         "id": 3,
         "type": "multiple",
-        "question": "Our group also travelled to a Maori village where we (3) _____ overnight learning about the native tribal rituals, dances, customs, and beliefs.",
+        "question": "Our group also travelled to a Maori village where we <strong>(3) _____</strong> overnight learning about the native tribal rituals, dances, customs, and beliefs.",
         "options": [
           "A) would stay",
           "B) stayed",
@@ -3344,15 +3648,25 @@
       {
         "id": 4,
         "type": "multiple",
-        "question": "I quickly felt (4) _____ home with the new friends I met from my own delegation.",
-        "options": ["A) inside", "B) of", "C) in", "D) at"],
+        "question": "I quickly felt <strong>(4) _____</strong> home with the new friends I met from my own delegation.",
+        "options": [
+          "A) inside",
+          "B) of",
+          "C) in",
+          "D) at"
+        ],
         "answer": "D) at"
       },
       {
         "id": 5,
         "type": "multiple",
-        "question": "If you (5) _____ a chance to be involved with the People to People summer programs, I highly recommend doing it.",
-        "options": ["A) got", "B) will get", "C) get", "D) has got"],
+        "question": "If you <strong>(5) _____</strong> a chance to be involved with the People to People summer programs, I highly recommend doing it.",
+        "options": [
+          "A) got",
+          "B) will get",
+          "C) get",
+          "D) has got"
+        ],
         "answer": "C) get"
       }
     ]
@@ -3365,7 +3679,7 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "Hotel 6 — WASHINGTON. At which hotel _______?",
+        "question": "<strong>6. WASHINGTON</strong>\n\nLocated close to Piccadilly, this well established hotel offers a spacious reception area, La Lafayette restaurant, and 4th Hussars Bar. In 1900 the Washington was an exclusive hotel for well bred ladies - the restaurant bar and stylish bedrooms of the present hotel are its worthy successors; 160 rooms with bath, TV, radio, direct dial phones.",
         "options": [
           "A) people return to stay again",
           "B) only female guests used to stay",
@@ -3381,7 +3695,7 @@
       {
         "id": 7,
         "type": "multiple",
-        "question": "Hotel 7 — CONCORDE HOTEL. At which hotel _______?",
+        "question": "<strong>7. CONCORDE HOTEL</strong>\n\nUnder the same professional ownership as the Bryanston Court, this charming hotel continually attracts repeat visitors. Adjacent to the Bryanston Court, guests are accommodated in tastefully furnished rooms all with bath or shower, WC, TV, radio and telephone. The Concorde also has a small bar and breakfast room.",
         "options": [
           "A) people return to stay again",
           "B) only female guests used to stay",
@@ -3397,7 +3711,7 @@
       {
         "id": 8,
         "type": "multiple",
-        "question": "Hotel 8 — WINDEMERE, ROCKSIDE. At which hotel _______?",
+        "question": "<strong>8. WINDEMERE, ROCKSIDE</strong>\n\nA small establishment located 200 yards from Windemere village centre; under the personal supervision of Mr & Mrs N. Fowels. Two lounges, adjoining bar, good home cooking and friendly atmosphere make this a holiday to remember.",
         "options": [
           "A) people return to stay again",
           "B) only female guests used to stay",
@@ -3413,7 +3727,7 @@
       {
         "id": 9,
         "type": "multiple",
-        "question": "Hotel 9 — BLACKPOOL, DORIC HOTEL. At which hotel _______?",
+        "question": "<strong>9. BLACKPOOL, DORIC HOTEL</strong>\n\nStanding on Queens Promenade overlooking the sea, the amenities include regular dancing, family disco, open air swimming pool, indoor heated pool, sauna, solarium and games room. All rooms with bath or shower, WC, sea view on request.",
         "options": [
           "A) people return to stay again",
           "B) only female guests used to stay",
@@ -3429,7 +3743,7 @@
       {
         "id": 10,
         "type": "multiple",
-        "question": "Hotel 10 — SOUTHPORT, ROYAL CLIFTON HOTEL. At which hotel _______?",
+        "question": "<strong>10. SOUTHPORT, ROYAL CLIFTON HOTEL</strong>\n\nOverlooking picturesque gardens and marine lake; a short distance from famous Lord Street; games room, lounges, cocktail bar. 150 rooms with tea/coffee making facilities, radio and telephone.",
         "options": [
           "A) people return to stay again",
           "B) only female guests used to stay",
@@ -3445,7 +3759,7 @@
       {
         "id": 11,
         "type": "multiple",
-        "question": "Hotel 11 — PRESIDENT. At which hotel _______?",
+        "question": "<strong>11. PRESIDENT</strong>\n\nA popular tourist hotel offering all rooms with bath, shower, TV, radio and telephone. Its amenities include the Saracen Carver noted for its fine roasts, licensed \"Day and Night\" grill bar/restaurant open until 2 am. and a popular cocktail bar with its own individual recipes. The shopping arcade with a gift shop and theatre ticket terminal, hairdressing salon, chemist and bank are added facilities for its guests.",
         "options": [
           "A) people return to stay again",
           "B) only female guests used to stay",
@@ -3468,36 +3782,61 @@
       {
         "id": 1,
         "type": "multiple",
-        "question": "Last summer, my friend and I decided to (1) _______ a trip to the seaside.",
-        "options": ["A) do", "B) make", "C) take", "D) stay"],
+        "question": "Last summer, my friend and I decided to <strong>(1) _______</strong> a trip to the seaside.",
+        "options": [
+          "A) do",
+          "B) make",
+          "C) take",
+          "D) stay"
+        ],
         "answer": "C) take"
       },
       {
         "id": 2,
         "type": "multiple",
-        "question": "The (2) _______ was quite cheap, which was perfect for our budget.",
-        "options": ["A) fare", "B) vessel", "C) boarding", "D) departure"],
+        "question": "The <strong>(2) _______</strong> was quite cheap, which was perfect for our budget.",
+        "options": [
+          "A) fare",
+          "B) vessel",
+          "C) boarding",
+          "D) departure"
+        ],
         "answer": "A) fare"
       },
       {
         "id": 3,
         "type": "multiple",
-        "question": "When we arrived (3) _______ the station, we realized we had forgotten to (4) _______ a reservation at the hotel!",
-        "options": ["A) in", "B) at", "C) to", "D) on"],
+        "question": "When we arrived <strong>(3) _______</strong> the station, we realized we had forgotten to <strong>(4) _______</strong> a reservation at the hotel!",
+        "options": [
+          "A) in",
+          "B) at",
+          "C) to",
+          "D) on"
+        ],
         "answer": "B) at"
       },
       {
         "id": 4,
         "type": "multiple",
-        "question": "When we arrived (3) _______ the station, we realized we had forgotten to (4) _______ a reservation at the hotel!",
-        "options": ["A) do", "B) make", "C) take", "D) book"],
+        "question": "When we arrived (3) _______ the station, we realized we had forgotten to <strong>(4) _______</strong> a reservation at the hotel!",
+        "options": [
+          "A) do",
+          "B) make",
+          "C) take",
+          "D) book"
+        ],
         "answer": "B) make"
       },
       {
         "id": 5,
         "type": "multiple",
-        "question": "We spent the whole week (5) _______ sightseeing and taking hundreds of photos.",
-        "options": ["A) doing", "B) making", "C) taking", "D) catching"],
+        "question": "We spent the whole week <strong>(5) _______</strong> sightseeing and taking hundreds of photos.",
+        "options": [
+          "A) doing",
+          "B) making",
+          "C) taking",
+          "D) catching"
+        ],
         "answer": "A) doing"
       }
     ]
@@ -3510,7 +3849,7 @@
       {
         "id": 6,
         "type": "multiple",
-        "question": "6. Attention, Passengers! The express coach to Prague is delayed due to a mechanical failure of the vehicle. Please remain at the platform and wait for further instructions regarding your departure.\n\n(express coach to Prague). Which text mentions...?",
+        "question": "<strong>6.</strong> Attention, Passengers! The express coach to Prague is delayed due to a mechanical failure of the vehicle. Please remain at the platform and wait for further instructions regarding your departure.",
         "options": [
           "A) a requirement to reserve a service beforehand",
           "B) the possibility of doing active leisure in nature",
@@ -3524,7 +3863,7 @@
       {
         "id": 7,
         "type": "multiple",
-        "question": "7. Port Authority: All private merchant vessels must pass a safety inspection before entering the bay. Owners should book an appointment at the harbor office at least 48 hours in advance.\n\n(Port Authority). Which text mentions...?",
+        "question": "<strong>7.</strong> Port Authority: All private merchant vessels must pass a safety inspection before entering the bay. Owners should book an appointment at the harbor office at least 48 hours in advance.",
         "options": [
           "A) a requirement to reserve a service beforehand",
           "B) the possibility of doing active leisure in nature",
@@ -3538,7 +3877,7 @@
       {
         "id": 8,
         "type": "multiple",
-        "question": "8. Travel Tip: When going sightseeing in the old town, remember to take photos of the unique architecture. However, do not leave your luggage unattended, as the area is very crowded.\n\n(Travel Tip — old town sightseeing). Which text mentions...?",
+        "question": "<strong>8.</strong> Travel Tip: When going sightseeing in the old town, remember to take photos of the unique architecture. However, do not leave your luggage unattended, as the area is very crowded.",
         "options": [
           "A) a requirement to reserve a service beforehand",
           "B) the possibility of doing active leisure in nature",
@@ -3552,7 +3891,7 @@
       {
         "id": 9,
         "type": "multiple",
-        "question": "9. Sky High Booking: Your reservation for the flight to Rome is confirmed. Please note that the fare does not include onboard meals or extra bags. You can check in online to save time.\n\n(Sky High Booking — flight to Rome). Which text mentions...?",
+        "question": "<strong>9.</strong> Sky High Booking: Your reservation for the flight to Rome is confirmed. Please note that the fare does not include onboard meals or extra bags. You can check in online to save time.",
         "options": [
           "A) a requirement to reserve a service beforehand",
           "B) the possibility of doing active leisure in nature",
@@ -3566,7 +3905,7 @@
       {
         "id": 10,
         "type": "multiple",
-        "question": "10. Summer Camp: This year we offer a variety of outdoor activities. Students can do sports like hiking and kayaking. All equipment is provided, but you must have your own insurance.\n\nWhich text mentions...?\n\n(Summer Camp). Which text mentions...?",
+        "question": "<strong>10.</strong> Summer Camp: This year we offer a variety of outdoor activities. Students can do sports like hiking and kayaking. All equipment is provided, but you must have your own insurance.",
         "options": [
           "A) a requirement to reserve a service beforehand",
           "B) the possibility of doing active leisure in nature",

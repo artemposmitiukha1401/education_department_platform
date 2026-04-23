@@ -2535,7 +2535,7 @@
     "question": "Одна зі сторін трикутника дорівнює 7 см, кут між двома іншими сторонами - 60 градусів, а їх різниця дорівнює 5 см. Знайдіть (у см) периметр трикутника.",
     "image_url": "",
     "options": [],
-    "answer": "30"
+    "answer": "18"
   },
   {
     "id": 252,
@@ -2555,7 +2555,7 @@
     "question": "",
     "image_url": "math_images/topic_105/variant_2/2.png",
     "options": ["А", "Б", "В", "Г", "Д"],
-    "answer": "Д"
+    "answer": "А"
   },
   {
     "id": 254,
@@ -2563,7 +2563,7 @@
     "variant_id": "2",
     "type": "multiple",
     "question": "",
-    "image_url": "math_images/topic_105/variant_/3.png",
+    "image_url": "math_images/topic_105/variant_3/3.png",
     "options": ["А", "Б", "В", "Г", "Д"],
     "answer": "Д"
   },
@@ -2603,7 +2603,7 @@
     "variant_id": "2",
     "type": "match",
     "question": "",
-    "image_url": "math_images/topic_105/variant_1/7.png",
+    "image_url": "math_images/topic_105/variant_2/7.png",
     "options": ["А", "Б", "В", "Г", "Д"],
     "answer": "1-А; 2-Б; 3-В"
   },
@@ -2613,7 +2613,7 @@
     "variant_id": "2",
     "type": "match",
     "question": "",
-    "image_url": "math_images/topic_105/variant_1/8.png",
+    "image_url": "math_images/topic_105/variant_2/8.png",
     "options": ["А", "Б", "В", "Г", "Д"],
     "answer": "1-Г; 2-Б; 3-Д"
   },
@@ -2623,7 +2623,7 @@
     "variant_id": "2",
     "type": "match",
     "question": "",
-    "image_url": "math_images/topic_105/variant_1/9.png",
+    "image_url": "math_images/topic_105/variant_2/9.png",
     "options": ["А", "Б", "В", "Г", "Д"],
     "answer": "1-А; 2-В; 3-Г"
   },
@@ -2633,7 +2633,7 @@
     "variant_id": "2",
     "type": "manual",
     "question": "",
-    "image_url": "math_images/topic_105/variant_1/10.png",
+    "image_url": "math_images/topic_105/variant_2/10.png",
     "options": [],
     "answer": "96"
   },
@@ -2643,7 +2643,7 @@
     "variant_id": "2",
     "type": "manual",
     "question": "",
-    "image_url": "math_images/topic_105/variant_1/11.png",
+    "image_url": "math_images/topic_105/variant_2/11.png",
     "options": [],
     "answer": "40"
   },
@@ -2653,7 +2653,7 @@
     "variant_id": "2",
     "type": "manual",
     "question": "",
-    "image_url": "math_images/topic_105/variant_1/12.png",
+    "image_url": "math_images/topic_105/variant_2/12.png",
     "options": [],
     "answer": "24"
   },
