@@ -1,4 +1,3 @@
-// ─── Data sources ────────────────────────────────────────────────────────────
 const SUBJECT_DATA_URLS = [
   "../assets/data/questions/math.json",
   "../assets/data/questions/history.json",
@@ -106,13 +105,13 @@ function createCustomSelect(options, leftKey) {
       <polyline points="4 6 8 10 12 6"/>
     </svg>`;
 
-  // Dropdown is portaled to <body>
+
   const dropdown = document.createElement("div");
   dropdown.className = "custom-select-dropdown";
   dropdown.setAttribute("role", "listbox");
   document.body.appendChild(dropdown);
 
-  // Placeholder option
+
   const placeholderOpt = document.createElement("div");
   placeholderOpt.className = "custom-option placeholder-opt";
   placeholderOpt.textContent = "Оберіть відповідь...";
@@ -130,8 +129,6 @@ function createCustomSelect(options, leftKey) {
 
   wrap.appendChild(trigger);
 
-  // ── Position dropdown under trigger ──────────────────────────────────────
-
   function positionDropdown() {
     const rect = trigger.getBoundingClientRect();
     dropdown.style.position = "fixed";
@@ -139,8 +136,6 @@ function createCustomSelect(options, leftKey) {
     dropdown.style.left = `${rect.left}px`;
     dropdown.style.width = `${rect.width}px`;
   }
-
-  // ── Open / close ──────────────────────────────────────────────────────────
 
   function open() {
     closeAll();
@@ -179,7 +174,6 @@ function createCustomSelect(options, leftKey) {
     if (e.key === "Escape") close();
   });
 
-  // Reposition on scroll/resize while open
   window.addEventListener(
     "scroll",
     () => {
@@ -191,9 +185,7 @@ function createCustomSelect(options, leftKey) {
     if (dropdown.classList.contains("open")) positionDropdown();
   });
 
-  // ── Option selection ──────────────────────────────────────────────────────
-
-  // mousedown prevents losing focus on trigger before click fires
+ 
   dropdown.addEventListener("mousedown", (e) => e.preventDefault());
 
   dropdown.addEventListener("click", (e) => {
@@ -221,14 +213,12 @@ function createCustomSelect(options, leftKey) {
     close();
   });
 
-  // Close when clicking outside
   document.addEventListener("click", (e) => {
     if (!wrap.contains(e.target) && !dropdown.contains(e.target)) {
       close();
     }
   });
 
-  // Cleanup portal node if the wrap is removed from DOM
   const observer = new MutationObserver(() => {
     if (!document.body.contains(wrap)) {
       dropdown.remove();
@@ -239,7 +229,7 @@ function createCustomSelect(options, leftKey) {
 
   return wrap;
 }
-// Close any open dropdown when clicking outside
+
 document.addEventListener("click", () => {
   document.querySelectorAll(".custom-select-dropdown.open").forEach((d) => {
     d.classList.remove("open");
@@ -413,14 +403,13 @@ function initCard(templateId, task, index) {
     img.src = "../assets/data/" + task.image_url;
     img.hidden = false;
 
-    // Зробити зображення клікабельним
+
     img.style.cursor = "zoom-in";
     img.title = "Натисніть для збільшення";
     img.addEventListener("click", () => {
       const openLightbox = createLightbox();
       if (openLightbox) openLightbox(img.src);
       else {
-        // лайтбокс вже існує — перевідкрити через overlay
         const overlay = document.getElementById("img-lightbox");
         const lbImg = document.getElementById("img-lightbox-img");
         const closeBtn = document.getElementById("img-lightbox-close");

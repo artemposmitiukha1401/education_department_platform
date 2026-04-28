@@ -1,4 +1,3 @@
-// ─── Configuration ───────────────────────────────────────────────────────────
 const SUBJECT_DATA_URLS = [
   "../assets/data/questions/math.json",
   "../assets/data/questions/history.json",
@@ -7,7 +6,6 @@ const SUBJECT_DATA_URLS = [
 ];
 const TOPICS_URL = "../assets/data/subjects_topics.json";
 
-// ─── Data Loading Logic (JSON-based) ────────────────────────────────────────
 async function loadAllQuestions() {
   const results = await Promise.allSettled(
     SUBJECT_DATA_URLS.map((url) =>
@@ -61,7 +59,6 @@ function cloneTemplate(id) {
   return document.getElementById(id).content.cloneNode(true).firstElementChild;
 }
 
-// ─── Main Controller ─────────────────────────────────────────────────────────
 async function loadVariants() {
   const params = new URLSearchParams(window.location.search);
   const topicId = params.get("topic_id");
@@ -80,14 +77,11 @@ async function loadVariants() {
   }
 
   try {
-    // 1. Fetch JSON data instead of CSV
     const [allQuestions, topicsData] = await Promise.all([
       loadAllQuestions(),
       fetch(TOPICS_URL).then((r) => r.json()),
     ]);
 
-    // 2. Filter tasks for this topic and map variants
-    // After
     const topicTasks = allQuestions.filter(
   (q) => String(q.topic_id) === String(topicId) && "question" in q,
   );
