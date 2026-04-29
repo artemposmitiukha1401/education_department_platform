@@ -105,12 +105,10 @@ function createCustomSelect(options, leftKey) {
       <polyline points="4 6 8 10 12 6"/>
     </svg>`;
 
-
   const dropdown = document.createElement("div");
   dropdown.className = "custom-select-dropdown";
   dropdown.setAttribute("role", "listbox");
   document.body.appendChild(dropdown);
-
 
   const placeholderOpt = document.createElement("div");
   placeholderOpt.className = "custom-option placeholder-opt";
@@ -131,10 +129,21 @@ function createCustomSelect(options, leftKey) {
 
   function positionDropdown() {
     const rect = trigger.getBoundingClientRect();
+    const dropdownHeight = Math.min(260, dropdown.scrollHeight || 260);
+    const spaceBelow = window.innerHeight - rect.bottom;
+    const spaceAbove = rect.top;
+
     dropdown.style.position = "fixed";
-    dropdown.style.top = `${rect.bottom + 4}px`;
     dropdown.style.left = `${rect.left}px`;
     dropdown.style.width = `${rect.width}px`;
+
+    if (spaceBelow < dropdownHeight && spaceAbove > spaceBelow) {
+      dropdown.style.top = `${rect.top - dropdownHeight - 4}px`;
+      dropdown.style.bottom = "auto";
+    } else {
+      dropdown.style.top = `${rect.bottom + 4}px`;
+      dropdown.style.bottom = "auto";
+    }
   }
 
   function open() {
@@ -185,7 +194,6 @@ function createCustomSelect(options, leftKey) {
     if (dropdown.classList.contains("open")) positionDropdown();
   });
 
- 
   dropdown.addEventListener("mousedown", (e) => e.preventDefault());
 
   dropdown.addEventListener("click", (e) => {
@@ -255,7 +263,7 @@ function saveResult(entry) {
       results.pop();
       try {
         localStorage.setItem(RESULTS_KEY, JSON.stringify(results));
-      } catch { }
+      } catch {}
     }
   }
 }
@@ -402,7 +410,6 @@ function initCard(templateId, task, index) {
     const img = card.querySelector(".question-image");
     img.src = "../assets/data/" + task.image_url;
     img.hidden = false;
-
 
     img.style.cursor = "zoom-in";
     img.title = "Натисніть для збільшення";

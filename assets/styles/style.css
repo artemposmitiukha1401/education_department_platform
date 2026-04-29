@@ -170,6 +170,7 @@ a.results-link:hover {
   font-size: 1rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
