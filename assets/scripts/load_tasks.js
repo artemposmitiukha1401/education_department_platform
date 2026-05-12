@@ -89,6 +89,7 @@ function createLightbox() {
 
   return openLightbox;
 }
+
 function createCustomSelect(options, leftKey) {
   const wrap = document.createElement("div");
   wrap.className = "custom-select-wrap";
@@ -190,6 +191,7 @@ function createCustomSelect(options, leftKey) {
     },
     true,
   );
+
   window.addEventListener("resize", () => {
     if (dropdown.classList.contains("open")) positionDropdown();
   });
@@ -206,9 +208,11 @@ function createCustomSelect(options, leftKey) {
     dropdown
       .querySelectorAll(".custom-option")
       .forEach((o) => o.classList.remove("selected"));
+
     if (val) opt.classList.add("selected");
 
     const textEl = trigger.querySelector(".trigger-text");
+
     if (val) {
       const match = options.find((o) => o.key === val);
       textEl.textContent = match ? match.label : val;
@@ -233,6 +237,7 @@ function createCustomSelect(options, leftKey) {
       observer.disconnect();
     }
   });
+
   observer.observe(document.body, { childList: true, subtree: true });
 
   return wrap;
@@ -256,11 +261,13 @@ function loadResults() {
 function saveResult(entry) {
   const results = loadResults();
   results.unshift(entry);
+
   try {
     localStorage.setItem(RESULTS_KEY, JSON.stringify(results));
   } catch {
     if (results.length > 1) {
       results.pop();
+
       try {
         localStorage.setItem(RESULTS_KEY, JSON.stringify(results));
       } catch {}
@@ -270,6 +277,7 @@ function saveResult(entry) {
 
 function buildResultEntry() {
   const durationSec = Math.round((Date.now() - sessionMeta.startTime) / 1000);
+
   return {
     id: Date.now(),
     topicId: sessionMeta.topicId,
@@ -292,16 +300,28 @@ function getTopicName(topicsData, topicId) {
     const topic = subject.topics.find((t) => String(t.id) === String(topicId));
     if (topic) return topic.name;
   }
+
   return `Тема ${topicId}`;
 }
 
+function stripInlineHtml(str) {
+  const template = document.createElement("template");
+  template.innerHTML = String(str);
+  return template.content.textContent || template.content.innerText || "";
+}
+
 function normalizeAnswerToken(str) {
-  return String(str).replace(/[).]/g, "").trim().toLowerCase();
+  return stripInlineHtml(str)
+    .replace(/[).]/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
 }
 
 function isOptionMatched(optStr, answer) {
   const optNorm = normalizeAnswerToken(optStr);
   const ansNorm = normalizeAnswerToken(answer);
+
   return optNorm === ansNorm || optNorm.startsWith(ansNorm + " ");
 }
 
@@ -351,9 +371,11 @@ function filterQuestions(allQuestions, topicId, variantId) {
   let tasks = allQuestions.filter(
     (q) => String(q.topic_id) === String(topicId),
   );
+
   if (variantId) {
     tasks = tasks.filter((q) => String(q.variant_id) === String(variantId));
   }
+
   return tasks;
 }
 
@@ -366,8 +388,10 @@ function updateProgress() {
     saveResult(entry);
 
     const banner = document.getElementById("score-banner");
+
     document.getElementById("score-value").textContent =
       `${correctAnswered} / ${totalTasks}`;
+
     banner.style.display = "block";
     banner.scrollIntoView({ behavior: "smooth", block: "start" });
   }
@@ -375,7 +399,9 @@ function updateProgress() {
 
 function markCard(card, isCorrect) {
   totalAnswered++;
+
   if (isCorrect) correctAnswered++;
+
   card.classList.add(isCorrect ? "answered-correct" : "answered-wrong");
   updateProgress();
 }
@@ -384,6 +410,7 @@ function showFeedback(el, isCorrect, correctAnswer) {
   el.textContent = isCorrect
     ? "✓ Правильно!"
     : `✗ Неправильно! Правильна відповідь: ${correctAnswer}`;
+
   el.className = `feedback show ${isCorrect ? "correct-fb" : "wrong-fb"}`;
 }
 
@@ -391,6 +418,7 @@ function resolveCard(card, isCorrect, correctAnswer) {
   showFeedback(card.querySelector(".feedback"), isCorrect, correctAnswer);
   markCard(card, isCorrect);
 }
+
 function initCard(templateId, task, index) {
   const card = cloneTemplate(templateId);
   card.querySelector(".task-num").textContent = index + 1;
@@ -413,13 +441,17 @@ function initCard(templateId, task, index) {
 
     img.style.cursor = "zoom-in";
     img.title = "Натисніть для збільшення";
+
     img.addEventListener("click", () => {
       const openLightbox = createLightbox();
-      if (openLightbox) openLightbox(img.src);
-      else {
+
+      if (openLightbox) {
+        openLightbox(img.src);
+      } else {
         const overlay = document.getElementById("img-lightbox");
         const lbImg = document.getElementById("img-lightbox-img");
         const closeBtn = document.getElementById("img-lightbox-close");
+
         lbImg.src = img.src;
         overlay.style.display = "flex";
         closeBtn.style.display = "flex";
@@ -440,38 +472,41 @@ function renderMultiple(task, index) {
   if (Array.isArray(task.answer)) {
     answers = task.answer.map((a) => String(a).trim()).filter(Boolean);
   } else if (typeof task.answer === "string") {
-    answers = task.answer
-      .split(",")
-      .map((a) => a.trim())
-      .filter(Boolean);
+    answers = [task.answer.trim()].filter(Boolean);
   }
 
   const selected = new Set();
 
   if (!task.options || task.options.length === 0) {
     const note = document.createElement("p");
+
     note.style.cssText =
       "font-size:0.9rem;color:var(--text-dim);font-style:italic;";
     note.textContent = "Відповідь: " + task.answer;
+
     card.querySelector(".options-grid").replaceWith(note);
+
     return card;
   }
 
   task.options.forEach((opt) => {
     const optStr = String(opt).trim();
     const btn = cloneTemplate("tpl-option-btn");
-    btn.textContent = optStr;
-    btn.dataset.opt = optStr;
+
+    btn.innerHTML = optStr;
+    btn.dataset.opt = stripInlineHtml(optStr).trim();
     btn.type = "button";
 
     btn.addEventListener("click", () => {
       if (btn.disabled) return;
 
-      if (selected.has(optStr)) {
-        selected.delete(optStr);
+      const optValue = btn.dataset.opt;
+
+      if (selected.has(optValue)) {
+        selected.delete(optValue);
         btn.classList.remove("selected-option");
       } else {
-        selected.add(optStr);
+        selected.add(optValue);
         btn.classList.add("selected-option");
       }
     });
@@ -480,9 +515,11 @@ function renderMultiple(task, index) {
   });
 
   const checkBtn = document.createElement("button");
+
   checkBtn.type = "button";
   checkBtn.className = "check-btn";
   checkBtn.textContent = "Перевірити";
+
   grid.after(checkBtn);
 
   checkBtn.addEventListener("click", () => {
@@ -534,21 +571,26 @@ function renderManual(task, index) {
 
   const check = () => {
     if (!input.value.trim()) return;
+
     const isCorrect =
       input.value.trim().toLowerCase() ===
       String(task.answer).trim().toLowerCase();
+
     input.disabled = true;
     btn.disabled = true;
+
     resolveCard(card, isCorrect, task.answer);
   };
 
   btn.addEventListener("click", check);
+
   input.addEventListener("keydown", (e) => {
     if (e.key === "Enter") check();
   });
 
   return card;
 }
+
 function renderMatch(task, index) {
   const card = initCard("tpl-match", task, index);
   const rowsContainer = card.querySelector(".match-rows");
@@ -562,6 +604,7 @@ function renderMatch(task, index) {
         .trim()
         .split("-")
         .map((s) => s.trim());
+
       if (left && right) answerMap[left] = right;
     });
   } else {
@@ -573,7 +616,11 @@ function renderMatch(task, index) {
   const rightOptions = task.options.map((opt) => {
     const text = String(opt).trim();
     const match = text.match(/^([А-ЯІЇЄҐA-Z0-9])(?:[\).\s]+)/u);
-    return { key: match ? match[1] : text, label: text };
+
+    return {
+      key: match ? match[1] : text,
+      label: text,
+    };
   });
 
   const leftItems = Object.keys(answerMap).sort(
@@ -600,6 +647,7 @@ function renderMatch(task, index) {
 
   checkBtn.addEventListener("click", () => {
     const wraps = card.querySelectorAll(".custom-select-wrap");
+
     let allFilled = true;
     let allCorrect = true;
 
@@ -615,6 +663,7 @@ function renderMatch(task, index) {
       }
 
       const ok = val === expected;
+
       if (!ok) allCorrect = false;
 
       trigger.classList.add(ok ? "correct-select" : "wrong-select");
@@ -624,6 +673,7 @@ function renderMatch(task, index) {
     if (!allFilled) return;
 
     checkBtn.disabled = true;
+
     resolveCard(card, allCorrect, task.answer || "усі відповідності правильні");
   });
 
@@ -640,6 +690,7 @@ async function loadTasks() {
   const params = new URLSearchParams(window.location.search);
   const topicId = params.get("topic_id");
   const variantId = params.get("variant_id");
+
   createLightbox();
 
   const titleEl = document.getElementById("topic-title");
@@ -663,9 +714,11 @@ async function loadTasks() {
     ]);
 
     const tasks = filterQuestions(allQuestions, topicId, variantId);
+
     loading.style.display = "none";
 
     const topicName = getTopicName(topicsData, topicId);
+
     titleEl.textContent = variantId
       ? `${topicName} — Варіант ${variantId}`
       : topicName;
@@ -683,16 +736,21 @@ async function loadTasks() {
     }
 
     totalTasks = tasks.length;
+
     document.getElementById("task-counter").style.display = "inline";
+
     updateProgress();
 
     const container = document.getElementById("tasks-container");
+
     tasks.forEach((task, i) => {
       const card = RENDERERS[task.type]?.(task, i);
+
       if (card) container.appendChild(card);
     });
   } catch (err) {
     console.error(err);
+
     loading.style.display = "none";
     titleEl.textContent = "Помилка завантаження завдань";
     errorMsg.style.display = "block";
