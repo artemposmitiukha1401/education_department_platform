@@ -25,7 +25,7 @@ const SUBJECTS = [
   },
   {
     id: 3,
-    name: "Історія Укаїни",
+    name: "Історія України",
     img: "history.jpg",
     glow: "#ff6b6b",
     core: "#4a1a1a",
