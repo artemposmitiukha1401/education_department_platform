@@ -3931,5 +3931,3120 @@
         "answer": "B) the possibility of doing active leisure in nature"
       }
     ]
+  },
+  {
+    "topic_id": "406",
+    "variant_id": "1",
+    "text": "Read the text below. For questions (1-5) choose the correct answer (A, B, C or D).\n\nA Creative Essay\n\nA Tennessee teen is sure that others should break the mould after she was reported to earn a place at Yale University with an unusual essay about ordering pizza.\n\nCarolina Williams announced that she had been accepted to the Ivy League school on Twitter earlier this month and shared a copy of her essay that drew high praise (and laughs) from an admissions officer. “I just want Papa John’s pizzeria to know that I wrote a college essay about how much I love to order their pizza and it got me into Yale,” she wrote in a Tweet. When Carolina shared her story on Twitter, Papa John’s founder John Schnatter offered her gift cards, a pizza party for her dorm, free pizza for a year and an internship.\n\nThe 18-year-old, who will be the first in her family to go to college, was tasked with writing about something that she loves to do. Williams said she really loves ordering pizza. “Having these warm cardboard boxes at my front door is second nature to me. When I was a child it made me feel grown up. I will always love ordering pizza because of the way eight slices of something so ordinary are able to evoke feelings of independence, comfort, and joy,” a portion of her essay reads.\n\n“I got the idea all on my own and did not really tell anyone about it,” she said. “When my friends found out about it though, they thought it was very funny.”\n\nHer admissions officer apparently did, too. In a letter shared by the teen, the officer said she “laughed so hard” while reading it. “I want you to know that every part of your application was special for our process and we are pleased to be able to offer you a place at Yale,” the officer’s message reads.\n\nOf course, it wasn’t just Williams’ creative essay that brought her a desirable place among the 2,272 students accepted by Yale this year – making a very small, 6.9% acceptance rate. Her application contained all the right ingredients, including high grades, volunteer work, as well as memberships with the English Honours Society, National Honours Society, Model UN and Youth in Government.\n\nBut just as she had many choices on what to write about, she also had choices other than Yale. In the end, she chose Auburn University instead. One big reason, she shared, is that the Alabama school is much closer to home.\n\n“I absolutely love Yale, but I felt so at home at Auburn,” she said. “I love the South and the school atmosphere. I will be a part of the Honours College. I’m so privileged to have been accepted by Yale, though!”\n\nDespite the warm response from the admissions team at Yale, Williams will be attending Auburn University in Alabama in the fall with a $72,000 scholarship over four years. Williams plans to study business and economics.\n\nLuckily for Williams, Auburn has a Papa John’s in their student centre on campus.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "What influenced Carolina’s choice of Auburn University?",
+        "options": [
+          "A) facilities",
+          "B) curriculum",
+          "C) prestige",
+          "D) location"
+        ],
+        "answer": "D) location"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "Which of the following was NOT mentioned about Carolina’s application?",
+        "options": [
+          "A) her school performance",
+          "B) her community service",
+          "C) her job experience",
+          "D) her written composition"
+        ],
+        "answer": "C) her job experience"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "Why did Carolina choose ordering pizza as a subject for her essay?",
+        "options": [
+          "A) to impress her friends",
+          "B) to express her true feelings",
+          "C) to promote Papa John’s",
+          "D) to amuse her Twitter followers"
+        ],
+        "answer": "B) to express her true feelings"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "How did John Schnatter thank Carolina for her tweet about Papa John’s?",
+        "options": [
+          "A) He promised to treat her fellow students to pizza.",
+          "B) He paid her for tweeting about Papa John’s.",
+          "C) He provided her with a scholarship for a year.",
+          "D) He offered her a life-long discount on pizza."
+        ],
+        "answer": "A) He promised to treat her fellow students to pizza."
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "What does the author mean by saying “break the mould”?",
+        "options": [
+          "A) improve your eating habits",
+          "B) change your overall timetable",
+          "C) try new ways of doing ordinary tasks",
+          "D) find unusual ways of paying for studies"
+        ],
+        "answer": "C) try new ways of doing ordinary tasks"
+      }
+    ]
+  },
+  {
+    "topic_id": "406",
+    "variant_id": "1",
+    "text": "Read the text below. For questions (6–10) choose the correct answer (A, B, C or D).\n\nThe Street Artist’s Secret\n\nStreet art has become (6) _______ essential part of modern urban culture. In the past, (7) _______ people considered graffiti to be simple vandalism, but today it is seen as (8) _______ powerful form of expression.\n\n(9) _______ street artists prefer to remain anonymous to avoid legal problems. Banksy is probably (10) _______ most famous example.",
+    "questions": [
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "Street art has become <strong>(6)</strong> _______ essential part of modern urban culture.",
+        "options": [
+          "A) a",
+          "B) an",
+          "C) the",
+          "D) —"
+        ],
+        "answer": "B) an"
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "In the past, <strong>(7)</strong> _______ people considered graffiti to be simple vandalism, but today it is seen as (8) _______ powerful form of expression.",
+        "options": [
+          "A) many",
+          "B) much",
+          "C) every",
+          "D) each"
+        ],
+        "answer": "A) many"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "In the past, (7) _______ people considered graffiti to be simple vandalism, but today it is seen as <strong>(8)</strong> _______ powerful form of expression.",
+        "options": [
+          "A) a",
+          "B) an",
+          "C) the",
+          "D) —"
+        ],
+        "answer": "A) a"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "<strong>(9)</strong> _______ street artists prefer to remain anonymous to avoid legal problems.",
+        "options": [
+          "A) Much",
+          "B) Another",
+          "C) Some",
+          "D) Any"
+        ],
+        "answer": "C) Some"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "Banksy is probably <strong>(10)</strong> _______ most famous example.",
+        "options": [
+          "A) a",
+          "B) an",
+          "C) the",
+          "D) —"
+        ],
+        "answer": "C) the"
+      }
+    ]
+  },
+  {
+    "topic_id": "406",
+    "variant_id": "2",
+    "text": "Read the advertisements below. Match choices (A–H) to (1–5). There are three choices you do not need to use.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "Which advertisement is about _______________?<br><br><strong>1.</strong>",
+        "image_url": "english_images/topic_406/variant_2/1.png",
+        "options": [
+          "A) a fruit farm",
+          "B) a theatrical performance",
+          "C) an exhibition",
+          "D) a book shop",
+          "E) a restaurant",
+          "F) a conference",
+          "G) a health spa",
+          "H) a cinema"
+        ],
+        "answer": "B) a theatrical performance"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "<strong>2.</strong>",
+        "image_url": "english_images/topic_406/variant_2/2.png",
+        "options": [
+          "A) a fruit farm",
+          "B) a theatrical performance",
+          "C) an exhibition",
+          "D) a book shop",
+          "E) a restaurant",
+          "F) a conference",
+          "G) a health spa",
+          "H) a cinema"
+        ],
+        "answer": "C) an exhibition"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "<strong>3.</strong>",
+        "image_url": "english_images/topic_406/variant_2/3.png",
+        "options": [
+          "A) a fruit farm",
+          "B) a theatrical performance",
+          "C) an exhibition",
+          "D) a book shop",
+          "E) a restaurant",
+          "F) a conference",
+          "G) a health spa",
+          "H) a cinema"
+        ],
+        "answer": "H) a cinema"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "<strong>4.</strong>",
+        "image_url": "english_images/topic_406/variant_2/4.png",
+        "options": [
+          "A) a fruit farm",
+          "B) a theatrical performance",
+          "C) an exhibition",
+          "D) a book shop",
+          "E) a restaurant",
+          "F) a conference",
+          "G) a health spa",
+          "H) a cinema"
+        ],
+        "answer": "G) a health spa"
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "<strong>5.</strong>",
+        "image_url": "english_images/topic_406/variant_2/5.png",
+        "options": [
+          "A) a fruit farm",
+          "B) a theatrical performance",
+          "C) an exhibition",
+          "D) a book shop",
+          "E) a restaurant",
+          "F) a conference",
+          "G) a health spa",
+          "H) a cinema"
+        ],
+        "answer": "E) a restaurant"
+      }
+    ]
+  },
+  {
+    "topic_id": "406",
+    "variant_id": "2",
+    "text": "Read the text below. For questions (6–10) choose the correct answer (A, B, C or D).\n\nThe Mystery of Stonehenge\n\nStonehenge is (6) _______ ancient monument in England that has puzzled historians for centuries. While there are (7) _______ theories about its origin, (8) _______ researcher can say for certain who built it. Some people believe it was a temple, while (9) _______ think it was an astronomical observatory.\n\nThere is (10) _______ evidence to suggest that the stones were transported from Wales, which is over 150 miles away.",
+    "questions": [
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "Stonehenge is <strong>(6)</strong> _______ ancient monument in England that has puzzled historians for centuries.",
+        "options": [
+          "A) a",
+          "B) an",
+          "C) the",
+          "D) —"
+        ],
+        "answer": "B) an"
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "While there are <strong>(7)</strong> _______ theories about its origin, (8) _______ researcher can say for certain who built it.",
+        "options": [
+          "A) much",
+          "B) many",
+          "C) little",
+          "D) every"
+        ],
+        "answer": "B) many"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "While there are (7) _______ theories about its origin, <strong>(8)</strong> _______ researcher can say for certain who built it.",
+        "options": [
+          "A) none",
+          "B) no",
+          "C) not",
+          "D) any"
+        ],
+        "answer": "B) no"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "Some people believe it was a temple, while <strong>(9)</strong> _______ think it was an astronomical observatory.",
+        "options": [
+          "A) other",
+          "B) another",
+          "C) others",
+          "D) the other"
+        ],
+        "answer": "C) others"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "There is <strong>(10)</strong> _______ evidence to suggest that the stones were transported from Wales, which is over 150 miles away.",
+        "options": [
+          "A) some",
+          "B) any",
+          "C) many",
+          "D) few"
+        ],
+        "answer": "A) some"
+      }
+    ]
+  },
+  {
+    "topic_id": "406",
+    "variant_id": "3",
+    "text": "Read the texts (1–6) and match them with the answers (A–H). There are two choices you do not need to use.\n\nThis museum _______________.\n\nUnusual Museums\n\n1. Wellcome Collection\n\nWellcome Collection is a free museum. The museum’s permanent galleries connect science, medicine, life and art in thought-provoking and unexpected ways. Recent temporary exhibitions have covered a diverse range of topics from the psychology of magic to representations of chronic illness. Upstairs, the Reading Room is home to more than a thousand books – but isn’t just for reading. You can discover more than 100 historical objects, play 19th-century board games or strike up a conversation with a stranger.\n\n2. The V&A Museum of Childhood\n\nThe V&A Museum of Childhood houses the UK’s national collection of childhood objects, ranging in date from the 1600s to the present day. As well as toys, dolls and games, the museum has a wealth of objects relating to aspects of childhood including home, childcare, play, learning and clothing. Rare, hand-crafted objects sit alongside well-loved toys from the 20th century, allowing an insight into how different children might have lived, thought and felt, through the objects they were surrounded by throughout their childhood. In addition, the museum runs temporary exhibitions and displays, activities, events, workshops, projects and an award-winning programme for schools.\n\n3. The Fan Museum\n\nThis unique museum houses the world’s finest collection of fans and fan leaves including exquisite examples from the 18th and 19th century. For conservation reasons it is not possible to display the whole collection together at any time; therefore, the museum features two distinct displays: the first is permanent and serves as an introduction to fans. Temporary exhibitions are changed every 4 months. The Fan Museum’s beautifully restored houses date from 1721 and provide a superb and elegant setting, together with the landscaped Japanese-style garden, the spectacular orangery with its much-admired murals and fascinating gift shop.\n\n4. The Postal Museum\n\nThe Postal Museum reveals five centuries of British social and communications history through the eyes of its iconic postal service covering everything from design and technology to the intimacy of personal letters. Alongside permanent exhibition galleries and a temporary exhibition space, Mail Rail, London’s secret Post Office Underground Railway, has opened to the public for the first time in its 100-year history, including a ride through some of the original tunnels. The Discovery Room is the place to come to delve deeper into the history of the postal service, and where you can survey original archive material. The museum welcomes inquiries from researchers.\n\n5. The Museum of Brands\n\nImmerse yourself in a kaleidoscope of images and iconic brands at the Museum of Brands. Decade by decade, the museum’s collection takes visitors on a nostalgic journey through 200 years of social change, culture and lifestyle. Discover over 12,000 original items, from motorcars, music and television to sweets and household goods. It offers you a journey through the Time Tunnel to see how the brands evolved, and how we evolved with them. It is an exciting new way of looking at the past through the things that generations of families have thrown away.\n\n6. The Foundling Museum\n\nThe Foundling Museum explores the history of the Foundling Hospital, the UK’s first children’s charity and first public art gallery. Through a dynamic programme of exhibitions, the museum celebrates the ways in which artists of all disciplines have helped improve children’s lives for more than 275 years. The moving story of the Foundling Hospital, and the kids who grew up there, is revealed through artworks and objects. Paintings, sculpture, furniture and ceramics are also displayed in beautiful 18th-century interiors, reconstructed from the original Hospital building.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "This museum _______________.<br><br><strong>1. Wellcome Collection</strong>",
+        "options": [
+          "A) invites everyone to think about their health",
+          "B) provides access to its parts below the land surface",
+          "C) offers a fun look at consumer culture history",
+          "D) reveals facts about the lives of the famous",
+          "E) holds educational meetings",
+          "F) used to be a place for abandoned children",
+          "G) boasts a perfect space to enjoy nature",
+          "H) gives a chance to buy hand-crafted toys"
+        ],
+        "answer": "A) invites everyone to think about their health"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "<strong>2. The V&A Museum of Childhood</strong>",
+        "options": [
+          "A) invites everyone to think about their health",
+          "B) provides access to its parts below the land surface",
+          "C) offers a fun look at consumer culture history",
+          "D) reveals facts about the lives of the famous",
+          "E) holds educational meetings",
+          "F) used to be a place for abandoned children",
+          "G) boasts a perfect space to enjoy nature",
+          "H) gives a chance to buy hand-crafted toys"
+        ],
+        "answer": "E) holds educational meetings"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "<strong>3. The Fan Museum</strong>",
+        "options": [
+          "A) invites everyone to think about their health",
+          "B) provides access to its parts below the land surface",
+          "C) offers a fun look at consumer culture history",
+          "D) reveals facts about the lives of the famous",
+          "E) holds educational meetings",
+          "F) used to be a place for abandoned children",
+          "G) boasts a perfect space to enjoy nature",
+          "H) gives a chance to buy hand-crafted toys"
+        ],
+        "answer": "G) boasts a perfect space to enjoy nature"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "<strong>4. The Postal Museum</strong>",
+        "options": [
+          "A) invites everyone to think about their health",
+          "B) provides access to its parts below the land surface",
+          "C) offers a fun look at consumer culture history",
+          "D) reveals facts about the lives of the famous",
+          "E) holds educational meetings",
+          "F) used to be a place for abandoned children",
+          "G) boasts a perfect space to enjoy nature",
+          "H) gives a chance to buy hand-crafted toys"
+        ],
+        "answer": "B) provides access to its parts below the land surface"
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "<strong>5. The Museum of Brands</strong>",
+        "options": [
+          "A) invites everyone to think about their health",
+          "B) provides access to its parts below the land surface",
+          "C) offers a fun look at consumer culture history",
+          "D) reveals facts about the lives of the famous",
+          "E) holds educational meetings",
+          "F) used to be a place for abandoned children",
+          "G) boasts a perfect space to enjoy nature",
+          "H) gives a chance to buy hand-crafted toys"
+        ],
+        "answer": "C) offers a fun look at consumer culture history"
+      },
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "<strong>6. The Foundling Museum</strong>",
+        "options": [
+          "A) invites everyone to think about their health",
+          "B) provides access to its parts below the land surface",
+          "C) offers a fun look at consumer culture history",
+          "D) reveals facts about the lives of the famous",
+          "E) holds educational meetings",
+          "F) used to be a place for abandoned children",
+          "G) boasts a perfect space to enjoy nature",
+          "H) gives a chance to buy hand-crafted toys"
+        ],
+        "answer": "F) used to be a place for abandoned children"
+      }
+    ]
+  },
+  {
+    "topic_id": "406",
+    "variant_id": "3",
+    "text": "Read the text below. For questions (7–11) choose the correct answer (A, B, C or D).\n\nThe Mystery of a Masterpiece\n\nIn (7) _______ early 20th century, a strange event occurred at the Louvre. A man dressed as a maintenance worker walked out with (8) _______ Mona Lisa hidden under his coat. For two years, the world wondered where the painting could be. It wasn’t just (9) _______ ordinary theft; it was a crime that changed how we value art. (10) _______ experts believe that this incident actually made the painting the most famous image in the world. Before the heist, (11) _______ people knew what the Mona Lisa looked like, but afterwards, it became a global icon.",
+    "questions": [
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "In <strong>(7)</strong> _______ early 20th century, a strange event occurred at the Louvre.",
+        "options": [
+          "A) a",
+          "B) an",
+          "C) the",
+          "D) —"
+        ],
+        "answer": "C) the"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "A man dressed as a maintenance worker walked out with <strong>(8)</strong> _______ Mona Lisa hidden under his coat.",
+        "options": [
+          "A) a",
+          "B) an",
+          "C) the",
+          "D) —"
+        ],
+        "answer": "C) the"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "It wasn’t just <strong>(9)</strong> _______ ordinary theft; it was a crime that changed how we value art.",
+        "options": [
+          "A) a",
+          "B) an",
+          "C) the",
+          "D) —"
+        ],
+        "answer": "B) an"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "<strong>(10)</strong> _______ experts believe that this incident actually made the painting the most famous image in the world.",
+        "options": [
+          "A) Much",
+          "B) Every",
+          "C) Some",
+          "D) Little"
+        ],
+        "answer": "C) Some"
+      },
+      {
+        "id": 11,
+        "type": "multiple",
+        "question": "Before the heist, <strong>(11)</strong> _______ people knew what the Mona Lisa looked like, but afterwards, it became a global icon.",
+        "options": [
+          "A) few",
+          "B) a few",
+          "C) little",
+          "D) a"
+        ],
+        "answer": "A) few"
+      }
+    ]
+  },
+  {
+    "topic_id": "406",
+    "variant_id": "4",
+    "text": "Read the texts below. Match choices (A–H) to (1–5). There are three choices you do not need to use.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "Which of the advertisements is about _______?<br><br><strong>1.</strong>",
+        "image_url": "english_images/topic_406/variant_4/1.png",
+        "options": [
+          "A) a literary festival",
+          "B) a film soundtrack CD",
+          "C) a chat show",
+          "D) a weekly newspaper",
+          "E) a choir",
+          "F) an art supply shop",
+          "G) a biographical film",
+          "H) a live dance performance"
+        ],
+        "answer": "F) an art supply shop"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "<strong>2.</strong>",
+        "image_url": "english_images/topic_406/variant_4/2.png",
+        "options": [
+          "A) a literary festival",
+          "B) a film soundtrack CD",
+          "C) a chat show",
+          "D) a weekly newspaper",
+          "E) a choir",
+          "F) an art supply shop",
+          "G) a biographical film",
+          "H) a live dance performance"
+        ],
+        "answer": "G) a biographical film"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "<strong>3.</strong>",
+        "image_url": "english_images/topic_406/variant_4/3.png",
+        "options": [
+          "A) a literary festival",
+          "B) a film soundtrack CD",
+          "C) a chat show",
+          "D) a weekly newspaper",
+          "E) a choir",
+          "F) an art supply shop",
+          "G) a biographical film",
+          "H) a live dance performance"
+        ],
+        "answer": "E) a choir"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "<strong>4.</strong>",
+        "image_url": "english_images/topic_406/variant_4/4.png",
+        "options": [
+          "A) a literary festival",
+          "B) a film soundtrack CD",
+          "C) a chat show",
+          "D) a weekly newspaper",
+          "E) a choir",
+          "F) an art supply shop",
+          "G) a biographical film",
+          "H) a live dance performance"
+        ],
+        "answer": "C) a chat show"
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "<strong>5.</strong>",
+        "image_url": "english_images/topic_406/variant_4/5.png",
+        "options": [
+          "A) a literary festival",
+          "B) a film soundtrack CD",
+          "C) a chat show",
+          "D) a weekly newspaper",
+          "E) a choir",
+          "F) an art supply shop",
+          "G) a biographical film",
+          "H) a live dance performance"
+        ],
+        "answer": "A) a literary festival"
+      }
+    ]
+  },
+  {
+    "topic_id": "406",
+    "variant_id": "4",
+    "text": "Read the text below. For questions (6–10) choose the correct answer (A, B, C or D).\n\nPeople have very different ideas of what they consider to be entertaining. For example, some people like to spend their free time reading (6) _______ poetry in shady woodlands, while for others watching or even participating in a controversial art show is the height of excitement. Still others might prefer getting lost in (7) _______ novels and the exciting lives of people of the past, or exploring the city’s various art exhibitions that critics rave about in their (8) _______. In my opinion, the least predictable of all art forms is the theatre. You could end up watching completely unconvincing (9) _______ by a new theatre company or, if you’re lucky, witness a play adaptation of a book that makes you (10) _______ something major in your life. No matter what you think you’re going to see, the theatre is such a dynamic form of art that there is always something new to experience.",
+    "questions": [
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "For example, some people like to spend their free time reading <strong>(6)</strong> _______ poetry in shady woodlands, while for others watching or even participating in a controversial art show is the height of excitement.",
+        "options": [
+          "A) cultural",
+          "B) romantic",
+          "C) catchy",
+          "D) star-studded"
+        ],
+        "answer": "B) romantic"
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "Still others might prefer getting lost in <strong>(7)</strong> _______ novels and the exciting lives of people of the past, or exploring the city’s various art exhibitions that critics rave about in their (8) _______.",
+        "options": [
+          "A) contemporary",
+          "B) eye-catching",
+          "C) detective",
+          "D) historical"
+        ],
+        "answer": "D) historical"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "Still others might prefer getting lost in (7) _______ novels and the exciting lives of people of the past, or exploring the city’s various art exhibitions that critics rave about in their <strong>(8)</strong> _______.",
+        "options": [
+          "A) reviews",
+          "B) collections",
+          "C) depictions",
+          "D) posters"
+        ],
+        "answer": "A) reviews"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "You could end up watching completely unconvincing <strong>(9)</strong> _______ by a new theatre company or, if you’re lucky, witness a play adaptation of a book that makes you (10) _______ something major in your life.",
+        "options": [
+          "A) metaphors",
+          "B) auditions",
+          "C) performances",
+          "D) trailers"
+        ],
+        "answer": "C) performances"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "You could end up watching completely unconvincing (9) _______ by a new theatre company or, if you’re lucky, witness a play adaptation of a book that makes you <strong>(10)</strong> _______ something major in your life.",
+        "options": [
+          "A) wonder",
+          "B) enquire",
+          "C) question",
+          "D) interrogate"
+        ],
+        "answer": "C) question"
+      }
+    ]
+  },
+  {
+    "topic_id": "406",
+    "variant_id": "5",
+    "text": "Read the text below. For questions (1-5) choose the correct answer (A, B, C or D).\n\nReading for the Beach\n\nby resident book reviewer Magda Dutch\n\nHolidays are just around the corner, and I get excited thinking of all the time I’ll have on the beach or elsewhere, catching up on reading fiction. This year I’m going to reread one of my all-time favourites, Henry Miller’s Big Sur and the Oranges of Hieronymus Bosch. For anyone not familiar with Miller’s writing, this is probably the best work of his to start with. It describes the years he spent in an isolated and very unconventional rural community, bringing up his two children at times single-handedly. Miller writes about his interesting encounters with some of the inhabitants, who shared his non-conformist approach to life. His carefree spirit and his love for his children emerge in this part-autobiographical, part-philosophical book.\n\nOf course, this type of reading is not necessarily everyone’s cup of tea, so I asked a couple of my colleagues to tell me about their summer reading preferences. Ben Blair, one of our sports correspondents, had this to say, ‘This year I’m not really sure what I’m in the mood for, but more than likely it will be Fever Pitch Nick Hornby. I’ve already managed to read a couple of excerpts. It’s principally about Hornby’s own deep passion for football, and especially for the Gunners, the Arsenal team. Being from North London myself, I am an avid fan of the Gunners too. In every chapter, he describes a specific match and how that related to what was going on in his life at that time. Apparently, his description of Arsenal’s last-minute league win is so vivid that it is like experiencing the moment all over again. So, even though I have already got an idea of what I’m going to read, I can’t wait to get my nose into it!’ Well, Ben sounds quite enthusiastic, so, although I’m not really into football, I might try reading it.\n\nThe choice of our fashion editor, Julie Scowan, was something completely different. ‘My favourite book, without a doubt, is One Hundred Years of Solitude by Gabriel Garcia Marquez. It’s a book that really needs to be read a number of times in order to be fully absorbed. It’s not that it’s a difficult read, but there are so many characters involved, in lots of different relationships, that sometimes it’s hard to keep track. However, Marquez has a way of involving you. The images he presents are so colourful, and his portrayal of Latin American culture with all its superstitions is so vivid, that you become immersed in it. I could really identify with the main character of the story, which really helps.’\n\nI have to say I wholly agree with Julie and can endorse her choice, having already read the book. So, whatever your choice, literature lovers, I wish you all a good solid read this summer!",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "What does the book reviewer say about Henry Miller?",
+        "options": [
+          "A) He was divorced.",
+          "B) He was not a conventional person.",
+          "C) His writing style changed over the years.",
+          "D) He studied philosophy."
+        ],
+        "answer": "B) He was not a conventional person."
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "What do we learn about Fever Pitch?",
+        "options": [
+          "A) It’s an autobiographical book.",
+          "B) It’s written exclusively for fans of the Gunners.",
+          "C) Some parts of it are fiction.",
+          "D) Readers will have to have watched a Gunners’ match to understand the book."
+        ],
+        "answer": "A) It’s an autobiographical book."
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "What is Julie’s opinion of One Hundred Years of Solitude?",
+        "options": [
+          "A) She likes the fact that there’s a single storyline.",
+          "B) The writing manages to engage the reader.",
+          "C) The plot is quite straightforward.",
+          "D) She finds the superstitions very strange."
+        ],
+        "answer": "B) The writing manages to engage the reader."
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "What is TRUE of the book reviewer?",
+        "options": [
+          "A) She only reads when on holiday.",
+          "B) She has to read for work, but she doesn’t get the same enjoyment.",
+          "C) She believes Henry Miller’s book will be enjoyed by all types of readers.",
+          "D) She thinks One Hundred Years of Solitude is a very good novel."
+        ],
+        "answer": "D) She thinks One Hundred Years of Solitude is a very good novel."
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "Which of the following has the book reviewer NOT read?",
+        "options": [
+          "A) One Hundred Years of Solitude by Gabriel Garcia Marquez",
+          "B) Big Sur and the Oranges of Hieronymus Bosch by Henry Miller",
+          "C) Fever Pitch by Nick Hornby",
+          "D) The text does not say."
+        ],
+        "answer": "C) Fever Pitch by Nick Hornby"
+      }
+    ]
+  },
+  {
+    "topic_id": "406",
+    "variant_id": "5",
+    "text": "Read the text below. For questions (6–10) choose the correct answer (A, B, C or D).\n\nYoung Composers\n\nIf you are (6) _______ of music composition, looking for resources for young people to compose and create, the site Young Composers can be extremely useful.\n\nSupposing you have your own (7) _______ of music and would like to receive feedback on them, what would you do?\n\nJoin this active society of professionals and (8) _______ to be able to (9) _______ your music to the website as well as review others’ works, participate in discussions, ask questions and get a full in-depth analysis.\n\nOn the forum, you can find out about compositional styles, performance techniques, modern composers and plenty of recommendations to develop your musical abilities and have composing down to a (10) _______. This insightful review team really knows how to support a future in music and will help you hone your craft.",
+    "questions": [
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "If you are <strong>(6)</strong> _______ of music composition, looking for resources for young people to compose and create, the site Young Composers can be extremely useful.",
+        "options": [
+          "A) fond",
+          "B) keen",
+          "C) interested",
+          "D) fan"
+        ],
+        "answer": "A) fond"
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "Supposing you have your own <strong>(7)</strong> _______ of music and would like to receive feedback on them, what would you do?",
+        "options": [
+          "A) notes",
+          "B) parts",
+          "C) pieces",
+          "D) slices"
+        ],
+        "answer": "C) pieces"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "Join this active society of professionals and <strong>(8)</strong> _______ to be able to (9) _______ your music to the website as well as review others’ works, participate in discussions, ask questions and get a full in-depth analysis.",
+        "options": [
+          "A) animators",
+          "B) amateurs",
+          "C) editors",
+          "D) curators"
+        ],
+        "answer": "B) amateurs"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "Join this active society of professionals and (8) _______ to be able to <strong>(9)</strong> _______ your music to the website as well as review others’ works, participate in discussions, ask questions and get a full in-depth analysis.",
+        "options": [
+          "A) overload",
+          "B) reload",
+          "C) download",
+          "D) upload"
+        ],
+        "answer": "D) upload"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "On the forum, you can find out about compositional styles, performance techniques, modern composers and plenty of recommendations to develop your musical abilities and have composing down to a <strong>(10)</strong> _______.",
+        "options": [
+          "A) hi-fi art",
+          "B) fine art",
+          "C) high art",
+          "D) find art"
+        ],
+        "answer": "B) fine art"
+      }
+    ]
+  },
+  {
+    "topic_id": "407",
+    "variant_id": "1",
+    "text": "Read the texts below. Match choices (A–H) to (1–6). There are two choices you do not need to use. Which sentence matches this text?\n\n1. Jim Thorpe\nConsidered one of the best all-round athletes in history, American Jim Thorpe won gold medals in the pentathlon and the decathlon at the 1912 Olympic Games in Stockholm. However, since he had been a semi-professional baseball player before the Olympics, he was later disqualified. After the Olympics he went on to successful careers in both baseball and American football. In 1982, almost 30 years after his death, the International Olympic Committee recognised Thorpe’s victories in Stockholm, and his Olympic medals were returned to his family.\n\n2. Fanny Blankers-Koen\nAs a young sprinter from the Netherlands, Fanny Blankers-Koen competed in her first Olympics in 1936. The outbreak of World War II prevented two Olympic Games organisations from taking place, but the big opportunity for Fanny Blankers-Koen came in 1948. Then, at the age of 30 and a mother of two, Blankers-Koen won four gold medals and was given the nickname ‘the flying housewife.’ In 1999, she was voted ‘Female Athlete of the Century’ by the International Association of Athletics Federations (IAAF).\n\n3. Jackie Joyner-Kersee\nJackie Joyner Kersee won Olympic medals in an amazing four consecutive Olympics starting in Los Angeles in 1984. At the Olympics in Seoul, in 1988, she scored 7,291 in the heptathlon, setting a world record for the event which still stands today. After retiring from sport, she established the Jackie Joyner-Kersee foundation to encourage young people from poor neighbourhoods to participate in sport.\n\n4. Serhii Bubka\nUkrainian athlete Serhii Bubka broke the world record for pole vault an amazing 35 times. Bubka began his athletic career in 1981 competing for the Soviet Union but represented his native Ukraine from 1991 until his retirement in 2001. Since then, Bubka has held a variety of posts with the International Olympic Committee (IOC) and in 2005, Bubka became president of the National Olympic Committee of Ukraine.\n\n5. Usain Bolt\nJamaican sprinter Usain Bolt has been called the fastest man in the world. In addition to eight Olympic Gold medals, he has won an amazing eleven gold medals at the IAAF world championships, more than any man in history. He was a member of the Jamaican relay team which holds the world record for the 4x100 m relay, and his individual world records for the 100 m and 200 m, both set in 2009, have yet to be broken.\n\n6. Haile Gebrselassie\nEthiopia’s Haile Gebrselassie has set 27 world records and is one of the most successful long-distance runners in history. As a child, Gebrselassie ran ten kilometres to and from school every day and, as a result, he continued running with his left arm bent like he’s holding books. He began as a junior world champion in 1992 and since then won eight gold medals in both the indoor and outdoor world championships as well as two Olympic gold medals in the 10,000 metres.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "<strong>1.</strong> Jim Thorpe<br><br>Considered one of the best all-round athletes in history, American Jim Thorpe won gold medals in the pentathlon and the decathlon at the 1912 Olympic Games in Stockholm. However, since he had been a semi-professional baseball player before the Olympics, he was later disqualified. After the Olympics he went on to successful careers in both baseball and American football. In 1982, almost 30 years after his death, the International Olympic Committee recognised Thorpe’s victories in Stockholm, and his Olympic medals were returned to his family.",
+        "options": [
+          "A) was chosen to receive a special honour for athletic achievement",
+          "B) represented more than one state in international competitions",
+          "C) won medals in four different Olympic Games",
+          "D) holds the world record for most Olympic medals in athletics",
+          "E) developed a unique style at an early age",
+          "F) participated in sports outside athletics",
+          "G) retired from sport earlier than expected",
+          "H) has won more World Championships than anyone else in athletics"
+        ],
+        "answer": "F) participated in sports outside athletics"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "<strong>2.</strong> Fanny Blankers-Koen<br><br>As a young sprinter from the Netherlands, Fanny Blankers-Koen competed in her first Olympics in 1936. The outbreak of World War II prevented two Olympic Games organisations from taking place, but the big opportunity for Fanny Blankers-Koen came in 1948. Then, at the age of 30 and a mother of two, Blankers-Koen won four gold medals and was given the nickname ‘the flying housewife.’ In 1999, she was voted ‘Female Athlete of the Century’ by the International Association of Athletics Federations (IAAF).",
+        "options": [
+          "A) was chosen to receive a special honour for athletic achievement",
+          "B) represented more than one state in international competitions",
+          "C) won medals in four different Olympic Games",
+          "D) holds the world record for most Olympic medals in athletics",
+          "E) developed a unique style at an early age",
+          "F) participated in sports outside athletics",
+          "G) retired from sport earlier than expected",
+          "H) has won more World Championships than anyone else in athletics"
+        ],
+        "answer": "A) was chosen to receive a special honour for athletic achievement"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "<strong>3.</strong> Jackie Joyner-Kersee<br><br>Jackie Joyner Kersee won Olympic medals in an amazing four consecutive Olympics starting in Los Angeles in 1984. At the Olympics in Seoul, in 1988, she scored 7,291 in the heptathlon, setting a world record for the event which still stands today. After retiring from sport, she established the Jackie Joyner-Kersee foundation to encourage young people from poor neighbourhoods to participate in sport.",
+        "options": [
+          "A) was chosen to receive a special honour for athletic achievement",
+          "B) represented more than one state in international competitions",
+          "C) won medals in four different Olympic Games",
+          "D) holds the world record for most Olympic medals in athletics",
+          "E) developed a unique style at an early age",
+          "F) participated in sports outside athletics",
+          "G) retired from sport earlier than expected",
+          "H) has won more World Championships than anyone else in athletics"
+        ],
+        "answer": "C) won medals in four different Olympic Games"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "<strong>4.</strong> Serhii Bubka<br><br>Ukrainian athlete Serhii Bubka broke the world record for pole vault an amazing 35 times. Bubka began his athletic career in 1981 competing for the Soviet Union but represented his native Ukraine from 1991 until his retirement in 2001. Since then, Bubka has held a variety of posts with the International Olympic Committee (IOC) and in 2005, Bubka became president of the National Olympic Committee of Ukraine.",
+        "options": [
+          "A) was chosen to receive a special honour for athletic achievement",
+          "B) represented more than one state in international competitions",
+          "C) won medals in four different Olympic Games",
+          "D) holds the world record for most Olympic medals in athletics",
+          "E) developed a unique style at an early age",
+          "F) participated in sports outside athletics",
+          "G) retired from sport earlier than expected",
+          "H) has won more World Championships than anyone else in athletics"
+        ],
+        "answer": "B) represented more than one state in international competitions"
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "<strong>5.</strong> Usain Bolt<br><br>Jamaican sprinter Usain Bolt has been called the fastest man in the world. In addition to eight Olympic Gold medals, he has won an amazing eleven gold medals at the IAAF world championships, more than any man in history. He was a member of the Jamaican relay team which holds the world record for the 4x100 m relay, and his individual world records for the 100 m and 200 m, both set in 2009, have yet to be broken.",
+        "options": [
+          "A) was chosen to receive a special honour for athletic achievement",
+          "B) represented more than one state in international competitions",
+          "C) won medals in four different Olympic Games",
+          "D) holds the world record for most Olympic medals in athletics",
+          "E) developed a unique style at an early age",
+          "F) participated in sports outside athletics",
+          "G) retired from sport earlier than expected",
+          "H) has won more World Championships than anyone else in athletics"
+        ],
+        "answer": "H) has won more World Championships than anyone else in athletics"
+      },
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "<strong>6.</strong> Haile Gebrselassie<br><br>Ethiopia’s Haile Gebrselassie has set 27 world records and is one of the most successful long-distance runners in history. As a child, Gebrselassie ran ten kilometres to and from school every day and, as a result, he continued running with his left arm bent like he’s holding books. He began as a junior world champion in 1992 and since then won eight gold medals in both the indoor and outdoor world championships as well as two Olympic gold medals in the 10,000 metres.",
+        "options": [
+          "A) was chosen to receive a special honour for athletic achievement",
+          "B) represented more than one state in international competitions",
+          "C) won medals in four different Olympic Games",
+          "D) holds the world record for most Olympic medals in athletics",
+          "E) developed a unique style at an early age",
+          "F) participated in sports outside athletics",
+          "G) retired from sport earlier than expected",
+          "H) has won more World Championships than anyone else in athletics"
+        ],
+        "answer": "E) developed a unique style at an early age"
+      }
+    ]
+  },
+  {
+    "topic_id": "407",
+    "variant_id": "1",
+    "text": "Read the text below. For questions (7–11) choose the correct answer (A, B, C or D).\n\nThe National Olympic Committee of Ukraine has created a comprehensive network for the (7) _______ of sport and athletic education. The committee has offices in every region of Ukraine and encourages (8) _______ in sport through a variety of projects. For example, the Olympic Lesson project, begun by the committee in 2005, provides sports education at over 40 different sports (9) _______ and gives participants the chance to talk to famous Ukrainian Olympians. Another project, the Olympic Stork project, has been designed to encourage young people to become more involved in (10) _______ education and sports. Through their school, every Ukrainian 5th- and 6th-grade student takes (11) _______ in the programme, which includes competitions as well as educational presentations. Also, over 20,000 schools have been provided with equipment and sports literature through the committee’s Olympic Book and Olympic Corner projects. And these are only some of the various projects launched by the National Olympic Committee of Ukraine.",
+    "questions": [
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "The National Olympic Committee of Ukraine has created a comprehensive network for the <strong>(7)</strong> _______ of sport and athletic education.",
+        "options": [
+          "A) description",
+          "B) promotion",
+          "C) defence",
+          "D) competition"
+        ],
+        "answer": "B) promotion"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "The committee has offices in every region of Ukraine and encourages <strong>(8)</strong> _______ in sport through a variety of projects.",
+        "options": [
+          "A) workout",
+          "B) training",
+          "C) employment",
+          "D) participation"
+        ],
+        "answer": "D) participation"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "For example, the Olympic Lesson project, begun by the committee in 2005, provides sports education at over 40 different sports <strong>(9)</strong> _______ and gives participants the chance to talk to famous Ukrainian Olympians.",
+        "options": [
+          "A) venues",
+          "B) rinks",
+          "C) locations",
+          "D) tracks"
+        ],
+        "answer": "A) venues"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "Another project, the Olympic Stork project, has been designed to encourage young people to become more involved in <strong>(10)</strong> _______ education and sports.",
+        "options": [
+          "A) outdoor",
+          "B) intensive",
+          "C) individual",
+          "D) physical"
+        ],
+        "answer": "D) physical"
+      },
+      {
+        "id": 11,
+        "type": "multiple",
+        "question": "Through their school, every Ukrainian 5th- and 6th-grade student takes <strong>(11)</strong> _______ in the programme, which includes competitions as well as educational presentations.",
+        "options": [
+          "A) place",
+          "B) priority",
+          "C) part",
+          "D) position"
+        ],
+        "answer": "C) part"
+      }
+    ]
+  },
+  {
+    "topic_id": "407",
+    "variant_id": "2",
+    "text": "Read the text below. Choose from (A–H) the one which best fits each space (1–6).\n\nIntroduction to Sleep\n\nWhen you're in a rush to meet work, school, family, or household responsibilities, do you cut back on your sleep? Like many people, you might think that sleep is merely a \"down time\" when (1) ______. Think again. What is sleep? Sleep was long considered just a uniform block of time when you are not awake. Thanks to sleep studies done over the past several decades, it is now known that sleep has distinctive stages that cycle throughout the night. Your brain stays active throughout sleep, but (2) ______. For instance, certain stages of sleep are indeed for us to feel well rested and energetic the next day, and other stages help us learn or make memories. In brief, a number of vital tasks carried out during sleep help maintain good health and enable people to function at their best. On the other hand, not getting enough sleep can be dangerous — for example, (3) ______ if you drive when you are tired. How much sleep is enough? Sleep needs vary from person to person, and (4) ______. Most adults need 7–8 hours of sleep each night. Newborns, on the other hand, sleep between 16 and 18 hours a day, and children in preschool sleep between 10 and 12 hours a day. School-aged children and teens need at least 9 hours of sleep a night. Some people believe (5) ______. But there is no evidence to show that older people can get by with less sleep than younger people. As people age, however, they often get less sleep or they tend to spend less time in the deep, restful stages of sleep. Why sleep is good for you and skimping on it isn't? Does it really matter if (6) ______? Absolutely! Not only does the quantity of your sleep matter, but the quality of your sleep is important as well.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "Like many people, you might think that sleep is merely a \"down time\" when <strong>(1)</strong> ______. Think again.",
+        "options": [
+          "A) they change throughout the lifecycle",
+          "B) that sleep is needed for creative problem solving",
+          "C) different things happen during each stage",
+          "D) it can lead to daytime sleepiness",
+          "E) the brain shuts off and the body rests",
+          "F) that adults need less sleep as they get older",
+          "G) you get enough sleep",
+          "H) you are more likely to be in a car crash"
+        ],
+        "answer": "E) the brain shuts off and the body rests"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "Your brain stays active throughout sleep, but <strong>(2)</strong> ______.",
+        "options": [
+          "A) they change throughout the lifecycle",
+          "B) that sleep is needed for creative problem solving",
+          "C) different things happen during each stage",
+          "D) it can lead to daytime sleepiness",
+          "E) the brain shuts off and the body rests",
+          "F) that adults need less sleep as they get older",
+          "G) you get enough sleep",
+          "H) you are more likely to be in a car crash"
+        ],
+        "answer": "C) different things happen during each stage"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "On the other hand, not getting enough sleep can be dangerous — for example, <strong>(3)</strong> ______ if you drive when you are tired.",
+        "options": [
+          "A) they change throughout the lifecycle",
+          "B) that sleep is needed for creative problem solving",
+          "C) different things happen during each stage",
+          "D) it can lead to daytime sleepiness",
+          "E) the brain shuts off and the body rests",
+          "F) that adults need less sleep as they get older",
+          "G) you get enough sleep",
+          "H) you are more likely to be in a car crash"
+        ],
+        "answer": "H) you are more likely to be in a car crash"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "How much sleep is enough? Sleep needs vary from person to person, and <strong>(4)</strong> ______.",
+        "options": [
+          "A) they change throughout the lifecycle",
+          "B) that sleep is needed for creative problem solving",
+          "C) different things happen during each stage",
+          "D) it can lead to daytime sleepiness",
+          "E) the brain shuts off and the body rests",
+          "F) that adults need less sleep as they get older",
+          "G) you get enough sleep",
+          "H) you are more likely to be in a car crash"
+        ],
+        "answer": "A) they change throughout the lifecycle"
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "Some people believe <strong>(5)</strong> ______.",
+        "options": [
+          "A) they change throughout the lifecycle",
+          "B) that sleep is needed for creative problem solving",
+          "C) different things happen during each stage",
+          "D) it can lead to daytime sleepiness",
+          "E) the brain shuts off and the body rests",
+          "F) that adults need less sleep as they get older",
+          "G) you get enough sleep",
+          "H) you are more likely to be in a car crash"
+        ],
+        "answer": "F) that adults need less sleep as they get older"
+      },
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "Does it really matter if <strong>(6)</strong> ______? Absolutely!",
+        "options": [
+          "A) they change throughout the lifecycle",
+          "B) that sleep is needed for creative problem solving",
+          "C) different things happen during each stage",
+          "D) it can lead to daytime sleepiness",
+          "E) the brain shuts off and the body rests",
+          "F) that adults need less sleep as they get older",
+          "G) you get enough sleep",
+          "H) you are more likely to be in a car crash"
+        ],
+        "answer": "G) you get enough sleep"
+      }
+    ]
+  },
+  {
+    "topic_id": "407",
+    "variant_id": "2",
+    "text": "Read the text below. For questions (7–11) choose the correct answer (A, B, C or D).\n\nYour Amazing Brain\n\nYour brain is faster and more powerful than a supercomputer. You carry around a (7) _______ mass of wrinkly material in your head that controls every single thing you will ever do. From enabling you to think, learn, create, and feel emotions to (8) _______ every blink, breath, and heartbeat — this (9) _______ control center is your brain. It is a structure so (10) _______ that a famous scientist once called it “the most complex thing we (11) _______ in our universe yet.”",
+    "questions": [
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "You carry around a <strong>(7)</strong> _______ mass of wrinkly material in your head that controls every single thing you will ever do.",
+        "options": [
+          "A) three-pound",
+          "B) three-pounds",
+          "C) three-pound’s",
+          "D) three-pounds’"
+        ],
+        "answer": "A) three-pound"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "From enabling you to think, learn, create, and feel emotions to <strong>(8)</strong> _______ every blink, breath, and heartbeat — this (9) _______ control center is your brain.",
+        "options": [
+          "A) control",
+          "B) controlling",
+          "C) controlled",
+          "D) be controlling"
+        ],
+        "answer": "B) controlling"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "From enabling you to think, learn, create, and feel emotions to (8) _______ every blink, breath, and heartbeat — this <strong>(9)</strong> _______ control center is your brain.",
+        "options": [
+          "A) fantasy",
+          "B) fantast",
+          "C) fantastically",
+          "D) fantastic"
+        ],
+        "answer": "D) fantastic"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "It is a structure so <strong>(10)</strong> _______ that a famous scientist once called it “the most complex thing we (11) _______ in our universe yet.”",
+        "options": [
+          "A) amazement",
+          "B) amazed",
+          "C) amazingly",
+          "D) amazing"
+        ],
+        "answer": "D) amazing"
+      },
+      {
+        "id": 11,
+        "type": "multiple",
+        "question": "It is a structure so (10) _______ that a famous scientist once called it “the most complex thing we <strong>(11)</strong> _______ in our universe yet.”",
+        "options": [
+          "A) discover",
+          "B) discovered",
+          "C) have discovered",
+          "D) had discovered"
+        ],
+        "answer": "C) have discovered"
+      }
+    ]
+  },
+  {
+    "topic_id": "407",
+    "variant_id": "3",
+    "text": "Read the text below. For questions (1–6) choose the correct answer (A, B, C or D).\n\n10 Ways to Improve Your Memory\n\nA good memory is often seen as something that comes naturally, and a bad memory as something that cannot be changed, but actually there is a lot that you can do to improve your memory. However, it does mean taking responsibility and making an effort. Here are the experts’ top tips.\n\n1. We all remember the things we are interested in and forget the ones that bore us. This no doubt explains the reason why schoolboys remember football results effortlessly but struggle with dates from their history lessons! Take an active interest in what you want to remember, and focus on it consciously. One way to make yourself more interested is to ask questions — the more the better.\n\n2. Repeating things is the best way to remember things for a short time, e.g. remembering a phone number for a few seconds. ‘Chunking’ or grouping numbers would be impossible for most of us to remember: 1492178919318483. But look at them in ‘chunks’, and it becomes much easier: 1492 1789 1931 8483.\n\n3. Another way to make something more memorable is to think about something visual associated with it. Design a mental picture and the stranger the picture the better you will remember it! If an English person studying Spanish wanted to remember the Spanish word for duck, ‘pato’, he/she could associate it with the English verb ‘to pat’ and imagine a picture of someone patting a duck on the head.\n\n4. To remember long lists, try inventing a story which includes all the items you want to remember. In experiments, people were asked to remember up to 120 words using this technique and when they were tested afterwards, on average they could remember ninety percent of them.\n\n5. If we organize what we know in a logical way then when we learn more about that subject we understand that better, and so add to our knowledge more easily. Make well-organised notes. Be sure things are clear in your mind. If not, ask questions until you understand!\n\n6. Many experts believe that listening to classical music, especially Mozart, helps people to organize their ideas more clearly and so improves their memory. Sadly, rock music does not have the same effect.\n\n7. If you do not want to lose your memory as you get older you need to keep your brain fit, just like your body: ‘use it or lose it’ is the experts’ advice. Logic puzzles, crosswords and mental arithmetic are all good ‘mental aerobics’.\n\n8. Physical exercise is also important for your memory, because it increases your heart rate and sends more oxygen to your brain, and that makes your memory work better. Exercise also reduces stress, which is very bad for the memory.\n\n9. The old saying that ‘eating fish makes you brainy’ may be true after all. Scientists have discovered that the fats found in fish like tuna, sardines and salmon — as well as in olive oil — help to improve the memory. Vitamins C and E (found in fruits like oranges, strawberries and red grapes) and vitamin B (found in lean meat and green vegetables) are all good ‘brain food’, too.\n\n10. Caffeine may not be too good for you, but like exercise, it increases your heart rate and sends more oxygen to your brain. A cup of coffee really does help you concentrate when you sit down and study. And if you don't like coffee, don’t worry — experts believe that chewing gum has the same effect!",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "According to the first paragraph a good memory is ____________.",
+        "options": [
+          "A) a “gift” of nature at birth",
+          "B) something inherently invariable",
+          "C) a result of your self-perfection",
+          "D) something that changes from time to time"
+        ],
+        "answer": "C) a result of your self-perfection"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "What does the author mean by saying that “you need to keep your brain fit”?",
+        "options": [
+          "A) You need to attend a gym.",
+          "B) You need to go on a special diet.",
+          "C) You need to undergo special medical treatment.",
+          "D) You need to exercise your mind regularly."
+        ],
+        "answer": "D) You need to exercise your mind regularly."
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "Which of the following can be inferred from the text?",
+        "options": [
+          "A) To be in good shape means to have a good memory.",
+          "B) For improving your memory you need to make some efforts.",
+          "C) You have to follow the experts’ ten tips to improve your memory.",
+          "D) Listening to any kind of music helps you to improve your memory."
+        ],
+        "answer": "B) For improving your memory you need to make some efforts."
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "According to the text, which of the following is true of ways to improve your memory?",
+        "options": [
+          "A) There are only ten ways to improve your memory.",
+          "B) You need to use special associations to improve your memory.",
+          "C) You can follow your own program to improve your memory.",
+          "D) “Mental aerobics” is the best way to improve your memory."
+        ],
+        "answer": "C) You can follow your own program to improve your memory."
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "When discussing the ways of improving the memory, the author mentions all of the following EXCEPT",
+        "options": [
+          "A) Eating high-calorie food makes your memory better.",
+          "B) An excellent memory is not a God-given talent, it’s hard work.",
+          "C) You can choose the most suitable way to improve your memory.",
+          "D) Brainwork and physical exercise are both important for improving the memory."
+        ],
+        "answer": "A) Eating high-calorie food makes your memory better."
+      },
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "According to the text, which of the following statements is true?",
+        "options": [
+          "A) To help your memory eating tuna is better than eating tomatoes.",
+          "B) Chewing gum is not advisable if you want to improve your memory.",
+          "C) Fatty meat is a good ‘brain food’ as it sends oxygen to your brain.",
+          "D) Reducing stress is very bad for the memory."
+        ],
+        "answer": "A) To help your memory eating tuna is better than eating tomatoes."
+      }
+    ]
+  },
+  {
+    "topic_id": "407",
+    "variant_id": "3",
+    "text": "Read the text below. For questions (7–11) choose the correct answer (A, B, C or D).\n\nLiving in a big city provides many (7) ________, but it also brings certain difficulties. First of all, finding affordable (8) ________ is a real struggle for young people today. Many students have to share a flat with several (9) ________ to save money.\n\nAnother issue is the amount of (10) ________ we receive every day. With the help of modern (11) ________, we are constantly connected to the internet, but this can lead to stress.",
+    "questions": [
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "Living in a big city provides many <strong>(7)</strong> ________, but it also brings certain difficulties.",
+        "options": [
+          "A) opportunitys",
+          "B) opportunities",
+          "C) opportunity",
+          "D) opportunitise"
+        ],
+        "answer": "B) opportunities"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "First of all, finding affordable <strong>(8)</strong> ________ is a real struggle for young people today.",
+        "options": [
+          "A) accommodation",
+          "B) accommodations",
+          "C) an accommodation",
+          "D) accommodating"
+        ],
+        "answer": "A) accommodation"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "Many students have to share a flat with several <strong>(9)</strong> ________ to save money.",
+        "options": [
+          "A) flatmates",
+          "B) flat-mates",
+          "C) flatmaties",
+          "D) flatsmates"
+        ],
+        "answer": "A) flatmates"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "Another issue is the amount of <strong>(10)</strong> ________ we receive every day.",
+        "options": [
+          "A) information",
+          "B) informations",
+          "C) an information",
+          "D) informative"
+        ],
+        "answer": "A) information"
+      },
+      {
+        "id": 11,
+        "type": "multiple",
+        "question": "With the help of modern <strong>(11)</strong> ________, we are constantly connected to the internet, but this can lead to stress.",
+        "options": [
+          "A) technologys",
+          "B) technologies",
+          "C) technology",
+          "D) technics"
+        ],
+        "answer": "C) technology"
+      }
+    ]
+  },
+  {
+    "topic_id": "407",
+    "variant_id": "4",
+    "text": "Read the texts below. Match choices (A–H) to (1–5). There are three choices you do not need to use.\n\nSports and Life\n\n1. When you play, you might need some new protective gear, including modified shoes, tapings, knee and elbow braces, and mouth guards. These devices help support and protect your body part from strains, direct blows, and possible injury. To help prevent injury, be sure to warm up adequately before practice and games. Also, know your limits. If any body part begins to hurt, stop immediately and rest.\n\n2. Want to get your crew together? A game of hockey, a skating party, or an afternoon of sledding can be a nice change from hanging out at the mall. But before you email those invites, survey the gang. Choose an activity that everyone feels comfortable doing.\n\n3. Ahh, winter! Shorter days. Cold temperatures. Foul weather. Let’s face it, spending the winter alternating between napping in bed and splaying across the couch sounds awfully good. But fight the temptation. Winter sports can help you burn calories, increase your cardiovascular fitness, and strengthen muscles. Being outdoors and getting exercise are also great for your mental health.\n\n4. If you’re into sports, you’ve seen it happen. Football players shake hands, tennis players shake hands with opponents, soccer players exchange jerseys, and even boxers touch gloves. It’s all part of sportsmanship, a great tradition in sports and competition that means playing clean and handling both victory and defeat with grace, style, and dignity.\n\n5. Good sportsmanship means not having a “win at any cost” attitude. Although it’s great to be a champion, it’s even better to have enjoyed the process of trying to reach the top.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "<strong>1.</strong> When you play, you might need some new protective gear, including modified shoes, tapings, knee and elbow braces, and mouth guards. These devices help support and protect your body part from strains, direct blows, and possible injury. To help prevent injury, be sure to warm up adequately before practice and games. Also, know your limits. If any body part begins to hurt, stop immediately and rest.",
+        "options": [
+          "A) Keep Your Friends Fit, Too",
+          "B) Be Fair-Minded Right Along",
+          "C) Play It Safe",
+          "D) Always Strive For Victory",
+          "E) Fair and Fun",
+          "F) A Sound Mind in a Sound Body",
+          "G) Play and Win",
+          "H) Don’t Peril Your Life"
+        ],
+        "answer": "C) Play It Safe"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "<strong>2.</strong> Want to get your crew together? A game of hockey, a skating party, or an afternoon of sledding can be a nice change from hanging out at the mall. But before you email those invites, survey the gang. Choose an activity that everyone feels comfortable doing.",
+        "options": [
+          "A) Keep Your Friends Fit, Too",
+          "B) Be Fair-Minded Right Along",
+          "C) Play It Safe",
+          "D) Always Strive For Victory",
+          "E) Fair and Fun",
+          "F) A Sound Mind in a Sound Body",
+          "G) Play and Win",
+          "H) Don’t Peril Your Life"
+        ],
+        "answer": "A) Keep Your Friends Fit, Too"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "<strong>3.</strong> Ahh, winter! Shorter days. Cold temperatures. Foul weather. Let’s face it, spending the winter alternating between napping in bed and splaying across the couch sounds awfully good. But fight the temptation. Winter sports can help you burn calories, increase your cardiovascular fitness, and strengthen muscles. Being outdoors and getting exercise are also great for your mental health.",
+        "options": [
+          "A) Keep Your Friends Fit, Too",
+          "B) Be Fair-Minded Right Along",
+          "C) Play It Safe",
+          "D) Always Strive For Victory",
+          "E) Fair and Fun",
+          "F) A Sound Mind in a Sound Body",
+          "G) Play and Win",
+          "H) Don’t Peril Your Life"
+        ],
+        "answer": "F) A Sound Mind in a Sound Body"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "<strong>4.</strong> If you’re into sports, you’ve seen it happen. Football players shake hands, tennis players shake hands with opponents, soccer players exchange jerseys, and even boxers touch gloves. It’s all part of sportsmanship, a great tradition in sports and competition that means playing clean and handling both victory and defeat with grace, style, and dignity.",
+        "options": [
+          "A) Keep Your Friends Fit, Too",
+          "B) Be Fair-Minded Right Along",
+          "C) Play It Safe",
+          "D) Always Strive For Victory",
+          "E) Fair and Fun",
+          "F) A Sound Mind in a Sound Body",
+          "G) Play and Win",
+          "H) Don’t Peril Your Life"
+        ],
+        "answer": "B) Be Fair-Minded Right Along"
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "<strong>5.</strong> Good sportsmanship means not having a “win at any cost” attitude. Although it’s great to be a champion, it’s even better to have enjoyed the process of trying to reach the top.",
+        "options": [
+          "A) Keep Your Friends Fit, Too",
+          "B) Be Fair-Minded Right Along",
+          "C) Play It Safe",
+          "D) Always Strive For Victory",
+          "E) Fair and Fun",
+          "F) A Sound Mind in a Sound Body",
+          "G) Play and Win",
+          "H) Don’t Peril Your Life"
+        ],
+        "answer": "E) Fair and Fun"
+      }
+    ]
+  },
+  {
+    "topic_id": "407",
+    "variant_id": "4",
+    "text": "Read the text below. For questions (6–10) choose the correct answer (A, B, C or D).\n\nIn today’s world, having a lot of (6) ________ is often seen as a sign of success. However, many people forget that true (7) ________ cannot be bought. For example, a person might have ten (8) ________, but they might still feel lonely if they lack real (9) ________. Psychologists suggest that we should pay more (10) ________ to our mental well-being. They provide various pieces of advice on how to reduce stress.",
+    "questions": [
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "In today’s world, having a lot of <strong>(6)</strong> ________ is often seen as a sign of success.",
+        "options": [
+          "A) money",
+          "B) moneys",
+          "C) a money",
+          "D) many money"
+        ],
+        "answer": "A) money"
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "However, many people forget that true <strong>(7)</strong> ________ cannot be bought.",
+        "options": [
+          "A) happiness",
+          "B) happinesses",
+          "C) a happiness",
+          "D) happy"
+        ],
+        "answer": "A) happiness"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "For example, a person might have ten <strong>(8)</strong> ________, but they might still feel lonely if they lack real (9) ________.",
+        "options": [
+          "A) house",
+          "B) houses",
+          "C) house's",
+          "D) houses'"
+        ],
+        "answer": "B) houses"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "For example, a person might have ten (8) ________, but they might still feel lonely if they lack real <strong>(9)</strong> ________.",
+        "options": [
+          "A) friendship",
+          "B) friendships",
+          "C) friendshippes",
+          "D) a friendship"
+        ],
+        "answer": "A) friendship"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "Psychologists suggest that we should pay more <strong>(10)</strong> ________ to our mental well-being.",
+        "options": [
+          "A) attention",
+          "B) attentions",
+          "C) an attention",
+          "D) attentive"
+        ],
+        "answer": "A) attention"
+      }
+    ]
+  },
+  {
+    "topic_id": "407",
+    "variant_id": "5",
+    "text": "Read the text below. For questions (1–5) choose the correct answer (A, B, C or D).\n\nSunshine in Your Life\n\nWe have all heard how (1) _______ it is to stay in the sun during certain times of the day. However, there are lots of benefits that we can get from sunlight. Regarding our (2) _______ health, the sun is believed to be beneficial to those with various kinds of depression and some disorders such as panic attacks or stress.\n\nThe sun is also a very good (3) _______ of vitamin D, which helps our bodies to absorb calcium and phosphorus. A lack of vitamin D can lead to bone (4) _______ such as osteoporosis. The sun also does a lot of good to people who (5) _______ from joint diseases like arthritis because the warmth that sunrays produce can loosen stiff and painful joints.\n\nFinally, it is well known that the sun can kill bacteria and therefore protect us from diseases. You are well advised to get moderate exposure though, since too much can cause health problems.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "We have all heard how <strong>(1)</strong> _______ it is to stay in the sun during certain times of the day.",
+        "options": [
+          "A) incurable",
+          "B) harmful",
+          "C) contagious",
+          "D) unconscious"
+        ],
+        "answer": "B) harmful"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "Regarding our <strong>(2)</strong> _______ health, the sun is believed to be beneficial to those with various kinds of depression and some disorders such as panic attacks or stress.",
+        "options": [
+          "A) dental",
+          "B) physical",
+          "C) mental",
+          "D) spiritual"
+        ],
+        "answer": "C) mental"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "The sun is also a very good <strong>(3)</strong> _______ of vitamin D, which helps our bodies to absorb calcium and phosphorus.",
+        "options": [
+          "A) source",
+          "B) dose",
+          "C) treatment",
+          "D) form"
+        ],
+        "answer": "A) source"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "A lack of vitamin D can lead to bone <strong>(4)</strong> _______ such as osteoporosis.",
+        "options": [
+          "A) diagnoses",
+          "B) symptoms",
+          "C) injuries",
+          "D) diseases"
+        ],
+        "answer": "D) diseases"
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "The sun also does a lot of good to people who <strong>(5)</strong> _______ from joint diseases like arthritis because the warmth that sunrays produce can loosen stiff and painful joints.",
+        "options": [
+          "A) develop",
+          "B) diagnose",
+          "C) catch",
+          "D) suffer"
+        ],
+        "answer": "D) suffer"
+      }
+    ]
+  },
+  {
+    "topic_id": "407",
+    "variant_id": "5",
+    "text": "Read the text and choose the correct answer (A–D) for gaps (6–10).\n\nKeeping fit is not only about physical activity but also about having the right attitude and lifestyle. Many people look for useful (6) ______ online about healthy habits, but not all sources are reliable.\n\nRecently, there has been some surprising (7) ______ about how little daily exercise is actually needed to stay healthy. Even a short walk near (8) ______ can improve your mood and energy levels.\n\nProfessional athletes often train in extreme conditions. For example, some climbers prepare for expeditions to (9) ______, which requires not only strength but also mental endurance.\n\nIt is also important to remember that success in sport depends on a person’s discipline and their (10) ______ lifestyle choices.",
+    "questions": [
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "Many people look for useful <strong>(6)</strong> ______ online about healthy habits, but not all sources are reliable.",
+        "options": [
+          "A) advice",
+          "B) advices",
+          "C) an advice",
+          "D) the advice"
+        ],
+        "answer": "A) advice"
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "Recently, there has been some surprising <strong>(7)</strong> ______ about how little daily exercise is actually needed to stay healthy.",
+        "options": [
+          "A) news",
+          "B) a news",
+          "C) newses",
+          "D) the news"
+        ],
+        "answer": "A) news"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "Even a short walk near <strong>(8)</strong> ______ can improve your mood and energy levels.",
+        "options": [
+          "A) Black Sea",
+          "B) the Black Sea",
+          "C) a Black Sea",
+          "D) Black the Sea"
+        ],
+        "answer": "B) the Black Sea"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "Professional athletes often train in extreme conditions. For example, some climbers prepare for expeditions to <strong>(9)</strong> ______, which requires not only strength but also mental endurance.",
+        "options": [
+          "A) Everest",
+          "B) the Everest",
+          "C) an Everest",
+          "D) Mount Everest"
+        ],
+        "answer": "D) Mount Everest"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "It is also important to remember that success in sport depends on a person’s discipline and their <strong>(10)</strong> ______ lifestyle choices.",
+        "options": [
+          "A) athlete lifestyle",
+          "B) athlete’s lifestyle",
+          "C) athletes lifestyle",
+          "D) athletes’ lifestyle"
+        ],
+        "answer": "B) athlete’s lifestyle"
+      }
+    ]
+  },
+  {
+    "topic_id": "408",
+    "variant_id": "1",
+    "text": "Read the texts (1–6) and match them with the answers (A–H). There are two choices you do not need to use.\n\nNature’s Strangest Plants\n\n1. Corpse Flower\nThe Corpse Flower has a strong unpleasant smell which helps prevent it from being eaten. Despite it the plant is still a very rare one and looks like it belongs in the movie Avatar. Hardly any of these plants exist in cultivation, and their blooms are rare and unpredictable, occurring once every 10 years. The plant is not actually one big flower, it’s thousands upon thousands of little male and female flowers, and may weigh up to 90 kg. The flowers produce oils, while the centre collects heat.\n\n2. Elephant Foot Yam\nThe Elephant Foot Yam is one of the ugliest flowers in the world and, to accompany it, has one of the worst scents you can imagine. It only blooms when mature and even so it doesn’t bloom every year. Flowers last only about 5 days. During this phase the plant generates heat which can be felt if you stick your hand inside the flower. In some cultures it is cultivated as a delicacy. It can also be ground into flour for making bread.\n\n3. Venus Flytrap\nNot many plants eat things other than sunlight. And even fewer are capable of quick movement. This makes the Venus Flytrap seem like it might be from another planet or something. Actually it’s from marshy areas of North and South Carolina, where the soil is poor in nutrients. From time to time the plant needs a snack. So, how does it eat? Well, with special hairs. When two hairs are touched within 20 seconds of each other the trap closes quickly. Then they do their best to prevent the beetles and spiders from escaping.\n\n4. Welwitschia\nWelwitschia, called after the Austrian botanist who was the first to describe it, is a living fossil found in the deserts of Namibia and Angola. Its close relatives have gone extinct, and its distant relatives include pines, spruces, and firs. It has one very short trunk and two leaves — only two, no matter how old it is. They live from 400 to 1500 or even 2000 years! So, the one you can come across will probably be alive when your great-great-great-grandkids are alive.\n\n5. Vegetable Sheep\nIts name truly says it all, this plant looks like a sheep. It’s a cushion plant that has many small, very woolly leaves packed as tightly as possible. This plant survives in the harsh, rocky areas of New Zealand because its woolly leaves hold water like a sponge, prevent water being lost through drying winds, and it keeps the plant growing even with very little rainfall. The legend suggests that when Englishmen first arrived in New Zealand, their sheepdogs were so misled by these species that they actually tried to chase and herd them!\n\n6. Hydnora\nThis plant looks like it might belong in a fictional planet in a sci-fi movie. The Hydnora grows completely underground except for the flower. Many beetles have been attracted into its depths by its unpleasant smell. Don’t worry, it doesn’t eat the beetles. It just keeps them until the flower is completely mature. Then the flower opens and all the beetles go into the world. The Hydnora’s fruit takes two years to mature underground and is similar in taste to a potato.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "<strong>1.</strong> Corpse Flower<br><br>The Corpse Flower has a strong unpleasant smell which helps prevent it from being eaten. Despite it the plant is still a very rare one and looks like it belongs in the movie Avatar. Hardly any of these plants exist in cultivation, and their blooms are rare and unpredictable, occurring once every 10 years. The plant is not actually one big flower, it’s thousands upon thousands of little male and female flowers, and may weigh up to 90 kg. The flowers produce oils, while the centre collects heat.<br><br>This plant ___________________.",
+        "options": [
+          "A) is used in baking",
+          "B) comes into blossom once a decade",
+          "C) grows in size and number quickly",
+          "D) used to deceive domestic animals",
+          "E) was shot in a science fiction film",
+          "F) catches insects for food",
+          "G) has the name of its discoverer",
+          "H) lets the trapped insects free"
+        ],
+        "answer": "B) comes into blossom once a decade"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "<strong>2.</strong> Elephant Foot Yam<br><br>The Elephant Foot Yam is one of the ugliest flowers in the world and, to accompany it, has one of the worst scents you can imagine. It only blooms when mature and even so it doesn’t bloom every year. Flowers last only about 5 days. During this phase the plant generates heat which can be felt if you stick your hand inside the flower. In some cultures it is cultivated as a delicacy. It can also be ground into flour for making bread.<br><br>This plant ___________________.",
+        "options": [
+          "A) is used in baking",
+          "B) comes into blossom once a decade",
+          "C) grows in size and number quickly",
+          "D) used to deceive domestic animals",
+          "E) was shot in a science fiction film",
+          "F) catches insects for food",
+          "G) has the name of its discoverer",
+          "H) lets the trapped insects free"
+        ],
+        "answer": "A) is used in baking"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "<strong>3.</strong> Venus Flytrap<br><br>Not many plants eat things other than sunlight. And even fewer are capable of quick movement. This makes the Venus Flytrap seem like it might be from another planet or something. Actually it’s from marshy areas of North and South Carolina, where the soil is poor in nutrients. From time to time the plant needs a snack. So, how does it eat? Well, with special hairs. When two hairs are touched within 20 seconds of each other the trap closes quickly. Then they do their best to prevent the beetles and spiders from escaping.<br><br>This plant ___________________.",
+        "options": [
+          "A) is used in baking",
+          "B) comes into blossom once a decade",
+          "C) grows in size and number quickly",
+          "D) used to deceive domestic animals",
+          "E) was shot in a science fiction film",
+          "F) catches insects for food",
+          "G) has the name of its discoverer",
+          "H) lets the trapped insects free"
+        ],
+        "answer": "F) catches insects for food"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "<strong>4.</strong> Welwitschia<br><br>Welwitschia, called after the Austrian botanist who was the first to describe it, is a living fossil found in the deserts of Namibia and Angola. Its close relatives have gone extinct, and its distant relatives include pines, spruces, and firs. It has one very short trunk and two leaves — only two, no matter how old it is. They live from 400 to 1500 or even 2000 years! So, the one you can come across will probably be alive when your great-great-great-grandkids are alive.<br><br>This plant ___________________.",
+        "options": [
+          "A) is used in baking",
+          "B) comes into blossom once a decade",
+          "C) grows in size and number quickly",
+          "D) used to deceive domestic animals",
+          "E) was shot in a science fiction film",
+          "F) catches insects for food",
+          "G) has the name of its discoverer",
+          "H) lets the trapped insects free"
+        ],
+        "answer": "G) has the name of its discoverer"
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "<strong>5.</strong> Vegetable Sheep<br><br>Its name truly says it all, this plant looks like a sheep. It’s a cushion plant that has many small, very woolly leaves packed as tightly as possible. This plant survives in the harsh, rocky areas of New Zealand because its woolly leaves hold water like a sponge, prevent water being lost through drying winds, and it keeps the plant growing even with very little rainfall. The legend suggests that when Englishmen first arrived in New Zealand, their sheepdogs were so misled by these species that they actually tried to chase and herd them!<br><br>This plant ___________________.",
+        "options": [
+          "A) is used in baking",
+          "B) comes into blossom once a decade",
+          "C) grows in size and number quickly",
+          "D) used to deceive domestic animals",
+          "E) was shot in a science fiction film",
+          "F) catches insects for food",
+          "G) has the name of its discoverer",
+          "H) lets the trapped insects free"
+        ],
+        "answer": "D) used to deceive domestic animals"
+      },
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "<strong>6.</strong> Hydnora<br><br>This plant looks like it might belong in a fictional planet in a sci-fi movie. The Hydnora grows completely underground except for the flower. Many beetles have been attracted into its depths by its unpleasant smell. Don’t worry, it doesn’t eat the beetles. It just keeps them until the flower is completely mature. Then the flower opens and all the beetles go into the world. The Hydnora’s fruit takes two years to mature underground and is similar in taste to a potato.<br><br>This plant ___________________.",
+        "options": [
+          "A) is used in baking",
+          "B) comes into blossom once a decade",
+          "C) grows in size and number quickly",
+          "D) used to deceive domestic animals",
+          "E) was shot in a science fiction film",
+          "F) catches insects for food",
+          "G) has the name of its discoverer",
+          "H) lets the trapped insects free"
+        ],
+        "answer": "H) lets the trapped insects free"
+      }
+    ]
+  },
+  {
+    "topic_id": "408",
+    "variant_id": "1",
+    "text": "Read the text below. For questions (7–11) choose the correct answer (A, B, C or D).\n\nThe Great Barrier Reef in Danger\n\nThe Great Barrier Reef, located (7) _______ the coast of Queensland, Australia, is the world's largest coral reef system. It is home (8) _______ thousands of marine species, from tiny plankton to massive whales. However, this natural wonder is currently (9) _______ threat due to climate change and pollution.\n\nGlobal warming has led to an increase (10) _______ water temperatures, which causes coral bleaching. When corals are (11) _______ stress, they expel the algae living in their tissues, turning completely white.",
+    "questions": [
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "The Great Barrier Reef, located <strong>(7)</strong> _______ the coast of Queensland, Australia, is the world's largest coral reef system.",
+        "options": [
+          "A) at",
+          "B) off",
+          "C) on",
+          "D) by"
+        ],
+        "answer": "B) off"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "It is home <strong>(8)</strong> _______ thousands of marine species, from tiny plankton to massive whales.",
+        "options": [
+          "A) for",
+          "B) with",
+          "C) to",
+          "D) of"
+        ],
+        "answer": "C) to"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "However, this natural wonder is currently <strong>(9)</strong> _______ threat due to climate change and pollution.",
+        "options": [
+          "A) under",
+          "B) in",
+          "C) below",
+          "D) with"
+        ],
+        "answer": "A) under"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "Global warming has led to an increase <strong>(10)</strong> _______ water temperatures, which causes coral bleaching.",
+        "options": [
+          "A) of",
+          "B) in",
+          "C) at",
+          "D) for"
+        ],
+        "answer": "B) in"
+      },
+      {
+        "id": 11,
+        "type": "multiple",
+        "question": "When corals are <strong>(11)</strong> _______ stress, they expel the algae living in their tissues, turning completely white.",
+        "options": [
+          "A) in",
+          "B) under",
+          "C) with",
+          "D) by"
+        ],
+        "answer": "B) under"
+      }
+    ]
+  },
+  {
+    "topic_id": "408",
+    "variant_id": "2",
+    "text": "Read the text below. For questions (1–5) choose the correct answer (A, B, C or D).\n\nLiving Without Plastic\n\nMany people are now trying to cut down (1) _______ the amount of plastic they use. Most plastic waste ends (2) _______ in landfills or, even worse, in the ocean. This has a devastating effect (3) _______ wildlife. Marine animals often mistake plastic (4) _______ food, which leads to fatal consequences. Environmental activists call (5) _______ a global ban on single-use plastics.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "Many people are now trying to cut down <strong>(1)</strong> _______ the amount of plastic they use.",
+        "options": [
+          "A) on",
+          "B) with",
+          "C) at",
+          "D) for"
+        ],
+        "answer": "A) on"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "Most plastic waste ends <strong>(2)</strong> _______ in landfills or, even worse, in the ocean.",
+        "options": [
+          "A) out",
+          "B) up",
+          "C) off",
+          "D) by"
+        ],
+        "answer": "B) up"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "This has a devastating effect <strong>(3)</strong> _______ wildlife.",
+        "options": [
+          "A) on",
+          "B) to",
+          "C) at",
+          "D) for"
+        ],
+        "answer": "A) on"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "Marine animals often mistake plastic <strong>(4)</strong> _______ food, which leads to fatal consequences.",
+        "options": [
+          "A) as",
+          "B) to",
+          "C) for",
+          "D) with"
+        ],
+        "answer": "C) for"
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "Environmental activists call <strong>(5)</strong> _______ a global ban on single-use plastics.",
+        "options": [
+          "A) for",
+          "B) on",
+          "C) at",
+          "D) in"
+        ],
+        "answer": "A) for"
+      }
+    ]
+  },
+  {
+    "topic_id": "408",
+    "variant_id": "2",
+    "text": "Read the texts below. Match choices (A–H) to (6–10). There are three choices you do not need to use.\n\nWhat is the advertisement about?",
+    "questions": [
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "<strong>6.</strong><br><br>What is the advertisement about?",
+        "options": [
+          "A) media",
+          "B) accessories",
+          "C) tools",
+          "D) clothes",
+          "E) food",
+          "F) gadgets",
+          "G) toys",
+          "H) books"
+        ],
+        "answer": "F) gadgets",
+        "image_url": ""
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "<strong>7.</strong><br><br>What is the advertisement about?",
+        "options": [
+          "A) media",
+          "B) accessories",
+          "C) tools",
+          "D) clothes",
+          "E) food",
+          "F) gadgets",
+          "G) toys",
+          "H) books"
+        ],
+        "answer": "B) accessories",
+        "image_url": ""
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "<strong>8.</strong><br><br>What is the advertisement about?",
+        "options": [
+          "A) media",
+          "B) accessories",
+          "C) tools",
+          "D) clothes",
+          "E) food",
+          "F) gadgets",
+          "G) toys",
+          "H) books"
+        ],
+        "answer": "H) books",
+        "image_url": ""
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "<strong>9.</strong><br><br>What is the advertisement about?",
+        "options": [
+          "A) media",
+          "B) accessories",
+          "C) tools",
+          "D) clothes",
+          "E) food",
+          "F) gadgets",
+          "G) toys",
+          "H) books"
+        ],
+        "answer": "A) media",
+        "image_url": ""
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "<strong>10.</strong><br><br>What is the advertisement about?",
+        "options": [
+          "A) media",
+          "B) accessories",
+          "C) tools",
+          "D) clothes",
+          "E) food",
+          "F) gadgets",
+          "G) toys",
+          "H) books"
+        ],
+        "answer": "E) food",
+        "image_url": ""
+      }
+    ]
+  },
+  {
+    "topic_id": "408",
+    "variant_id": "3",
+    "text": "Read the texts below. Match choices (A–H) to (1–6). There are two choices you do not need to use.\n\n1. Timanfaya National Park. Spain\nTimanfaya National Park on the island of Lanzarote includes an active volcano. The beauty of this wilderness area lies in its rugged rock formations and its treeless landscapes, framed by the blue waters of the Atlantic. The park can become very busy during high season, so you are advised to apply in advance to schedule your visit. One of the activities you can book is a guided camel tour of the sights.\n\n2. Lake District National Park. The UK\nThe Lake District may not be the biggest national park in the UK, but it is one of the most visited. It covers a huge area of natural beauty, which includes not only lakes and rolling hills, but also quaint towns to visit. Grab a map, head in any direction, and you won’t be disappointed. Wherever you end up, you will probably not be far from one of the traditional pubs for which the region is famous.\n\n3. Danube Delta Transboundary Biosphere Reserve. Romania/Ukraine\nThe Danube Delta is an extraordinary network of lakes and islands which is home to hundreds of protected bird species, including 70% of the world’s white pelicans. Birdwatchers and scientists come here from around the world for the breathtaking sight of thousands of birds descending on the Delta as part of their yearly migration. On the Ukrainian side, visitors can enjoy reasonably priced birdwatching boat tours through its winding waterways.\n\n4. Triglav National Park. Slovenia\nTriglav is a popular hiking and climbing destination with stunning mountain scenery, sculpted by rivers and waterfalls. It is also one of the oldest nature reserves in Europe, sharing a border with Italy. It is free to enter the park, as there are only entrance fees to access certain locations, such as the Savica Waterfall. Visit one of several information centres and learn everything you need to know about your visit to Triglav National Park.\n\n5. Ecrins National Park. France\nEcrins National Park is best experienced through a multi-day hike, though even those who choose to spend just a few hours will be amazed by its high alpine scenery. This park is vast, with over 700 km of marked trails that reach 60 lakes and a staggering number of snow-covered peaks. Since 2000, the park’s scientific team has been monitoring the glaciers in the park in an effort to better understand climate change.\n\n6. The Black Forest National Park. Germany\nThough it covers a relatively small area, the Black Forest is a very diverse ecosystem. Its fairy-tale landscape was shaped by glaciers, which existed in the area millions of years ago in the ice age. The park is dotted with steep canyons and rock formations. About 70% of the park’s surface area is covered by forest, while another 25% is used for agricultural purposes. Camping in the forest is a special treat for anyone who can fit it into their schedule.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "<strong>1.</strong> Timanfaya National Park. Spain<br><br>Timanfaya National Park on the island of Lanzarote includes an active volcano. The beauty of this wilderness area lies in its rugged rock formations and its treeless landscapes, framed by the blue waters of the Atlantic. The park can become very busy during high season, so you are advised to apply in advance to schedule your visit. One of the activities you can book is a guided camel tour of the sights.",
+        "options": [
+          "A) includes destinations which are not free of charge",
+          "B) enables visitors to interact with the wildlife",
+          "C) is not crowded all year round",
+          "D) is used for research on environmental issues",
+          "E) is jointly managed between two countries",
+          "F) was originally set up for research purposes",
+          "G) owes its beauty to a natural phenomenon that took place in the past",
+          "H) is not visited for its natural beauty alone"
+        ],
+        "answer": "C) is not crowded all year round"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "<strong>2.</strong> Lake District National Park. The UK<br><br>The Lake District may not be the biggest national park in the UK, but it is one of the most visited. It covers a huge area of natural beauty, which includes not only lakes and rolling hills, but also quaint towns to visit. Grab a map, head in any direction, and you won’t be disappointed. Wherever you end up, you will probably not be far from one of the traditional pubs for which the region is famous.",
+        "options": [
+          "A) includes destinations which are not free of charge",
+          "B) enables visitors to interact with the wildlife",
+          "C) is not crowded all year round",
+          "D) is used for research on environmental issues",
+          "E) is jointly managed between two countries",
+          "F) was originally set up for research purposes",
+          "G) owes its beauty to a natural phenomenon that took place in the past",
+          "H) is not visited for its natural beauty alone"
+        ],
+        "answer": "H) is not visited for its natural beauty alone"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "<strong>3.</strong> Danube Delta Transboundary Biosphere Reserve. Romania/Ukraine<br><br>The Danube Delta is an extraordinary network of lakes and islands which is home to hundreds of protected bird species, including 70% of the world’s white pelicans. Birdwatchers and scientists come here from around the world for the breathtaking sight of thousands of birds descending on the Delta as part of their yearly migration. On the Ukrainian side, visitors can enjoy reasonably priced birdwatching boat tours through its winding waterways.",
+        "options": [
+          "A) includes destinations which are not free of charge",
+          "B) enables visitors to interact with the wildlife",
+          "C) is not crowded all year round",
+          "D) is used for research on environmental issues",
+          "E) is jointly managed between two countries",
+          "F) was originally set up for research purposes",
+          "G) owes its beauty to a natural phenomenon that took place in the past",
+          "H) is not visited for its natural beauty alone"
+        ],
+        "answer": "E) is jointly managed between two countries"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "<strong>4.</strong> Triglav National Park. Slovenia<br><br>Triglav is a popular hiking and climbing destination with stunning mountain scenery, sculpted by rivers and waterfalls. It is also one of the oldest nature reserves in Europe, sharing a border with Italy. It is free to enter the park, as there are only entrance fees to access certain locations, such as the Savica Waterfall. Visit one of several information centres and learn everything you need to know about your visit to Triglav National Park.",
+        "options": [
+          "A) includes destinations which are not free of charge",
+          "B) enables visitors to interact with the wildlife",
+          "C) is not crowded all year round",
+          "D) is used for research on environmental issues",
+          "E) is jointly managed between two countries",
+          "F) was originally set up for research purposes",
+          "G) owes its beauty to a natural phenomenon that took place in the past",
+          "H) is not visited for its natural beauty alone"
+        ],
+        "answer": "A) includes destinations which are not free of charge"
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "<strong>5.</strong> Ecrins National Park. France<br><br>Ecrins National Park is best experienced through a multi-day hike, though even those who choose to spend just a few hours will be amazed by its high alpine scenery. This park is vast, with over 700 km of marked trails that reach 60 lakes and a staggering number of snow-covered peaks. Since 2000, the park’s scientific team has been monitoring the glaciers in the park in an effort to better understand climate change.",
+        "options": [
+          "A) includes destinations which are not free of charge",
+          "B) enables visitors to interact with the wildlife",
+          "C) is not crowded all year round",
+          "D) is used for research on environmental issues",
+          "E) is jointly managed between two countries",
+          "F) was originally set up for research purposes",
+          "G) owes its beauty to a natural phenomenon that took place in the past",
+          "H) is not visited for its natural beauty alone"
+        ],
+        "answer": "D) is used for research on environmental issues"
+      },
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "<strong>6.</strong> The Black Forest National Park. Germany<br><br>Though it covers a relatively small area, the Black Forest is a very diverse ecosystem. Its fairy-tale landscape was shaped by glaciers, which existed in the area millions of years ago in the ice age. The park is dotted with steep canyons and rock formations. About 70% of the park’s surface area is covered by forest, while another 25% is used for agricultural purposes. Camping in the forest is a special treat for anyone who can fit it into their schedule.",
+        "options": [
+          "A) includes destinations which are not free of charge",
+          "B) enables visitors to interact with the wildlife",
+          "C) is not crowded all year round",
+          "D) is used for research on environmental issues",
+          "E) is jointly managed between two countries",
+          "F) was originally set up for research purposes",
+          "G) owes its beauty to a natural phenomenon that took place in the past",
+          "H) is not visited for its natural beauty alone"
+        ],
+        "answer": "G) owes its beauty to a natural phenomenon that took place in the past"
+      }
+    ]
+  },
+  {
+    "topic_id": "408",
+    "variant_id": "3",
+    "text": "Read the text below. For questions (7–11) choose the correct answer (A, B, C or D).\n\nCalifornia Condor\n\nFrom prehistoric times, the great condor is one of our largest and most impressive birds — and one of the rarest. They are easily recognised for their huge black wings, incredible eyesight and an inquisitive intelligence. Their natural (7) _______ is open grasslands and oak savanna foothills with populations of large (8) _______ like cattle or deer.\n\nThere used to be thousands of California condors in the USA and Mexico. However, last century, they were almost on the brink of (9) _______. Early reasons included shooting and also many condors died in traps or at poisoned carcasses put out to kill large predators. In 1980s, only two dozens of them survived worldwide.\n\nOnce all remaining wild condors were caught for (10) _______ breeding, a program was launched to help save the California Condor from extinction. The program has turned out to be surprisingly successful, and (11) _______ of released condors are surviving in several areas of California and in the region of the Grand Canyon.",
+    "questions": [
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "Their natural <strong>(7)</strong> _______ is open grasslands and oak savanna foothills with populations of large (8) _______ like cattle or deer.",
+        "options": [
+          "A) reserve",
+          "B) habitat",
+          "C) resource",
+          "D) disaster"
+        ],
+        "answer": "B) habitat"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "Their natural (7) _______ is open grasslands and oak savanna foothills with populations of large <strong>(8)</strong> _______ like cattle or deer.",
+        "options": [
+          "A) birds",
+          "B) reptiles",
+          "C) mammals",
+          "D) amphibians"
+        ],
+        "answer": "C) mammals"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "However, last century, they were almost on the brink of <strong>(9)</strong> _______.",
+        "options": [
+          "A) extinction",
+          "B) evacuation",
+          "C) preservation",
+          "D) conservation"
+        ],
+        "answer": "A) extinction"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "Once all remaining wild condors were caught for <strong>(10)</strong> _______ breeding, a program was launched to help save the California Condor from extinction.",
+        "options": [
+          "A) captive",
+          "B) renewable",
+          "C) environmental",
+          "D) endangered"
+        ],
+        "answer": "A) captive"
+      },
+      {
+        "id": 11,
+        "type": "multiple",
+        "question": "The program has turned out to be surprisingly successful, and <strong>(11)</strong> _______ of released condors are surviving in several areas of California and in the region of the Grand Canyon.",
+        "options": [
+          "A) parliaments",
+          "B) herds",
+          "C) schools",
+          "D) flocks"
+        ],
+        "answer": "D) flocks"
+      }
+    ]
+  },
+  {
+    "topic_id": "408",
+    "variant_id": "4",
+    "text": "Read the text below. Choose from (A–H) the one which best fits each space (1–6). There are two choices you do not need to use.\n\nTwisters\n\nTornadoes are one of the most powerful and destructive types of storms. They are often called ‘twisters’, (1) _______. They can achieve the highest wind speeds on earth, and it is this extreme wind force that is believed to be the main reason for the enormous damage associated with them. Unfortunately, it is difficult for scientists to predict precisely when and where a tornado is likely to appear, making it difficult to provide sufficient warning in time to save lives.\n\nThe time from the moment a tornado reaches the ground until it dies out is usually not much more than a few minutes. Once a tornado has touched down, it begins (2) _______, and even parts of buildings. The tornado’s low-pressure centre is such a powerful vacuum that it can tear the roofs from houses or lift cars in the air.\n\nIn the USA alone, about 1000 tornadoes strike every year. The most devastating tornado in US history took place on 18 March, 1925. It travelled at almost 100 kilometres per hour, and it lasted for three and a half hours (3) _______ across Missouri, Illinois and Indiana. The tornado finally dissipated after it had covered a distance of over 350 kilometres across the three states, (4) _______. Another example of a tornado, (5) _______, involved a little girl who was lifted off the ground while she was riding her horse.\n\nAlthough it is not possible to prevent a tornado from striking, scientists are working hard (6) _______ so as to be able to give out warnings earlier, and thus help people prepare better.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "Tornadoes are one of the most powerful and destructive types of storms. They are often called ‘twisters’, <strong>(1)</strong> _______.",
+        "options": [
+          "A) which was less disastrous though",
+          "B) sucking up material including rocks, branches of trees, cars",
+          "C) to improve the tornado forecasting system",
+          "D) as the wind travels at enormous speeds",
+          "E) leaving an enormous trail of destruction",
+          "F) which earned it the name Tri-State Tornado",
+          "G) as they are made up of twisting columns of air",
+          "H) to develop tornado-proof houses"
+        ],
+        "answer": "G) as they are made up of twisting columns of air"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "Once a tornado has touched down, it begins <strong>(2)</strong> _______, and even parts of buildings.",
+        "options": [
+          "A) which was less disastrous though",
+          "B) sucking up material including rocks, branches of trees, cars",
+          "C) to improve the tornado forecasting system",
+          "D) as the wind travels at enormous speeds",
+          "E) leaving an enormous trail of destruction",
+          "F) which earned it the name Tri-State Tornado",
+          "G) as they are made up of twisting columns of air",
+          "H) to develop tornado-proof houses"
+        ],
+        "answer": "B) sucking up material including rocks, branches of trees, cars"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "It travelled at almost 100 kilometres per hour, and it lasted for three and a half hours <strong>(3)</strong> _______ across Missouri, Illinois and Indiana.",
+        "options": [
+          "A) which was less disastrous though",
+          "B) sucking up material including rocks, branches of trees, cars",
+          "C) to improve the tornado forecasting system",
+          "D) as the wind travels at enormous speeds",
+          "E) leaving an enormous trail of destruction",
+          "F) which earned it the name Tri-State Tornado",
+          "G) as they are made up of twisting columns of air",
+          "H) to develop tornado-proof houses"
+        ],
+        "answer": "E) leaving an enormous trail of destruction"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "The tornado finally dissipated after it had covered a distance of over 350 kilometres across the three states, <strong>(4)</strong> _______.",
+        "options": [
+          "A) which was less disastrous though",
+          "B) sucking up material including rocks, branches of trees, cars",
+          "C) to improve the tornado forecasting system",
+          "D) as the wind travels at enormous speeds",
+          "E) leaving an enormous trail of destruction",
+          "F) which earned it the name Tri-State Tornado",
+          "G) as they are made up of twisting columns of air",
+          "H) to develop tornado-proof houses"
+        ],
+        "answer": "F) which earned it the name Tri-State Tornado"
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "Another example of a tornado, <strong>(5)</strong> _______, involved a little girl who was lifted off the ground while she was riding her horse.",
+        "options": [
+          "A) which was less disastrous though",
+          "B) sucking up material including rocks, branches of trees, cars",
+          "C) to improve the tornado forecasting system",
+          "D) as the wind travels at enormous speeds",
+          "E) leaving an enormous trail of destruction",
+          "F) which earned it the name Tri-State Tornado",
+          "G) as they are made up of twisting columns of air",
+          "H) to develop tornado-proof houses"
+        ],
+        "answer": "A) which was less disastrous though"
+      },
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "Although it is not possible to prevent a tornado from striking, scientists are working hard <strong>(6)</strong> _______ so as to be able to give out warnings earlier, and thus help people prepare better.",
+        "options": [
+          "A) which was less disastrous though",
+          "B) sucking up material including rocks, branches of trees, cars",
+          "C) to improve the tornado forecasting system",
+          "D) as the wind travels at enormous speeds",
+          "E) leaving an enormous trail of destruction",
+          "F) which earned it the name Tri-State Tornado",
+          "G) as they are made up of twisting columns of air",
+          "H) to develop tornado-proof houses"
+        ],
+        "answer": "C) to improve the tornado forecasting system"
+      }
+    ]
+  },
+  {
+    "topic_id": "408",
+    "variant_id": "4",
+    "text": "Read the text below. For questions (7–11), choose the correct answer (A, B, C or D).\n\nIn recent years, people have become more aware of environmental problems. Many young people are particularly passionate (7) _______ protecting nature and are actively involved in eco-projects. Schools often organise activities (8) _______ Earth Day to encourage students to take action.\n\nSome students are really good (9) _______ finding creative ways to recycle materials, while others succeed (10) _______ raising awareness through social media campaigns. In the future, these efforts may result (11) _______ significant positive changes for the planet.",
+    "questions": [
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "Many young people are particularly passionate <strong>(7)</strong> _______ protecting nature and are actively involved in eco-projects.",
+        "options": [
+          "A) of",
+          "B) with",
+          "C) about",
+          "D) in"
+        ],
+        "answer": "C) about"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "Schools often organise activities <strong>(8)</strong> _______ Earth Day to encourage students to take action.",
+        "options": [
+          "A) on",
+          "B) in",
+          "C) at",
+          "D) for"
+        ],
+        "answer": "A) on"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "Some students are really good <strong>(9)</strong> _______ finding creative ways to recycle materials, while others succeed (10) _______ raising awareness through social media campaigns.",
+        "options": [
+          "A) in",
+          "B) at",
+          "C) on",
+          "D) with"
+        ],
+        "answer": "B) at"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "Some students are really good (9) _______ finding creative ways to recycle materials, while others succeed <strong>(10)</strong> _______ raising awareness through social media campaigns.",
+        "options": [
+          "A) on",
+          "B) at",
+          "C) in",
+          "D) for"
+        ],
+        "answer": "C) in"
+      },
+      {
+        "id": 11,
+        "type": "multiple",
+        "question": "In the future, these efforts may result <strong>(11)</strong> _______ significant positive changes for the planet.",
+        "options": [
+          "A) on",
+          "B) at",
+          "C) to",
+          "D) in"
+        ],
+        "answer": "D) in"
+      }
+    ]
+  },
+  {
+    "topic_id": "408",
+    "variant_id": "5",
+    "text": "Read the texts below. Match choices (A–H) to (1–5). There are three choices you do not need to use. ",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "Which advertisement is about?\n\n<strong>1.</strong>",
+        "options": [
+          "A) support for an official request",
+          "B) guidelines for boat users",
+          "C) a job vacancy",
+          "D) a short course",
+          "E) preventing a man-made disaster",
+          "F) advice for making a fire",
+          "G) a request for financial donations",
+          "H) a letter to the government"
+        ],
+        "answer": "G) a request for financial donations",
+        "image_url": "english_images/topic_408/1.png"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "<strong>2.</strong>",
+        "options": [
+          "A) support for an official request",
+          "B) guidelines for boat users",
+          "C) a job vacancy",
+          "D) a short course",
+          "E) preventing a man-made disaster",
+          "F) advice for making a fire",
+          "G) a request for financial donations",
+          "H) a letter to the government"
+        ],
+        "answer": "A) support for an official request",
+        "image_url": "english_images/topic_408/2.png"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "<strong>3.</strong>",
+        "options": [
+          "A) support for an official request",
+          "B) guidelines for boat users",
+          "C) a job vacancy",
+          "D) a short course",
+          "E) preventing a man-made disaster",
+          "F) advice for making a fire",
+          "G) a request for financial donations",
+          "H) a letter to the government"
+        ],
+        "answer": "B) guidelines for boat users",
+        "image_url": "english_images/topic_408/3.png"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "<strong>4.</strong>",
+        "options": [
+          "A) support for an official request",
+          "B) guidelines for boat users",
+          "C) a job vacancy",
+          "D) a short course",
+          "E) preventing a man-made disaster",
+          "F) advice for making a fire",
+          "G) a request for financial donations",
+          "H) a letter to the government"
+        ],
+        "answer": "E) preventing a man-made disaster",
+        "image_url": "english_images/topic_408/4.png"
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "<strong>5.</strong>",
+        "options": [
+          "A) support for an official request",
+          "B) guidelines for boat users",
+          "C) a job vacancy",
+          "D) a short course",
+          "E) preventing a man-made disaster",
+          "F) advice for making a fire",
+          "G) a request for financial donations",
+          "H) a letter to the government"
+        ],
+        "answer": "D) a short course",
+        "image_url": "english_images/topic_408/5.png"
+      }
+    ]
+  },
+  {
+    "topic_id": "408",
+    "variant_id": "5",
+    "text": "Read the text below. For questions (6–10), choose the correct answer (A, B, C or D).\n\nClimate change is one of the most serious problems (6) ________ the modern world. Scientists warn that if we do not act (7) ________ time, the consequences will be irreversible. Many environmental organisations are focused (8) ________ educating people about sustainable living. Some volunteers are very patient (9) ________ younger students when explaining ecological issues. The environment can greatly benefit (10) ________ these small actions in the long run.",
+    "questions": [
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "Climate change is one of the most serious problems <strong>(6)</strong> ________ the modern world.",
+        "options": [
+          "A) in",
+          "B) of",
+          "C) for",
+          "D) at"
+        ],
+        "answer": "A) in"
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "Scientists warn that if we do not act <strong>(7)</strong> ________ time, the consequences will be irreversible.",
+        "options": [
+          "A) in",
+          "B) on",
+          "C) at",
+          "D) by"
+        ],
+        "answer": "A) in"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "Many environmental organisations are focused <strong>(8)</strong> ________ educating people about sustainable living.",
+        "options": [
+          "A) with",
+          "B) in",
+          "C) at",
+          "D) on"
+        ],
+        "answer": "D) on"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "Some volunteers are very patient <strong>(9)</strong> ________ younger students when explaining ecological issues.",
+        "options": [
+          "A) to",
+          "B) with",
+          "C) at",
+          "D) for"
+        ],
+        "answer": "B) with"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "The environment can greatly benefit <strong>(10)</strong> ________ these small actions in the long run.",
+        "options": [
+          "A) to",
+          "B) of",
+          "C) from",
+          "D) with"
+        ],
+        "answer": "C) from"
+      }
+    ]
+  },
+  {
+    "topic_id": "409",
+    "variant_id": "1",
+    "text": "Read the texts below. Match choices (A–G) to texts (1–5). There are two choices you do not need to use.\n\n1. In many Ukrainian homes, the art of painting pysanky is passed down through generations. These Easter eggs are decorated with intricate geometric and floral symbols using a wax-resist method. Each color and sign has a specific meaning, such as health, fertility, or protection, making them a central part of the spring holiday celebrations.\n\n2. Tower Bridge is often mistaken for London Bridge, but its unique Victorian Gothic style and twin towers make it unmistakable. It is a combined bascule and suspension bridge that allows large ships to pass through to the upper reaches of the Thames. Even today, the bridge remains a vital part of the city’s transport system and a top tourist attraction.\n\n3. Stonehenge, located on Salisbury Plain, continues to baffle archaeologists and visitors alike. Built thousands of years ago, these massive standing stones are aligned with the sunset of the winter solstice and the sunrise of the summer solstice. It is one of the most mysterious and important megalithic structures in the world.\n\n4. Opishnya, a small village in the Poltava region, is widely recognized as the ceramic capital of Ukraine. The local craftsmen are famous for their unique clay whistles, decorative plates, and jugs. The village even hosts a national museum dedicated to pottery, showcasing how this ancient craft has evolved into a sophisticated art form.\n\n5. During the mid-20th century, bands like The Beatles and The Rolling Stones completely transformed the global music scene. This \"British Invasion\" didn't just change what people listened to; it influenced fashion, social attitudes, and youth culture across the world, cementing the UK's reputation as a creative powerhouse.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "<strong>1.</strong> In many Ukrainian homes, the art of painting pysanky is passed down through generations. These Easter eggs are decorated with intricate geometric and floral symbols using a wax-resist method. Each color and sign has a specific meaning, such as health, fertility, or protection, making them a central part of the spring holiday celebrations.",
+        "options": [
+          "A) A Legendary Prehistoric Monument",
+          "B) The Birth of a National Anthem",
+          "C) A Hub of Modern Art in London",
+          "D) Traditional Ukrainian Pottery",
+          "E) The Influence of British Rock",
+          "F) Ukrainian Easter Traditions",
+          "G) A Famous River Landmark"
+        ],
+        "answer": "F) Ukrainian Easter Traditions"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "<strong>2.</strong> Tower Bridge is often mistaken for London Bridge, but its unique Victorian Gothic style and twin towers make it unmistakable. It is a combined bascule and suspension bridge that allows large ships to pass through to the upper reaches of the Thames. Even today, the bridge remains a vital part of the city’s transport system and a top tourist attraction.",
+        "options": [
+          "A) A Legendary Prehistoric Monument",
+          "B) The Birth of a National Anthem",
+          "C) A Hub of Modern Art in London",
+          "D) Traditional Ukrainian Pottery",
+          "E) The Influence of British Rock",
+          "F) Ukrainian Easter Traditions",
+          "G) A Famous River Landmark"
+        ],
+        "answer": "G) A Famous River Landmark"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "<strong>3.</strong> Stonehenge, located on Salisbury Plain, continues to baffle archaeologists and visitors alike. Built thousands of years ago, these massive standing stones are aligned with the sunset of the winter solstice and the sunrise of the summer solstice. It is one of the most mysterious and important megalithic structures in the world.",
+        "options": [
+          "A) A Legendary Prehistoric Monument",
+          "B) The Birth of a National Anthem",
+          "C) A Hub of Modern Art in London",
+          "D) Traditional Ukrainian Pottery",
+          "E) The Influence of British Rock",
+          "F) Ukrainian Easter Traditions",
+          "G) A Famous River Landmark"
+        ],
+        "answer": "A) A Legendary Prehistoric Monument"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "<strong>4.</strong> Opishnya, a small village in the Poltava region, is widely recognized as the ceramic capital of Ukraine. The local craftsmen are famous for their unique clay whistles, decorative plates, and jugs. The village even hosts a national museum dedicated to pottery, showcasing how this ancient craft has evolved into a sophisticated art form.",
+        "options": [
+          "A) A Legendary Prehistoric Monument",
+          "B) The Birth of a National Anthem",
+          "C) A Hub of Modern Art in London",
+          "D) Traditional Ukrainian Pottery",
+          "E) The Influence of British Rock",
+          "F) Ukrainian Easter Traditions",
+          "G) A Famous River Landmark"
+        ],
+        "answer": "D) Traditional Ukrainian Pottery"
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "<strong>5.</strong> During the mid-20th century, bands like The Beatles and The Rolling Stones completely transformed the global music scene. This \"British Invasion\" didn't just change what people listened to; it influenced fashion, social attitudes, and youth culture across the world, cementing the UK's reputation as a creative powerhouse.",
+        "options": [
+          "A) A Legendary Prehistoric Monument",
+          "B) The Birth of a National Anthem",
+          "C) A Hub of Modern Art in London",
+          "D) Traditional Ukrainian Pottery",
+          "E) The Influence of British Rock",
+          "F) Ukrainian Easter Traditions",
+          "G) A Famous River Landmark"
+        ],
+        "answer": "E) The Influence of British Rock"
+      }
+    ]
+  },
+  {
+    "topic_id": "409",
+    "variant_id": "1",
+    "text": "Read the text below. For questions (6–10) choose the correct answer (A, B, C, or D).\n\nCultural Bridges: Ukraine and the UK\n\nIn today's globalized world, (6) ________ knows that cultural exchange is vital. Ukraine and the UK may be far apart geographically, but they share a deep respect for traditions. In Britain, tea culture is legendary; almost (7) ________ enjoys a cup of Earl Grey in the afternoon. Similarly, in Ukraine, (8) ________ can refuse a warm plate of borsch offered by a hospitable host.\n\nHistorically, (9) ________ countries have faced challenges. While London was being rebuilt after the Great Fire, Ukraine was developing its unique Baroque architecture. Today, (10) ________ who visits Kyiv can fail to notice the stunning golden domes that define the skyline.",
+    "questions": [
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "In today's globalized world, <strong>(6)</strong> ________ knows that cultural exchange is vital.",
+        "options": [
+          "A) anyone",
+          "B) everyone",
+          "C) no one",
+          "D) someone"
+        ],
+        "answer": "B) everyone"
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "In Britain, tea culture is legendary; almost <strong>(7)</strong> ________ enjoys a cup of Earl Grey in the afternoon.",
+        "options": [
+          "A) everybody",
+          "B) anybody",
+          "C) nobody",
+          "D) somebody"
+        ],
+        "answer": "A) everybody"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "Similarly, in Ukraine, <strong>(8)</strong> ________ can refuse a warm plate of borsch offered by a hospitable host.",
+        "options": [
+          "A) nobody",
+          "B) anyone",
+          "C) somebody",
+          "D) everything"
+        ],
+        "answer": "A) nobody"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "Historically, <strong>(9)</strong> ________ countries have faced challenges.",
+        "options": [
+          "A) each",
+          "B) every",
+          "C) both",
+          "D) neither"
+        ],
+        "answer": "C) both"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "Today, <strong>(10)</strong> ________ who visits Kyiv can fail to notice the stunning golden domes that define the skyline.",
+        "options": [
+          "A) no one",
+          "B) anyone",
+          "C) someone",
+          "D) nothing"
+        ],
+        "answer": "A) no one"
+      }
+    ]
+  },
+  {
+    "topic_id": "409",
+    "variant_id": "2",
+    "text": "Read the text below. For questions (1–5), choose the correct answer (A, B, C or D).\n\nKhortytsya National Resort\n\nKhortytsya is the biggest island on the Dnipro River and is inside the city boundaries of Zaporizhia. The reserve’s status as one of the seven wonders of Ukraine is hardly in dispute, due to its natural beauty and many landmarks. Its wealth of plants and wildlife led to it becoming a protected nature reserve which also incorporates several smaller nearby islands. The island was first settled thousands of years ago so clearly it is also very special as an archaeological site and indeed, many finds from various periods of history have revealed a great deal about the different peoples who have lived here.\n\nPerhaps the most significant period in the island’s history is the 16th century, when it became the centre of the world-famous Cossack Republic. Historians now believe that the first Cossack fortification was built on the small nearby island of Baida. Here, finds have included tools, weapons and coins. A clearer picture of Cossack civilization can be had with a visit to the History Museum of the Zaporizhian Cossacks. Here, a huge collection of locally-found artefacts is on display, including everyday items like clothes, not only from the Cossack period but from the whole of the area’s long history.\n\nIn 2009, a new complex called Zaporizhizn Sich opened. This is a reconstruction of a Cossack fortress which allows the visitors to get a good impression of what life must have been like hundreds of years ago. The complex has regular events and festivals. Of particular appeal to fun-loving tourists are the demonstrations of horse-riding skills that are held here.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "The Khortytsya National Reserve",
+        "options": [
+          "A) is made up of more than one island.",
+          "B) includes the city of Zaporizhia.",
+          "C) is expensive to visit.",
+          "D) has caused disagreements among visitors."
+        ],
+        "answer": "A) is made up of more than one island."
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "Archaeological finds at the reserve suggest that",
+        "options": [
+          "A) people only lived there for a short time.",
+          "B) it has been inhabited by many different cultures.",
+          "C) the people who lived there were similar to us.",
+          "D) it was the site of a great battle."
+        ],
+        "answer": "B) it has been inhabited by many different cultures."
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "What do we learn about the Cossack Republic?",
+        "options": [
+          "A) It began close to Khortytsya.",
+          "B) The people who were part of it were rich.",
+          "C) The Cossacks arrived in the area before the 16th century.",
+          "D) The people buried valuable things on Baida."
+        ],
+        "answer": "A) It began close to Khortytsya."
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "According to the writer, we can understand the Cossacks better by",
+        "options": [
+          "A) studying the tools and weapons they used.",
+          "B) finding out about their money.",
+          "C) visiting a museum featuring their culture.",
+          "D) looking at pictures we have found."
+        ],
+        "answer": "C) visiting a museum featuring their culture."
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "According to the text, Zaporizhian Sich",
+        "options": [
+          "A) is an original fortress.",
+          "B) sometimes has too many tourists.",
+          "C) is hundreds of years old.",
+          "D) has been built to look like a Cossack fortress."
+        ],
+        "answer": "D) has been built to look like a Cossack fortress."
+      }
+    ]
+  },
+  {
+    "topic_id": "409",
+    "variant_id": "2",
+    "text": "Read the text below. For questions (6–10) choose the correct answer (A, B, C or D).\n\nThe Spirit of Resilience\n\nUkraine and the USA have a long history of mutual support. While (6) ________ country has its own unique path, they both value freedom above all else. In the US, (7) ________ who has visited Washington D.C. knows the importance of the Lincoln Memorial. Similarly, in Kyiv, (8) ________ can ignore the monumental Mother Ukraine statue. If you need (9) ________ five minutes to appreciate the view from the hills, take them. It is a sight like (10) ________.",
+    "questions": [
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "While <strong>(6)</strong> ________ country has its own unique path, they both value freedom above all else.",
+        "options": [
+          "A) every",
+          "B) each",
+          "C) both",
+          "D) all"
+        ],
+        "answer": "B) each"
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "In the US, <strong>(7)</strong> ________ who has visited Washington D.C. knows the importance of the Lincoln Memorial.",
+        "options": [
+          "A) anyone",
+          "B) someone",
+          "C) no one",
+          "D) nobody"
+        ],
+        "answer": "A) anyone"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "Similarly, in Kyiv, <strong>(8)</strong> ________ can ignore the monumental Mother Ukraine statue.",
+        "options": [
+          "A) no one",
+          "B) anybody",
+          "C) nothing",
+          "D) some one"
+        ],
+        "answer": "A) no one"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "If you need <strong>(9)</strong> ________ five minutes to appreciate the view from the hills, take them.",
+        "options": [
+          "A) other",
+          "B) another",
+          "C) others",
+          "D) the other"
+        ],
+        "answer": "B) another"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "It is a sight like <strong>(10)</strong> ________.",
+        "options": [
+          "A) no other",
+          "B) none",
+          "C) another",
+          "D) any"
+        ],
+        "answer": "A) no other"
+      }
+    ]
+  },
+  {
+    "topic_id": "409",
+    "variant_id": "3",
+    "text": "Match the texts (1–6) with the correct options (A–H). Two options are extra.\n\n1. Although this day is not officially recognised as a state holiday, it is widely supported across the country. People choose to wear a specific type of traditional clothing with embroidery to express unity and cultural pride rather than celebrate a historical event.\n\n2. This celebration takes place on the evening before a major winter holiday. Families gather for a meat-free meal consisting of a fixed number of dishes. A sweet grain-based food is always present and is believed to bring good fortune for the coming year.\n\n3. This festival is mostly popular among children. It involves dressing up in unusual or frightening outfits and visiting neighbours to receive sweets. The atmosphere is playful but often includes elements traditionally connected with fear and mystery.\n\n4. This event is marked with large fires and bright explosions in the sky. It remembers a historical incident when a group of people failed in their attempt to destroy those in power. The celebration has continued for centuries.\n\n5. This religious celebration does not have a fixed date each year. It is associated with renewal and new beginnings. People prepare decorated eggs and attend church services, and many traditional foods are blessed before being eaten.\n\n6. This national celebration focuses on a key moment when the country officially separated from another state. It is marked by ceremonies, public events, and symbols of national identity, rather than family traditions or religious rituals.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "<strong>1.</strong> Although this day is not officially recognised as a state holiday, it is widely supported across the country. People choose to wear a specific type of traditional clothing with embroidery to express unity and cultural pride rather than celebrate a historical event.",
+        "options": [
+          "A) A harvest festival celebrating rich crops and farming traditions",
+          "B) Halloween with costumes and trick-or-treating",
+          "C) Christmas Eve supper with kutya and twelve dishes",
+          "D) Guy Fawkes’ Night commemorating a failed plot",
+          "E) A winter public holiday with gift-giving and decorated trees",
+          "F) Independence Day marking the country’s break away",
+          "G) Vyshyvanka Day focused on traditional embroidered clothing",
+          "H) Easter as a movable religious feast with painted eggs"
+        ],
+        "answer": "G) Vyshyvanka Day focused on traditional embroidered clothing"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "<strong>2.</strong> This celebration takes place on the evening before a major winter holiday. Families gather for a meat-free meal consisting of a fixed number of dishes. A sweet grain-based food is always present and is believed to bring good fortune for the coming year.",
+        "options": [
+          "A) A harvest festival celebrating rich crops and farming traditions",
+          "B) Halloween with costumes and trick-or-treating",
+          "C) Christmas Eve supper with kutya and twelve dishes",
+          "D) Guy Fawkes’ Night commemorating a failed plot",
+          "E) A winter public holiday with gift-giving and decorated trees",
+          "F) Independence Day marking the country’s break away",
+          "G) Vyshyvanka Day focused on traditional embroidered clothing",
+          "H) Easter as a movable religious feast with painted eggs"
+        ],
+        "answer": "C) Christmas Eve supper with kutya and twelve dishes"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "<strong>3.</strong> This festival is mostly popular among children. It involves dressing up in unusual or frightening outfits and visiting neighbours to receive sweets. The atmosphere is playful but often includes elements traditionally connected with fear and mystery.",
+        "options": [
+          "A) A harvest festival celebrating rich crops and farming traditions",
+          "B) Halloween with costumes and trick-or-treating",
+          "C) Christmas Eve supper with kutya and twelve dishes",
+          "D) Guy Fawkes’ Night commemorating a failed plot",
+          "E) A winter public holiday with gift-giving and decorated trees",
+          "F) Independence Day marking the country’s break away",
+          "G) Vyshyvanka Day focused on traditional embroidered clothing",
+          "H) Easter as a movable religious feast with painted eggs"
+        ],
+        "answer": "B) Halloween with costumes and trick-or-treating"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "<strong>4.</strong> This event is marked with large fires and bright explosions in the sky. It remembers a historical incident when a group of people failed in their attempt to destroy those in power. The celebration has continued for centuries.",
+        "options": [
+          "A) A harvest festival celebrating rich crops and farming traditions",
+          "B) Halloween with costumes and trick-or-treating",
+          "C) Christmas Eve supper with kutya and twelve dishes",
+          "D) Guy Fawkes’ Night commemorating a failed plot",
+          "E) A winter public holiday with gift-giving and decorated trees",
+          "F) Independence Day marking the country’s break away",
+          "G) Vyshyvanka Day focused on traditional embroidered clothing",
+          "H) Easter as a movable religious feast with painted eggs"
+        ],
+        "answer": "D) Guy Fawkes’ Night commemorating a failed plot"
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "<strong>5.</strong> This religious celebration does not have a fixed date each year. It is associated with renewal and new beginnings. People prepare decorated eggs and attend church services, and many traditional foods are blessed before being eaten.",
+        "options": [
+          "A) A harvest festival celebrating rich crops and farming traditions",
+          "B) Halloween with costumes and trick-or-treating",
+          "C) Christmas Eve supper with kutya and twelve dishes",
+          "D) Guy Fawkes’ Night commemorating a failed plot",
+          "E) A winter public holiday with gift-giving and decorated trees",
+          "F) Independence Day marking the country’s break away",
+          "G) Vyshyvanka Day focused on traditional embroidered clothing",
+          "H) Easter as a movable religious feast with painted eggs"
+        ],
+        "answer": "H) Easter as a movable religious feast with painted eggs"
+      },
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "<strong>6.</strong> This national celebration focuses on a key moment when the country officially separated from another state. It is marked by ceremonies, public events, and symbols of national identity, rather than family traditions or religious rituals.",
+        "options": [
+          "A) A harvest festival celebrating rich crops and farming traditions",
+          "B) Halloween with costumes and trick-or-treating",
+          "C) Christmas Eve supper with kutya and twelve dishes",
+          "D) Guy Fawkes’ Night commemorating a failed plot",
+          "E) A winter public holiday with gift-giving and decorated trees",
+          "F) Independence Day marking the country’s break away",
+          "G) Vyshyvanka Day focused on traditional embroidered clothing",
+          "H) Easter as a movable religious feast with painted eggs"
+        ],
+        "answer": "F) Independence Day marking the country’s break away"
+      }
+    ]
+  },
+  {
+    "topic_id": "409",
+    "variant_id": "3",
+    "text": "Read the text below and choose the correct answer (A, B, C or D) for gaps 7–11.\n\nUkraine’s Living Traditions\n\nUkraine is a country with a profound cultural heritage, where many customs are meticulously passed down from one generation to (7) ______. For instance, during the winter festive season, families prepare a traditional twelve-course supper, and (8) ______ of these dishes carries a deep symbolic meaning related to prosperity and well-being.\n\nOn Vyshyvanka Day, people across the country don traditional embroidered shirts to celebrate their identity. While some individuals opt for contemporary stylized designs, (9) ______ strictly adhere to authentic, centuries-old patterns. This nationwide celebration demonstrates that Ukrainians hold in high regard not only their own heritage but also (10) ______ traditions and beliefs.\n\nIn educational settings, tutors frequently emphasize that personal accountability is key. Consequently, (11) ______ of the students is encouraged to actively participate in cultural projects to foster a deeper connection with their roots.",
+    "questions": [
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "Ukraine is a country with a profound cultural heritage, where many customs are meticulously passed down from one generation to <strong>(7)</strong> ______.",
+        "options": [
+          "A) other",
+          "B) others",
+          "C) another",
+          "D) the other"
+        ],
+        "answer": "C) another"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "For instance, during the winter festive season, families prepare a traditional twelve-course supper, and <strong>(8)</strong> ______ of these dishes carries a deep symbolic meaning related to prosperity and well-being.",
+        "options": [
+          "A) each",
+          "B) every",
+          "C) all",
+          "D) these"
+        ],
+        "answer": "A) each"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "On Vyshyvanka Day, people across the country don traditional embroidered shirts to celebrate their identity. While some individuals opt for contemporary stylized designs, <strong>(9)</strong> ______ strictly adhere to authentic, centuries-old patterns.",
+        "options": [
+          "A) another",
+          "B) other",
+          "C) others",
+          "D) the others"
+        ],
+        "answer": "C) others"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "This nationwide celebration demonstrates that Ukrainians hold in high regard not only their own heritage but also <strong>(10)</strong> ______ traditions and beliefs.",
+        "options": [
+          "A) other people’s",
+          "B) other people",
+          "C) others",
+          "D) another people"
+        ],
+        "answer": "A) other people’s"
+      },
+      {
+        "id": 11,
+        "type": "multiple",
+        "question": "Consequently, <strong>(11)</strong> ______ of the students is encouraged to actively participate in cultural projects to foster a deeper connection with their roots.",
+        "options": [
+          "A) Each",
+          "B) Every",
+          "C) All",
+          "D) Both"
+        ],
+        "answer": "A) Each"
+      }
+    ]
+  },
+  {
+    "topic_id": "409",
+    "variant_id": "4",
+    "text": "Read the text and choose the correct answer (A–D) for questions 1–5.\n\nUkraine is situated in the heart of Europe and shares borders with several countries. It also has access to the Black Sea and the Sea of Azov in the south, which plays an important role in trade and international connections. Thanks to its geographical position, the country has historically acted as a link between different regions.\n\nUkraine is rich in natural resources, especially fertile soil, which makes it one of the leading agricultural producers in Europe. For this reason, it is often referred to as the “breadbasket of Europe”. Agriculture remains an essential part of its economy.\n\nPolitically, Ukraine is a republic where power belongs to the people. Citizens elect their representatives, including the President, and laws are passed by the national parliament. The country gained independence in 1991 after breaking away from a larger state and has since been striving to strengthen its position in Europe and develop international partnerships.\n\nIn contrast, the United Kingdom is located on a group of islands to the northwest of mainland Europe. It is a constitutional monarchy, which means that although the monarch is the official head of state, real political power is exercised by elected officials. The government is led by the Prime Minister, and laws are discussed and approved in two chambers: the House of Commons and the House of Lords.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "What does the text suggest about Ukraine’s geographical role?",
+        "options": [
+          "A) It is isolated from other regions.",
+          "B) It connects different parts of Europe.",
+          "C) It has no influence on trade.",
+          "D) It is located outside Europe."
+        ],
+        "answer": "B) It connects different parts of Europe."
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "Why is Ukraine called the “breadbasket of Europe”?",
+        "options": [
+          "A) It imports large amounts of food.",
+          "B) Its industry is more developed than agriculture.",
+          "C) Its land is highly productive for farming.",
+          "D) It mainly produces bread products."
+        ],
+        "answer": "C) Its land is highly productive for farming."
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "What is implied about Ukraine’s political system?",
+        "options": [
+          "A) The country is ruled by a monarch.",
+          "B) Citizens have no influence on government decisions.",
+          "C) People choose those who govern them.",
+          "D) Only the President creates laws."
+        ],
+        "answer": "C) People choose those who govern them."
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "What happened in 1991 according to the text?",
+        "options": [
+          "A) Ukraine joined the European Union.",
+          "B) Ukraine became independent from another state.",
+          "C) Ukraine changed its geographical position.",
+          "D) Ukraine became a monarchy."
+        ],
+        "answer": "B) Ukraine became independent from another state."
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "What is TRUE about the political system of the United Kingdom?",
+        "options": [
+          "A) The monarch has full political control.",
+          "B) There are no elected officials.",
+          "C) Political power belongs to elected representatives.",
+          "D) Laws are made by only one institution."
+        ],
+        "answer": "C) Political power belongs to elected representatives."
+      }
+    ]
+  },
+  {
+    "topic_id": "409",
+    "variant_id": "4",
+    "text": "Read the text and choose the correct answer (A–D) for gaps 6–10.\n\nUkraine is ______ (6) in the heart of Europe and has access to the Black Sea, which is important for trade and economic development. Thanks to its fertile soil, the country is often called the “breadbasket of Europe”.\n\nIn 1991, Ukraine managed to ______ (7) from a larger state and officially became independent. Since then, it has been working to strengthen its international position and ______ (8) diplomatic relations with other countries.\n\nUkraine is also known for its rich cultural traditions, many of which are carefully ______ (9) from one generation to another. For example, Vyshyvanka Day has become a symbol of national identity.\n\nAt the same time, the country continues to ______ (10) European integration and develop closer ties with European institutions.",
+    "questions": [
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "Ukraine is <strong>(6)</strong> ______ in the heart of Europe and has access to the Black Sea, which is important for trade and economic development.",
+        "options": [
+          "A) placed",
+          "B) situated",
+          "C) occupied",
+          "D) settled"
+        ],
+        "answer": "B) situated"
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "In 1991, Ukraine managed to <strong>(7)</strong> ______ from a larger state and officially became independent.",
+        "options": [
+          "A) break away",
+          "B) break out",
+          "C) take off",
+          "D) step down"
+        ],
+        "answer": "A) break away"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "Since then, it has been working to strengthen its international position and <strong>(8)</strong> ______ diplomatic relations with other countries.",
+        "options": [
+          "A) create",
+          "B) establish",
+          "C) manufacture",
+          "D) settle"
+        ],
+        "answer": "B) establish"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "Ukraine is also known for its rich cultural traditions, many of which are carefully <strong>(9)</strong> ______ from one generation to another.",
+        "options": [
+          "A) passed down",
+          "B) handed out",
+          "C) taken over",
+          "D) brought up"
+        ],
+        "answer": "A) passed down"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "At the same time, the country continues to <strong>(10)</strong> ______ European integration and develop closer ties with European institutions.",
+        "options": [
+          "A) rely on",
+          "B) strive for",
+          "C) result in",
+          "D) consist of"
+        ],
+        "answer": "B) strive for"
+      }
+    ]
+  },
+  {
+    "topic_id": "409",
+    "variant_id": "5",
+    "text": "Read the text and choose the correct sentence fragment (A–H) for gaps 1–6. Two options are extra.\n\nBritish Landmarks\n\nThe United Kingdom is famous for its historical landmarks, many of which attract millions of tourists every year. One of the most recognisable symbols of London is the clock tower commonly known as Big Ben, (1) ______.\n\nAnother popular attraction situated on the banks of the River Thames is the Tower of London, (2) ______. Throughout its long history, the fortress has played various roles, making it a fascinating place for modern visitors to explore.\n\nTourists also admire the architectural beauty of St Paul’s Cathedral, (3) ______. Its impressive dome has been a major feature of the city’s skyline for over three hundred years.\n\nNot far from the cathedral stands Tower Bridge, (4) ______. Although it looks ancient, it was actually built in the late 19th century to improve transport across the river.\n\nWestminster Abbey is another must-see location of great national importance, (5) ______. This site has been the traditional location for the coronation of British monarchs since 1066.\n\nAll these famous places show that the United Kingdom is a country (6) ______, combining a glorious past with the life of a modern global city.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "One of the most recognisable symbols of London is the clock tower commonly known as Big Ben, <strong>(1)</strong> ______.",
+        "options": [
+          "A) which was designed by the famous architect Sir Christopher Wren",
+          "B) that can be raised in the middle to let large ships pass through",
+          "C) where many kings, queens, and famous writers are buried",
+          "D) which is actually the name of the huge bell inside the tower",
+          "E) that has served as a royal palace, a prison, and even a zoo",
+          "F) that is rich in cultural heritage and historical traditions",
+          "G) which is known for having the fastest elevator in the world",
+          "H) that was built much later than the medieval parts of the city"
+        ],
+        "answer": "D) which is actually the name of the huge bell inside the tower"
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "Another popular attraction situated on the banks of the River Thames is the Tower of London, <strong>(2)</strong> ______. Throughout its long history, the fortress has played various roles, making it a fascinating place for modern visitors to explore.",
+        "options": [
+          "A) which was designed by the famous architect Sir Christopher Wren",
+          "B) that can be raised in the middle to let large ships pass through",
+          "C) where many kings, queens, and famous writers are buried",
+          "D) which is actually the name of the huge bell inside the tower",
+          "E) that has served as a royal palace, a prison, and even a zoo",
+          "F) that is rich in cultural heritage and historical traditions",
+          "G) which is known for having the fastest elevator in the world",
+          "H) that was built much later than the medieval parts of the city"
+        ],
+        "answer": "E) that has served as a royal palace, a prison, and even a zoo"
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "Tourists also admire the architectural beauty of St Paul’s Cathedral, <strong>(3)</strong> ______. Its impressive dome has been a major feature of the city’s skyline for over three hundred years.",
+        "options": [
+          "A) which was designed by the famous architect Sir Christopher Wren",
+          "B) that can be raised in the middle to let large ships pass through",
+          "C) where many kings, queens, and famous writers are buried",
+          "D) which is actually the name of the huge bell inside the tower",
+          "E) that has served as a royal palace, a prison, and even a zoo",
+          "F) that is rich in cultural heritage and historical traditions",
+          "G) which is known for having the fastest elevator in the world",
+          "H) that was built much later than the medieval parts of the city"
+        ],
+        "answer": "A) which was designed by the famous architect Sir Christopher Wren"
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "Not far from the cathedral stands Tower Bridge, <strong>(4)</strong> ______. Although it looks ancient, it was actually built in the late 19th century to improve transport across the river.",
+        "options": [
+          "A) which was designed by the famous architect Sir Christopher Wren",
+          "B) that can be raised in the middle to let large ships pass through",
+          "C) where many kings, queens, and famous writers are buried",
+          "D) which is actually the name of the huge bell inside the tower",
+          "E) that has served as a royal palace, a prison, and even a zoo",
+          "F) that is rich in cultural heritage and historical traditions",
+          "G) which is known for having the fastest elevator in the world",
+          "H) that was built much later than the medieval parts of the city"
+        ],
+        "answer": "B) that can be raised in the middle to let large ships pass through"
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "Westminster Abbey is another must-see location of great national importance, <strong>(5)</strong> ______. This site has been the traditional location for the coronation of British monarchs since 1066.",
+        "options": [
+          "A) which was designed by the famous architect Sir Christopher Wren",
+          "B) that can be raised in the middle to let large ships pass through",
+          "C) where many kings, queens, and famous writers are buried",
+          "D) which is actually the name of the huge bell inside the tower",
+          "E) that has served as a royal palace, a prison, and even a zoo",
+          "F) that is rich in cultural heritage and historical traditions",
+          "G) which is known for having the fastest elevator in the world",
+          "H) that was built much later than the medieval parts of the city"
+        ],
+        "answer": "C) where many kings, queens, and famous writers are buried"
+      },
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "All these famous places show that the United Kingdom is a country <strong>(6)</strong> ______, combining a glorious past with the life of a modern global city.",
+        "options": [
+          "A) which was designed by the famous architect Sir Christopher Wren",
+          "B) that can be raised in the middle to let large ships pass through",
+          "C) where many kings, queens, and famous writers are buried",
+          "D) which is actually the name of the huge bell inside the tower",
+          "E) that has served as a royal palace, a prison, and even a zoo",
+          "F) that is rich in cultural heritage and historical traditions",
+          "G) which is known for having the fastest elevator in the world",
+          "H) that was built much later than the medieval parts of the city"
+        ],
+        "answer": "F) that is rich in cultural heritage and historical traditions"
+      }
+    ]
+  },
+  {
+    "topic_id": "409",
+    "variant_id": "5",
+    "text": "Read the text below and choose the correct answer (A, B, C or D) for gaps 7–11.\n\nBritish Life and Customs\n\nThe United Kingdom is internationally renowned for its deep-rooted traditions and iconic historical landmarks. Every year, millions of tourists flock to famous sites like the Tower of London or St Paul’s Cathedral. While many travellers are drawn to these classic locations, (7) ______ are more interested in exploring modern attractions and contemporary art galleries.\n\nWhen navigating the capital, visitors quickly learn that public transport is the most efficient option. The red double-decker bus is undoubtedly one of (8) ______ symbols that represent London globally, though the Underground remains the quickest way to travel.\n\nThe British educational system is equally diverse. Most children attend state-funded schools, whereas (9) ______ students are enrolled in private or independent boarding schools, which often have their own unique sets of rules.\n\nCultural diversity is also reflected in how people celebrate. For instance, if you were to interview two British citizens about their favourite holiday, (10) ______ of them might provide a completely different answer based on their personal or regional background. However, despite such variety, (11) ______ of these traditions play a vital role in maintaining the country’s unique national identity.",
+    "questions": [
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "While many travellers are drawn to these classic locations, <strong>(7)</strong> ______ are more interested in exploring modern attractions and contemporary art galleries.",
+        "options": [
+          "A) other",
+          "B) others",
+          "C) the other",
+          "D) another"
+        ],
+        "answer": "B) others"
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "The red double-decker bus is undoubtedly one of <strong>(8)</strong> ______ symbols that represent London globally, though the Underground remains the quickest way to travel.",
+        "options": [
+          "A) this",
+          "B) that",
+          "C) these",
+          "D) those"
+        ],
+        "answer": "C) these"
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "Most children attend state-funded schools, whereas <strong>(9)</strong> ______ students are enrolled in private or independent boarding schools, which often have their own unique sets of rules.",
+        "options": [
+          "A) other",
+          "B) others",
+          "C) another",
+          "D) the others"
+        ],
+        "answer": "A) other"
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "For instance, if you were to interview two British citizens about their favourite holiday, <strong>(10)</strong> ______ of them might provide a completely different answer based on their personal or regional background.",
+        "options": [
+          "A) neither",
+          "B) none",
+          "C) each",
+          "D) every"
+        ],
+        "answer": "C) each"
+      },
+      {
+        "id": 11,
+        "type": "multiple",
+        "question": "However, despite such variety, <strong>(11)</strong> ______ of these traditions play a vital role in maintaining the country’s unique national identity.",
+        "options": [
+          "A) none",
+          "B) neither",
+          "C) all",
+          "D) both"
+        ],
+        "answer": "C) all"
+      }
+    ]
   }
 ]
