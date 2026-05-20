@@ -32,9 +32,9 @@ function createLightbox() {
   const img = document.createElement("img");
   img.id = "img-lightbox-img";
   img.style.cssText = `
-  width: 90vw; 
-  height: 90vh;
-  object-fit: contain;
+    width: 90vw;
+    height: 90vh;
+    object-fit: contain;
     border-radius: 8px; cursor: default;
     box-shadow: 0 8px 40px rgba(0,0,0,0.6);
   `;
@@ -50,9 +50,11 @@ function createLightbox() {
     align-items: center; justify-content: center;
     transition: background 0.15s;
   `;
+
   closeBtn.addEventListener("mouseenter", () => {
     closeBtn.style.background = "rgba(255,255,255,0.3)";
   });
+
   closeBtn.addEventListener("mouseleave", () => {
     closeBtn.style.background = "rgba(255,255,255,0.15)";
   });
@@ -80,7 +82,6 @@ function createLightbox() {
   });
 
   img.addEventListener("click", (e) => e.stopPropagation());
-
   closeBtn.addEventListener("click", closeLightbox);
 
   document.addEventListener("keydown", (e) => {
@@ -163,6 +164,7 @@ function createCustomSelect(options, leftKey) {
   function closeAll() {
     document.querySelectorAll(".custom-select-dropdown.open").forEach((d) => {
       d.classList.remove("open");
+
       if (d._owner) {
         d._owner
           .querySelector(".custom-select-trigger")
@@ -181,6 +183,7 @@ function createCustomSelect(options, leftKey) {
       e.preventDefault();
       open();
     }
+
     if (e.key === "Escape") close();
   });
 
@@ -200,6 +203,7 @@ function createCustomSelect(options, leftKey) {
 
   dropdown.addEventListener("click", (e) => {
     const opt = e.target.closest(".custom-option");
+
     if (!opt) return;
 
     const val = opt.dataset.value;
@@ -246,7 +250,12 @@ function createCustomSelect(options, leftKey) {
 document.addEventListener("click", () => {
   document.querySelectorAll(".custom-select-dropdown.open").forEach((d) => {
     d.classList.remove("open");
-    d.previousElementSibling.classList.remove("open");
+
+    if (d._owner) {
+      d._owner
+        .querySelector(".custom-select-trigger")
+        ?.classList.remove("open");
+    }
   });
 });
 
@@ -318,11 +327,96 @@ function normalizeAnswerToken(str) {
     .toLowerCase();
 }
 
+function parseAnswerList(answer) {
+  if (Array.isArray(answer)) {
+    return answer.flatMap((item) => parseAnswerList(item));
+  }
+
+  const raw = String(answer || "").trim().replace(/\.$/, "");
+
+  if (!raw) return [];
+
+  if (/^\d+(\s*,\s*\d+)+$/.test(raw)) {
+    return raw
+      .split(",")
+      .map((item) => item.trim())
+      .filter(Boolean);
+  }
+
+  if (/^[А-ЯІЇЄҐA-Z](\s*,\s*[А-ЯІЇЄҐA-Z])+$/.test(raw)) {
+    return raw
+      .split(",")
+      .map((item) => item.trim())
+      .filter(Boolean);
+  }
+
+  return [raw];
+}
+
 function isOptionMatched(optStr, answer) {
   const optNorm = normalizeAnswerToken(optStr);
   const ansNorm = normalizeAnswerToken(answer);
 
-  return optNorm === ansNorm || optNorm.startsWith(ansNorm + " ");
+  if (!optNorm || !ansNorm) return false;
+  if (optNorm === ansNorm) return true;
+
+  if (/^\d+$/.test(ansNorm)) {
+    return new RegExp("^" + ansNorm + "(\\D|$)").test(optNorm);
+  }
+
+  if (/^[а-яіїєґa-z]$/u.test(ansNorm)) {
+    return optNorm.startsWith(ansNorm);
+  }
+
+  return optNorm.startsWith(ansNorm + " ");
+}
+
+function getOptionKey(optionText, index) {
+  const text = stripInlineHtml(optionText).replace(/\s+/g, " ").trim();
+  const match = text.match(/^([А-ЯІЇЄҐA-Z0-9])(?:[\).\s]|$)/u);
+  const fallbackKeys = [
+    "А",
+    "Б",
+    "В",
+    "Г",
+    "Д",
+    "Е",
+    "Є",
+    "Ж",
+    "З",
+    "И",
+    "І",
+    "К",
+  ];
+
+  return match ? match[1] : fallbackKeys[index] || String(index + 1);
+}
+
+function parseMatchAnswer(answer) {
+  const map = {};
+  const raw = String(answer || "").trim().replace(/[–—]/g, "-");
+
+  raw.split(";").forEach((part) => {
+    const match = part.trim().match(/^(\d+)\s*-\s*([А-ЯІЇЄҐA-Z0-9])/u);
+
+    if (match) {
+      map[match[1]] = match[2];
+    }
+  });
+
+  if (Object.keys(map).length > 0) return map;
+
+  for (const match of raw.matchAll(/(\d+)\s*[-:]?\s*([А-ЯІЇЄҐA-Z0-9])/gu)) {
+    map[match[1]] = match[2];
+  }
+
+  return map;
+}
+
+function isUsableImageUrl(url) {
+  const value = String(url || "").trim();
+
+  return value && value !== "ВСТАВИТЬ ИЗОБРАЖЕНИЕ";
 }
 
 async function loadAllQuestions() {
@@ -434,9 +528,9 @@ function initCard(templateId, task, index) {
 
   questionEl.innerHTML = task.question || "";
 
-  if (task.image_url) {
+  if (isUsableImageUrl(task.image_url)) {
     const img = card.querySelector(".question-image");
-    img.src = "../assets/data/" + task.image_url;
+    img.src = "../assets/data/" + String(task.image_url).trim();
     img.hidden = false;
 
     img.style.cursor = "zoom-in";
@@ -467,14 +561,7 @@ function renderMultiple(task, index) {
   const card = initCard("tpl-multiple", task, index);
   const grid = card.querySelector(".options-grid");
 
-  let answers = [];
-
-  if (Array.isArray(task.answer)) {
-    answers = task.answer.map((a) => String(a).trim()).filter(Boolean);
-  } else if (typeof task.answer === "string") {
-    answers = [task.answer.trim()].filter(Boolean);
-  }
-
+  const answers = parseAnswerList(task.answer);
   const selected = new Set();
 
   if (!task.options || task.options.length === 0) {
@@ -573,8 +660,7 @@ function renderManual(task, index) {
     if (!input.value.trim()) return;
 
     const isCorrect =
-      input.value.trim().toLowerCase() ===
-      String(task.answer).trim().toLowerCase();
+      normalizeAnswerToken(input.value) === normalizeAnswerToken(task.answer);
 
     input.disabled = true;
     btn.disabled = true;
@@ -595,33 +681,41 @@ function renderMatch(task, index) {
   const card = initCard("tpl-match", task, index);
   const rowsContainer = card.querySelector(".match-rows");
 
-  const answerMap = {};
-  const rawAnswer = String(task.answer).trim();
+  const answerMap = parseMatchAnswer(task.answer);
+  const answerKeys = Object.values(answerMap);
+  const fallbackKeys = [
+    "А",
+    "Б",
+    "В",
+    "Г",
+    "Д",
+    "Е",
+    "Є",
+    "Ж",
+    "З",
+    "И",
+    "І",
+    "К",
+  ];
 
-  if (/^\d/.test(rawAnswer)) {
-    rawAnswer.split(";").forEach((part) => {
-      const [left, right] = part
-        .trim()
-        .split("-")
-        .map((s) => s.trim());
+  let rightOptions = [];
 
-      if (left && right) answerMap[left] = right;
+  if (Array.isArray(task.options) && task.options.length > 0) {
+    rightOptions = task.options.map((opt, index) => {
+      const text = String(opt).trim();
+      const key = getOptionKey(text, index);
+      const hasVisibleKey = key === stripInlineHtml(text).trim().charAt(0);
+
+      return {
+        key,
+        label: hasVisibleKey ? text : `${key} ${text}`,
+      };
     });
   } else {
-    [...rawAnswer].forEach((letter, i) => {
-      answerMap[String(i + 1)] = letter.trim();
-    });
+    rightOptions = [...new Set(answerKeys)]
+      .sort((a, b) => fallbackKeys.indexOf(a) - fallbackKeys.indexOf(b))
+      .map((key) => ({ key, label: key }));
   }
-
-  const rightOptions = task.options.map((opt) => {
-    const text = String(opt).trim();
-    const match = text.match(/^([А-ЯІЇЄҐA-Z0-9])(?:[\).\s]+)/u);
-
-    return {
-      key: match ? match[1] : text,
-      label: text,
-    };
-  });
 
   const leftItems = Object.keys(answerMap).sort(
     (a, b) => Number(a) - Number(b),
