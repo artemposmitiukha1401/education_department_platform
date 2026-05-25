@@ -7046,5 +7046,799 @@
         "answer": "C) all"
       }
     ]
-  }
+  },
+  {
+    "topic_id": "410",
+    "variant_id": "1",
+    "text": "Read the text below. Choose from (A-H) the one which best fits each space (1-6). There are two options you do not need to use.\n\nGenerations and Technology\n\nNowadays, the use of technology is obligatory for everyone. No matter how hard it is for our grandparents, the modern lifestyle has forced them to use gadgets. Distant relatives have made our grannies create Facebook accounts, and the need to use office applications like PowerPoint or Excel at work puts them under a lot of pressure and stress. To us, the fear of technology seems weird or even funny, whereas lots of our older relatives are far from (1) _______.\n\nIt’s important to remember that our grandparents used to keep in touch with one another by (2) _______. That, in turn, shaped their attitude to work, entertainment, family values and relationships with others. Similarly, modern technology, (3)_______, determines the way our generation behaves, communicates and perceives the world.\n\nWithout a doubt, (4)_______ definitely make our routines and arrangements more convenient. We are gradually forgetting about (5)_______ and wasting our precious time there to buy tickets or pay bills. On the contrary, our grandparents often try to avoid using smartphones, laptops and dedicated apps, being afraid to make a mistake and mess things up. Therefore, when (6)_______, be patient enough to explain how this application works or, if necessary, help her with microphone and camera settings. No one knows what kind of challenges technological progress will present us as adults and how much help we may need from our kids after all.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "To us, the fear of technology seems weird or even funny, whereas lots of our older relatives are far from <strong>(1)</strong>_______.",
+        "options": [
+          "A) including all sorts of electronic devices and applications",
+          "B) seeing your grandma struggling to log on to Skype",
+          "C) being enthusiastic about technological advancements",
+          "D) pursuing your higher education",
+          "E) standing in endless queues at cinemas, bus stations or banks",
+          "F) chatting with your friends online",
+          "G) tracking payments via online banking and booking a hotel on the Internet",
+          "H) using landline phones and writing letters"
+        ],
+        "answer": "C) being enthusiastic about technological advancements",
+        "image_url": ""
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "It’s important to remember that our grandparents used to keep in touch with one another by <strong>(2)</strong>_______.",
+        "options": [
+          "A) including all sorts of electronic devices and applications",
+          "B) seeing your grandma struggling to log on to Skype",
+          "C) being enthusiastic about technological advancements",
+          "D) pursuing your higher education",
+          "E) standing in endless queues at cinemas, bus stations or banks",
+          "F) chatting with your friends online",
+          "G) tracking payments via online banking and booking a hotel on the Internet",
+          "H) using landline phones and writing letters"
+        ],
+        "answer": "H) using landline phones and writing letters",
+        "image_url": ""
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "Similarly, modern technology, <strong>(3)</strong>_______, determines the way our generation behaves, communicates and perceives the world.",
+        "options": [
+          "A) including all sorts of electronic devices and applications",
+          "B) seeing your grandma struggling to log on to Skype",
+          "C) being enthusiastic about technological advancements",
+          "D) pursuing your higher education",
+          "E) standing in endless queues at cinemas, bus stations or banks",
+          "F) chatting with your friends online",
+          "G) tracking payments via online banking and booking a hotel on the Internet",
+          "H) using landline phones and writing letters"
+        ],
+        "answer": "A) including all sorts of electronic devices and applications",
+        "image_url": ""
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "Without a doubt, <strong>(4)</strong>_______ definitely make our routines and arrangements more convenient.",
+        "options": [
+          "A) including all sorts of electronic devices and applications",
+          "B) seeing your grandma struggling to log on to Skype",
+          "C) being enthusiastic about technological advancements",
+          "D) pursuing your higher education",
+          "E) standing in endless queues at cinemas, bus stations or banks",
+          "F) chatting with your friends online",
+          "G) tracking payments via online banking and booking a hotel on the Internet",
+          "H) using landline phones and writing letters"
+        ],
+        "answer": "G) tracking payments via online banking and booking a hotel on the Internet",
+        "image_url": ""
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "We are gradually forgetting about <strong>(5)</strong>_______ and wasting our precious time there to buy tickets or pay bills.",
+        "options": [
+          "A) including all sorts of electronic devices and applications",
+          "B) seeing your grandma struggling to log on to Skype",
+          "C) being enthusiastic about technological advancements",
+          "D) pursuing your higher education",
+          "E) standing in endless queues at cinemas, bus stations or banks",
+          "F) chatting with your friends online",
+          "G) tracking payments via online banking and booking a hotel on the Internet",
+          "H) using landline phones and writing letters"
+        ],
+        "answer": "E) standing in endless queues at cinemas, bus stations or banks",
+        "image_url": ""
+      },
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "Therefore, when <strong>(6)</strong>_______, be patient enough to explain how this application works or, if necessary, help her with microphone and camera settings.",
+        "options": [
+          "A) including all sorts of electronic devices and applications",
+          "B) seeing your grandma struggling to log on to Skype",
+          "C) being enthusiastic about technological advancements",
+          "D) pursuing your higher education",
+          "E) standing in endless queues at cinemas, bus stations or banks",
+          "F) chatting with your friends online",
+          "G) tracking payments via online banking and booking a hotel on the Internet",
+          "H) using landline phones and writing letters"
+        ],
+        "answer": "B) seeing your grandma struggling to log on to Skype",
+        "image_url": ""
+      }
+    ]
+  },
+  {
+    "topic_id": "410",
+    "variant_id": "1",
+    "text": "Read the text below. For questions (7-11) choose the correct answer (A, B, C or D).\n\nAirPods: Love at First Hearing\n\nFond of running, listening to podcasts, audiobooks, music? This ingenious Apple device will definitely (7)_______ in handy for you. They are so loud, so clear and, most impressive, so light that you will forget about them in your ears and will have music around you, just in the air.\n\nBeing announced in 2016, these truly wireless earbuds immediately received rave reviews due to their clever design and thoughtful (8)_______ features, such as hands-free Siri activation, music control or monitoring vital signs.\n\nBut what really sets air pods (9)_______ from average headphones is stellar active noise cancellation that silences the world around you unless you turn on \"transparency mode\".\n\nIt is unbelievable how well they fit most people and startling how difficult it is to dislodge them by (10)_______.\n\nDespite its astonishing simplicity and comfort, the device went through plenty of obstacles since its (11)_______ in 2011.",
+    "questions": [
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "Fond of running, listening to podcasts, audiobooks, music? This ingenious Apple device will definitely <strong>(7)</strong>_______ in handy for you.",
+        "options": [
+          "A) go",
+          "B) come",
+          "C) run",
+          "D) become"
+        ],
+        "answer": "B) come",
+        "image_url": ""
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "Being announced in 2016, these truly wireless earbuds immediately received rave reviews due to their clever design and thoughtful <strong>(8)</strong>_______ features, such as hands-free Siri activation, music control or monitoring vital signs.",
+        "options": [
+          "A) software",
+          "B) hardware",
+          "C) pop-up",
+          "D) attachment"
+        ],
+        "answer": "A) software",
+        "image_url": ""
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "But what really sets air pods <strong>(9)</strong>_______ from average headphones is stellar active noise cancellation that silences the world around you unless you turn on \"transparency mode\".",
+        "options": [
+          "A) except",
+          "B) off",
+          "C) out",
+          "D) apart"
+        ],
+        "answer": "D) apart",
+        "image_url": ""
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "It is unbelievable how well they fit most people and startling how difficult it is to dislodge them by <strong>(10)</strong>_______.",
+        "options": [
+          "A) design",
+          "B) purpose",
+          "C) accident",
+          "D) coincidence"
+        ],
+        "answer": "C) accident",
+        "image_url": ""
+      },
+      {
+        "id": 11,
+        "type": "multiple",
+        "question": "Despite its astonishing simplicity and comfort, the device went through plenty of obstacles since its <strong>(11)</strong>_______ in 2011.",
+        "options": [
+          "A) findings",
+          "B) invention",
+          "C) discovery",
+          "D) research"
+        ],
+        "answer": "B) invention",
+        "image_url": ""
+      }
+    ]
+  },
+  {
+    "topic_id": "410",
+    "variant_id": "2",
+    "text": "Read the text below. For questions (1-5) choose the correct answer (A, B, C or D).\n\nThe popular myth that geniuses are never fully appreciated in their own lifetime is not applicable in the case of super scientist Albert Einstein. His death at Princeton on 18 April 1955 shook the world to a degree similar to that caused by Princess Diana’s untimely end or the assassination of President John F. Kennedy. There are, however, many myths and misconceptions attributed to the great man, only a few of which, actually, have a basis in fact.\n\nIn 1921, Albert Einstein was awarded the Nobel Prize in Physics. Most people attribute this award to his formulation of the Theory of Relativity; however, in actual fact, they chose to honour Einstein in 1921 for his work on clarifying theories fundamental to theoretical physics.\n\nAnother common belief is that Einstein wasn’t interested in mathematics as a child. On the contrary, from the age of twelve he was already teaching himself Euclidean geometry and had the ability to understand difficult mathematical concepts. The common misconstruction can be put down to the fact that he found his early years of schooling in Munich to be dull and boring.\n\nIt is also thought that he failed his college exams. Though he did refuse to attend many of his classes at the Swiss National Polytechnic in Zurich, when he took his finals in 1900, he actually managed to pass them, even though by only a narrow margin. A student that did fail was no other than Mileva Marie, Albert’s first wife-to-be.\n\nAnother popular misconception is that Einstein never made any mistakes. In fact, he made some very serious ones. In 1929, the American astronomer Edwin Hubble announced that he had proved that the universe was expanding. Two years later, Einstein, who originally supported the view of a static universe, finally adopted the new model for the universe. He is even reported to have called his initial view his ‘biggest blunder’. He is also known to have stated publicly in 1934 that obtaining power by splitting the atom was not possible. He was to be proved wrong just four years later by the German scientist Otto Hahn.\n\nSince Einstein is regarded as the most brilliant scientist of the 20th century, people are inclined to believe that his personal life was very orderly and controlled, while the truth is very different. Einstein married twice, but neither marriage was very successful.\n\nAlthough Einstein was known to be an anti-war activist, in 1944 he had a handwritten copy of his Theory of Relativity auctioned off, the proceeds of which were donated to the war effort. It was bought for the amazing amount of six million dollars, which just goes to show the high esteem he was held in.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "What does the writer say about Einstein’s death?",
+        "options": [
+          "A) It was a significant event.",
+          "B) He died in a similar way to Princess Diana and John F. Kennedy.",
+          "C) There were some reports of his death that weren’t true.",
+          "D) His death was compared to that of other famous people."
+        ],
+        "answer": "A) It was a significant event.",
+        "image_url": ""
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "Why do people commonly believe that Einstein wasn’t interested in maths as a child?",
+        "options": [
+          "A) because he could only understand geometry",
+          "B) because he didn’t start school until he was twelve",
+          "C) because he didn’t find the lessons very interesting",
+          "D) because he found the lessons too difficult"
+        ],
+        "answer": "C) because he didn’t find the lessons very interesting",
+        "image_url": ""
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "What is TRUE about Einstein at college?",
+        "options": [
+          "A) He failed most of his exams.",
+          "B) He got married while he was at college.",
+          "C) He passed his exams but only with the help of Mileva Marie.",
+          "D) He had a very low attendance record."
+        ],
+        "answer": "D) He had a very low attendance record.",
+        "image_url": ""
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "What is TRUE about Einstein concerning the expansion of the universe?",
+        "options": [
+          "A) He never agreed with Edwin Hubble’s theory.",
+          "B) He did not consider Hubble’s theory correct at first.",
+          "C) He was proved wrong by Otto Hahn.",
+          "D) He made a statement which he regretted"
+        ],
+        "answer": "B) He did not consider Hubble’s theory correct at first.",
+        "image_url": ""
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "Why does the writer mention how much a handwritten copy of Einstein’s Theory of Relativity was sold for?",
+        "options": [
+          "A) to show how important a figure Einstein was",
+          "B) to show how much he was willing to help the anti-war effort",
+          "C) to emphasise how much money this was, considering it was 1944",
+          "D) to prove that Einstein didn’t really care about money"
+        ],
+        "answer": "A) to show how important a figure Einstein was",
+        "image_url": ""
+      }
+    ]
+  },
+  {
+    "topic_id": "410",
+    "variant_id": "2",
+    "text": "Read the text below. For questions (6-10) choose the correct answer (A, B, C or D).\n\nBody-worn Cameras: Pros and Cons\n\nBody-worn cameras (BWCs) are devices with the potential to transform policing for the better by creating video records of the incidents that officers encounter and how they respond to those incidents. It was claimed that BWCs (6)_______ better relationships with the communities the police serve by promoting organisational transparency and accountability.\n\nAnd indeed, the reports of the last three years confirmed that the recordings (7)_______ policing by making police work, including misconduct and police violence, more visible.\n\nHowever, little (8)_______ about the body camera footage that wasn't made public. And one of the patrol officers confessed that he himself (9)_______ never provide his personal information like driver's license numbers or address to a police officer with a camera, as it all could end up on the Internet.\n\nThough the goal of BWCs is to make police officers accountable for their actions, the effectiveness of their usage (10)_______.",
+    "questions": [
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "It was claimed that BWCs <strong>(6)</strong>_______ better relationships with the communities the police serve by promoting organisational transparency and accountability.",
+        "options": [
+          "A) build",
+          "B) will build",
+          "C) have built",
+          "D) would build"
+        ],
+        "answer": "D) would build",
+        "image_url": ""
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "And indeed, the reports of the last three years confirmed that the recordings <strong>(7)</strong>_______ policing by making police work, including misconduct and police violence, more visible.",
+        "options": [
+          "A) improve",
+          "B) improved",
+          "C) have improved",
+          "D) had improved"
+        ],
+        "answer": "C) have improved",
+        "image_url": ""
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "However, little <strong>(8)</strong>_______ about the body camera footage that wasn't made public.",
+        "options": [
+          "A) we know",
+          "B) we will know",
+          "C) did we know",
+          "D) will we know"
+        ],
+        "answer": "C) did we know",
+        "image_url": ""
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "And one of the patrol officers confessed that he himself <strong>(9)</strong>_______ never provide his personal information like driver's license numbers or address to a police officer with a camera, as it all could end up on the Internet.",
+        "options": [
+          "A) would",
+          "B) will",
+          "C) has",
+          "D) had"
+        ],
+        "answer": "A) would",
+        "image_url": ""
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "Though the goal of BWCs is to make police officers accountable for their actions, the effectiveness of their usage <strong>(10)</strong>_______.",
+        "options": [
+          "A) has still questioned",
+          "B) still questions",
+          "C) is still being questioned",
+          "D) is still questioning"
+        ],
+        "answer": "C) is still being questioned",
+        "image_url": ""
+      }
+    ]
+  },
+  {
+    "topic_id": "410",
+    "variant_id": "3",
+    "text": "Read the text below. For questions (1-5) choose the correct answer (A, B, C or D).\n\nWHAT A FEELING!\n\nIf you met someone who had lost an arm, you might not be surprised to hear them say, ‘I wish I could feel things’ since the mechanical arms and hands now commonly available provide users with little sense of what they are touching.\n\nHowever, recently such huge developments have been made in the (1)_______ of medical technology that realistic sensations can be felt by people who have lost their hands. Being able to sense what they touch is a technological (2)_______ for people having lost their arms. It will (3)_______ their quality of life as they will have greater control over their movements and also a feeling of connection to the prosthesis and a sense of connection to the outer world, which people without disabilities (4)_______ for granted.\n\nLet’s just hope that it won’t be long before such (5)_______ technology is made more affordable and more widely available.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "However, recently such huge developments have been made in the <strong>(1)</strong>_______ of medical technology that realistic sensations can be felt by people who have lost their hands.",
+        "options": [
+          "A) spot",
+          "B) region",
+          "C) space",
+          "D) field"
+        ],
+        "answer": "D) field",
+        "image_url": ""
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "Being able to sense what they touch is a technological <strong>(2)</strong>_______ for people having lost their arms.",
+        "options": [
+          "A) invention",
+          "B) revelation",
+          "C) charger",
+          "D) revolution"
+        ],
+        "answer": "D) revolution",
+        "image_url": ""
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "It will <strong>(3)</strong>_______ their quality of life as they will have greater control over their movements and also a feeling of connection to the prosthesis and a sense of connection to the outer world.",
+        "options": [
+          "A) improve",
+          "B) achieve",
+          "C) develop",
+          "D) update"
+        ],
+        "answer": "A) improve",
+        "image_url": ""
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "It will improve their quality of life as they will have greater control over their movements and also a feeling of connection to the prosthesis and a sense of connection to the outer world, which people without disabilities <strong>(4)</strong>_______ for granted.",
+        "options": [
+          "A) have",
+          "B) take",
+          "C) do",
+          "D) make"
+        ],
+        "answer": "B) take",
+        "image_url": ""
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "Let’s just hope that it won’t be long before such <strong>(5)</strong>_______ technology is made more affordable and more widely available.",
+        "options": [
+          "A) thorough",
+          "B) extensive",
+          "C) advanced",
+          "D) skilful"
+        ],
+        "answer": "C) advanced",
+        "image_url": ""
+      }
+    ]
+  },
+  {
+    "topic_id": "410",
+    "variant_id": "3",
+    "text": "Read the text below. For questions (6-10) choose the correct answer (A, B, C or D).\n\nThe Future of Digital Media\n\nModern technologies have completely changed the way people consume news. Many teenagers avoid (6) ______ traditional newspapers because they believe social media is faster and more convenient. Scientists warn that while technology makes communication easier, it also creates serious problems, such as the spread of fake news.\n\nResearchers recently discovered that several news companies (7) ______ artificial intelligence tools for more than five years to create short news reports automatically. Experts believe that in the near future journalists (8) ______ alongside AI systems at this time every day, especially during major world events.\n\nLast year, a famous media company launched a project that (9) ______ before the company finally announced it publicly. According to insiders, the developers said that they (10) ______ on the project for months before the first successful version appeared online.",
+    "questions": [
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "Many teenagers avoid <strong>(6)</strong> ______ traditional newspapers because they believe social media is faster and more convenient.",
+        "options": [
+          "A) reading",
+          "B) to read",
+          "C) read",
+          "D) having read"
+        ],
+        "answer": "A) reading",
+        "image_url": ""
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "Researchers recently discovered that several news companies <strong>(7)</strong> ______ artificial intelligence tools for more than five years to create short news reports automatically.",
+        "options": [
+          "A) use",
+          "B) have used",
+          "C) have been using",
+          "D) are using"
+        ],
+        "answer": "C) have been using",
+        "image_url": ""
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "Experts believe that in the near future journalists <strong>(8)</strong> ______ alongside AI systems at this time every day, especially during major world events.",
+        "options": [
+          "A) will work",
+          "B) will be working",
+          "C) are going to work",
+          "D) work"
+        ],
+        "answer": "B) will be working",
+        "image_url": ""
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "Last year, a famous media company launched a project that <strong>(9)</strong> ______ before the company finally announced it publicly.",
+        "options": [
+          "A) had already completed",
+          "B) had already been completed",
+          "C) was already completing",
+          "D) has already completed"
+        ],
+        "answer": "B) had already been completed",
+        "image_url": ""
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "According to insiders, the developers said that they <strong>(10)</strong> ______ on the project for months before the first successful version appeared online.",
+        "options": [
+          "A) worked",
+          "B) had worked",
+          "C) had been working",
+          "D) were working"
+        ],
+        "answer": "C) had been working",
+        "image_url": ""
+      }
+    ]
+  },
+  {
+    "topic_id": "410",
+    "variant_id": "4",
+    "text": "Read the text below. For questions (1-5) choose the correct answer (A, B, C or D).\n\nTHE LOST CHILDREN\n\nBy the time they reached the building, it was very dark and Julie and Baxter needed their torches to follow the path to the gate that they had been told about. Julie’s heart was beating quickly as her worries about the missing children increased. Why had they been taken in the first place? It seemed that there was no connection between them, apart from the fact that their mothers had all had the same doctor while they were pregnant.\n\n“Listen”, whispered Baxter. He switched off the torch and they remained completely still for a moment. They heard a sound coming from the building ahead. Strangely, it sounded like laughter. If the children had been kidnapped, wouldn’t they be terrified?\n\nThey continued along the path and slowly turned the key in the gate. They were in the grounds of the old house. “Let’s try the window”, suggested Julie. There seemed to be a pale light coming from there and now they could hear some faint music too. Cautiously, they approached the window and looked in. The room beyond the window was empty but a door from it was open into a corridor. They could see shadows moving on the floor.\n\n“They’re in there, I know it”, Julie wanted to smash the window and get to the children but Baxter restrained her. “The kidnappers might be there too!” he warned. “We’ll do it my way.” He slowly lifted the glass out and they climbed through. They walked across the bare floorboards and looked round the corner into the corridor.\n\nThere was another large room, brightly lit from large ceiling lights, and it wasn’t empty. It was full of children. Julie counted at least fifteen. Most were seated quietly on the floor but four were dancing to some music. As soon as the two agents peered round the corner, the children stopped dancing. At the same moment, all the children turned their heads to see who there was. Julie gasped in utter amazement. Every child was female with the same short, blond hair and bright blue eyes. They were identical! It was true then, thought Julie. The rumours about the doctor’s research into genetics were not just imagined. He had been putting his theories into practice.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "Julie and Baxter knew how to get to the house because",
+        "options": [
+          "A) they were familiar with the house and grounds.",
+          "B) they were following instructions.",
+          "C) they were going in the directions.",
+          "D) they were following the signs on the path."
+        ],
+        "answer": "B) they were following instructions.",
+        "image_url": ""
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "Julie and Baxter stopped on their way to the house because",
+        "options": [
+          "A) they were worried that they would be seen.",
+          "B) they didn’t want to frighten the children.",
+          "C) they thought they had heard a noise.",
+          "D) they had to reconsider their route."
+        ],
+        "answer": "C) they thought they had heard a noise.",
+        "image_url": ""
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "Seeing the children",
+        "options": [
+          "A) satisfied Julie’s curiosity.",
+          "B) confirmed the gossips Julie had heard.",
+          "C) encouraged Julie to act quickly.",
+          "D) reduced Julie’s anxieties."
+        ],
+        "answer": "B) confirmed the gossips Julie had heard.",
+        "image_url": ""
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "What was the only common link between the missing children before they were found?",
+        "options": [
+          "A) They all attended the same primary school.",
+          "B) They were all born in the same hospital.",
+          "C) Their mothers all saw the same doctor during pregnancy.",
+          "D) They were all reported missing on the same day."
+        ],
+        "answer": "C) Their mothers all saw the same doctor during pregnancy.",
+        "image_url": ""
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "What did Julie and Baxter find most unusual when they first approached the building?",
+        "options": [
+          "A) The building was completely silent and abandoned.",
+          "B) They heard the sound of laughter instead of cries of fear.",
+          "C) The gate was wide open and the lights were flashing.",
+          "D) There were armed guards patrolling the perimeter."
+        ],
+        "answer": "B) They heard the sound of laughter instead of cries of fear.",
+        "image_url": ""
+      }
+    ]
+  },
+  {
+    "topic_id": "410",
+    "variant_id": "4",
+    "text": "Read the text below. For questions (6–10) choose the correct answer (A, B, C, or D).\n\nThe Evolution of Artificial Intelligence\n\nIn recent years, Artificial Intelligence (6) _______ significantly, changing how we interact with technology. Scientists (7) _______ on neural networks since the mid-20th century, but only recently has the computing power been strong enough to realize their potential. If earlier inventors (8) _______ the scale of today’s data processing, they would have been astonished.\n\nCurrently, AI systems are being trained (9) _______ complex problems that were once thought to be exclusively human. Experts predict that by 2030, automation (10) _______ millions of routine tasks, allowing humans to focus on more creative endeavors.",
+    "questions": [
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "In recent years, Artificial Intelligence <strong>(6)</strong> _______ significantly, changing how we interact with technology.",
+        "options": [
+          "A) has evolved",
+          "B) evolves",
+          "C) was evolving",
+          "D) had evolved"
+        ],
+        "answer": "A) has evolved",
+        "image_url": ""
+      },
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "Scientists <strong>(7)</strong> _______ on neural networks since the mid-20th century, but only recently has the computing power been strong enough to realize their potential.",
+        "options": [
+          "A) are working",
+          "B) have been working",
+          "C) work",
+          "D) had worked"
+        ],
+        "answer": "B) have been working",
+        "image_url": ""
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "If earlier inventors <strong>(8)</strong> _______ the scale of today’s data processing, they would have been astonished.",
+        "options": [
+          "A) have known",
+          "B) know",
+          "C) knew",
+          "D) had known"
+        ],
+        "answer": "D) had known",
+        "image_url": ""
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "Currently, AI systems are being trained <strong>(9)</strong> _______ complex problems that were once thought to be exclusively human.",
+        "options": [
+          "A) solve",
+          "B) to solve",
+          "C) solving",
+          "D) solved"
+        ],
+        "answer": "B) to solve",
+        "image_url": ""
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "Experts predict that by 2030, automation <strong>(10)</strong> _______ millions of routine tasks, allowing humans to focus on more creative endeavors.",
+        "options": [
+          "A) will have replaced",
+          "B) replaced",
+          "C) replaces",
+          "D) is replaced"
+        ],
+        "answer": "A) will have replaced",
+        "image_url": ""
+      }
+    ]
+  },
+  {
+    "topic_id": "410",
+    "variant_id": "5",
+    "text": "Read the text below. Choose from (A-H) the one which best fits each space (1-6). There are two options you do not need to use.\n\nRocking the Cosmos\n\nDr. Brian May is an astrophysicist; (1) ____________ and eventually earned his doctorate there. He went on to write a book about the history of the universe and become chancellor of John Moore’s University in Liverpool.\n\nThat’s a quick view of Dr. May’s resume. But it does leave one thing out. Although he began studying for his degree in the early 1970s, (2) ___________. Something came up, you might say, and sidetracked him for thirty-five years.\n\nThe man who loved studying stars became a star himself.\n\nWhen he wasn’t studying astrophysics, Brian played the guitar. And his band was getting so busy that (3) ____________. The band was called Smile, until (4) _____________ Queen.\n\nBulsara changed his name to Freddie Mercury, Brian May left his studies behind to go on tour, and (5) ____________. May says his physics training helped him with his music career. It came in handy, for instance, when (6) _____________. In an age before digital, he was able to make the calculations necessary to create the sound of thousands of people stomping and clapping with no echo whatsoever.\n\nAs a result, Brian May can claim the distinction of being the only astrophysicist in the world ever inducted into the Rock and Roll Hall of Fame.",
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple",
+        "question": "Dr. Brian May is an astrophysicist; <strong>(1)</strong> ____________ and eventually earned his doctorate there.",
+        "options": [
+          "A) he had to make a choice between school and his music",
+          "B) Farrokh Bulsara was a singer, songwriter, and lead vocalist",
+          "C) he was designing the “stomp, stomp, clap” section of “We Will Rock You”",
+          "D) Queen went on to become one of the biggest music acts of all time",
+          "E) he didn’t manage to earn it until 2007",
+          "F) Queen were one of the biggest stadium rock bands in the world",
+          "G) he studied math and physics at Imperial College in London",
+          "H) lead singer Farrokh Bulsara suggested a different name"
+        ],
+        "answer": "G) he studied math and physics at Imperial College in London",
+        "image_url": ""
+      },
+      {
+        "id": 2,
+        "type": "multiple",
+        "question": "Although he began studying for his degree in the early 1970s, <strong>(2)</strong> ___________. Something came up, you might say, and sidetracked him for thirty-five years.",
+        "options": [
+          "A) he had to make a choice between school and his music",
+          "B) Farrokh Bulsara was a singer, songwriter, and lead vocalist",
+          "C) he was designing the “stomp, stomp, clap” section of “We Will Rock You”",
+          "D) Queen went on to become one of the biggest music acts of all time",
+          "E) he didn’t manage to earn it until 2007",
+          "F) Queen were one of the biggest stadium rock bands in the world",
+          "G) he studied math and physics at Imperial College in London",
+          "H) lead singer Farrokh Bulsara suggested a different name"
+        ],
+        "answer": "E) he didn’t manage to earn it until 2007",
+        "image_url": ""
+      },
+      {
+        "id": 3,
+        "type": "multiple",
+        "question": "And his band was getting so busy that <strong>(3)</strong> ____________.",
+        "options": [
+          "A) he had to make a choice between school and his music",
+          "B) Farrokh Bulsara was a singer, songwriter, and lead vocalist",
+          "C) he was designing the “stomp, stomp, clap” section of “We Will Rock You”",
+          "D) Queen went on to become one of the biggest music acts of all time",
+          "E) he didn’t manage to earn it until 2007",
+          "F) Queen were one of the biggest stadium rock bands in the world",
+          "G) he studied math and physics at Imperial College in London",
+          "H) lead singer Farrokh Bulsara suggested a different name"
+        ],
+        "answer": "A) he had to make a choice between school and his music",
+        "image_url": ""
+      },
+      {
+        "id": 4,
+        "type": "multiple",
+        "question": "The band was called Smile, until <strong>(4)</strong> _____________ Queen.",
+        "options": [
+          "A) he had to make a choice between school and his music",
+          "B) Farrokh Bulsara was a singer, songwriter, and lead vocalist",
+          "C) he was designing the “stomp, stomp, clap” section of “We Will Rock You”",
+          "D) Queen went on to become one of the biggest music acts of all time",
+          "E) he didn’t manage to earn it until 2007",
+          "F) Queen were one of the biggest stadium rock bands in the world",
+          "G) he studied math and physics at Imperial College in London",
+          "H) lead singer Farrokh Bulsara suggested a different name"
+        ],
+        "answer": "H) lead singer Farrokh Bulsara suggested a different name",
+        "image_url": ""
+      },
+      {
+        "id": 5,
+        "type": "multiple",
+        "question": "Bulsara changed his name to Freddie Mercury, Brian May left his studies behind to go on tour, and <strong>(5)</strong> ____________.",
+        "options": [
+          "A) he had to make a choice between school and his music",
+          "B) Farrokh Bulsara was a singer, songwriter, and lead vocalist",
+          "C) he was designing the “stomp, stomp, clap” section of “We Will Rock You”",
+          "D) Queen went on to become one of the biggest music acts of all time",
+          "E) he didn’t manage to earn it until 2007",
+          "F) Queen were one of the biggest stadium rock bands in the world",
+          "G) he studied math and physics at Imperial College in London",
+          "H) lead singer Farrokh Bulsara suggested a different name"
+        ],
+        "answer": "D) Queen went on to become one of the biggest music acts of all time",
+        "image_url": ""
+      },
+      {
+        "id": 6,
+        "type": "multiple",
+        "question": "It came in handy, for instance, when <strong>(6)</strong> _____________.",
+        "options": [
+          "A) he had to make a choice between school and his music",
+          "B) Farrokh Bulsara was a singer, songwriter, and lead vocalist",
+          "C) he was designing the “stomp, stomp, clap” section of “We Will Rock You”",
+          "D) Queen went on to become one of the biggest music acts of all time",
+          "E) he didn’t manage to earn it until 2007",
+          "F) Queen were one of the biggest stadium rock bands in the world",
+          "G) he studied math and physics at Imperial College in London",
+          "H) lead singer Farrokh Bulsara suggested a different name"
+        ],
+        "answer": "C) he was designing the “stomp, stomp, clap” section of “We Will Rock You”",
+        "image_url": ""
+      }
+    ]
+  },
+  {
+    "topic_id": "410",
+    "variant_id": "5",
+    "text": "Read the text below. For questions (7–11) choose the correct answer (A, B, C or D).\n\nThe digital revolution has (7) ______ the way we communicate and work. Over the last decade, engineers (8) ______ sophisticated algorithms that allow artificial intelligence to perform tasks previously thought impossible. Today, many industries (9) ______ on automated systems to increase efficiency. However, experts warn that we must be careful not to let technology (10) ______ our critical thinking skills. As we (11) ______ towards a more integrated future, the role of human oversight remains vital.",
+    "questions": [
+      {
+        "id": 7,
+        "type": "multiple",
+        "question": "The digital revolution has <strong>(7)</strong> ______ the way we communicate and work.",
+        "options": [
+          "A) transformed",
+          "B) transferred",
+          "C) translated",
+          "D) transported"
+        ],
+        "answer": "A) transformed",
+        "image_url": ""
+      },
+      {
+        "id": 8,
+        "type": "multiple",
+        "question": "Over the last decade, engineers <strong>(8)</strong> ______ sophisticated algorithms that allow artificial intelligence to perform tasks previously thought impossible.",
+        "options": [
+          "A) had developed",
+          "B) have developed",
+          "C) are developing",
+          "D) develop"
+        ],
+        "answer": "B) have developed",
+        "image_url": ""
+      },
+      {
+        "id": 9,
+        "type": "multiple",
+        "question": "Today, many industries <strong>(9)</strong> ______ on automated systems to increase efficiency.",
+        "options": [
+          "A) rely",
+          "B) relax",
+          "C) release",
+          "D) replace"
+        ],
+        "answer": "A) rely",
+        "image_url": ""
+      },
+      {
+        "id": 10,
+        "type": "multiple",
+        "question": "However, experts warn that we must be careful not to let technology <strong>(10)</strong> ______ our critical thinking skills.",
+        "options": [
+          "A) improve",
+          "B) weaken",
+          "C) strengthen",
+          "D) encourage"
+        ],
+        "answer": "B) weaken",
+        "image_url": ""
+      },
+      {
+        "id": 11,
+        "type": "multiple",
+        "question": "As we <strong>(11)</strong> ______ towards a more integrated future, the role of human oversight remains vital.",
+        "options": [
+          "A) move",
+          "B) moved",
+          "C) are moving",
+          "D) will move"
+        ],
+        "answer": "C) are moving",
+        "image_url": ""
+      }
+    ]
+  }  
 ]
